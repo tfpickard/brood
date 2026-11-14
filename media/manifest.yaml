@@ -2569,6 +2569,21 @@ assets:
       A low rectangular rosewood table cabinet with a crystal top, inside which a single row of seventeen tiny velvet pedestals carries minuscule amber exuviae. A lacquered brass arm on a sliding rail holds a round standing lens positioned over one pedestal. Raking light on the rosewood grain.
 
       All people depicted are invented adults; no children; no recognizable real person; no celebrity likeness. No logos, trademarks, brand marks, real insignia or real coats of arms. No legible text anywhere in the image except text explicitly specified above. The image is sincere and documentary, never comic or whimsical; insects are rendered with natural-history accuracy, never cartoonish or stylized.
+  - id: product-necktie-club-pattern-1
+    type: product
+    era: product-now
+    aspect: square
+    used_by:
+      - /provisioner/necktie-club-pattern
+      - /provisioner
+    alt: A dark silk necktie folded in thirds on linen, woven with a small repeating pattern too fine to make out.
+    subject: A single silk necktie of deep oxblood and dark navy, folded neatly in thirds and laid flat on warm linen. It is woven with a very small, dense repeating motif in muted gold that is too fine to identify at this distance. No label, no brand mark, no text. Soft raking light shows the sheen of the weave.
+    prompt: |-
+      Present-day catalogue still-life photography for a long-established private provisioner, seamless warm linen backdrop, raking side light, crystal, bronze, leather and wood rendered with restraint and accurate color, no props beyond those described.
+
+      A single silk necktie of deep oxblood and dark navy, folded neatly in thirds and laid flat on warm linen. It is woven with a very small, dense repeating motif in muted gold that is too fine to identify at this distance. No label, no brand mark, no text. Soft raking light shows the sheen of the weave.
+
+      All people depicted are invented adults; no children; no recognizable real person; no celebrity likeness. No logos, trademarks, brand marks, real insignia or real coats of arms. No legible text anywhere in the image except text explicitly specified above. The image is sincere and documentary, never comic or whimsical; insects are rendered with natural-history accuracy, never cartoonish or stylized.
   - id: product-picket-unit-board-1
     type: product
     era: estate-now

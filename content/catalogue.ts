@@ -649,6 +649,28 @@ export const CATALOGUE: CatalogueItem[] = [
 		disclaimers: []
 	},
 	{
+		slug: 'necktie-club-pattern',
+		ref: 'P-1105',
+		name: 'Necktie, Club Pattern',
+		category: 'The Supper Club',
+		text: 'A silk necktie, woven to the Cicadas Club pattern. Supplied to members only. The Provisioner does not describe the pattern.',
+		specification: [
+			{ label: 'Width', value: 'Three and one-quarter inches' },
+			{ label: 'Weave', value: 'Jacquard, seven-fold' },
+			{ label: 'Lining', value: 'Self-tipped' },
+			{ label: 'Supply', value: 'To members only, on proof of standing' }
+		],
+		materials: 'Silk',
+		leadTime: 'Six months',
+		plates: [
+			{
+				media: 'product-necktie-club-pattern-1',
+				caption: 'Necktie, club pattern, folded. The Provisioner’s rooms, 2025.'
+			}
+		],
+		disclaimers: []
+	},
+	{
 		slug: 'boxwood-place-card-holder',
 		ref: 'P-1110',
 		name: 'Place-Card Holder, Boxwood Pattern',

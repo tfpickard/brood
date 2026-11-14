@@ -1,6 +1,8 @@
 <script lang="ts">
 	import { page } from '$app/state';
+	import { SITE_URL } from '$content/site.ts';
 	let { title, description }: { title: string; description: string } = $props();
+	const canonical = $derived(SITE_URL + (page.url.pathname === '/' ? '' : page.url.pathname));
 	const full = $derived(
 		title === 'The American Brood Society' ? title : `${title} · The American Brood Society`
 	);
@@ -13,5 +15,6 @@
 	<meta property="og:description" content={description} />
 	<meta property="og:type" content="website" />
 	<meta property="og:site_name" content="The American Brood Society" />
-	<meta property="og:url" content={page.url.pathname} />
+	<link rel="canonical" href={canonical} />
+	<meta property="og:url" content={canonical} />
 </svelte:head>

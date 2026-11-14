@@ -11,7 +11,7 @@ import { HUSBANDRY } from '../../content/husbandry.ts';
 import { ALL_RULES } from '../../content/naming-rules.ts';
 import { NOT_FOUND } from '../../content/pages.ts';
 import { REFERENCES } from '../../content/references.ts';
-import { MASSOSPORA } from '../../content/site.ts';
+import { MASSOSPORA, SITE_URL } from '../../content/site.ts';
 import { STUD_BOOK } from '../../content/studbook.generated.ts';
 import { loadManifest } from '../../tools/media/lib.ts';
 import { checkText } from '../../scripts/voice.ts';
@@ -279,6 +279,34 @@ describe('the build without generated images', () => {
 });
 
 describe('site structure', () => {
+	it('names the Society’s address of record as canonical on every page', () => {
+		for (const p of pages) {
+			const href = p.html.match(/<link rel="canonical" href="([^"]+)"/)?.[1] ?? '';
+			expect(href.startsWith(SITE_URL), p.route).toBe(true);
+			expect(p.html, p.route).toContain(`property="og:url" content="${SITE_URL}`);
+		}
+	});
+
+	it('leaves the Cicadas Club to the members: never in a document in the Society’s own voice', () => {
+		const societyVoice = [
+			'/',
+			'/standard',
+			'/governance',
+			'/governance/bylaws',
+			'/governance/notices',
+			'/charitable-standing',
+			'/statement-on-the-so-called-cicadoodle',
+			'/legal',
+			'/correspondence-policy',
+			'/founding',
+			'/chapters'
+		];
+		for (const r of societyVoice) expect(flat(page(r).text), r).not.toMatch(/Cicadas Club/);
+		for (const p of pages.filter((x) => x.route.startsWith('/governance/notices/'))) {
+			expect(flat(p.text), p.route).not.toMatch(/Cicadas Club/);
+		}
+	});
+
 	it('has a page for every required section', () => {
 		for (const r of [
 			'/',

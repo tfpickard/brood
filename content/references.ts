@@ -130,6 +130,19 @@ export const REFERENCES: RunningReference[] = [
 		]
 	},
 	{
+		id: 'cicadas-club',
+		label: 'The Cicadas Club',
+		origin:
+			'In June 1923 a society columnist for a Newport weekly, refused admission to the Bellevue Avenue show, described the members in print as the Cicadas Club, intending an insult. The members adopted the name within the week and have used it among themselves ever since. The Council has never used it, the Secretary does not minute it, and the Society does not refer to itself by it in any document of its own.',
+		marker: /\bCicadas Club\b/,
+		appearances: [
+			{ route: '/supper-club/may-2026', where: 'minute' },
+			{ route: '/supper-club/november-1953', where: 'minute' },
+			{ route: '/from-the-membership', where: 'Haddon testimonial' },
+			{ route: '/provisioner/necktie-club-pattern', where: 'catalogue item' }
+		]
+	},
+	{
 		id: 'boxwood',
 		label: 'Boxwood',
 		origin:

@@ -68,7 +68,7 @@ export const TESTIMONIALS: Testimonial[] = [
 		since: 1902,
 		body: [
 			'The Newport Vesper sings at evening and only to its owner. My mother’s Vesper sang to her on six evenings in 1970. I was in the room on each occasion and I did not hear it. That is the standard, and the line has kept it since 1902.',
-			'I have heard ours. I do not describe it.'
+			'I have heard ours. I do not describe it. Among ourselves it has only ever been the Cicadas Club.'
 		],
 		plate: {
 			media: 'testimonial-haddon',

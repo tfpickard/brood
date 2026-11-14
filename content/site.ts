@@ -3,6 +3,9 @@
 export const SOCIETY = 'The American Brood Society';
 export const MOTTO = 'Prime numbers. Prime stock.';
 
+/** The Society's address of record. Every page names it as canonical, whichever address served it. */
+export const SITE_URL = 'https://americanbroodsociety.org';
+
 /** Appears verbatim on every page that discusses health (tested). */
 export const MASSOSPORA =
 	'The Society has never observed a case of Massospora in a sanctioned ring.';
