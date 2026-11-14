@@ -1,0 +1,125 @@
+/* American Brood Society: Tailwind CSS v4 theme.
+   Usage (src/app.css in SvelteKit):
+     @import "tailwindcss";
+     @import "./lib/abs/abs-tokens.css";
+     @import "./lib/abs/abs-tailwind.css";
+     @import "./lib/abs/abs-components.css";
+   The namespace resets remove Tailwind's default palette, radii, shadows,
+   blurs, animations and sans/mono stacks, so the forbidden things cannot
+   be reached for by accident. */
+
+/* Font, tracking and leading are literal here: Tailwind would otherwise emit
+   --font-serif: var(--font-serif), a cycle. Values match tokens.json. */
+@theme inline {
+  --color-*: initial;
+  --color-paper: var(--paper);
+  --color-vellum: var(--vellum);
+  --color-ink: var(--ink);
+  --color-ink-faded: var(--ink-faded);
+  --color-oxblood: var(--oxblood);
+  --color-gilt: var(--gilt);
+  --color-rule: var(--rule);
+  --color-rule-soft: var(--rule-soft);
+  --color-focus: var(--focus);
+
+  --font-*: initial;
+  --font-serif: "EB Garamond", Garamond, "Sabon LT", "Times New Roman", serif;
+  --font-serif--font-feature-settings: "kern" 1, "liga" 1, "onum" 1, "pnum" 1;
+  --font-typewriter: "Courier Prime", "Courier New", Courier, monospace;
+  --default-font-family: var(--font-serif);
+  --default-font-feature-settings: "kern" 1, "liga" 1, "onum" 1, "pnum" 1;
+  --default-mono-font-family: var(--font-typewriter);
+
+  --text-*: initial;
+  --text-title-1: var(--size-title-1);
+  --text-title-2: var(--size-title-2);
+  --text-title-3: var(--size-title-3);
+  --text-lede: var(--size-lede);
+  --text-body: var(--size-body);
+  --text-label: var(--size-label);
+  --text-caption: var(--size-caption);
+  --text-table: var(--size-table);
+  --text-typed: var(--size-typed);
+  --text-footnote: var(--size-footnote);
+  --text-legal: var(--size-legal);
+  --text-folio: var(--size-folio);
+  --text-countdown: var(--size-countdown);
+  --text-title-1--line-height: 1.15;
+  --text-title-2--line-height: 1.2;
+  --text-title-3--line-height: 1.3;
+  --text-lede--line-height: 1.5;
+  --text-body--line-height: 1.55;
+  --text-label--line-height: 1.3;
+  --text-caption--line-height: 1.4;
+  --text-table--line-height: 1.35;
+  --text-typed--line-height: 1.5;
+  --text-footnote--line-height: 1.45;
+  --text-legal--line-height: 1.45;
+  --text-folio--line-height: 1.3;
+  --text-countdown--line-height: 1.25;
+
+  --tracking-*: initial;
+  --tracking-title: 0.12em;
+  --tracking-caps: 0.14em;
+  --tracking-label: 0.08em;
+  --tracking-smallcaps: 0.04em;
+
+  --leading-*: initial;
+  --leading-body: 1.55;
+  --leading-tight: 1.15;
+  --leading-apparatus: 1.4;
+
+  --spacing: 0.25rem;
+  --spacing-s1: var(--space-1);
+  --spacing-s2: var(--space-2);
+  --spacing-s3: var(--space-3);
+  --spacing-s4: var(--space-4);
+  --spacing-s5: var(--space-5);
+  --spacing-s6: var(--space-6);
+  --spacing-s7: var(--space-7);
+  --spacing-s8: var(--space-8);
+  --spacing-s9: var(--space-9);
+  --spacing-s10: var(--space-10);
+  --spacing-line: var(--space-6);
+
+  --radius-*: initial;
+  --shadow-*: initial;
+  --inset-shadow-*: initial;
+  --drop-shadow-*: initial;
+  --text-shadow-*: initial;
+  --blur-*: initial;
+  --animate-*: initial;
+  --perspective-*: initial;
+
+  --container-*: initial;
+  --container-measure: var(--measure);
+  --container-wide: var(--measure-wide);
+
+  --breakpoint-*: initial;
+  --breakpoint-pocket: 30rem;
+  --breakpoint-octavo: 48rem;
+  --breakpoint-quarto: 64rem;
+  --breakpoint-folio: 80rem;
+}
+
+@utility small-caps {
+  font-variant-caps: all-small-caps;
+  letter-spacing: var(--tracking-label);
+  font-variant-numeric: lining-nums;
+}
+@utility caps-small-caps {
+  font-variant-caps: small-caps;
+  letter-spacing: var(--tracking-smallcaps);
+}
+@utility figures-prose {
+  font-variant-numeric: oldstyle-nums proportional-nums;
+}
+@utility figures-table {
+  font-variant-numeric: lining-nums tabular-nums;
+}
+@utility rule-thick-thin {
+  border-top: var(--stroke-thick) solid var(--rule);
+  border-bottom: var(--stroke-hairline) solid var(--rule);
+  height: var(--stroke-gap);
+  box-sizing: content-box;
+}

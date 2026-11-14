@@ -1,0 +1,81 @@
+# House style for the American Brood Society photographic and documentary archive.
+# Every manifest prompt is composed as: era preamble + subject + global suffix.
+# The archive must read as accumulated over 130 years: mix formal and candid, vary the eras.
+
+global_suffix: >-
+  All people depicted are invented adults; no children; no recognizable real person; no
+  celebrity likeness. No logos, trademarks, brand marks, real insignia or real coats of arms.
+  No legible text anywhere in the image except text explicitly specified above. The image is
+  sincere and documentary, never comic or whimsical; insects are rendered with natural-history
+  accuracy, never cartoonish or stylized.
+
+eras:
+  plate-1890s:
+    plate_era: 1890s
+    preamble: >-
+      A chromolithographic natural-history plate of the 1890s, hand-colored, with fine engraved
+      hatching for tone, printed on cream laid paper with slight foxing and a faint plate-mark
+      border; scientific illustration in the manner of a learned society's transactions; no
+      lettering, captions or numbers on the plate.
+  studio-1890s:
+    plate_era: 1890s
+    preamble: >-
+      An albumen cabinet-card photograph from the 1890s, made in a formal portrait studio with a
+      painted backdrop and a turned-leg table, the stiff posture of a long exposure, warm sepia
+      tones, soft edges, silvering in the shadows, slight fading.
+  society-1920s:
+    plate_era: 1920s
+    preamble: >-
+      A 1920s silver-gelatin society photograph made with a large-format camera, warm black and
+      white, gentle pictorialist softness, natural daylight, the composition of a photographer
+      engaged by a private family; slight grain and a thin print border.
+  slide-1950s:
+    plate_era: 1950s
+    preamble: >-
+      A 1950s color transparency in the Kodachrome manner, saturated warm reds and greens, deep
+      shadows, a faint magenta drift, hard bright daylight, formal composition by an amateur of
+      means; slight dust on the emulsion.
+  flash-1980s:
+    plate_era: 1980s
+    preamble: >-
+      A 1980s 35mm color-negative snapshot with direct on-camera flash, hard shadows thrown on the
+      wall behind the subjects, warm cast, slightly blown highlights, candid and unposed; no date
+      stamp.
+  estate-now:
+    plate_era: present
+    preamble: >-
+      Present-day editorial photography for a private estate, medium-format digital, natural
+      window or overcast light, shallow depth of field, a muted and restrained palette, quiet and
+      unhurried composition.
+  product-now:
+    plate_era: present
+    preamble: >-
+      Present-day catalogue still-life photography for a long-established private provisioner,
+      seamless warm linen backdrop, raking side light, crystal, bronze, leather and wood rendered
+      with restraint and accurate color, no props beyond those described.
+  document-1900s:
+    plate_era: 1890s
+    preamble: >-
+      An archival copy-stand photograph of a document from the Society's files, early twentieth
+      century, flat even lighting, the sheet lying on dark green baize, paper toned with age.
+  document-1950s:
+    plate_era: 1950s
+    preamble: >-
+      An archival copy-stand photograph of a document from the Society's files, mid twentieth
+      century, flat even lighting, the sheet lying on dark green baize, paper slightly yellowed.
+  document-1980s:
+    plate_era: 1980s
+    preamble: >-
+      An archival copy-stand photograph of a document from the Society's files, late twentieth
+      century, flat even lighting, the sheet lying on dark green baize, crisp heavy paper.
+  document-now:
+    plate_era: present
+    preamble: >-
+      An archival copy-stand photograph of a recent document from the Society's files, flat even
+      lighting, the sheet lying on dark green baize, crisp heavy paper.
+
+# Requested sizes by aspect, as WIDTHxHEIGHT (divisible by 16).
+aspects:
+  portrait: 1024x1536
+  landscape: 1536x1024
+  square: 1024x1024

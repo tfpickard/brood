@@ -1,0 +1,155 @@
+# Media fragment: Husbandry pages. Composed into media/manifest.yaml.
+- id: husbandry-host-trees-1
+  type: grove
+  era: society-1920s
+  aspect: landscape
+  alt: A row of mature copper beeches on a lawn, each with a short iron stake at its foot, a gardener in a cap standing among them.
+  subject: >-
+    A long lawn planted with a row of mature copper beech trees spaced well apart, each with a
+    short iron stake driven into the ground at its foot and a low iron hoop fence around the base
+    of the trunk. A gardener in a cap, waistcoat and rolled sleeves stands among the trees with a
+    rake, looking toward the camera. A large shingled house is half visible beyond. Soft morning
+    light.
+- id: husbandry-host-trees-2
+  type: grove
+  era: slide-1950s
+  aspect: landscape
+  alt: A man in a gray suit driving an iron stake at the foot of a young oak while a family in spring clothes stands watching on the grass.
+  subject: >-
+    A man in a gray three-piece suit and hat drives a short iron stake into the ground with a
+    mallet at the foot of a young but well-grown white oak in an open field. A family in spring
+    clothes, a middle-aged couple and two grown sons in blazers, stands a few paces back on the
+    grass watching in silence. A station wagon parked at the field gate, dogwoods in flower, hard
+    bright sunlight.
+- id: husbandry-host-trees-3
+  type: grove
+  era: estate-now
+  aspect: portrait
+  alt: A great copper beech on a lawn in overcast light, a low ring of iron railing around its trunk and an iron stake in the grass beside it.
+  subject: >-
+    A single great copper beech with dark purple leaves standing alone on a mown lawn under an
+    overcast sky. A low ring of black iron railing encloses the base of the trunk, and a short
+    weathered iron stake stands in the grass inside the ring. Wet grass, a gravel path curving
+    away, a stone wall in the distance. Quiet, muted palette.
+- id: husbandry-root-stewardship-1
+  type: grove
+  era: society-1920s
+  aspect: landscape
+  alt: A man kneeling at the foot of a large oak, pressing a long brass probe into the soil, a leather case of instruments open beside him.
+  subject: >-
+    A man of about fifty in a flat cap, tweed jacket and gaiters kneels at the foot of a large
+    white oak in a woodland clearing, pressing a long slender brass probe vertically into the soil
+    between two surface roots. Beside him on the leaf litter lies an open leather case fitted with
+    brass instruments and thermometers, and a small ledger. Dappled light through the canopy.
+- id: husbandry-root-stewardship-2
+  type: grove
+  era: flash-1980s
+  aspect: portrait
+  alt: Two men at night under a large tree, one holding a lantern while the other listens through a brass tube set into the ground.
+  subject: >-
+    Night in a grove. Two men in waxed jackets crouch at the foot of a large tree. One holds a
+    hurricane lantern and a notebook; the other has his ear to the top of a slim brass listening
+    tube pushed into the soil, his eyes closed. Direct flash lights them and the bark of the trunk
+    harshly; everything beyond is black.
+- id: husbandry-root-stewardship-3
+  type: product
+  era: product-now
+  aspect: landscape
+  alt: An open leather case lined in green baize holding a brass root probe, a sap gauge, three soil thermometers and a listening tube.
+  subject: >-
+    An open fitted case of dark brown leather lined in green baize, lying on a linen backdrop. In
+    their fitted recesses: a long slender brass root probe in two sections, a small brass sap
+    gauge with a dial, three glass soil thermometers of graduated lengths with brass guards, and
+    a brass listening tube with an ivory-colored earpiece. A folded cloth. Raking side light.
+- id: husbandry-the-vigil-1
+  type: vigil-room
+  era: estate-now
+  aspect: landscape
+  alt: A small paneled room at dawn with a single wingback chair facing a waist-high perch on which a pale, newly molted cicada rests above its split shell, and an empty chair against the far wall.
+  subject: >-
+    A small wood-paneled room at dawn. A single upholstered wingback chair faces a waist-high
+    mahogany perch stand. On the perch a newly molted cicada, pale cream and soft, its wings
+    still crumpled and unfurling, its split amber shell still gripping the wood just below it. A
+    second plain chair stands empty against the far wall. One shaded lamp lit, curtains closed
+    with gray light at the seam. No person present.
+- id: husbandry-the-vigil-2
+  type: vigil-room
+  era: society-1920s
+  aspect: portrait
+  alt: A sparsely furnished room with drawn curtains, a single armchair, a shaded lamp and a slender wooden perch stand.
+  subject: >-
+    A sparsely furnished room in a country house, photographed from the doorway. Heavy curtains
+    drawn, a single armchair with a lace antimacassar, a small table with one shaded oil lamp, and
+    a slender turned wooden perch stand at the height of a seated person's hand. Bare floorboards
+    with one rug. Still, formal composition.
+- id: husbandry-the-vigil-3
+  type: vigil-room
+  era: flash-1980s
+  aspect: landscape
+  alt: A butler and two maids seated on a bench in a hallway outside a closed door at night, a man in a dark suit standing with a pocket watch.
+  subject: >-
+    A narrow hallway at night outside a closed paneled door. A butler in a dark tailcoat and two
+    maids in black dresses and white aprons sit upright on a wooden bench along the wall, hands in
+    their laps. A man in a dark suit stands beside the door holding an open pocket watch and a
+    notebook. Direct flash, hard shadows on the striped wallpaper.
+- id: husbandry-end-of-week-1
+  type: candid
+  era: estate-now
+  aspect: landscape
+  alt: A small walnut box with its lid open, lined with folded white linen, on a table by a window in morning light.
+  subject: >-
+    A small rectangular box of polished walnut with a hinged lid standing open, lined with neatly
+    folded white linen, set on a bare oak table beside a window. Pale morning light falls across
+    the table. A pair of folded gloves lies beside the box. The box is empty. Quiet and austere.
+- id: husbandry-end-of-week-2
+  type: grove
+  era: slide-1950s
+  aspect: landscape
+  alt: A family in dark clothes standing at a distance from one another beneath a large oak on a lawn in early morning.
+  subject: >-
+    Early morning on a broad lawn. A family of five adults in dark clothes stands beneath a large
+    white oak, each a few paces apart from the others, heads slightly bowed. An older man holds a
+    small wooden box. Dew on the grass, long shadows, a white clapboard house in the background.
+    Saturated greens, quiet formal composition.
+- id: husbandry-kilocada-1
+  type: facility
+  era: estate-now
+  aspect: landscape
+  alt: A long, low, windowless building of gray stone and glass panels enclosing a grove of tall trees at the edge of open country, with ventilation louvers along its side.
+  subject: >-
+    A long, low, windowless structure of pale gray stone and sealed glass panels enclosing the
+    crowns of a grove of tall oaks, set at the edge of rolling open country under an overcast sky.
+    Rows of steel ventilation louvers run along its side, a separate small brick building stands
+    beyond a gravel apron, and a perimeter fence of black steel railings encloses everything. No
+    signage.
+- id: husbandry-kilocada-2
+  type: facility
+  era: estate-now
+  aspect: landscape
+  alt: A windowless technical hall with long aisles of black server racks lit by small blue status lights, red fire-suppression piping and nozzles overhead, and analogue gauges on a panel.
+  subject: >-
+    Interior of a windowless technical hall attached to a country estate: long cold aisles of
+    black server racks dense with small embedded compute modules on carrier boards, rows of small
+    blue status lights, overhead red-painted fire-suppression piping with large discharge nozzles,
+    yellow-and-black floor striping, and an oxygen-concentration panel with analogue gauges on the
+    end wall. Clean and institutional. No visible brand names, logos or lettering.
+- id: husbandry-kilocada-3
+  type: facility
+  era: estate-now
+  aspect: portrait
+  alt: A plant room of tall white gas tanks, polished stainless-steel manifolds and valves, and pipework running up into the ceiling.
+  subject: >-
+    An industrial plant room with a polished concrete floor: tall white pressure vessels and
+    banks of gas cylinders connected by polished stainless-steel manifolds, green and red hand
+    valves, pressure gauges and pipework rising into the ceiling. Cool, even light. A single
+    clipboard hangs on a hook. No people, no labels or lettering legible.
+- id: husbandry-kilocada-4
+  type: facility
+  era: slide-1950s
+  aspect: portrait
+  alt: Workmen in overalls standing beside a massive perch of steel and oak set into a concrete footing in a grove, the trunk of an oak behind.
+  subject: >-
+    In a grove of oaks, three workmen in blue overalls and caps stand beside a massive vertical
+    perch made of a steel column clad in dark oak, rising to twice their height from a fresh
+    square concrete footing. A gentleman in a tweed suit inspects a bolt at the base. Wheelbarrows
+    and shovels on the ground, strong daylight, saturated color of a 1950s slide.

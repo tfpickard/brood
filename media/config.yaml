@@ -1,0 +1,35 @@
+# Media generation configuration. Pinned values only; no aliases, no "latest".
+# Generation is run solely by the owner from a local shell (see README). Nothing else invokes it.
+
+model: gpt-image-2.6-flare
+endpoint: https://api.openai.com/v1/images/generations
+
+params:
+  quality: high
+  output_format: webp
+  output_compression: 82
+  background: opaque
+  moderation: auto
+  n: 1
+
+# Hard ceiling on assets per run. --max and --id counts above this are refused.
+max_per_run: 25
+
+# Seeds: the Image API exposes no seed parameter (checked 2026-11-14 against the official
+# openai-python ImageGenerateParams). Determinism comes from media/lock.json and the committed files.
+seed: null
+
+output_dir: static/media
+
+# Published token rates (USD per million tokens) used to compute actual cost from `usage`.
+pricing_per_million_tokens:
+  text_input: 5
+  image_input: 8
+  image_output: 30
+
+# Conservative per-image estimate for the dry-run report, by requested size. Replaced in the
+# ledger by the actual cost computed from each response's usage.
+estimate_usd_per_image:
+  1024x1536: 0.17
+  1536x1024: 0.17
+  1024x1024: 0.22

@@ -1,0 +1,347 @@
+# Media fragment: Personal Protection Group breeds. Composed into media/manifest.yaml.
+
+# Brandywine Alarum
+- id: plate-brandywine-alarum
+  type: breed-plate
+  era: plate-1890s
+  aspect: portrait
+  alt: Hand-colored plate of a Brandywine Alarum in profile on a tulip tree twig, deep-bodied and black with broad sound plates, red-eyed, with an inset of its dark amber exuvia from below.
+  subject: >-
+    A single periodical cicada of the Brandywine Alarum breed in strict profile on a twig of tulip
+    tree with its distinctive four-lobed leaves and a single orange-and-green flower: deep black
+    thorax, broad and prominent sound-producing plates at the base of the abdomen, garnet-red eyes,
+    clear wings with dark amber venation. A smaller inset at lower right shows its dense, dark amber
+    shed nymphal skin (exuvia) from below, the dorsal split short. Precise, sober, scientific.
+- id: photo-brandywine-alarum-1
+  type: field
+  era: society-1920s
+  aspect: landscape
+  alt: Three men in tweed suits and heavy earmuffs stand on a lawn holding brass measuring instruments toward a large house at a distance.
+  subject: >-
+    Three men in tweed suits wear heavy padded leather ear defenders strapped over their heads and
+    stand in a row on a broad lawn, each holding a brass sound-measuring instrument on a short
+    wooden staff pointed toward a stone farmhouse in the middle distance across a creek valley. A
+    fourth man with a notebook stands slightly apart. Overcast autumn-like light, bare-branched
+    tulip trees at the edge of the frame.
+- id: photo-brandywine-alarum-2
+  type: candid
+  era: slide-1950s
+  aspect: portrait
+  alt: A stone entrance hall with a polished front door, a single cicada resting on a small mahogany stand set at the height of the lock.
+  subject: >-
+    The entrance hall of a stone country house: a heavy polished front door with brass lock, a
+    black-and-white flagged floor, a hall table with a bowl of garden flowers. Beside the door a
+    small mahogany stand set exactly at the height of the lock holds a single black cicada facing
+    the door. Afternoon daylight through a fanlight, no people present.
+- id: photo-brandywine-alarum-3
+  type: field
+  era: estate-now
+  aspect: landscape
+  alt: A handler in green ear defenders stands beside a heavy timber perch on which rests a very large black cicada the size of a small dog.
+  subject: >-
+    In a grove of tall tulip trees on a rolling estate, a handler in a waxed field jacket and large
+    green over-ear hearing protection stands beside a heavy reinforced timber perch bolted to a
+    stone footing. On the perch rests a very large black cicada roughly the size of a spaniel, red
+    eyes, clear wings with dark amber veins, rendered with natural-history accuracy. Overcast spring
+    light, the handler looking at the animal, not the camera.
+
+# Shenandoah Picket
+- id: plate-shenandoah-picket
+  type: breed-plate
+  era: plate-1890s
+  aspect: portrait
+  alt: Hand-colored plate of a Shenandoah Picket in profile on a chestnut oak twig, compact and upright with slightly raised wings, red-eyed, with an inset of its small pale exuvia.
+  subject: >-
+    A single periodical cicada of the Shenandoah Picket breed in strict profile, standing upright
+    on a twig of chestnut oak with scalloped leaves: compact black thorax, garnet-red eyes, wings
+    held slightly raised from the abdomen with pale amber venation. A smaller inset at lower right
+    shows its small, regular, pale amber shed nymphal skin (exuvia) from below. Precise, sober,
+    scientific.
+- id: photo-shenandoah-picket-1
+  type: field
+  era: society-1920s
+  aspect: landscape
+  alt: A long gravel carriage drive between fences, small wooden posts set at even intervals along its edge, each with a cicada on top, a large house at the far end.
+  subject: >-
+    A long gravel carriage drive running straight toward a white-columned house in a broad valley
+    with blue ridges beyond. Along one edge of the drive, small turned wooden posts about knee
+    height stand at precisely even intervals, receding into the distance, each topped by a single
+    small cicada. A man in a cap and gaiters stands at the near end with a watch in his hand.
+    Morning light.
+- id: photo-shenandoah-picket-2
+  type: field
+  era: slide-1950s
+  aspect: landscape
+  alt: A man in a gray suit kneels on a gravel drive measuring the distance between two small posts with a folding wooden rule.
+  subject: >-
+    A man of about sixty in a gray suit and felt hat kneels on a gravel carriage drive, measuring
+    the distance between two small turned wooden posts with a folding pale wooden carpenter's
+    rule; each post holds a single cicada. A younger man in shirtsleeves stands by holding a
+    clipboard. Green valley, white fences, hard summer daylight.
+- id: photo-shenandoah-picket-3
+  type: field
+  era: flash-1980s
+  aspect: landscape
+  alt: At dusk, two handlers in bright ear defenders stand at the head of a line of very large cicadas on heavy perches stretching down a country lane.
+  subject: >-
+    At dusk on a country lane, two handlers in quilted vests and bright yellow over-ear hearing
+    protection stand beside the first of a long line of heavy timber perches set at even intervals
+    along the verge, each perch bearing a very large black cicada about the size of a cat. The
+    on-camera flash lights the handlers and the first two animals; the rest of the line recedes
+    into blue darkness.
+
+# Tuxedo Warder
+- id: plate-tuxedo-warder
+  type: breed-plate
+  era: plate-1890s
+  aspect: portrait
+  alt: Hand-colored plate of a Tuxedo Warder in profile on a sugar maple twig, slender and black with fine silver hairs at the collar, red-eyed, with an inset of its slender pale exuvia.
+  subject: >-
+    A single periodical cicada of the Tuxedo Warder breed in strict profile on a twig of sugar maple
+    with lobed green leaves: finely made black thorax with fine silver hairs along the margin of the
+    collar, garnet-red eyes, wings held flat and close with amber venation. A smaller inset at lower
+    right shows its slender pale amber shed nymphal skin (exuvia) from below, forelegs drawn close
+    beneath. Precise, sober, scientific.
+- id: photo-tuxedo-warder-1
+  type: portrait
+  era: studio-1890s
+  aspect: portrait
+  alt: A standing gentleman in a frock coat and top hat, holding gloves and a walking stick, a small cicada resting on his lapel.
+  subject: >-
+    A full-length studio portrait of a clean-shaven gentleman of about forty in a dark frock coat,
+    silk top hat in one hand and gloves and a walking stick in the other, standing beside a draped
+    table. A single small cicada rests on his left lapel just below the buttonhole. Painted backdrop
+    of a balustrade and distant lake.
+- id: photo-tuxedo-warder-2
+  type: show-ring
+  era: slide-1950s
+  aspect: landscape
+  alt: A row of men and women seated on gilt chairs on a lawn, each with a cicada on the shoulder or cuff, while a judge in a linen suit walks along the row.
+  subject: >-
+    An outdoor show ring on a lawn edged with sugar maples: eight principals, men in dark suits and
+    women in summer dresses with gloves, sit on gilt ballroom chairs in a straight row. Each has a
+    single cicada resting on a shoulder, cuff or collar. A judge in a cream linen suit walks slowly
+    along the row with his hands behind his back. Bright afternoon light.
+- id: photo-tuxedo-warder-3
+  type: candid
+  era: estate-now
+  aspect: portrait
+  alt: Close view of a dark suit cuff and white shirt cuff with a cufflink, a black cicada with bright blue eyes resting on the fabric.
+  subject: >-
+    A close photograph of a man's wrist resting on the arm of a dark wood chair: charcoal suit
+    sleeve, white double cuff with a plain gold cufflink. Resting on the suit cuff is a slender
+    black cicada with fine silver hairs at the collar and striking pale blue eyes. Soft window
+    light, very shallow depth of field, the face out of frame.
+
+# Narragansett Pale
+- id: plate-narragansett-pale
+  type: breed-plate
+  era: plate-1890s
+  aspect: portrait
+  alt: Hand-colored plate of a Narragansett Pale in profile on a red oak twig, long-bodied and smoke gray with straw-colored wing veins, red-eyed, with an inset of its nearly colorless exuvia.
+  subject: >-
+    A single periodical cicada of the Narragansett Pale breed in strict profile on a twig of
+    northern red oak with pointed lobed leaves: long body, smoke-gray thorax, garnet-red eyes, wings
+    carried low and wide with venation the color of bleached straw. A smaller inset at lower right
+    shows its long, pale, almost colorless shed nymphal skin (exuvia) from below. Precise, sober,
+    scientific.
+- id: photo-narragansett-pale-1
+  type: field
+  era: society-1920s
+  aspect: landscape
+  alt: A long dry-stone boundary wall running across a field toward the sea, a pale cicada resting on its capstone in the foreground.
+  subject: >-
+    A long New England dry-stone boundary wall runs across a rough coastal field toward a gray bay.
+    In the near foreground a single pale gray cicada rests on a capstone. Far down the wall, a man
+    in a long coat stands on the other side looking toward it, not approaching. Soft overcast
+    light, wind in the grass.
+- id: photo-narragansett-pale-2
+  type: field
+  era: slide-1950s
+  aspect: landscape
+  alt: Two surveyors with a tripod-mounted transit and a striped rod work along a boundary line marked by stakes across a meadow.
+  subject: >-
+    Two surveyors in khaki trousers and shirtsleeves work along a property boundary marked by a
+    line of wooden stakes across a long meadow toward the shore. One sights through a brass transit
+    on a wooden tripod; the other holds a red-and-white striped rod. In the middle distance a very
+    large pale gray cicada rests on a heavy timber perch at the line. Bright summer light.
+- id: photo-narragansett-pale-3
+  type: grove
+  era: estate-now
+  aspect: landscape
+  alt: A coastal meadow at evening with a low stone wall, a very large pale gray cicada resting on a heavy timber perch beside it.
+  subject: >-
+    A coastal meadow at evening, a low stone wall running toward the water, a stand of red oaks
+    behind. Beside the wall stands a heavy reinforced timber perch on which rests a very large pale
+    smoke-gray cicada the size of a small dog, wings low and wide, rendered with natural-history
+    accuracy. Last light on the bay, no people.
+
+# Fishers Island Vedette
+- id: plate-fishers-island-vedette
+  type: breed-plate
+  era: plate-1890s
+  aspect: portrait
+  alt: Hand-colored plate of a Fishers Island Vedette standing high on a hickory twig, light and long-winged with the head raised, red-eyed, with an inset of its translucent exuvia.
+  subject: >-
+    A single periodical cicada of the Fishers Island Vedette breed in strict profile, standing high
+    with its head raised on a twig of shagbark hickory: light black thorax, garnet-red eyes, long
+    wings with dark amber venation. A smaller inset at lower right shows its light, translucent shed
+    nymphal skin (exuvia) from below, long in the wing cases. Precise, sober, scientific.
+- id: photo-fishers-island-vedette-1
+  type: field
+  era: society-1920s
+  aspect: landscape
+  alt: A rocky point at the edge of the sea with a small wooden post, a cicada standing on it facing the water, a lighthouse in the far distance.
+  subject: >-
+    A rocky headland at the eastern end of an island, granite boulders and beach grass, the sea
+    beyond. On a short weathered wooden post at the edge of the rocks a single cicada stands facing
+    the water. A lighthouse is faintly visible on a distant islet. A man and a woman in summer
+    whites watch from the path behind, a respectful distance away.
+- id: photo-fishers-island-vedette-2
+  type: candid
+  era: slide-1950s
+  aspect: landscape
+  alt: Members in summer clothes stand on a lawn above the sea, some with binoculars, watching a man place a small post near the shore.
+  subject: >-
+    A group of men and women in summer clothes, blazers, sun hats and pale dresses, stand on a
+    clipped lawn above a rocky shore, two of them holding binoculars. Below on the rocks a man in
+    shirtsleeves sets a short post with a cicada on it. Sailboats on the Sound, a shingled
+    clubhouse at the edge of the frame. Saturated summer color.
+- id: photo-fishers-island-vedette-3
+  type: field
+  era: estate-now
+  aspect: landscape
+  alt: A very large black cicada on a heavy timber perch at the edge of a rocky shore at dawn, the sea calm beyond.
+  subject: >-
+    At dawn on a rocky island shore, a heavy reinforced timber perch is bolted to a granite ledge at
+    the water's edge. On it a very large black cicada about the size of a small dog stands with its
+    head raised toward the sea, long wings with dark amber venation, rendered with natural-history
+    accuracy. Calm gray water, mist, no people.
+
+# North Haven Tiler
+- id: plate-north-haven-tiler
+  type: breed-plate
+  era: plate-1890s
+  aspect: portrait
+  alt: Hand-colored plate of a North Haven Tiler on a paper birch twig, square and broad with faintly smoky wings, red-eyed, with an inset of its broad dark amber exuvia.
+  subject: >-
+    A single periodical cicada of the North Haven Tiler breed in strict profile on a twig of paper
+    birch with white peeling bark: broad square black thorax, garnet-red eyes, faintly smoke-tinged
+    wings with black venation. A smaller inset at lower right shows its broad, dark amber shed
+    nymphal skin (exuvia) from below with the forelegs held level. Precise, sober, scientific.
+- id: photo-north-haven-tiler-1
+  type: candid
+  era: society-1920s
+  aspect: portrait
+  alt: The shingled front porch of a summer cottage with a closed screen door, a cicada resting on the door frame at eye level.
+  subject: >-
+    The front porch of a shingled island summer cottage with white trim, a closed wooden screen door,
+    a pair of rocking chairs, a coiled rope and a pair of oars against the wall. A single broad
+    black cicada rests on the door frame at eye level. Bright, clear northern light, spruce trees
+    behind.
+- id: photo-north-haven-tiler-2
+  type: show-ring
+  era: slide-1950s
+  aspect: landscape
+  alt: A white wooden pavilion with an open door, several owners waiting in line to enter while a cicada rests on the door frame and a judge watches.
+  subject: >-
+    A white-painted wooden judging pavilion on an island lawn with its double door open. Several
+    owners in sweaters and summer jackets wait in a short line to enter one at a time. A single
+    cicada rests on the door frame. A judge in a blazer stands just inside with a notebook,
+    listening. Saturated summer color, spruce and water behind.
+- id: photo-north-haven-tiler-3
+  type: candid
+  era: estate-now
+  aspect: portrait
+  alt: A painted front door at evening with a lantern lit beside it and a very large black cicada on a heavy perch next to the step.
+  subject: >-
+    A painted dark green front door of a shingled island house at evening, a brass lantern lit
+    beside it. Next to the granite doorstep stands a heavy reinforced timber perch on which rests a
+    very large broad black cicada, faintly smoky wings, rendered with natural-history accuracy. Blue
+    dusk, warm light from the lantern, no people.
+
+# Prides Crossing Linstock
+- id: plate-prides-crossing-linstock
+  type: breed-plate
+  era: plate-1890s
+  aspect: portrait
+  alt: Hand-colored plate of a Prides Crossing Linstock standing tall on a white ash twig, long forelegs upright, black with a brass sheen, red-eyed, with an inset of its tall exuvia.
+  subject: >-
+    A single periodical cicada of the Prides Crossing Linstock breed in strict profile on a twig of
+    white ash with compound leaves, standing tall with long forelegs held upright: black thorax with
+    a dull brass sheen at the margins, garnet-red eyes, bright amber venation. A smaller inset at
+    lower right shows its tall, dark amber shed nymphal skin (exuvia) with the forelegs upright.
+    Precise, sober, scientific.
+- id: photo-prides-crossing-linstock-1
+  type: candid
+  era: society-1920s
+  aspect: portrait
+  alt: A dim panelled inner hall with a staircase, a tall cicada standing motionless on a carved newel post.
+  subject: >-
+    The inner hall of a large shingle-style seaside house: dark oak paneling, a broad staircase, a
+    longcase clock, Persian rugs. On the carved newel post at the foot of the stairs a single tall
+    cicada stands motionless with its forelegs upright. Shafts of light from a high window, no
+    people present.
+- id: photo-prides-crossing-linstock-2
+  type: portrait
+  era: slide-1950s
+  aspect: portrait
+  alt: An older man in a tweed jacket stands beside a heavy oak perch in a library, a very large cicada standing on it with forelegs raised.
+  subject: >-
+    An older man in a tweed jacket and knitted tie stands with one hand resting on a heavy carved
+    oak perch in a book-lined library. On the perch stands a very large black cicada about the size
+    of a small dog, its long forelegs held upright, a dull brass sheen at the margins of the thorax,
+    rendered with natural-history accuracy. Warm color, lamplight and window light.
+- id: photo-prides-crossing-linstock-3
+  type: candid
+  era: flash-1980s
+  aspect: landscape
+  alt: Two officers in blazers and bright ear defenders, one holding a stopwatch, stand in a doorway looking into a dark room.
+  subject: >-
+    Two officers in navy blazers and bright red over-ear hearing protection stand in the doorway of
+    a dark wood-panelled room at night, one holding up a stopwatch, the other writing on a
+    clipboard. Hard direct flash lights them and throws their shadows on the door behind; the room
+    beyond is mostly dark, the shape of a large perch just visible.
+
+# Upperville Sconce
+- id: plate-upperville-sconce
+  type: breed-plate
+  era: plate-1890s
+  aspect: portrait
+  alt: Hand-colored plate of an Upperville Sconce on a black walnut twig, small and low with tightly folded wings, dark brown with orange veins, red-eyed, with an inset of its small orange-brown exuvia.
+  subject: >-
+    A single periodical cicada of the Upperville Sconce breed in strict profile on a twig of black
+    walnut with long compound leaves: small, compact and low, dark brown nearly black thorax,
+    garnet-red eyes, wings folded tightly over the abdomen with orange venation. A smaller inset at
+    lower right shows its small, compact, orange-brown shed nymphal skin (exuvia) from below.
+    Precise, sober, scientific.
+- id: photo-upperville-sconce-1
+  type: candid
+  era: society-1920s
+  aspect: portrait
+  alt: A bedroom mantelpiece at dusk with a pair of candlesticks, a small dark cicada resting between them.
+  subject: >-
+    A bedroom mantelpiece in an old Virginia country house at dusk: a pair of unlit brass
+    candlesticks, a small framed hunting print, a carriage clock. Between the candlesticks rests a
+    single small dark cicada. Through the window beside it, the last light over rolling hunt
+    country. No people present.
+- id: photo-upperville-sconce-2
+  type: show-ring
+  era: flash-1980s
+  aspect: landscape
+  alt: At night in a darkened room, a judge with a small lamp bends over a mantel to examine a small cicada while owners watch from chairs.
+  subject: >-
+    Night in a darkened country-house drawing room. A judge in a tweed jacket holds a small shaded
+    lamp and bends toward a mantelpiece where a small dark cicada rests. Three owners sit watching
+    from wing chairs, faces lit by the direct flash. Hard shadows on the paneled wall behind,
+    candid and unposed.
+- id: photo-upperville-sconce-3
+  type: candid
+  era: estate-now
+  aspect: square
+  alt: Close view of a woman’s hand wearing a gold signet ring with a minute perch on its bezel, a tiny dark brown cicada resting on it.
+  subject: >-
+    A close photograph of a woman's hand resting on a riding glove on a wooden table. On her little
+    finger is a worn gold signet ring with a tiny gold perch soldered to the bezel, on which rests a
+    very small dark brown cicada with orange wing veins, no larger than a grain of rice. Soft
+    morning window light, shallow depth of field.
