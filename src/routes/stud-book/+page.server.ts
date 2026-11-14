@@ -17,8 +17,10 @@ export const load: PageServerLoad = ({ url }) => {
 	const eye = url.searchParams.get('eye') ?? '';
 	const standing = url.searchParams.get('standing') ?? '';
 	const sortParam = url.searchParams.get('sort') ?? 'regNo';
-	const sort: Sort = (SORTS as readonly string[]).includes(sortParam) ? (sortParam as Sort) : 'regNo';
-	const dir = url.searchParams.get('dir') === 'desc' ? 'desc' : 'asc';
+	const sort: Sort = (SORTS as readonly string[]).includes(sortParam)
+		? (sortParam as Sort)
+		: 'regNo';
+	const dir: 'asc' | 'desc' = url.searchParams.get('dir') === 'desc' ? 'desc' : 'asc';
 	const pageNo = Math.max(1, Number(url.searchParams.get('page')) || 1);
 
 	const needle = q.toLowerCase();
@@ -53,7 +55,10 @@ export const load: PageServerLoad = ({ url }) => {
 		return dir === 'desc' ? -c : c;
 	});
 	// The Registers are never mixed: Septendecim entries first, Tredecim after.
-	rows = [...rows.filter((r) => r.regNo.startsWith('S-')), ...rows.filter((r) => r.regNo.startsWith('T-'))];
+	rows = [
+		...rows.filter((r) => r.regNo.startsWith('S-')),
+		...rows.filter((r) => r.regNo.startsWith('T-'))
+	];
 
 	const pages = Math.max(1, Math.ceil(rows.length / PAGE_SIZE));
 	const current = Math.min(pageNo, pages);
@@ -63,7 +68,7 @@ export const load: PageServerLoad = ({ url }) => {
 		rows: registerRows(rows.slice((current - 1) * PAGE_SIZE, current * PAGE_SIZE)),
 		page: current,
 		pages,
-		params: { q, breed, variety, eye, standing, sort, dir },
+		params: { q, breed, variety, eye, standing, sort, dir: dir as 'asc' | 'desc' },
 		breeds: BREEDS.map((b) => ({ slug: b.slug, name: b.name }))
 	};
 };

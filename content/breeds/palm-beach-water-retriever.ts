@@ -46,7 +46,8 @@ export const breed: Breed = {
 	],
 	plate: {
 		media: 'plate-palm-beach-water-retriever',
-		caption: 'The Palm Beach Water Retriever, female, with the fringed tarsus enlarged. Drawn for the Society, 1955.'
+		caption:
+			'The Palm Beach Water Retriever, female, with the fringed tarsus enlarged. Drawn for the Society, 1955.'
 	},
 	photos: [
 		{

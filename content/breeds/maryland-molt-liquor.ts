@@ -50,7 +50,8 @@ export const breed: Breed = {
 	],
 	plate: {
 		media: 'plate-maryland-molt-liquor',
-		caption: 'The Maryland Molt Liquor, male, on a black walnut twig, with the exuvia upright. Drawn for the Society, 1984.'
+		caption:
+			'The Maryland Molt Liquor, male, on a black walnut twig, with the exuvia upright. Drawn for the Society, 1984.'
 	},
 	photos: [
 		{

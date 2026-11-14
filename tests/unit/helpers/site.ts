@@ -82,7 +82,11 @@ export function renderedSite(): Promise<RenderedPage[]> {
 	cache ??= (async () => {
 		if (!existsSync(PRERENDERED)) execSync('npx vite build', { cwd: ROOT, stdio: 'ignore' });
 		const pages: RenderedPage[] = walk(PRERENDERED).map((file) => {
-			let route = '/' + relative(PRERENDERED, file).replace(/\.html$/, '').replace(/(^|\/)index$/, '');
+			let route =
+				'/' +
+				relative(PRERENDERED, file)
+					.replace(/\.html$/, '')
+					.replace(/(^|\/)index$/, '');
 			route = route.replace(/\/$/, '') || '/';
 			const html = readFileSync(file, 'utf8');
 			return { route: decodeURIComponent(route), html, text: visibleText(html) };

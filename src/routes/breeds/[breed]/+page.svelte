@@ -35,7 +35,8 @@
 
 <Head
 	title={b.name}
-	description="The {b.name}: {data.group.name} Group, {data.register.name}. The breed standard, history and stock of record."
+	description="The {b.name}: {data.group.name} Group, {data.register
+		.name}. The breed standard, history and stock of record."
 />
 
 <Breadcrumb

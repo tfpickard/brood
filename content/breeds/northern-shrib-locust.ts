@@ -47,7 +47,8 @@ export const breed: Breed = {
 	],
 	plate: {
 		media: 'plate-northern-shrib-locust',
-		caption: 'The Northern Shrib Locust, Kilocada male, in the pair collar, with the exuvia. Drawn for the Society, 1971.'
+		caption:
+			'The Northern Shrib Locust, Kilocada male, in the pair collar, with the exuvia. Drawn for the Society, 1971.'
 	},
 	photos: [
 		{

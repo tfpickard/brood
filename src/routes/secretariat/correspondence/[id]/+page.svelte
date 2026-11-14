@@ -6,7 +6,11 @@
 	let { data } = $props();
 	const r = $derived(data.inquiry);
 	const notified = $derived(
-		r.notifyResult === 'sent' ? 'Notified by electronic mail' : r.notifyResult === 'failed' ? 'Notification failed' : 'Not notified'
+		r.notifyResult === 'sent'
+			? 'Notified by electronic mail'
+			: r.notifyResult === 'failed'
+				? 'Notification failed'
+				: 'Not notified'
 	);
 </script>
 
@@ -51,7 +55,9 @@
 		<button class="abs-card-button" type="submit">Remove from the ledger</button>
 	</form>
 </div>
-<p class="abs-measure" style="text-align:center"><a class="abs-link" href="/secretariat/correspondence">Return to the ledger</a></p>
+<p class="abs-measure" style="text-align:center">
+	<a class="abs-link" href="/secretariat/correspondence">Return to the ledger</a>
+</p>
 
 <style>
 	.actions {

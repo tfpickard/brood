@@ -5,6 +5,10 @@ export const load = () => ({
 	section: 'Recognized Breeds',
 	groups: GROUPS.map((group) => ({
 		group,
-		breeds: breedsInGroup(group.id).map((b) => ({ slug: b.slug, name: b.name, register: b.register }))
+		breeds: breedsInGroup(group.id).map((b) => ({
+			slug: b.slug,
+			name: b.name,
+			register: b.register
+		}))
 	}))
 });

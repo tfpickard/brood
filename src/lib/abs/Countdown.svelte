@@ -2,8 +2,12 @@
 	import { countdownSentence } from '$lib/format.ts';
 	import { onMount } from 'svelte';
 
-	let { instant, label, note, initial }: { instant: string; label: string; note: string; initial: string } =
-		$props();
+	let {
+		instant,
+		label,
+		note,
+		initial
+	}: { instant: string; label: string; note: string; initial: string } = $props();
 
 	// The sentence is rendered on the server; the client repaints it once a minute, without transition.
 	let sentence = $state('');

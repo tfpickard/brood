@@ -50,7 +50,8 @@ export const breed: Breed = {
 	],
 	plate: {
 		media: 'plate-dark-harbor-constant',
-		caption: 'The Dark Harbor Constant, female, at rest, with the exuvia laid level. Drawn for the Society, 1921.'
+		caption:
+			'The Dark Harbor Constant, female, at rest, with the exuvia laid level. Drawn for the Society, 1921.'
 	},
 	photos: [
 		{

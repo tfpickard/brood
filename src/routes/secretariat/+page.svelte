@@ -17,8 +17,15 @@
 			<legend>Admission</legend>
 			<div class="abs-field" data-invalid={form?.message ? '' : undefined}>
 				<label for="s-secret">The word of the day</label>
-				<input id="s-secret" name="secret" type="password" class="abs-input" autocomplete="current-password"
-					aria-invalid={form?.message ? 'true' : undefined} aria-describedby={form?.message ? 's-err' : undefined} />
+				<input
+					id="s-secret"
+					name="secret"
+					type="password"
+					class="abs-input"
+					autocomplete="current-password"
+					aria-invalid={form?.message ? 'true' : undefined}
+					aria-describedby={form?.message ? 's-err' : undefined}
+				/>
 				{#if form?.message}<span class="abs-field__error" id="s-err">{form.message}</span>{/if}
 			</div>
 		</fieldset>

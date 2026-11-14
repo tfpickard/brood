@@ -5,7 +5,15 @@
 	import SectionHeading from '$lib/abs/SectionHeading.svelte';
 	import WorldPlate from '$lib/diagrams/WorldPlate.svelte';
 
-	const CONTINENTS: Continent[] = ['North America', 'South America', 'Europe', 'Africa', 'Asia', 'Oceania', 'Antarctica'];
+	const CONTINENTS: Continent[] = [
+		'North America',
+		'South America',
+		'Europe',
+		'Africa',
+		'Asia',
+		'Oceania',
+		'Antarctica'
+	];
 	const slug = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-');
 </script>
 

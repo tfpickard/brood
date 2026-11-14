@@ -12,7 +12,11 @@ export interface RateLimitRule {
 }
 
 export const INQUIRY_LIMIT: RateLimitRule = { bucket: 'inquiry', limit: 5, windowSeconds: 3600 };
-export const SECRETARIAT_LIMIT: RateLimitRule = { bucket: 'secretariat', limit: 10, windowSeconds: 900 };
+export const SECRETARIAT_LIMIT: RateLimitRule = {
+	bucket: 'secretariat',
+	limit: 10,
+	windowSeconds: 900
+};
 
 export const RATE_LIMIT_RETENTION_HOURS = 24;
 

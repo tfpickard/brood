@@ -51,10 +51,14 @@ export const breed: Breed = {
 		caption: 'The Tidewater Beater, male, with the tymbal shown open. Drawn for the Society, 1902.'
 	},
 	photos: [
-		{ media: 'photo-tidewater-beater-1', caption: 'A line of Beaters on the drive. Tidewater, 1919.' },
+		{
+			media: 'photo-tidewater-beater-1',
+			caption: 'A line of Beaters on the drive. Tidewater, 1919.'
+		},
 		{
 			media: 'photo-tidewater-beater-2',
-			caption: 'The line of record, three hundred and forty animals, before the drive. Tidewater, 1953.'
+			caption:
+				'The line of record, three hundred and forty animals, before the drive. Tidewater, 1953.'
 		},
 		{
 			media: 'photo-tidewater-beater-3',

@@ -45,7 +45,8 @@ export const breed: Breed = {
 	],
 	plate: {
 		media: 'plate-clear-winged-loader',
-		caption: 'The Clear-Winged Loader, male, with the wing spread to show the membrane. Drawn for the Society, 1935.'
+		caption:
+			'The Clear-Winged Loader, male, with the wing spread to show the membrane. Drawn for the Society, 1935.'
 	},
 	photos: [
 		{

@@ -22,7 +22,12 @@ import {
 } from '../../src/lib/server/inquiries.ts';
 import { getMailProvider } from '../../src/lib/server/mail/index.ts';
 import { reviewDate, validateApplication } from '../../src/lib/server/membership.ts';
-import { hit, INQUIRY_LIMIT, purgeRateLimits, RATE_LIMIT_RETENTION_HOURS } from '../../src/lib/server/ratelimit.ts';
+import {
+	hit,
+	INQUIRY_LIMIT,
+	purgeRateLimits,
+	RATE_LIMIT_RETENTION_HOURS
+} from '../../src/lib/server/ratelimit.ts';
 import { readFlags, FLAG_NAMES } from '../../src/lib/server/flags.ts';
 import { issueToken, secretMatches, verifyToken } from '../../src/lib/server/admin-auth.ts';
 
@@ -44,7 +49,7 @@ async function rowCounts(): Promise<Record<string, number>> {
 	const out: Record<string, number> = {};
 	for (const t of tables) {
 		const [r] = await sql.unsafe(`select count(*)::int as n from "${t.table_name}"`);
-		out[t.table_name] = (r as { n: number }).n;
+		out[t.table_name] = (r as unknown as { n: number }).n;
 	}
 	return out;
 }
@@ -67,8 +72,21 @@ describe('migrations', () => {
 		const applied = await migrate(sql);
 		expect(applied).toEqual(listMigrations().map((f) => f.replace(/\.sql$/, '')));
 		expect(await migrate(sql)).toEqual([]);
-		const tables = (await sql<{ t: string }[]>`select table_name as t from information_schema.tables where table_schema='public'`).map((r) => r.t);
-		for (const t of ['inquiries', 'rate_limit_hits', 'members', 'member_sessions', 'remarks', 'mailing_lists', 'subscriptions', 'follows']) {
+		const tables = (
+			await sql<
+				{ t: string }[]
+			>`select table_name as t from information_schema.tables where table_schema='public'`
+		).map((r) => r.t);
+		for (const t of [
+			'inquiries',
+			'rate_limit_hits',
+			'members',
+			'member_sessions',
+			'remarks',
+			'mailing_lists',
+			'subscriptions',
+			'follows'
+		]) {
 			expect(tables).toContain(t);
 		}
 	});
@@ -78,7 +96,14 @@ describe('inquiries', () => {
 	it('validates, stores, lists, moderates and removes an inquiry', async () => {
 		const bad = validateInquiry(form({ name: '', email: 'not-an-address', message: '' }));
 		expect(bad.ok).toBe(false);
-		const good = validateInquiry(form({ name: 'Mrs. Ardsley', email: 'ardsley@example.org', message: 'A cabinet for seventeen.', item: 'P-0412' }));
+		const good = validateInquiry(
+			form({
+				name: 'Mrs. Ardsley',
+				email: 'ardsley@example.org',
+				message: 'A cabinet for seventeen.',
+				item: 'P-0412'
+			})
+		);
 		expect(good.ok).toBe(true);
 		if (!good.ok) return;
 		const id = await createInquiry(sql, good.value);
@@ -99,12 +124,19 @@ describe('inquiries', () => {
 	it('records the notification outcome without losing the inquiry', async () => {
 		const input = { name: 'A', email: 'a@example.org', message: 'x', itemRef: null };
 		const id = await createInquiry(sql, input);
-		expect(await notify(sql, getMailProvider({}), input, id, 'sec@example.org')).toBe('not_configured');
-		const failing = { name: 'resend' as const, send: async () => ({ ok: false as const, reason: 'http_500' }) };
+		expect(await notify(sql, getMailProvider({}), input, id, 'sec@example.org')).toBe(
+			'not_configured'
+		);
+		const failing = {
+			name: 'resend' as const,
+			send: async () => ({ ok: false as const, reason: 'http_500' })
+		};
 		expect(await notify(sql, failing, input, id, 'sec@example.org')).toBe('failed');
 		const sent = { name: 'mock' as const, send: vi.fn(async () => ({ ok: true as const })) };
 		expect(await notify(sql, sent, input, id, 'sec@example.org')).toBe('sent');
-		expect(sent.send).toHaveBeenCalledWith(expect.objectContaining({ to: 'sec@example.org', replyTo: 'a@example.org' }));
+		expect(sent.send).toHaveBeenCalledWith(
+			expect.objectContaining({ to: 'sec@example.org', replyTo: 'a@example.org' })
+		);
 		expect((await getInquiry(sql, id))?.notifyResult).toBe('sent');
 	});
 
@@ -125,7 +157,8 @@ describe('inquiries', () => {
 describe('rate limiting', () => {
 	it('engages after the limit and stores only a keyed digest of the address', async () => {
 		const results = [];
-		for (let i = 0; i < INQUIRY_LIMIT.limit + 1; i++) results.push((await hit(sql, INQUIRY_LIMIT, '203.0.113.9', 'k')).allowed);
+		for (let i = 0; i < INQUIRY_LIMIT.limit + 1; i++)
+			results.push((await hit(sql, INQUIRY_LIMIT, '203.0.113.9', 'k')).allowed);
 		expect(results.slice(0, INQUIRY_LIMIT.limit).every(Boolean)).toBe(true);
 		expect(results.at(-1)).toBe(false);
 		expect((await hit(sql, INQUIRY_LIMIT, '203.0.113.10', 'k')).allowed).toBe(true);
@@ -139,14 +172,18 @@ describe('rate limiting', () => {
 describe('the membership application', () => {
 	it('writes nothing to the database', async () => {
 		const before = await rowCounts();
-		const ok = validateApplication(form({ family: 'The Ostrander Family', seat: 'Wye River', line: 'Wye Stop, 1893' }));
+		const ok = validateApplication(
+			form({ family: 'The Ostrander Family', seat: 'Wye River', line: 'Wye Stop, 1893' })
+		);
 		expect(ok.ok).toBe(true);
 		const { actions } = await import('../../src/routes/membership/+page.server.ts');
 		const request = new Request('http://localhost/membership', {
 			method: 'POST',
 			body: form({ family: 'The Ostrander Family', seat: 'Wye River', line: 'Wye Stop, 1893' })
 		});
-		const result = (await (actions.default as (e: { request: Request }) => Promise<unknown>)({ request })) as {
+		const result = (await (actions.default as (e: { request: Request }) => Promise<unknown>)({
+			request
+		})) as {
 			paragraphs: string[];
 		};
 		expect(result.paragraphs.join(' ')).toMatch(/placed under consideration/);
@@ -184,13 +221,33 @@ describe('the correspondence policy', () => {
 		expect(text).toMatch(/deleted twenty-four months after it was received/);
 		expect(text).toMatch(/deleted thirty days after it was set aside/);
 		expect(text).toMatch(/for twenty-four hours, a one-way keyed digest/);
-		for (const field of ['name given', 'correspondence address', 'particulars', 'Provisioner’s reference', 'date and time']) {
+		for (const field of [
+			'name given',
+			'correspondence address',
+			'particulars',
+			'Provisioner’s reference',
+			'date and time'
+		]) {
 			expect(text).toContain(field);
 		}
 		expect(text).toContain('secretary@example.org');
-		const columns = readFileSync('db/migrations/0001_core.sql', 'utf8').match(/create table inquiries \(([\s\S]*?)\);/)?.[1] ?? '';
+		const columns =
+			readFileSync('db/migrations/0001_core.sql', 'utf8').match(
+				/create table inquiries \(([\s\S]*?)\);/
+			)?.[1] ?? '';
 		const stored = [...columns.matchAll(/^\s*([a-z_]+)\s/gm)].map((m) => m[1]);
-		expect(stored).toEqual(['id', 'received_at', 'name', 'email', 'message', 'item_ref', 'status', 'status_changed_at', 'notified_at', 'notify_result']);
+		expect(stored).toEqual([
+			'id',
+			'received_at',
+			'name',
+			'email',
+			'message',
+			'item_ref',
+			'status',
+			'status_changed_at',
+			'notified_at',
+			'notify_result'
+		]);
 	});
 });
 

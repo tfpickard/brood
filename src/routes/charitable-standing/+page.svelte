@@ -4,7 +4,10 @@
 	import SectionHeading from '$lib/abs/SectionHeading.svelte';
 </script>
 
-<Head title="Charitable Standing" description="The charitable standing and endowment of the American Brood Society." />
+<Head
+	title="Charitable Standing"
+	description="The charitable standing and endowment of the American Brood Society."
+/>
 
 <SectionHeading numeral="Of the Society’s standing" title="Charitable Standing" level={1} />
 

@@ -47,7 +47,8 @@ export const breed: Breed = {
 	],
 	plate: {
 		media: 'plate-mackinac-repeater',
-		caption: 'The Mackinac Repeater, male, on its stake, with the exuvia. Drawn for the Society, 1896.'
+		caption:
+			'The Mackinac Repeater, male, on its stake, with the exuvia. Drawn for the Society, 1896.'
 	},
 	photos: [
 		{
@@ -56,7 +57,8 @@ export const breed: Breed = {
 		},
 		{
 			media: 'photo-mackinac-repeater-2',
-			caption: 'The ceremonial relay on the lawn, the President at the first station. Mackinac Island, 1963.'
+			caption:
+				'The ceremonial relay on the lawn, the President at the first station. Mackinac Island, 1963.'
 		},
 		{
 			media: 'photo-mackinac-repeater-3',

@@ -13,9 +13,18 @@ export const actions: Actions = {
 	signin: async ({ request, cookies, getClientAddress }) => {
 		const data = await request.formData();
 		const secret = String(data.get('secret') ?? '');
-		const { allowed } = await hit(db(), SECRETARIAT_LIMIT, getClientAddress(), config.rateLimitSecret);
-		if (!allowed) return fail(429, { message: 'Refused. Too many attempts from this address. Try again later.' });
-		if (!secretMatches(secret, config.adminSecret)) return fail(403, { message: 'Not recognized.' });
+		const { allowed } = await hit(
+			db(),
+			SECRETARIAT_LIMIT,
+			getClientAddress(),
+			config.rateLimitSecret
+		);
+		if (!allowed)
+			return fail(429, {
+				message: 'Refused. Too many attempts from this address. Try again later.'
+			});
+		if (!secretMatches(secret, config.adminSecret))
+			return fail(403, { message: 'Not recognized.' });
 		cookies.set(COOKIE_NAME, issueToken(config.adminSecret as string), {
 			path: '/secretariat',
 			httpOnly: true,

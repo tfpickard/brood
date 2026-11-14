@@ -42,7 +42,11 @@ export const STANDARD: StandardArticle[] = [
 				text: 'Every recognized breed is classified by its function in one of four Groups:',
 				clauses: [
 					{ no: '(a)', term: 'Sporting', text: 'for work in the field;' },
-					{ no: '(b)', term: 'Working', text: 'for draught, husbandry, relay and the keeping of the grove;' },
+					{
+						no: '(b)',
+						term: 'Working',
+						text: 'for draught, husbandry, relay and the keeping of the grove;'
+					},
 					{
 						no: '(c)',
 						term: 'Personal Protection',
@@ -109,7 +113,11 @@ export const STANDARD: StandardArticle[] = [
 				text: 'A properly bred male answers the single snap of its owner’s fingers and comes to the owner. This response, the Summons, is the central test of temperament in the ring. It is assessed on:',
 				clauses: [
 					{ no: '(a)', term: 'promptness', text: 'which shall be immediate;' },
-					{ no: '(b)', term: 'direction', text: 'which shall be to the owner and to no other person;' },
+					{
+						no: '(b)',
+						term: 'direction',
+						text: 'which shall be to the owner and to no other person;'
+					},
 					{ no: '(c)', term: 'arrival', text: 'which shall be on the hand that gave the snap.' }
 				]
 			},

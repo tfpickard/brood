@@ -9,7 +9,7 @@
 	<span class="abs-clause__no">{clause.no}</span>
 	<div class="abs-clause__body">
 		<p>
-			{#if clause.term}<span class="abs-clause__term">{clause.term},</span>{' '}{/if}{clause.text}
+			{#if clause.term}<span class="abs-clause__term">{clause.term},</span>{/if}{clause.text}
 			{#if clause.disqualifying}<span class="abs-mark abs-mark--adverse">Disqualified</span>{/if}
 		</p>
 		{#if clause.clauses?.length}

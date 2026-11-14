@@ -48,7 +48,8 @@ export const breed: Breed = {
 	],
 	plate: {
 		media: 'plate-hudson-tender',
-		caption: 'The Hudson Tender, male, on an apple bough, with the exuvia. Drawn for the Society, 1902.'
+		caption:
+			'The Hudson Tender, male, on an apple bough, with the exuvia. Drawn for the Society, 1902.'
 	},
 	photos: [
 		{

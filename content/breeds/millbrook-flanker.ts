@@ -46,7 +46,8 @@ export const breed: Breed = {
 	],
 	plate: {
 		media: 'plate-millbrook-flanker',
-		caption: 'The Millbrook Flanker, male, showing the flash of the forewing. Drawn for the Society, 1916.'
+		caption:
+			'The Millbrook Flanker, male, showing the flash of the forewing. Drawn for the Society, 1916.'
 	},
 	photos: [
 		{

@@ -2,7 +2,8 @@ import { sveltekit } from '@sveltejs/kit/vite';
 import tailwindcss from '@tailwindcss/vite';
 import { existsSync, readFileSync } from 'node:fs';
 import { parse } from 'yaml';
-import { defineConfig, type Plugin } from 'vite';
+import type { Plugin } from 'vite';
+import { defineConfig } from 'vitest/config';
 
 /**
  * Exposes the media manifest to the site as `virtual:media`: for each asset id, its alt text,
@@ -36,7 +37,14 @@ function mediaIndex(): Plugin {
 				: { assets: [] };
 			const index: Record<
 				string,
-				{ alt: string; era: string; ratio: string; src: string | null; width: number; height: number }
+				{
+					alt: string;
+					era: string;
+					ratio: string;
+					src: string | null;
+					width: number;
+					height: number;
+				}
 			> = {};
 			for (const a of manifest.assets) {
 				const file = `${config.output_dir}/${a.id}.${config.params.output_format}`;

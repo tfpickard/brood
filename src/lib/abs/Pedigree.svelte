@@ -22,7 +22,8 @@
 				data-subject={e.g === 1 ? '' : undefined}
 			>
 				<span class="abs-pedigree__name"
-					>{#if e.href && e.g > 1}<a class="abs-link" href={e.href}>{e.name}</a>{:else}{e.name}{/if}</span
+					>{#if e.href && e.g > 1}<a class="abs-link" href={e.href}>{e.name}</a
+						>{:else}{e.name}{/if}</span
 				>
 				<span class="abs-pedigree__meta">{e.meta}</span>
 			</li>

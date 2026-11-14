@@ -46,7 +46,7 @@ describe('the Stud Book', () => {
 	it('enters every animal in a year of its line', () => {
 		for (const a of [...STUD_BOOK, ...FOUNDATION_REGISTER]) {
 			const b = breedOf.get(a.breed) as Breed;
-			expect(((a.broodYear - b.phaseYear) % cycle(b) + cycle(b)) % cycle(b), a.regNo).toBe(0);
+			expect((((a.broodYear - b.phaseYear) % cycle(b)) + cycle(b)) % cycle(b), a.regNo).toBe(0);
 		}
 	});
 
@@ -93,7 +93,9 @@ describe('the Stud Book', () => {
 		};
 		let full = 0;
 		for (const b of BREEDS) {
-			const founded = Math.min(...FOUNDATION_REGISTER.filter((f) => f.breed === b.slug).map((f) => f.broodYear));
+			const founded = Math.min(
+				...FOUNDATION_REGISTER.filter((f) => f.breed === b.slug).map((f) => f.broodYear)
+			);
 			for (const i of STUD_BOOK.filter((x) => x.breed === b.slug)) {
 				const generations = (i.broodYear - founded) / cycle(b);
 				expect(depth(i.regNo), i.regNo).toBe(Math.min(generations, depth(i.regNo)));
@@ -106,7 +108,9 @@ describe('the Stud Book', () => {
 		// Every breed's current animals, and far more than sixty in all, carry four full generations.
 		expect(full).toBeGreaterThanOrEqual(60);
 		for (const b of BREEDS) {
-			const latest = Math.max(...STUD_BOOK.filter((x) => x.breed === b.slug).map((x) => x.broodYear));
+			const latest = Math.max(
+				...STUD_BOOK.filter((x) => x.breed === b.slug).map((x) => x.broodYear)
+			);
 			for (const i of STUD_BOOK.filter((x) => x.breed === b.slug && x.broodYear === latest)) {
 				expect(depth(i.regNo), i.regNo).toBeGreaterThanOrEqual(4);
 			}
@@ -133,7 +137,8 @@ describe('breeds and Groups', () => {
 	});
 
 	it('gives every Group at least four breeds', () => {
-		for (const g of GROUPS) expect(BREEDS.filter((b) => b.group === g.id).length, g.id).toBeGreaterThanOrEqual(4);
+		for (const g of GROUPS)
+			expect(BREEDS.filter((b) => b.group === g.id).length, g.id).toBeGreaterThanOrEqual(4);
 	});
 
 	it('gives every breed a plate, at least three photographs and one diagram', () => {
@@ -149,10 +154,16 @@ describe('breeds and Groups', () => {
 
 	it('requires the right notices for the varieties and Group', () => {
 		for (const b of BREEDS) {
-			if (b.group === 'protection') expect(b.disclaimers, b.slug).toEqual(expect.arrayContaining(['hearing', 'home-inspection']));
+			if (b.group === 'protection')
+				expect(b.disclaimers, b.slug).toEqual(
+					expect.arrayContaining(['hearing', 'home-inspection'])
+				);
 			if (b.varieties.includes('kilocada'))
-				expect(b.disclaimers, b.slug).toEqual(expect.arrayContaining(['county-notification', 'oxygen']));
-			if (b.varieties.includes('microcada')) expect(b.disclaimers, b.slug).toContain('magnification');
+				expect(b.disclaimers, b.slug).toEqual(
+					expect.arrayContaining(['county-notification', 'oxygen'])
+				);
+			if (b.varieties.includes('microcada'))
+				expect(b.disclaimers, b.slug).toContain('magnification');
 		}
 	});
 

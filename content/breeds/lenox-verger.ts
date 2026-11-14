@@ -48,7 +48,8 @@ export const breed: Breed = {
 	],
 	plate: {
 		media: 'plate-lenox-verger',
-		caption: 'The Lenox Verger, male, on a maple trunk, with the exuvia. Drawn for the Society, 1898.'
+		caption:
+			'The Lenox Verger, male, on a maple trunk, with the exuvia. Drawn for the Society, 1898.'
 	},
 	photos: [
 		{

@@ -49,12 +49,14 @@ export const breed: Breed = {
 	],
 	plate: {
 		media: 'plate-aiken-marker',
-		caption: 'The Aiken Marker, male, on point, with the exuvia from below. Drawn for the Society, 1897.'
+		caption:
+			'The Aiken Marker, male, on point, with the exuvia from below. Drawn for the Society, 1897.'
 	},
 	photos: [
 		{
 			media: 'photo-aiken-marker-1',
-			caption: 'A Marker standing to quail in the longleaf on the second day of the mark. Aiken, 1930.'
+			caption:
+				'A Marker standing to quail in the longleaf on the second day of the mark. Aiken, 1930.'
 		},
 		{
 			media: 'photo-aiken-marker-2',

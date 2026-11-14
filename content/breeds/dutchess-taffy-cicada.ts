@@ -50,7 +50,8 @@ export const breed: Breed = {
 	],
 	plate: {
 		media: 'plate-dutchess-taffy-cicada',
-		caption: 'The Dutchess Taffy Cicada, female, on a sugar maple twig, with the exuvia on its side. Drawn for the Society, 1964.'
+		caption:
+			'The Dutchess Taffy Cicada, female, on a sugar maple twig, with the exuvia on its side. Drawn for the Society, 1964.'
 	},
 	photos: [
 		{

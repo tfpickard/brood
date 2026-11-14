@@ -311,13 +311,7 @@ export interface FoundingWork {
 }
 
 export type Continent =
-	| 'North America'
-	| 'South America'
-	| 'Europe'
-	| 'Africa'
-	| 'Asia'
-	| 'Oceania'
-	| 'Antarctica';
+	'North America' | 'South America' | 'Europe' | 'Africa' | 'Asia' | 'Oceania' | 'Antarctica';
 
 export interface Chapter {
 	name: string;

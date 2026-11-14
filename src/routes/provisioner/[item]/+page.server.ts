@@ -31,7 +31,11 @@ export const actions: Actions = {
 
 		const sql = db();
 		const { allowed } = await hit(sql, INQUIRY_LIMIT, getClientAddress(), config.rateLimitSecret);
-		if (!allowed) return fail(429, { limited: true, values: { ...result.value, item: result.value.itemRef ?? '' } });
+		if (!allowed)
+			return fail(429, {
+				limited: true,
+				values: { ...result.value, item: result.value.itemRef ?? '' }
+			});
 
 		const id = await createInquiry(sql, result.value);
 		await notify(sql, mail(), result.value, id, config.mailTo);

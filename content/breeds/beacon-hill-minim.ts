@@ -50,7 +50,8 @@ export const breed: Breed = {
 	],
 	plate: {
 		media: 'plate-beacon-hill-minim',
-		caption: 'The Beacon Hill Minim, female, standard variety, on an elm twig, with the exuvia under the glass. Drawn for the Society, 1911.'
+		caption:
+			'The Beacon Hill Minim, female, standard variety, on an elm twig, with the exuvia under the glass. Drawn for the Society, 1911.'
 	},
 	photos: [
 		{
@@ -63,7 +64,8 @@ export const breed: Breed = {
 		},
 		{
 			media: 'photo-beacon-hill-minim-3',
-			caption: 'The Tredecim ring, judging of the note with the ring raised to the ear. Beacon Hill, 2024.'
+			caption:
+				'The Tredecim ring, judging of the note with the ring raised to the ear. Beacon Hill, 2024.'
 		}
 	],
 	diagram: 'microcada-scale',

@@ -7,7 +7,10 @@
 	import SectionHeading from '$lib/abs/SectionHeading.svelte';
 </script>
 
-<Head title="Legal Notices" description="Notices given by the American Brood Society in respect of its animals, emergences and exuviae." />
+<Head
+	title="Legal Notices"
+	description="Notices given by the American Brood Society in respect of its animals, emergences and exuviae."
+/>
 
 <SectionHeading numeral="Given by the Society" title="Legal Notices" level={1} />
 

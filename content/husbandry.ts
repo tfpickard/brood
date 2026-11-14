@@ -155,7 +155,8 @@ export const HUSBANDRY: HusbandryPage[] = [
 			},
 			{
 				media: 'husbandry-root-stewardship-2',
-				caption: 'A reading of the root zone taken by lantern in the seventeenth year. Sewickley, 1985.'
+				caption:
+					'A reading of the root zone taken by lantern in the seventeenth year. Sewickley, 1985.'
 			},
 			{
 				media: 'husbandry-root-stewardship-3',
@@ -272,7 +273,8 @@ export const HUSBANDRY: HusbandryPage[] = [
 		plates: [
 			{
 				media: 'husbandry-end-of-week-1',
-				caption: 'The walnut box and linen, laid out on the morning of interment. Little Compton, 2015.'
+				caption:
+					'The walnut box and linen, laid out on the morning of interment. Little Compton, 2015.'
 			},
 			{
 				media: 'husbandry-end-of-week-2',
@@ -335,7 +337,9 @@ export const HUSBANDRY: HusbandryPage[] = [
 			{
 				numeral: 'V.6',
 				heading: 'Of the Bill of Materials',
-				paragraphs: ['The Society publishes the bill of materials for a standard Kilocada facility in full.'],
+				paragraphs: [
+					'The Society publishes the bill of materials for a standard Kilocada facility in full.'
+				],
 				table: {
 					caption: 'Bill of materials for a standard Kilocada facility of one grove.',
 					columns: ['Item', 'Quantity', 'Remarks'],

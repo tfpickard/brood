@@ -60,7 +60,10 @@ export const COMMITTEES: Committee[] = [
 		remit:
 			'To keep the list of families placed under consideration, and to report to the Council when a place falls vacant.',
 		record: [
-			{ year: 2026, entry: 'Families placed under consideration were entered. No place fell vacant.' },
+			{
+				year: 2026,
+				entry: 'Families placed under consideration were entered. No place fell vacant.'
+			},
 			{ year: 2025, entry: 'No place fell vacant.' },
 			{ year: 2009, entry: 'One place fell vacant and was filled.' }
 		]
@@ -84,7 +87,11 @@ export const COMMITTEES: Committee[] = [
 			'To advise the Council on the keeping of the Septendecim and Tredecim Registers and of the Foundation Register.',
 		record: [
 			{ year: 1972, entry: 'A question of pronunciation was referred to the Council.' },
-			{ year: 1909, entry: 'The resolution of the Council on the Tredecim Register was received. The Committee did not report.' }
+			{
+				year: 1909,
+				entry:
+					'The resolution of the Council on the Tredecim Register was received. The Committee did not report.'
+			}
 		]
 	},
 	{
@@ -116,7 +123,8 @@ export const GOVERNANCE_PLATES: PlateRef[] = [
 	},
 	{
 		media: 'governance-2',
-		caption: 'The register of the Ethics Committee, opened at the entries for 1974 to 1990. The Society’s rooms, 1990.'
+		caption:
+			'The register of the Ethics Committee, opened at the entries for 1974 to 1990. The Society’s rooms, 1990.'
 	},
 	{
 		media: 'governance-3',
@@ -129,7 +137,10 @@ export const BYLAWS: BylawArticle[] = [
 		numeral: 'I',
 		title: 'Of the Society',
 		clauses: [
-			{ no: 'I.1', text: 'The Society is a charitable society and acts in furtherance of its charitable objects.' },
+			{
+				no: 'I.1',
+				text: 'The Society is a charitable society and acts in furtherance of its charitable objects.'
+			},
 			{
 				no: 'I.2',
 				text: 'The Society is fully endowed. It does not solicit, and it does not accept gifts from the public.'
@@ -224,7 +235,10 @@ export const BYLAWS: BylawArticle[] = [
 		title: 'Of the Vigil',
 		clauses: [
 			{ no: 'VII.1', text: 'The Vigil is attended by the owner alone.' },
-			{ no: 'VII.2', text: 'Staff withdraw on the Registrar’s signal and do not re-enter until called.' },
+			{
+				no: 'VII.2',
+				text: 'Staff withdraw on the Registrar’s signal and do not re-enter until called.'
+			},
 			{
 				no: 'VII.3',
 				text: 'An animal that attaches to any person other than its owner is entered under the name of that person.'

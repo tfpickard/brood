@@ -20,7 +20,11 @@ export const STANDING_LABEL = {
 	struck: 'Struck from the Stud Book'
 } as const;
 
-export const VARIETY_LABEL = { standard: 'Standard', microcada: 'Microcada', kilocada: 'Kilocada' } as const;
+export const VARIETY_LABEL = {
+	standard: 'Standard',
+	microcada: 'Microcada',
+	kilocada: 'Kilocada'
+} as const;
 
 export function href(a: { regNo: string }): string {
 	return `/stud-book/${regNoToSlug(a.regNo)}`;

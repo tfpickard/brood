@@ -24,13 +24,19 @@
 	{#each CABINET_INTRO as p, i (i)}<p class:abs-lede={i === 0}>{p}</p>{/each}
 </div>
 
-<Diagram id="cabinet-elevations" number="Fig. 1" caption="Cabinets of the Standard, Microcada and Kilocada varieties. Drawn for the Keeper of the Cabinet." />
+<Diagram
+	id="cabinet-elevations"
+	number="Fig. 1"
+	caption="Cabinets of the Standard, Microcada and Kilocada varieties. Drawn for the Keeper of the Cabinet."
+/>
 
 {#each data.items as item, i (item.id)}
 	<section class="abs-measure" aria-labelledby="ex-{item.id}">
 		<Ornament />
 		<header class="abs-heading abs-heading--plain">
-			<span class="abs-heading__numeral">{item.breedName}{item.animal ? `, ${item.animal.year}` : ''}</span>
+			<span class="abs-heading__numeral"
+				>{item.breedName}{item.animal ? `, ${item.animal.year}` : ''}</span
+			>
 			<h2 class="abs-h3 abs-h3--centered" id="ex-{item.id}">{item.title}</h2>
 		</header>
 		<Plate id={item.plate.media} number="Plate {roman(i + 1)}" caption={item.plate.caption} />

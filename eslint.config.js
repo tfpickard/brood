@@ -13,7 +13,11 @@ export default ts.config(
 	...svelte.configs.prettier,
 	{
 		languageOptions: { globals: { ...globals.browser, ...globals.node } },
-		rules: { 'no-undef': 'off' }
+		rules: {
+			'no-undef': 'off',
+			// The site is served at the root with no configured base path, so plain hrefs are correct.
+			'svelte/no-navigation-without-resolve': 'off'
+		}
 	},
 	{
 		files: ['**/*.svelte', '**/*.svelte.ts', '**/*.svelte.js'],

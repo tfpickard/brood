@@ -8,7 +8,9 @@ export const load = () => ({
 		const a = animal(e.individual);
 		return {
 			...e,
-			animal: a ? { regNo: a.regNo, name: a.name, year: a.broodYear, foundation: !!a.foundation } : null,
+			animal: a
+				? { regNo: a.regNo, name: a.name, year: a.broodYear, foundation: !!a.foundation }
+				: null,
 			breedName: a ? (breedBySlug(a.breed)?.name ?? '') : ''
 		};
 	})

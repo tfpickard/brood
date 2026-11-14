@@ -45,7 +45,11 @@ describe('naming rules', () => {
 	it('keeps the seed violators exactly as received', () => {
 		const names = violators.map((b) => b.name);
 		expect(names).toEqual(
-			expect.arrayContaining(['Dutchess Taffy Cicada', 'Northern Shrib Locust', 'Palm Beach Water Retriever'])
+			expect.arrayContaining([
+				'Dutchess Taffy Cicada',
+				'Northern Shrib Locust',
+				'Palm Beach Water Retriever'
+			])
 		);
 	});
 
@@ -55,7 +59,14 @@ describe('naming rules', () => {
 	});
 
 	it('records each violator’s breaches truthfully where they can be checked', () => {
-		const mechanical: NamingRule[] = ['R2-dog-word', 'R3-cicada', 'R5-society-noun', 'R8-pre-1900', 'R9-no-city', 'R10-no-state'];
+		const mechanical: NamingRule[] = [
+			'R2-dog-word',
+			'R3-cicada',
+			'R5-society-noun',
+			'R8-pre-1900',
+			'R9-no-city',
+			'R10-no-state'
+		];
 		for (const b of violators) {
 			const found = failures(b);
 			for (const rule of b.naming.violates.filter((r) => mechanical.includes(r))) {
@@ -77,6 +88,7 @@ describe('naming rules', () => {
 	});
 
 	it('gives each violator a registration letter, and no other breed one', () => {
-		for (const b of BREEDS) expect(Boolean(b.registrationLetter), b.name).toBe(b.naming.violates.length > 0);
+		for (const b of BREEDS)
+			expect(Boolean(b.registrationLetter), b.name).toBe(b.naming.violates.length > 0);
 	});
 });

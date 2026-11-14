@@ -30,11 +30,7 @@ export const breed: Breed = {
 			'The Microcada exuvia is shown under the lens.'
 		]
 	},
-	faults: [
-		'Chorus in the presence of grooms.',
-		'Leaving the horse in its charge.',
-		'Heavy build.'
-	],
+	faults: ['Chorus in the presence of grooms.', 'Leaving the horse in its charge.', 'Heavy build.'],
 	disqualifications: [
 		'Emergence in any year other than the year of the line.',
 		'Unsettling a horse.'
@@ -46,12 +42,14 @@ export const breed: Breed = {
 	],
 	plate: {
 		media: 'plate-ligonier-ostler',
-		caption: 'The Ligonier Ostler, male, on a sycamore twig, with the exuvia. Drawn for the Society, 1920.'
+		caption:
+			'The Ligonier Ostler, male, on a sycamore twig, with the exuvia. Drawn for the Society, 1920.'
 	},
 	photos: [
 		{
 			media: 'photo-ligonier-ostler-1',
-			caption: 'An Ostler in the stall of a hunter on the night of the first showing. Ligonier, 1920.'
+			caption:
+				'An Ostler in the stall of a hunter on the night of the first showing. Ligonier, 1920.'
 		},
 		{
 			media: 'photo-ligonier-ostler-2',

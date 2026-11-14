@@ -27,10 +27,13 @@
 
 <article class="abs-entry">
 	<header class="abs-entry__head">
-		<span class="abs-entry__regno">{a.foundation ? 'Foundation Register' : data.register.name} &nbsp;·&nbsp; {a.regNo}</span>
+		<span class="abs-entry__regno"
+			>{a.foundation ? 'Foundation Register' : data.register.name} &nbsp;·&nbsp; {a.regNo}</span
+		>
 		<h1 class="abs-entry__name">{a.name}</h1>
 		<span class="abs-entry__breed"
-			><a class="abs-link" href="/breeds/{data.breed.slug}">{data.breed.name}</a>{a.variety !== 'standard'
+			><a class="abs-link" href="/breeds/{data.breed.slug}">{data.breed.name}</a>{a.variety !==
+			'standard'
 				? `, ${data.varietyLabel}`
 				: ''}</span
 		>
@@ -55,13 +58,13 @@
 		{/if}
 		<dt>Sire</dt>
 		<dd>
-			{#if data.sire}<a class="abs-link" href={href(data.sire)}>{data.sire.name}</a>, {data.sire.regNo}{:else}Not
-				of record{/if}
+			{#if data.sire}<a class="abs-link" href={href(data.sire)}>{data.sire.name}</a>, {data.sire
+					.regNo}{:else}Not of record{/if}
 		</dd>
 		<dt>Dam</dt>
 		<dd>
-			{#if data.dam}<a class="abs-link" href={href(data.dam)}>{data.dam.name}</a>, {data.dam.regNo}{:else}Not
-				of record{/if}
+			{#if data.dam}<a class="abs-link" href={href(data.dam)}>{data.dam.name}</a>, {data.dam
+					.regNo}{:else}Not of record{/if}
 		</dd>
 		<dt>Eye color</dt>
 		<dd>{a.eyes === 'blue' ? 'Blue' : 'Red'}</dd>

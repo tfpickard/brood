@@ -30,12 +30,14 @@ for (const file of walk(join(ROOT, 'content'), /\.ts$/)) {
 	for (const [name, value] of Object.entries(mod)) {
 		if (name === 'REFERENCES') {
 			// Only the label is ever printed; origin and marker are author-only.
-			for (const r of value as { label: string }[]) strings.push({ where: `${name}.label`, text: r.label });
+			for (const r of value as { label: string }[])
+				strings.push({ where: `${name}.label`, text: r.label });
 			continue;
 		}
 		collectStrings(value, name, strings);
 	}
-	for (const s of strings) problems.push(...checkText(`${relative(ROOT, file)} ${s.where}`, s.text));
+	for (const s of strings)
+		problems.push(...checkText(`${relative(ROOT, file)} ${s.where}`, s.text));
 }
 
 // Copy produced by functions: the membership acknowledgment and the correspondence policy.
@@ -47,10 +49,19 @@ for (const file of walk(join(ROOT, 'content'), /\.ts$/)) {
 		correspondencePolicy: (f: unknown) => unknown;
 	};
 	const strings: { where: string; text: string }[] = [];
-	collectStrings(pages.MEMBERSHIP.acknowledgment('the first of January, 2043'), 'MEMBERSHIP.acknowledgment()', strings);
+	collectStrings(
+		pages.MEMBERSHIP.acknowledgment('the first of January, 2043'),
+		'MEMBERSHIP.acknowledgment()',
+		strings
+	);
 	for (const address of ['secretary@example.org', null]) {
 		collectStrings(
-			policy.correspondencePolicy({ address, inquiryMonths: 24, setAsideDays: 30, rateLimitHours: 24 }),
+			policy.correspondencePolicy({
+				address,
+				inquiryMonths: 24,
+				setAsideDays: 30,
+				rateLimitHours: 24
+			}),
 			'correspondencePolicy()',
 			strings
 		);
@@ -85,7 +96,8 @@ for (const file of [...walk(join(ROOT, 'src'), /\.svelte$/), join(ROOT, 'src/app
 const manifest = parse(readFileSync(join(ROOT, 'media/manifest.yaml'), 'utf8')) as {
 	assets: { id: string; alt: string }[];
 };
-for (const a of manifest.assets) problems.push(...checkText(`media/manifest.yaml ${a.id}.alt`, a.alt));
+for (const a of manifest.assets)
+	problems.push(...checkText(`media/manifest.yaml ${a.id}.alt`, a.alt));
 
 // 4. Static text served to visitors.
 for (const file of walk(join(ROOT, 'static'), /\.txt$/)) {
@@ -101,7 +113,9 @@ for (const file of walk(prerendered, /\.html$/)) {
 		.replace(/<style[\s\S]*?<\/style>/g, ' ')
 		.replace(/<!--[\s\S]*?-->/g, ' ')
 		.replace(/<!doctype[^>]*>/gi, ' ');
-	const attrs = [...html.matchAll(/\s(?:alt|aria-label|content|title)="([^"]*)"/g)].map((m) => m[1]).join(' ');
+	const attrs = [...html.matchAll(/\s(?:alt|aria-label|content|title)="([^"]*)"/g)]
+		.map((m) => m[1])
+		.join(' ');
 	problems.push(...checkText(relative(ROOT, file), html.replace(/<[^>]*>/g, ' ') + ' ' + attrs));
 }
 

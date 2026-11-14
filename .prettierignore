@@ -10,3 +10,5 @@ media/lock.json
 content/studbook.generated.ts
 test-results
 playwright-report
+media/manifest.yaml
+media/fragments

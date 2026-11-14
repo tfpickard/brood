@@ -21,7 +21,12 @@
 </div>
 
 {#if form?.acknowledged}
-	<section class="abs-notice abs-notice--statement abs-measure" aria-labelledby="ack-t" tabindex="-1" bind:this={ack}>
+	<section
+		class="abs-notice abs-notice--statement abs-measure"
+		aria-labelledby="ack-t"
+		tabindex="-1"
+		bind:this={ack}
+	>
 		<p class="abs-notice__kind">Notice</p>
 		<h2 class="abs-notice__title" id="ack-t">Application Received</h2>
 		{#each form.paragraphs as p, i (i)}<p>{p}</p>{/each}
@@ -42,28 +47,52 @@
 			<legend>Application for Membership</legend>
 			<div class="abs-field" data-invalid={err('family') ? '' : undefined}>
 				<label for="m-family">Name of the family</label>
-				<input id="m-family" name="family" class="abs-input" autocomplete="family-name" value={val('family')}
-					aria-invalid={err('family') ? 'true' : undefined} aria-describedby={err('family') ? 'm-family-err' : undefined} />
-				{#if err('family')}<span class="abs-field__error" id="m-family-err">{err('family')}</span>{/if}
+				<input
+					id="m-family"
+					name="family"
+					class="abs-input"
+					autocomplete="family-name"
+					value={val('family')}
+					aria-invalid={err('family') ? 'true' : undefined}
+					aria-describedby={err('family') ? 'm-family-err' : undefined}
+				/>
+				{#if err('family')}<span class="abs-field__error" id="m-family-err">{err('family')}</span
+					>{/if}
 			</div>
 			<div class="abs-field" data-invalid={err('seat') ? '' : undefined}>
 				<label for="m-seat">Seat</label>
-				<input id="m-seat" name="seat" class="abs-input" value={val('seat')}
-					aria-invalid={err('seat') ? 'true' : undefined} aria-describedby={err('seat') ? 'm-seat-err' : undefined} />
+				<input
+					id="m-seat"
+					name="seat"
+					class="abs-input"
+					value={val('seat')}
+					aria-invalid={err('seat') ? 'true' : undefined}
+					aria-describedby={err('seat') ? 'm-seat-err' : undefined}
+				/>
 				{#if err('seat')}<span class="abs-field__error" id="m-seat-err">{err('seat')}</span>{/if}
 			</div>
 			<div class="abs-field" data-invalid={err('line') ? '' : undefined}>
 				<label for="m-line">Line held or commissioned</label>
-				<input id="m-line" name="line" class="abs-input" value={val('line')}
-					aria-invalid={err('line') ? 'true' : undefined} aria-describedby={err('line') ? 'm-line-err' : 'm-line-hint'} />
+				<input
+					id="m-line"
+					name="line"
+					class="abs-input"
+					value={val('line')}
+					aria-invalid={err('line') ? 'true' : undefined}
+					aria-describedby={err('line') ? 'm-line-err' : 'm-line-hint'}
+				/>
 				{#if err('line')}<span class="abs-field__error" id="m-line-err">{err('line')}</span>
-				{:else}<span class="abs-field__hint" id="m-line-hint">The breed, and the year in which the line was first commissioned.</span>{/if}
+				{:else}<span class="abs-field__hint" id="m-line-hint"
+						>The breed, and the year in which the line was first commissioned.</span
+					>{/if}
 			</div>
 		</fieldset>
 		<div class="abs-submit-row">
 			<button class="abs-card-button" type="submit">Submit the application</button>
 			<p class="abs-policy-line">
-				Applications are not kept. See the Society’s <a href="/correspondence-policy">correspondence policy</a>.
+				Applications are not kept. See the Society’s <a href="/correspondence-policy"
+					>correspondence policy</a
+				>.
 			</p>
 		</div>
 	</form>

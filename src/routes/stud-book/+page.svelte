@@ -8,21 +8,33 @@
 	let { data } = $props();
 
 	function link(overrides: Record<string, string | number>): string {
-		const p = new URLSearchParams();
-		const merged: Record<string, string | number> = { ...data.params, page: data.page, ...overrides };
-		for (const [k, v] of Object.entries(merged)) {
-			if (v === '' || (k === 'page' && v === 1) || (k === 'sort' && v === 'regNo') || (k === 'dir' && v === 'asc')) continue;
-			p.set(k, String(v));
-		}
-		const s = p.toString();
+		const merged: Record<string, string | number> = {
+			...data.params,
+			page: data.page,
+			...overrides
+		};
+		const s = Object.entries(merged)
+			.filter(
+				([k, v]) =>
+					!(
+						v === '' ||
+						(k === 'page' && v === 1) ||
+						(k === 'sort' && v === 'regNo') ||
+						(k === 'dir' && v === 'asc')
+					)
+			)
+			.map(([k, v]) => `${encodeURIComponent(k)}=${encodeURIComponent(String(v))}`)
+			.join('&');
 		return s ? `/stud-book?${s}` : '/stud-book';
 	}
 
 	const sortHref = (key: string) =>
-		link({ sort: key, dir: data.params.sort === key && data.params.dir === 'asc' ? 'desc' : 'asc', page: 1 });
-	const count = $derived(
-		data.total === 1 ? 'One entry.' : `${data.total} entries.`
-	);
+		link({
+			sort: key,
+			dir: data.params.sort === key && data.params.dir === 'asc' ? 'desc' : 'asc',
+			page: 1
+		});
+	const count = $derived(data.total === 1 ? 'One entry.' : `${data.total} entries.`);
 </script>
 
 <Head
@@ -46,7 +58,14 @@
 	<form method="GET" action="/stud-book" class="abs-register__tools">
 		<div class="abs-field">
 			<label for="reg-q">Search the Stud Book</label>
-			<input id="reg-q" name="q" class="abs-input" type="search" value={data.params.q} autocomplete="off" />
+			<input
+				id="reg-q"
+				name="q"
+				class="abs-input"
+				type="search"
+				value={data.params.q}
+				autocomplete="off"
+			/>
 			<span class="abs-field__hint">By name, breed, owner or registration number.</span>
 		</div>
 		<div class="abs-field">
@@ -80,7 +99,9 @@
 			<select id="reg-standing" name="standing" class="abs-input">
 				<option value="">Any</option>
 				<option value="good" selected={data.params.standing === 'good'}>In good standing</option>
-				<option value="disqualified" selected={data.params.standing === 'disqualified'}>Disqualified</option>
+				<option value="disqualified" selected={data.params.standing === 'disqualified'}
+					>Disqualified</option
+				>
 			</select>
 		</div>
 		<input type="hidden" name="sort" value={data.params.sort} />
@@ -89,12 +110,19 @@
 		<p class="abs-register__count">{count}</p>
 	</form>
 
-	<RegisterTable rows={data.rows} sort={data.params.sort} dir={data.params.dir} {sortHref} />
+	<RegisterTable
+		rows={data.rows}
+		sort={data.params.sort}
+		dir={data.params.dir === 'desc' ? 'desc' : 'asc'}
+		{sortHref}
+	/>
 
 	{#if data.pages > 1}
 		<nav class="abs-pagination" aria-label="Pages of the Stud Book">
 			{#if data.page > 1}
-				<a class="abs-pagination__step" href={link({ page: data.page - 1 })} rel="prev">Preceding page</a>
+				<a class="abs-pagination__step" href={link({ page: data.page - 1 })} rel="prev"
+					>Preceding page</a
+				>
 			{:else}
 				<span class="abs-pagination__step" aria-disabled="true">Preceding page</span>
 			{/if}
@@ -107,7 +135,9 @@
 			</ol>
 			<span class="abs-pagination__status">Page {data.page} of {data.pages}</span>
 			{#if data.page < data.pages}
-				<a class="abs-pagination__step" href={link({ page: data.page + 1 })} rel="next">Following page</a>
+				<a class="abs-pagination__step" href={link({ page: data.page + 1 })} rel="next"
+					>Following page</a
+				>
 			{:else}
 				<span class="abs-pagination__step" aria-disabled="true">Following page</span>
 			{/if}

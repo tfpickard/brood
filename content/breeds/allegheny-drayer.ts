@@ -49,16 +49,19 @@ export const breed: Breed = {
 	],
 	plate: {
 		media: 'plate-allegheny-drayer',
-		caption: 'The Allegheny Drayer, Kilocada male, in the harness collar, with the exuvia. Drawn for the Society, 1897.'
+		caption:
+			'The Allegheny Drayer, Kilocada male, in the harness collar, with the exuvia. Drawn for the Society, 1897.'
 	},
 	photos: [
 		{
 			media: 'photo-allegheny-drayer-1',
-			caption: 'A team of six hundred on the towpath in the week of emergence. Allegheny River, 1931.'
+			caption:
+				'A team of six hundred on the towpath in the week of emergence. Allegheny River, 1931.'
 		},
 		{
 			media: 'photo-allegheny-drayer-2',
-			caption: 'A Kilocada Drayer in harness with its driver before the Working class. Fox Chapel, 1965.'
+			caption:
+				'A Kilocada Drayer in harness with its driver before the Working class. Fox Chapel, 1965.'
 		},
 		{
 			media: 'photo-allegheny-drayer-3',

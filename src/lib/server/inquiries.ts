@@ -49,7 +49,9 @@ export function isAutomated(data: FormData): boolean {
 
 export function validateInquiry(
 	data: FormData
-): { ok: true; value: InquiryInput } | { ok: false; errors: FieldErrors; values: Record<string, string> } {
+):
+	| { ok: true; value: InquiryInput }
+	| { ok: false; errors: FieldErrors; values: Record<string, string> } {
 	const name = field(data, 'name');
 	const email = field(data, 'email');
 	const message = field(data, 'message');
@@ -57,7 +59,8 @@ export function validateInquiry(
 	const errors: FieldErrors = {};
 
 	if (!name) errors.name = 'Required. The Provisioner addresses each reply by name.';
-	else if (name.length > LIMITS.name) errors.name = 'Too long. A name of fewer than 200 characters.';
+	else if (name.length > LIMITS.name)
+		errors.name = 'Too long. A name of fewer than 200 characters.';
 
 	if (!email) errors.email = 'Required. The Provisioner replies by electronic mail.';
 	else if (email.length > LIMITS.email || !EMAIL.test(email))
@@ -159,7 +162,9 @@ export async function notify(
 
 export async function listInquiries(sql: Sql, status?: InquiryStatus): Promise<Inquiry[]> {
 	const rows = status
-		? await sql<Row[]>`select * from inquiries where status = ${status} order by received_at desc limit 500`
+		? await sql<
+				Row[]
+			>`select * from inquiries where status = ${status} order by received_at desc limit 500`
 		: await sql<Row[]>`select * from inquiries order by received_at desc limit 500`;
 	return rows.map(toInquiry);
 }
@@ -170,7 +175,11 @@ export async function getInquiry(sql: Sql, id: string): Promise<Inquiry | null> 
 	return row ? toInquiry(row) : null;
 }
 
-export async function setInquiryStatus(sql: Sql, id: string, status: InquiryStatus): Promise<boolean> {
+export async function setInquiryStatus(
+	sql: Sql,
+	id: string,
+	status: InquiryStatus
+): Promise<boolean> {
 	if (!/^[0-9a-f-]{36}$/i.test(id)) return false;
 	const result = await sql`
 		update inquiries set status = ${status}, status_changed_at = now() where id = ${id}

@@ -11,10 +11,10 @@
 		<blockquote>
 			{#each t.body as p, i (i)}<p>{p}</p>{/each}
 		</blockquote>
-		<figcaption class="abs-attribution">
+		<p class="abs-attribution">
 			<span class="abs-attribution__family">{t.family}</span>
 			<span class="abs-attribution__seat">{t.seat}</span>
 			<span class="abs-attribution__years">In the fancy since {t.since}</span>
-		</figcaption>
+		</p>
 	</div>
 </figure>

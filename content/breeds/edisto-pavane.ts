@@ -51,7 +51,8 @@ export const breed: Breed = {
 	],
 	plate: {
 		media: 'plate-edisto-pavane',
-		caption: 'The Edisto Pavane, female, standing high on a live oak twig, with the exuvia standing. Drawn for the Society, 1929.'
+		caption:
+			'The Edisto Pavane, female, standing high on a live oak twig, with the exuvia standing. Drawn for the Society, 1929.'
 	},
 	photos: [
 		{

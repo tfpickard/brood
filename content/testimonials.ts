@@ -114,7 +114,8 @@ export const TESTIMONIALS: Testimonial[] = [
 		],
 		plate: {
 			media: 'testimonial-fairlie',
-			caption: 'The new lawn at Craiglea, before the planting of the host tree. Kinloch Rannoch, 1928.'
+			caption:
+				'The new lawn at Craiglea, before the planting of the host tree. Kinloch Rannoch, 1928.'
 		},
 		era: '1920s'
 	},

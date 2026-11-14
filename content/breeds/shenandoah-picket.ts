@@ -54,15 +54,18 @@ export const breed: Breed = {
 	photos: [
 		{
 			media: 'photo-shenandoah-picket-1',
-			caption: 'A unit of forty on the approach to the house, at the change of the hour. Shenandoah Valley, 1923.'
+			caption:
+				'A unit of forty on the approach to the house, at the change of the hour. Shenandoah Valley, 1923.'
 		},
 		{
 			media: 'photo-shenandoah-picket-2',
-			caption: 'An officer of the Society measuring intervals on the carriage drive. Shenandoah Valley, 1957.'
+			caption:
+				'An officer of the Society measuring intervals on the carriage drive. Shenandoah Valley, 1957.'
 		},
 		{
 			media: 'photo-shenandoah-picket-3',
-			caption: 'Handlers in hearing protection at the head of a Kilocada unit. Shenandoah Valley, 1991.'
+			caption:
+				'Handlers in hearing protection at the head of a Kilocada unit. Shenandoah Valley, 1991.'
 		}
 	],
 	diagram: 'dorsal-anatomy',

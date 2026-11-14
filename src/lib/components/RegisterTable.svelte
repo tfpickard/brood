@@ -23,17 +23,18 @@
 	const tred = $derived(rows.filter((r) => r.regNo.startsWith('T-')));
 	const cols = $derived(showBreed ? 9 : 8);
 
-	const heads: { key?: SortKey; label: string; minor?: boolean; num?: boolean; breed?: boolean }[] = [
-		{ key: 'regNo', label: 'Reg. No.' },
-		{ key: 'name', label: 'Name' },
-		{ key: 'breed', label: 'Breed', breed: true },
-		{ label: 'Variety', minor: true },
-		{ label: 'Sex', minor: true },
-		{ key: 'year', label: 'Emerged', num: true },
-		{ label: 'Eye', minor: true },
-		{ label: 'Titles', minor: true },
-		{ key: 'standing', label: 'Standing' }
-	];
+	const heads: { key?: SortKey; label: string; minor?: boolean; num?: boolean; breed?: boolean }[] =
+		[
+			{ key: 'regNo', label: 'Reg. No.' },
+			{ key: 'name', label: 'Name' },
+			{ key: 'breed', label: 'Breed', breed: true },
+			{ label: 'Variety', minor: true },
+			{ label: 'Sex', minor: true },
+			{ key: 'year', label: 'Emerged', num: true },
+			{ label: 'Eye', minor: true },
+			{ label: 'Titles', minor: true },
+			{ key: 'standing', label: 'Standing' }
+		];
 	const shown = $derived(heads.filter((h) => showBreed || !h.breed));
 	const ariaSort = (key?: SortKey) =>
 		key && key === sort ? (dir === 'desc' ? 'descending' : 'ascending') : undefined;

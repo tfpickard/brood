@@ -121,7 +121,9 @@ export function requestBody(config: MediaConfig, entry: ManifestEntry, size: str
 
 /** Hash of everything that determines the request: prompt, model id and parameters. */
 export function inputHash(config: MediaConfig, entry: ManifestEntry, size: string): string {
-	return createHash('sha256').update(JSON.stringify(requestBody(config, entry, size))).digest('hex');
+	return createHash('sha256')
+		.update(JSON.stringify(requestBody(config, entry, size)))
+		.digest('hex');
 }
 
 export function sha256File(path: string): string {
@@ -162,7 +164,9 @@ export function assetStatus(
 }
 
 export function estimateUsd(config: MediaConfig, size: string): number {
-	return config.estimate_usd_per_image[size] ?? Math.max(...Object.values(config.estimate_usd_per_image));
+	return (
+		config.estimate_usd_per_image[size] ?? Math.max(...Object.values(config.estimate_usd_per_image))
+	);
 }
 
 export function actualUsd(

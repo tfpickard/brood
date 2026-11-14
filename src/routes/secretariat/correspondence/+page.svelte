@@ -20,7 +20,10 @@
 	<ul>
 		{#each filters as f (f.v)}
 			<li>
-				<a href={f.v ? `?status=${f.v}` : '?'} aria-current={data.filter === f.v ? 'page' : undefined}>{f.label}</a>
+				<a
+					href={f.v ? `?status=${f.v}` : '?'}
+					aria-current={data.filter === f.v ? 'page' : undefined}>{f.label}</a
+				>
 			</li>
 		{/each}
 	</ul>
@@ -28,7 +31,9 @@
 
 <div class="abs-register">
 	<table class="abs-register__table">
-		<caption>{data.rows.length} {data.rows.length === 1 ? 'letter' : 'letters'} in the ledger.</caption>
+		<caption
+			>{data.rows.length} {data.rows.length === 1 ? 'letter' : 'letters'} in the ledger.</caption
+		>
 		<thead>
 			<tr>
 				<th scope="col">Received</th>
@@ -42,16 +47,26 @@
 			{#each data.rows as r (r.id)}
 				<tr data-inquiry={r.id}>
 					<td data-label="Received">{shortDate(new Date(r.receivedAt))}</td>
-					<td data-label="From" data-primary><a href="/secretariat/correspondence/{r.id}">{r.name}</a></td>
+					<td data-label="From" data-primary
+						><a href="/secretariat/correspondence/{r.id}">{r.name}</a></td
+					>
 					<td data-label="Reference" data-minor>{r.itemRef ?? 'None'}</td>
 					<td data-label="Particulars">{r.excerpt}</td>
-					<td data-label="Standing"><span class="abs-mark" class:abs-mark--pending={r.status === 'new'} class:abs-mark--silent={r.status === 'set_aside'}>{data.labels[r.status]}</span></td>
+					<td data-label="Standing"
+						><span
+							class="abs-mark"
+							class:abs-mark--pending={r.status === 'new'}
+							class:abs-mark--silent={r.status === 'set_aside'}>{data.labels[r.status]}</span
+						></td
+					>
 				</tr>
 			{/each}
 		</tbody>
 	</table>
 	{#if data.rows.length === 0}
-		<p class="abs-faded" style="text-align:center;font-style:italic">The ledger holds no letters answering to that description.</p>
+		<p class="abs-faded" style="text-align:center;font-style:italic">
+			The ledger holds no letters answering to that description.
+		</p>
 	{/if}
 </div>
 

@@ -25,6 +25,8 @@ export function validateApplication(
 }
 
 export function reviewDate(now: Date = new Date()): { iso: string; written: string } {
-	const d = new Date(Date.UTC(now.getUTCFullYear() + REVIEW_YEARS, now.getUTCMonth(), now.getUTCDate()));
+	const d = new Date(
+		Date.UTC(now.getUTCFullYear() + REVIEW_YEARS, now.getUTCMonth(), now.getUTCDate())
+	);
 	return { iso: d.toISOString().slice(0, 10), written: writtenDate(d) };
 }

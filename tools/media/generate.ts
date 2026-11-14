@@ -78,7 +78,8 @@ export function parseArgs(argv: string[]): Options {
 	if (opts.allMissing && opts.ids.length) {
 		throw new UsageError('Use either --id or --all-missing, not both.');
 	}
-	if (opts.max !== null && !opts.allMissing) throw new UsageError('--max applies only to --all-missing.');
+	if (opts.max !== null && !opts.allMissing)
+		throw new UsageError('--max applies only to --all-missing.');
 	return opts;
 }
 
@@ -124,7 +125,9 @@ export async function run(argv: string[], deps: Deps): Promise<number> {
 		selected = [...new Set(opts.ids)].map((id) => byId.get(id) as ManifestEntry);
 		const locked = statuses.filter((x) => opts.ids.includes(x.a.id) && x.s === 'locked');
 		if (locked.length) {
-			deps.log(`Refused: locked assets are never regenerated: ${locked.map((x) => x.a.id).join(', ')}`);
+			deps.log(
+				`Refused: locked assets are never regenerated: ${locked.map((x) => x.a.id).join(', ')}`
+			);
 			deps.log('Edit an asset’s prompt to make it stale before regenerating it by id.');
 			return 2;
 		}
@@ -141,7 +144,10 @@ export async function run(argv: string[], deps: Deps): Promise<number> {
 		return 2;
 	}
 
-	const estimate = selected.reduce((sum, a) => sum + estimateUsd(config, sizeFor(style, a.aspect)), 0);
+	const estimate = selected.reduce(
+		(sum, a) => sum + estimateUsd(config, sizeFor(style, a.aspect)),
+		0
+	);
 	deps.log(`Model: ${config.model}`);
 	deps.log(
 		`Manifest: ${manifest.assets.length} assets; ${count('locked')} locked, ${count('stale')} stale, ${count('missing')} missing.`
@@ -158,7 +164,9 @@ export async function run(argv: string[], deps: Deps): Promise<number> {
 
 	const forbidden = FORBIDDEN_ENV.filter((k) => deps.env[k]);
 	if (forbidden.length) {
-		deps.log(`Refused: generation runs only from the owner’s local shell (found ${forbidden.join(', ')}).`);
+		deps.log(
+			`Refused: generation runs only from the owner’s local shell (found ${forbidden.join(', ')}).`
+		);
 		return 3;
 	}
 	const key = deps.env.OPENAI_API_KEY;
@@ -254,7 +262,9 @@ export async function run(argv: string[], deps: Deps): Promise<number> {
 			deps.log(`  error: ${asset.id}: ${(e as Error).message}`);
 		}
 	}
-	deps.log(`Done. ${selected.length - failures} generated, ${failures} failed. See media/ledger.jsonl.`);
+	deps.log(
+		`Done. ${selected.length - failures} generated, ${failures} failed. See media/ledger.jsonl.`
+	);
 	return failures ? 1 : 0;
 }
 

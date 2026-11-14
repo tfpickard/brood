@@ -49,7 +49,8 @@ export const breed: Breed = {
 	],
 	plate: {
 		media: 'plate-smoke-winged-hayward',
-		caption: 'The Smoke-Winged Hayward, male, with the wings spread to show the smoke, and the exuvia. Drawn for the Society, 1922.'
+		caption:
+			'The Smoke-Winged Hayward, male, with the wings spread to show the smoke, and the exuvia. Drawn for the Society, 1922.'
 	},
 	photos: [
 		{

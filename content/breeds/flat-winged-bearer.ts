@@ -48,11 +48,18 @@ export const breed: Breed = {
 	],
 	plate: {
 		media: 'plate-flat-winged-bearer',
-		caption: 'The Flat-Winged Bearer, female, carrying, with the exuvia lying flat. Drawn for the Society, 1906.'
+		caption:
+			'The Flat-Winged Bearer, female, carrying, with the exuvia lying flat. Drawn for the Society, 1906.'
 	},
 	photos: [
-		{ media: 'photo-flat-winged-bearer-1', caption: 'A Bearer delivering a feather to hand. Middleburg, 1923.' },
-		{ media: 'photo-flat-winged-bearer-2', caption: 'A Bearer at heel before the send. Middleburg, 1957.' },
+		{
+			media: 'photo-flat-winged-bearer-1',
+			caption: 'A Bearer delivering a feather to hand. Middleburg, 1923.'
+		},
+		{
+			media: 'photo-flat-winged-bearer-2',
+			caption: 'A Bearer at heel before the send. Middleburg, 1957.'
+		},
 		{
 			media: 'photo-flat-winged-bearer-3',
 			caption: 'A Bearer coming to hand with a glove button. Middleburg, 2025.'

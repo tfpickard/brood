@@ -47,7 +47,8 @@ export const breed: Breed = {
 	],
 	plate: {
 		media: 'plate-sewickley-sexton',
-		caption: 'The Sewickley Sexton, male, on a yew bough, with the exuvia. Drawn for the Society, 1900.'
+		caption:
+			'The Sewickley Sexton, male, on a yew bough, with the exuvia. Drawn for the Society, 1900.'
 	},
 	photos: [
 		{

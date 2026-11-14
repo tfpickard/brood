@@ -7,7 +7,8 @@ import { href, type PedigreeEntry, type RegisterRow } from '../labels.ts';
 
 export { href, STANDING_LABEL, VARIETY_LABEL } from '../labels.ts';
 
-export type Animal = (Individual & { foundation?: false }) | (FoundationAnimal & { foundation: true });
+export type Animal =
+	(Individual & { foundation?: false }) | (FoundationAnimal & { foundation: true });
 
 const byRegNo = new Map<string, Animal>();
 for (const i of STUD_BOOK) byRegNo.set(i.regNo, { ...i, foundation: false });
@@ -24,7 +25,6 @@ export function breedName(slug: string): string {
 export function stockOf(breed: string): Individual[] {
 	return STUD_BOOK.filter((i) => i.breed === breed);
 }
-
 
 /** Rows for the register table, with breed names resolved on the server. */
 export function registerRows(rows: Individual[]): RegisterRow[] {

@@ -50,12 +50,14 @@ export const breed: Breed = {
 	],
 	plate: {
 		media: 'plate-little-compton-canticle',
-		caption: 'The Little Compton Canticle, male, on a linden twig, with the exuvia upright. Drawn for the Society, 1913.'
+		caption:
+			'The Little Compton Canticle, male, on a linden twig, with the exuvia upright. Drawn for the Society, 1913.'
 	},
 	photos: [
 		{
 			media: 'photo-little-compton-canticle-1',
-			caption: 'An owner with her Canticle at the studio of the Society’s photographer. Little Compton, 1896.'
+			caption:
+				'An owner with her Canticle at the studio of the Society’s photographer. Little Compton, 1896.'
 		},
 		{
 			media: 'photo-little-compton-canticle-2',
@@ -63,7 +65,8 @@ export const breed: Breed = {
 		},
 		{
 			media: 'photo-little-compton-canticle-3',
-			caption: 'A Canticle on the window frame of its owner’s bedroom at dawn. Sakonnet Point, 1981.'
+			caption:
+				'A Canticle on the window frame of its owner’s bedroom at dawn. Sakonnet Point, 1981.'
 		}
 	],
 	diagram: 'wing-venation',

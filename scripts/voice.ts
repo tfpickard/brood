@@ -52,7 +52,8 @@ export function checkText(where: string, raw: string): VoiceProblem[] {
 	const dash = text.indexOf('—');
 	if (dash >= 0) problems.push({ where, rule: 'em dash as punctuation', excerpt: excerpt(dash) });
 	const en = text.search(/(?<!\d)–|–(?!\d)/);
-	if (en >= 0) problems.push({ where, rule: 'en dash outside a range of figures', excerpt: excerpt(en) });
+	if (en >= 0)
+		problems.push({ where, rule: 'en dash outside a range of figures', excerpt: excerpt(en) });
 	for (const { term, re } of TERM_RES) {
 		const m = re.exec(text);
 		if (m) problems.push({ where, rule: `banned term "${term}"`, excerpt: excerpt(m.index) });
@@ -85,7 +86,11 @@ export const NON_COPY_KEYS = new Set([
 	'surname'
 ]);
 
-export function collectStrings(value: unknown, path: string, out: { where: string; text: string }[]): void {
+export function collectStrings(
+	value: unknown,
+	path: string,
+	out: { where: string; text: string }[]
+): void {
 	if (typeof value === 'string') out.push({ where: path, text: value });
 	else if (Array.isArray(value)) value.forEach((v, i) => collectStrings(v, `${path}[${i}]`, out));
 	else if (value && typeof value === 'object' && !(value instanceof RegExp)) {

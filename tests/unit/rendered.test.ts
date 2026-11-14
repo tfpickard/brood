@@ -46,22 +46,38 @@ describe('running references', () => {
 
 	it('surfaces each on at least three distinct routes, including every route the registry lists', () => {
 		for (const ref of REFERENCES) {
-			const routes = new Set(pages.filter((p) => ref.marker.test(flat(p.text))).map((p) => routeOf(p.route)));
+			const routes = new Set(
+				pages.filter((p) => ref.marker.test(flat(p.text))).map((p) => routeOf(p.route))
+			);
 			expect(routes.size, ref.id).toBeGreaterThanOrEqual(3);
 			const listed = new Set(ref.appearances.map((a) => a.route));
 			expect(listed.size, ref.id).toBeGreaterThanOrEqual(3);
-			for (const r of listed) expect(ref.marker.test(flat(page(r).text)), `${ref.id} on ${r}`).toBe(true);
+			for (const r of listed)
+				expect(ref.marker.test(flat(page(r).text)), `${ref.id} on ${r}`).toBe(true);
 		}
 	});
 
 	it('never renders any part of a reference’s origin', () => {
 		const shingles = (s: string, n = 6) => {
-			const w = s.toLowerCase().replace(/[^\p{L}\p{N}’' ]/gu, ' ').split(/\s+/).filter(Boolean);
+			const w = s
+				.toLowerCase()
+				.replace(/[^\p{L}\p{N}’' ]/gu, ' ')
+				.split(/\s+/)
+				.filter(Boolean);
 			const out: string[] = [];
 			for (let i = 0; i + n <= w.length; i++) out.push(w.slice(i, i + n).join(' '));
 			return out;
 		};
-		const corpus = pages.map((p) => ({ route: p.route, text: ' ' + flat(p.text).toLowerCase().replace(/[^\p{L}\p{N}’' ]/gu, ' ').replace(/\s+/g, ' ') + ' ' }));
+		const corpus = pages.map((p) => ({
+			route: p.route,
+			text:
+				' ' +
+				flat(p.text)
+					.toLowerCase()
+					.replace(/[^\p{L}\p{N}’' ]/gu, ' ')
+					.replace(/\s+/g, ' ') +
+				' '
+		}));
 		for (const ref of REFERENCES) {
 			for (const sh of shingles(ref.origin)) {
 				const hit = corpus.find((c) => c.text.includes(` ${sh} `));
@@ -93,7 +109,9 @@ describe('breed pages', () => {
 		for (const b of BREEDS) {
 			const html = page(`/breeds/${b.slug}`).html;
 			const table = html.slice(html.indexOf('abs-register__table'));
-			const regs = [...table.matchAll(/data-label="Reg\. No\.">([ST]-1[37]·\d{5})</g)].map((m) => m[1]);
+			const regs = [...table.matchAll(/data-label="Reg\. No\.">([ST]-1[37]·\d{5})</g)].map(
+				(m) => m[1]
+			);
 			expect(regs.length, b.slug).toBeGreaterThan(0);
 			for (const r of regs) expect(breedOf.get(r as string), `${r} on ${b.slug}`).toBe(b.slug);
 		}
@@ -108,7 +126,8 @@ describe('breed pages', () => {
 });
 
 describe('health', () => {
-	const HEALTH = /\b(health|disease|diseased|fungal|fungus|infection|infected|illness|ailment|parasites?|sickness)\b/i;
+	const HEALTH =
+		/\b(health|disease|diseased|fungal|fungus|infection|infected|illness|ailment|parasites?|sickness)\b/i;
 
 	it('carries the Massospora sentence verbatim on every page that discusses health', () => {
 		const required = [
@@ -126,7 +145,8 @@ describe('health', () => {
 });
 
 describe('the historical names in canon', () => {
-	const NAMES = /\b(Rockefellers?|Franklin|Camelot|Hughes|Franco|Pahlavi|Rothstein|pope|papal|pontiff)\b/i;
+	const NAMES =
+		/\b(Rockefellers?|Franklin|Camelot|Hughes|Franco|Pahlavi|Rothstein|pope|papal|pontiff)\b/i;
 
 	it('appear only on the founding literature route', () => {
 		for (const p of pages) {
@@ -143,7 +163,10 @@ describe('the historical names in canon', () => {
 		for (const s of sentences) {
 			if (!NAMES.test(s)) continue;
 			named++;
-			expect(surnames.some((n) => s.includes(n)), s).toBe(true);
+			expect(
+				surnames.some((n) => s.includes(n)),
+				s
+			).toBe(true);
 		}
 		expect(named).toBeGreaterThanOrEqual(8);
 		expect(text.match(/The Society has not commented\./g)?.length).toBe(FOUNDING_WORKS.length);
@@ -151,19 +174,31 @@ describe('the historical names in canon', () => {
 	});
 
 	it('appear in no media prompt, alt text or image', () => {
-		for (const a of loadManifest().assets) expect(NAMES.test(`${a.prompt} ${a.alt}`), a.id).toBe(false);
+		for (const a of loadManifest().assets)
+			expect(NAMES.test(`${a.prompt} ${a.alt}`), a.id).toBe(false);
 	});
 });
 
 describe('money and registration', () => {
 	it('has no route, form or dependency for payment or donation', () => {
 		const routes = walk('src/routes').map((f) => f.replace(/\\/g, '/'));
-		for (const r of routes) expect(r).not.toMatch(/pay|cart|checkout|donat|giving|\/give|shop|purchase|basket|pledge|bequest|order/i);
-		const pkg = JSON.parse(readFileSync('package.json', 'utf8')) as Record<string, Record<string, string>>;
+		for (const r of routes)
+			expect(r).not.toMatch(
+				/pay|cart|checkout|donat|giving|\/give|shop|purchase|basket|pledge|bequest|order/i
+			);
+		const pkg = JSON.parse(readFileSync('package.json', 'utf8')) as Record<
+			string,
+			Record<string, string>
+		>;
 		const deps = Object.keys({ ...pkg.dependencies, ...pkg.devDependencies });
-		for (const d of deps) expect(d).not.toMatch(/stripe|paypal|braintree|square|adyen|checkout|payment|donat|shopify|commerce/i);
+		for (const d of deps)
+			expect(d).not.toMatch(
+				/stripe|paypal|braintree|square|adyen|checkout|payment|donat|shopify|commerce/i
+			);
 		for (const p of pages) {
-			expect(p.html, p.route).not.toMatch(/name="(card|cardnumber|cvc|cvv|amount|price|donation|quantity)"/i);
+			expect(p.html, p.route).not.toMatch(
+				/name="(card|cardnumber|cvc|cvv|amount|price|donation|quantity)"/i
+			);
 			expect(p.html, p.route).not.toMatch(/autocomplete="cc-/);
 		}
 	});
@@ -173,8 +208,12 @@ describe('money and registration', () => {
 			const t = flat(p.text);
 			expect(t, p.route).not.toMatch(/tax[- ]deductible/i);
 			expect(t, p.route).not.toMatch(/\b\d{2}-\d{7}\b/);
-			expect(t, p.route).not.toMatch(/\b(EIN|501\s*\(c\)|charity (no|number)|registered charity number|company number|registration number \d)\b/i);
-			expect(t, p.route).not.toMatch(/\b(donate|donation|support us|give now|make a gift|bequest)\b/i);
+			expect(t, p.route).not.toMatch(
+				/\b(EIN|501\s*\(c\)|charity (no|number)|registered charity number|company number|registration number \d)\b/i
+			);
+			expect(t, p.route).not.toMatch(
+				/\b(donate|donation|support us|give now|make a gift|bequest)\b/i
+			);
 		}
 		for (const p of pages.filter((x) => x.route.startsWith('/provisioner'))) {
 			expect(flat(p.text), p.route).not.toMatch(/\$\s?\d/);
@@ -206,7 +245,9 @@ describe('the fourth wall', () => {
 
 describe('inquiries', () => {
 	it('place the correspondence policy line beside every inquiry submit button', () => {
-		const forms = pages.filter((p) => p.route.startsWith('/provisioner/') && p.html.includes('Submit the inquiry'));
+		const forms = pages.filter(
+			(p) => p.route.startsWith('/provisioner/') && p.html.includes('Submit the inquiry')
+		);
 		expect(forms.length).toBeGreaterThanOrEqual(24);
 		for (const p of forms) {
 			const row = p.html.match(/<div class="abs-submit-row[^"]*">([\s\S]*?)<\/div>/)?.[1] ?? '';
@@ -217,14 +258,18 @@ describe('inquiries', () => {
 	});
 
 	it('list at least twenty-four catalogue items, none with a price', () => {
-		const items = pages.filter((p) => /^\/provisioner\/[a-z0-9-]+$/.test(p.route) && p.html.includes('On inquiry'));
+		const items = pages.filter(
+			(p) => /^\/provisioner\/[a-z0-9-]+$/.test(p.route) && p.html.includes('On inquiry')
+		);
 		expect(items.length).toBeGreaterThanOrEqual(24);
 	});
 });
 
 describe('the build without generated images', () => {
 	it('renders every plate as a placeholder when no generated image is present', () => {
-		const files = existsSync('static/media') ? readdirSync('static/media').filter((f) => f.endsWith('.webp')) : [];
+		const files = existsSync('static/media')
+			? readdirSync('static/media').filter((f) => f.endsWith('.webp'))
+			: [];
 		if (files.length > 0) return; // images present: placeholders are not expected
 		for (const p of pages) {
 			expect(p.html, p.route).not.toMatch(/<img[^>]+src="\/media\//);
@@ -272,13 +317,24 @@ describe('site structure', () => {
 
 	it('shows Antarctica with no scheduled emergence, and chapters on all seven continents', () => {
 		const t = flat(page('/chapters').text);
-		for (const c of ['North America', 'South America', 'Europe', 'Africa', 'Asia', 'Oceania', 'Antarctica']) expect(t).toContain(c);
+		for (const c of [
+			'North America',
+			'South America',
+			'Europe',
+			'Africa',
+			'Asia',
+			'Oceania',
+			'Antarctica'
+		])
+			expect(t).toContain(c);
 		expect(t).toMatch(/The Antarctic Chapter[\s\S]*None scheduled\./);
 	});
 
 	it('prints the Locus pricing sentence verbatim and nothing else on pricing', () => {
 		const t = flat(page('/husbandry/kilocada').text);
-		expect(t).toContain('17 Locus is provided by invite only and at the exclusive discretion of the Brood-Google Working Group.');
+		expect(t).toContain(
+			'17 Locus is provided by invite only and at the exclusive discretion of the Brood-Google Working Group.'
+		);
 		expect(t).not.toMatch(/\$\s?\d/);
 	});
 });

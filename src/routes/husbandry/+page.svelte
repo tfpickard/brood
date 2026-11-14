@@ -20,8 +20,12 @@
 	<ol>
 		{#each HUSBANDRY as h (h.slug)}
 			<li>
-				<a href="/husbandry/{h.slug}"><span class="abs-toc__num">{h.numeral}.</span><span>{h.title}</span></a>
-				<p class="abs-faded" style="margin:0 0 var(--space-3) 2.5em;font-size:var(--size-caption)">{h.summary}</p>
+				<a href="/husbandry/{h.slug}"
+					><span class="abs-toc__num">{h.numeral}.</span><span>{h.title}</span></a
+				>
+				<p class="abs-faded" style="margin:0 0 var(--space-3) 2.5em;font-size:var(--size-caption)">
+					{h.summary}
+				</p>
 			</li>
 		{/each}
 	</ol>

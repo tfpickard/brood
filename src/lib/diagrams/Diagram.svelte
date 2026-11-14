@@ -15,7 +15,10 @@
 	</div>
 	<dl class="abs-diagram__key">
 		{#each drawing.key as k (k.letter)}
-			<div><dt>{k.letter}</dt><dd>{k.label}</dd></div>
+			<div>
+				<dt>{k.letter}</dt>
+				<dd>{k.label}</dd>
+			</div>
 		{/each}
 	</dl>
 	<figcaption id={capId}>

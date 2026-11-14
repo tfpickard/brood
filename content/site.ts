@@ -4,7 +4,8 @@ export const SOCIETY = 'The American Brood Society';
 export const MOTTO = 'Prime numbers. Prime stock.';
 
 /** Appears verbatim on every page that discusses health (tested). */
-export const MASSOSPORA = 'The Society has never observed a case of Massospora in a sanctioned ring.';
+export const MASSOSPORA =
+	'The Society has never observed a case of Massospora in a sanctioned ring.';
 
 export const NO_COMMENT = 'The Society has not commented.';
 export const ENTERED_AS_RECEIVED = 'Entered as received.';

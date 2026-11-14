@@ -49,7 +49,8 @@ export const breed: Breed = {
 	],
 	plate: {
 		media: 'plate-fishers-island-vedette',
-		caption: 'The Fishers Island Vedette, male, with the exuvia from below. Drawn for the Society, 1927.'
+		caption:
+			'The Fishers Island Vedette, male, with the exuvia from below. Drawn for the Society, 1927.'
 	},
 	photos: [
 		{
@@ -62,7 +63,8 @@ export const breed: Breed = {
 		},
 		{
 			media: 'photo-fishers-island-vedette-3',
-			caption: 'A Kilocada Vedette on its reinforced perch at the water’s edge. Fishers Island, 2012.'
+			caption:
+				'A Kilocada Vedette on its reinforced perch at the water’s edge. Fishers Island, 2012.'
 		}
 	],
 	diagram: 'kilocada-perch',

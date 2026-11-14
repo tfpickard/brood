@@ -36,28 +36,119 @@ const rand = mulberry32(0x5eed17);
 const pick = <T>(xs: readonly T[]): T => xs[Math.floor(rand() * xs.length)] as T;
 
 const GIVEN_MALE = [
-	'Bellman', 'Steward', 'Tallyman', 'Sentinel', 'Ledger', 'Drum', 'Bellwether', 'Warden', 'Lantern',
-	'Provost', 'Reeve', 'Marshal', 'Herald', 'Chancel', 'Tenor', 'Sexton', 'Bailiff', 'Ensign',
-	'Cornet', 'Almoner', 'Escheator', 'Factor', 'Coroner', 'Usher', 'Precentor', 'Cantor', 'Verderer',
-	'Seneschal', 'Pursuivant', 'Castellan', 'Forester', 'Vintner', 'Chaplain', 'Assessor', 'Registrar'
+	'Bellman',
+	'Steward',
+	'Tallyman',
+	'Sentinel',
+	'Ledger',
+	'Drum',
+	'Bellwether',
+	'Warden',
+	'Lantern',
+	'Provost',
+	'Reeve',
+	'Marshal',
+	'Herald',
+	'Chancel',
+	'Tenor',
+	'Sexton',
+	'Bailiff',
+	'Ensign',
+	'Cornet',
+	'Almoner',
+	'Escheator',
+	'Factor',
+	'Coroner',
+	'Usher',
+	'Precentor',
+	'Cantor',
+	'Verderer',
+	'Seneschal',
+	'Pursuivant',
+	'Castellan',
+	'Forester',
+	'Vintner',
+	'Chaplain',
+	'Assessor',
+	'Registrar'
 ];
 const GIVEN_FEMALE = [
-	'Patience', 'Constancy', 'Amabel', 'Verity', 'Clemency', 'Lark', 'Hester', 'Corisande', 'Diligence',
-	'Prudence', 'Temperance', 'Mercy', 'Honor', 'Felicity', 'Charity', 'Modesty', 'Sophronia', 'Avis',
-	'Philippa', 'Rosamund', 'Isolde', 'Ottoline', 'Griselda', 'Perpetua', 'Benedicta', 'Hesper',
-	'Columbine', 'Damaris', 'Euphemia', 'Lettice', 'Thomasina', 'Wilhelmina', 'Cressida', 'Sabine'
+	'Patience',
+	'Constancy',
+	'Amabel',
+	'Verity',
+	'Clemency',
+	'Lark',
+	'Hester',
+	'Corisande',
+	'Diligence',
+	'Prudence',
+	'Temperance',
+	'Mercy',
+	'Honor',
+	'Felicity',
+	'Charity',
+	'Modesty',
+	'Sophronia',
+	'Avis',
+	'Philippa',
+	'Rosamund',
+	'Isolde',
+	'Ottoline',
+	'Griselda',
+	'Perpetua',
+	'Benedicta',
+	'Hesper',
+	'Columbine',
+	'Damaris',
+	'Euphemia',
+	'Lettice',
+	'Thomasina',
+	'Wilhelmina',
+	'Cressida',
+	'Sabine'
 ];
 
 const FAMILIES = [
-	'Wyck', 'Haddon', 'Pemberton', 'Calloway', 'Ormsby', 'Fairlie', 'Sallowes', 'Ardsley', 'Ostrander',
-	'Haverill', 'Penhallow', 'Lisle', 'Dunmore', 'Thackery', 'Bayard-Lisle', 'Merriman', 'Vance',
-	'Holloway', 'Garrick', 'Ridley', 'Ashcombe', 'Tolland', 'Breckin', 'Sedgwick-Hale', 'Corwin',
-	'Lattimore', 'Peverell', 'Quarles', 'Stanwood', 'Ellery', 'Ravenel', 'Mortlake', 'Treadway'
+	'Wyck',
+	'Haddon',
+	'Pemberton',
+	'Calloway',
+	'Ormsby',
+	'Fairlie',
+	'Sallowes',
+	'Ardsley',
+	'Ostrander',
+	'Haverill',
+	'Penhallow',
+	'Lisle',
+	'Dunmore',
+	'Thackery',
+	'Bayard-Lisle',
+	'Merriman',
+	'Vance',
+	'Holloway',
+	'Garrick',
+	'Ridley',
+	'Ashcombe',
+	'Tolland',
+	'Breckin',
+	'Sedgwick-Hale',
+	'Corwin',
+	'Lattimore',
+	'Peverell',
+	'Quarles',
+	'Stanwood',
+	'Ellery',
+	'Ravenel',
+	'Mortlake',
+	'Treadway'
 ];
 
 const SEATS: Record<string, string> = {};
 function seatFor(breed: Breed): string {
-	return (SEATS[breed.slug] ??= breed.naming.seatKind === 'wing' ? 'Middleburg' : breed.naming.seat);
+	return (SEATS[breed.slug] ??=
+		breed.naming.seatKind === 'wing' ? 'Middleburg' : breed.naming.seat);
 }
 
 function cyclesOf(breed: Breed): number[] {
@@ -80,17 +171,31 @@ function varietyFor(breed: Breed): Variety {
 	if (breed.group === 'working' || breed.group === 'protection') {
 		if (v.includes('kilocada') && rand() < 0.6) return 'kilocada';
 	}
-	if (v.includes('microcada') && rand() < (breed.group === 'companion' ? 0.45 : 0.2)) return 'microcada';
+	if (v.includes('microcada') && rand() < (breed.group === 'companion' ? 0.45 : 0.2))
+		return 'microcada';
 	return 'standard';
 }
 
 function exuviaFor(variety: Variety, family: string, seat: string, year: number): string {
-	if (variety === 'kilocada') return pick([`Freestanding, the long gallery at ${seat}`, `Freestanding, the hall at ${seat}`, `Freestanding, the ${family} collection`]);
-	if (variety === 'microcada') return pick([`Microcada cabinet, the ${family} collection`, `Signet cabinet, the ${family} collection, ${seat}`]);
+	if (variety === 'kilocada')
+		return pick([
+			`Freestanding, the long gallery at ${seat}`,
+			`Freestanding, the hall at ${seat}`,
+			`Freestanding, the ${family} collection`
+		]);
+	if (variety === 'microcada')
+		return pick([
+			`Microcada cabinet, the ${family} collection`,
+			`Signet cabinet, the ${family} collection, ${seat}`
+		]);
 	const r = rand();
 	if (r < 0.08 && year < 1960) return 'Interred with the owner';
 	if (r < 0.16 && year < 2000) return `Transferred, ${year + pick([3, 9, 17, 21, 34])}`;
-	return pick([`Cabinet, the ${family} collection, ${seat}`, `Crystal cabinet, the ${family} collection`, `Cabinet, ${seat}`]);
+	return pick([
+		`Cabinet, the ${family} collection, ${seat}`,
+		`Crystal cabinet, the ${family} collection`,
+		`Cabinet, ${seat}`
+	]);
 }
 
 const usedNames = new Set<string>(SEEDS.map((s) => s.name));
@@ -175,7 +280,9 @@ for (const breed of BREEDS) {
 
 const unclaimed = SEEDS.filter((s) => !s.claimed);
 if (unclaimed.length) {
-	throw new Error(`Seeds not placed: ${unclaimed.map((s) => `${s.name} ${s.breed} ${s.year}`).join('; ')}`);
+	throw new Error(
+		`Seeds not placed: ${unclaimed.map((s) => `${s.name} ${s.breed} ${s.year}`).join('; ')}`
+	);
 }
 
 // Registration numbers, in order of emergence within each Register. Fixed numbers from seeds are
@@ -201,8 +308,16 @@ const order = (a: Draft, b: Draft) => a.year - b.year || a.breed.slug.localeComp
 for (const register of ['septendecim', 'tredecim'] as const) {
 	const r = REGISTERS[register];
 	const all = drafts.filter((d) => d.breed.register === register).sort(order);
-	assign(`F-${r.cycle}`, all.filter((d) => d.foundation), 1);
-	assign(r.prefix, all.filter((d) => !d.foundation), 1);
+	assign(
+		`F-${r.cycle}`,
+		all.filter((d) => d.foundation),
+		1
+	);
+	assign(
+		r.prefix,
+		all.filter((d) => !d.foundation),
+		1
+	);
 }
 
 const foundation: FoundationAnimal[] = drafts
@@ -242,7 +357,8 @@ const studBook: Individual[] = drafts
 		};
 		if (s?.straggler) {
 			ind.actualEmergence = d.year - 4;
-			ind.disqualification = 'Straggler. Emerged four years before the year of the line. Disqualified and entered as such.';
+			ind.disqualification =
+				'Straggler. Emerged four years before the year of the line. Disqualified and entered as such.';
 		} else if (s?.disqualification) {
 			ind.disqualification = s.disqualification;
 		}
@@ -264,4 +380,6 @@ export const FOUNDATION_REGISTER: FoundationAnimal[] = ${JSON.stringify(foundati
 export const STUD_BOOK: Individual[] = ${JSON.stringify(studBook, null, '\t')};
 `
 );
-console.log(`Stud Book: ${studBook.length} entries. Foundation Register: ${foundation.length} entries.`);
+console.log(
+	`Stud Book: ${studBook.length} entries. Foundation Register: ${foundation.length} entries.`
+);

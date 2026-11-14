@@ -22,7 +22,8 @@
 		{#each STANDARD as article (article.numeral)}
 			<li>
 				<a href="#article-{article.numeral}"
-					><span class="abs-toc__num">{article.numeral}.</span><span>{article.title}</span></a>
+					><span class="abs-toc__num">{article.numeral}.</span><span>{article.title}</span></a
+				>
 			</li>
 		{/each}
 	</ol>

@@ -62,7 +62,8 @@ export const breed: Breed = {
 		},
 		{
 			media: 'photo-tuxedo-warder-3',
-			caption: 'Ormsby Lantern on the cuff of his principal, the week of his emergence. Tuxedo Park, 2004.'
+			caption:
+				'Ormsby Lantern on the cuff of his principal, the week of his emergence. Tuxedo Park, 2004.'
 		}
 	],
 	diagram: 'summons-ring',

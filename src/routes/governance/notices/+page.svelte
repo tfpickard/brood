@@ -11,7 +11,9 @@
 	description="Notices entered by the Council of the American Brood Society, newest first."
 />
 
-<Breadcrumb trail={[{ href: '/governance', label: 'Governance' }, { label: 'Notices of the Council' }]} />
+<Breadcrumb
+	trail={[{ href: '/governance', label: 'Governance' }, { label: 'Notices of the Council' }]}
+/>
 
 <SectionHeading numeral="As entered" title="Notices of the Council" level={1} />
 

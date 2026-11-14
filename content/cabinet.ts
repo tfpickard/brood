@@ -17,7 +17,8 @@ export const CABINET: Exuvia[] = [
 		],
 		plate: {
 			media: 'exuvia-sallowes-provost',
-			caption: 'Sallowes Provost, the Kilocada exuvia of 1897, in the stair hall. The Society’s rooms, 1924.'
+			caption:
+				'Sallowes Provost, the Kilocada exuvia of 1897, in the stair hall. The Society’s rooms, 1924.'
 		}
 	},
 	{
@@ -97,7 +98,8 @@ export const CABINET: Exuvia[] = [
 		lastSale: '2005, privately, with the animal. A sum in excess of twelve million dollars.',
 		plate: {
 			media: 'exuvia-ormsby-lantern',
-			caption: 'Ormsby Lantern, the exuvia of 2004, photographed for the Registrar before its sale. Tuxedo Park, 2004.'
+			caption:
+				'Ormsby Lantern, the exuvia of 2004, photographed for the Registrar before its sale. Tuxedo Park, 2004.'
 		}
 	},
 	{
@@ -111,7 +113,8 @@ export const CABINET: Exuvia[] = [
 		],
 		plate: {
 			media: 'exuvia-ostrander-steadfast',
-			caption: 'Ostrander Steadfast, the exuvia of 2012, with the six that precede it. Wye River, 2012.'
+			caption:
+				'Ostrander Steadfast, the exuvia of 2012, with the six that precede it. Wye River, 2012.'
 		}
 	},
 	{
@@ -175,7 +178,8 @@ export const CABINET: Exuvia[] = [
 		],
 		plate: {
 			media: 'exuvia-sallowes-minor',
-			caption: 'Sallowes Minor, a Microcada exuvia of 2024, under the cabinet lens. Louisburg Square, 2024.'
+			caption:
+				'Sallowes Minor, a Microcada exuvia of 2024, under the cabinet lens. Louisburg Square, 2024.'
 		}
 	}
 ];

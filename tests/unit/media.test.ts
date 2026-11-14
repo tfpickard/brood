@@ -43,7 +43,8 @@ describe('the media manifest', () => {
 
 	it('spans the eras of the archive', () => {
 		const eras = new Set(manifest.assets.map((a) => style.eras[a.era]?.plate_era));
-		for (const e of ['1890s', '1920s', '1950s', '1980s', 'present']) expect(eras.has(e as never), e).toBe(true);
+		for (const e of ['1890s', '1920s', '1950s', '1980s', 'present'])
+			expect(eras.has(e as never), e).toBe(true);
 	});
 
 	it('pins the model and parameters exactly, with no alias and no seed', () => {
@@ -59,12 +60,16 @@ describe('the media manifest', () => {
 
 	it('names no real brand in any prompt or alt text', () => {
 		for (const a of manifest.assets) {
-			expect(`${a.prompt} ${a.alt}`, a.id).not.toMatch(/\b(nvidia|google|kodak|leica|rolex|cartier|tiffany|hermes|ralph lauren)\b/i);
+			expect(`${a.prompt} ${a.alt}`, a.id).not.toMatch(
+				/\b(nvidia|google|kodak|leica|rolex|cartier|tiffany|hermes|ralph lauren)\b/i
+			);
 		}
 	});
 
 	it('keeps a lockfile entry only for files that exist', () => {
-		const lock = existsSync('media/lock.json') ? JSON.parse(readFileSync('media/lock.json', 'utf8')) : {};
+		const lock = existsSync('media/lock.json')
+			? JSON.parse(readFileSync('media/lock.json', 'utf8'))
+			: {};
 		for (const [id, entry] of Object.entries(lock as Record<string, { file: string }>)) {
 			expect(ids.has(id), id).toBe(true);
 			expect(existsSync(entry.file), entry.file).toBe(true);

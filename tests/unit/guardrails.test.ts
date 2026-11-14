@@ -3,7 +3,14 @@
  * no network call without --execute, and nothing in the build, site, CI or hooks invokes it.
  */
 import { spawnSync } from 'node:child_process';
-import { existsSync, mkdtempSync, readdirSync, readFileSync, statSync, writeFileSync } from 'node:fs';
+import {
+	existsSync,
+	mkdtempSync,
+	readdirSync,
+	readFileSync,
+	statSync,
+	writeFileSync
+} from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join, relative } from 'node:path';
 import { describe, expect, it } from 'vitest';
@@ -12,7 +19,16 @@ import { parseArgs, run, UsageError } from '../../tools/media/generate.ts';
 const ROOT = new URL('../../', import.meta.url).pathname;
 
 function walk(dir: string): string[] {
-	const skip = new Set(['node_modules', '.git', '.svelte-kit', 'build', '.netlify', 'test-results', 'playwright-report', 'static']);
+	const skip = new Set([
+		'node_modules',
+		'.git',
+		'.svelte-kit',
+		'build',
+		'.netlify',
+		'test-results',
+		'playwright-report',
+		'static'
+	]);
 	return readdirSync(dir).flatMap((f) => {
 		if (skip.has(f)) return [];
 		const p = join(dir, f);
@@ -25,7 +41,10 @@ const read = (f: string) => readFileSync(join(ROOT, f), 'utf8');
 
 /** Paths permitted to name the generator: the owner-facing README, the generator itself, and this test. */
 const ALLOWED = (f: string) =>
-	f === 'README.md' || f.startsWith('tools/media/') || f === 'scripts/generate-media' || f === 'tests/unit/guardrails.test.ts';
+	f === 'README.md' ||
+	f.startsWith('tools/media/') ||
+	f === 'scripts/generate-media' ||
+	f === 'tests/unit/guardrails.test.ts';
 
 function runQuiet(argv: string[], fetchSpy?: typeof fetch) {
 	const lines: string[] = [];
@@ -41,7 +60,8 @@ function runQuiet(argv: string[], fetchSpy?: typeof fetch) {
 describe('the media generator', () => {
 	it('is referenced by nothing but the README and itself', () => {
 		const offenders = files.filter(
-			(f) => !ALLOWED(f) && /generate-media|tools\/media\/generate|media\/generate\.ts/.test(read(f))
+			(f) =>
+				!ALLOWED(f) && /generate-media|tools\/media\/generate|media\/generate\.ts/.test(read(f))
 		);
 		expect(offenders).toEqual([]);
 	});
@@ -51,8 +71,14 @@ describe('the media generator', () => {
 		for (const [name, cmd] of Object.entries(pkg.scripts)) {
 			expect(`${name}: ${cmd}`).not.toMatch(/generate-media|tools\/media|openai/i);
 		}
-		for (const f of ['netlify.toml', 'svelte.config.js', 'vite.config.ts', 'playwright.config.ts']) {
-			if (existsSync(join(ROOT, f))) expect(read(f), f).not.toMatch(/generate-media|tools\/media|openai/i);
+		for (const f of [
+			'netlify.toml',
+			'svelte.config.js',
+			'vite.config.ts',
+			'playwright.config.ts'
+		]) {
+			if (existsSync(join(ROOT, f)))
+				expect(read(f), f).not.toMatch(/generate-media|tools\/media|openai/i);
 		}
 		const hookish = files.filter((f) => /^(\.github|\.husky|\.githooks)\//.test(f));
 		for (const f of hookish) expect(read(f), f).not.toMatch(/generate-media|tools\/media/);
@@ -61,11 +87,15 @@ describe('the media generator', () => {
 	});
 
 	it('is never imported by the site, and no OpenAI client is used anywhere in it', () => {
-		const site = files.filter((f) => f.startsWith('src/') || f.startsWith('netlify/') || f.startsWith('content/'));
+		const site = files.filter(
+			(f) => f.startsWith('src/') || f.startsWith('netlify/') || f.startsWith('content/')
+		);
 		for (const f of site) {
 			const text = read(f);
 			expect(text, f).not.toMatch(/tools\/media|generate-media/);
-			expect(text, f).not.toMatch(/from ['"]openai['"]|require\(['"]openai['"]\)|api\.openai\.com|OPENAI_API_KEY/);
+			expect(text, f).not.toMatch(
+				/from ['"]openai['"]|require\(['"]openai['"]\)|api\.openai\.com|OPENAI_API_KEY/
+			);
 		}
 		const pkg = JSON.parse(read('package.json')) as Record<string, Record<string, string>>;
 		const deps = { ...pkg.dependencies, ...pkg.devDependencies };
@@ -107,11 +137,15 @@ http.request = deny('http.request'); http.get = deny('http.get'); https.request 
 `
 		);
 		for (const argv of [[], ['--id', 'plate-newport-vesper'], ['--all-missing', '--max', '3']]) {
-			const r = spawnSync(process.execPath, ['--import', preload, join(ROOT, 'scripts/generate-media'), ...argv], {
-				cwd: ROOT,
-				encoding: 'utf8',
-				env: { PATH: process.env.PATH ?? '', HOME: process.env.HOME ?? '' }
-			});
+			const r = spawnSync(
+				process.execPath,
+				['--import', preload, join(ROOT, 'scripts/generate-media'), ...argv],
+				{
+					cwd: ROOT,
+					encoding: 'utf8',
+					env: { PATH: process.env.PATH ?? '', HOME: process.env.HOME ?? '' }
+				}
+			);
 			expect(r.status, r.stderr).toBe(0);
 			expect(r.stdout).toMatch(/Dry run\. Nothing was sent\./);
 		}
@@ -156,8 +190,18 @@ http.request = deny('http.request'); http.get = deny('http.get'); https.request 
 				throw new Error('x');
 			}) as unknown as typeof fetch
 		};
-		expect(await run(['--id', 'plate-aiken-marker', '--execute'], { ...deps, env: { CI: 'true', OPENAI_API_KEY: 'x' } })).toBe(3);
-		expect(await run(['--id', 'plate-aiken-marker', '--execute'], { ...deps, env: { NETLIFY: 'true', OPENAI_API_KEY: 'x' } })).toBe(3);
+		expect(
+			await run(['--id', 'plate-aiken-marker', '--execute'], {
+				...deps,
+				env: { CI: 'true', OPENAI_API_KEY: 'x' }
+			})
+		).toBe(3);
+		expect(
+			await run(['--id', 'plate-aiken-marker', '--execute'], {
+				...deps,
+				env: { NETLIFY: 'true', OPENAI_API_KEY: 'x' }
+			})
+		).toBe(3);
 		expect(await run(['--id', 'plate-aiken-marker', '--execute'], { ...deps, env: {} })).toBe(3);
 		expect(calls).toBe(0);
 	});

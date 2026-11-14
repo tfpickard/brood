@@ -27,7 +27,11 @@
 </div>
 
 {#if p.slug === 'kilocada'}
-	<Diagram id="kilocada-facility" number="Fig. 1" caption="A Kilocada rearing facility, plan. Not to scale." />
+	<Diagram
+		id="kilocada-facility"
+		number="Fig. 1"
+		caption="A Kilocada rearing facility, plan. Not to scale."
+	/>
 {/if}
 
 {#each p.sections as s, i (s.heading)}
@@ -42,7 +46,9 @@
 				<table class="abs-register__table">
 					<caption>{s.table.caption}</caption>
 					<thead>
-						<tr>{#each s.table.columns as c (c)}<th scope="col">{c}</th>{/each}</tr>
+						<tr
+							>{#each s.table.columns as c (c)}<th scope="col">{c}</th>{/each}</tr
+						>
 					</thead>
 					<tbody>
 						{#each s.table.rows as row, r (r)}
@@ -62,7 +68,11 @@
 {/each}
 
 {#each p.plates.slice(p.sections.length) as plate, k (plate.media)}
-	<Plate id={plate.media} number="Plate {roman(p.sections.length + k + 1)}" caption={plate.caption} />
+	<Plate
+		id={plate.media}
+		number="Plate {roman(p.sections.length + k + 1)}"
+		caption={plate.caption}
+	/>
 {/each}
 
 {#each data.disclaimers as d (d.id)}<Disclaimer disclaimer={d} />{/each}

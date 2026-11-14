@@ -24,7 +24,8 @@
 <div class="abs-prose abs-prose--justified">
 	{#each GOVERNANCE_INTRO as p, i (i)}<p class:abs-lede={i === 0}>{p}</p>{/each}
 	<p>
-		The <a href="/governance/bylaws">Bylaws</a> and the <a href="/governance/notices">Notices of the Council</a>
+		The <a href="/governance/bylaws">Bylaws</a> and the
+		<a href="/governance/notices">Notices of the Council</a>
 		are published separately.
 	</p>
 </div>
@@ -39,7 +40,11 @@
 	</dl>
 </section>
 
-<Plate id={GOVERNANCE_PLATES[2]?.media ?? ''} number="Plate I" caption={GOVERNANCE_PLATES[2]?.caption ?? ''} />
+<Plate
+	id={GOVERNANCE_PLATES[2]?.media ?? ''}
+	number="Plate I"
+	caption={GOVERNANCE_PLATES[2]?.caption ?? ''}
+/>
 
 <section class="abs-measure" aria-labelledby="committees">
 	<SectionHeading numeral="Article II" title="Committees" id="committees" />
@@ -71,7 +76,11 @@
 	{/each}
 </section>
 
-<Plate id={GOVERNANCE_PLATES[1]?.media ?? ''} number="Plate II" caption={GOVERNANCE_PLATES[1]?.caption ?? ''} />
+<Plate
+	id={GOVERNANCE_PLATES[1]?.media ?? ''}
+	number="Plate II"
+	caption={GOVERNANCE_PLATES[1]?.caption ?? ''}
+/>
 
 <section class="abs-measure" aria-labelledby="judges">
 	<SectionHeading numeral="Article III" title="Former Judges" id="judges" />
@@ -95,7 +104,11 @@
 	</dl>
 </section>
 
-<Plate id={GOVERNANCE_PLATES[0]?.media ?? ''} number="Plate {roman(3)}" caption={GOVERNANCE_PLATES[0]?.caption ?? ''} />
+<Plate
+	id={GOVERNANCE_PLATES[0]?.media ?? ''}
+	number="Plate {roman(3)}"
+	caption={GOVERNANCE_PLATES[0]?.caption ?? ''}
+/>
 
 <style>
 	.committee {

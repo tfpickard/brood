@@ -13,7 +13,9 @@ import { composePrompt, loadStyle, ROOT, type FragmentEntry, type ManifestEntry 
 const style = loadStyle();
 const dir = join(ROOT, 'media/fragments');
 const entries: FragmentEntry[] = [];
-for (const f of readdirSync(dir).filter((f) => f.endsWith('.yaml')).sort()) {
+for (const f of readdirSync(dir)
+	.filter((f) => f.endsWith('.yaml'))
+	.sort()) {
 	const list = parse(readFileSync(join(dir, f), 'utf8')) as FragmentEntry[];
 	entries.push(...list);
 }
@@ -40,7 +42,8 @@ for (const e of entries.sort((a, b) => a.id.localeCompare(b.id))) {
 		prompt: style.eras[e.era] ? composePrompt(style, e.era, e.subject) : ''
 	});
 }
-for (const id of usage.keys()) if (!seen.has(id)) errors.push(`${id}: referenced by content but missing a fragment`);
+for (const id of usage.keys())
+	if (!seen.has(id)) errors.push(`${id}: referenced by content but missing a fragment`);
 if (errors.length) {
 	console.error(errors.join('\n'));
 	process.exit(1);

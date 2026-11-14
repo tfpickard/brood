@@ -73,7 +73,8 @@ export const CATALOGUE: CatalogueItem[] = [
 		plates: [
 			{
 				media: 'product-inheritance-cabinet-pattern-34-1',
-				caption: 'Inheritance cabinet, Pattern 34, with its second key. The Provisioner’s rooms, 2023.'
+				caption:
+					'Inheritance cabinet, Pattern 34, with its second key. The Provisioner’s rooms, 2023.'
 			}
 		],
 		disclaimers: ['resale']
@@ -95,7 +96,8 @@ export const CATALOGUE: CatalogueItem[] = [
 		plates: [
 			{
 				media: 'product-microcada-cabinet-octagonal-1',
-				caption: 'Microcada cabinet, octagonal pattern, with a signet ring for scale. The Provisioner’s rooms, 2024.'
+				caption:
+					'Microcada cabinet, octagonal pattern, with a signet ring for scale. The Provisioner’s rooms, 2024.'
 			},
 			{
 				media: 'product-microcada-cabinet-octagonal-2',
@@ -143,7 +145,8 @@ export const CATALOGUE: CatalogueItem[] = [
 		plates: [
 			{
 				media: 'product-exuvia-travelling-case-1',
-				caption: 'Exuvia travelling case, open, with the certificate pocket. The Provisioner’s rooms, 2022.'
+				caption:
+					'Exuvia travelling case, open, with the certificate pocket. The Provisioner’s rooms, 2022.'
 			}
 		],
 		disclaimers: ['resale']
@@ -615,7 +618,8 @@ export const CATALOGUE: CatalogueItem[] = [
 		plates: [
 			{
 				media: 'product-county-notification-stationery-1',
-				caption: 'Notification stationery, county pattern, with envelopes. The Provisioner’s rooms, 2024.'
+				caption:
+					'Notification stationery, county pattern, with envelopes. The Provisioner’s rooms, 2024.'
 			}
 		],
 		disclaimers: ['county-notification']
@@ -661,7 +665,8 @@ export const CATALOGUE: CatalogueItem[] = [
 		plates: [
 			{
 				media: 'product-boxwood-place-card-holder-1',
-				caption: 'Place-card holders, boxwood pattern, laid for supper. The Provisioner’s rooms, 2024.'
+				caption:
+					'Place-card holders, boxwood pattern, laid for supper. The Provisioner’s rooms, 2024.'
 			}
 		],
 		disclaimers: []

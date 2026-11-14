@@ -14,7 +14,9 @@
 	description="The Foundation Register: the oldest animals of each line, whose parentage is not of record."
 />
 
-<Breadcrumb trail={[{ href: '/stud-book', label: 'The Stud Book' }, { label: 'The Foundation Register' }]} />
+<Breadcrumb
+	trail={[{ href: '/stud-book', label: 'The Stud Book' }, { label: 'The Foundation Register' }]}
+/>
 
 <SectionHeading numeral="Parentage not of record" title="The Foundation Register" level={1} />
 

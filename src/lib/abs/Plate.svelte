@@ -22,7 +22,10 @@
 </script>
 
 {#if asset}
-	<figure class="abs-plate abs-plate--{asset.src ? era : 'pending'}" style:--plate-ratio={asset.ratio}>
+	<figure
+		class="abs-plate abs-plate--{asset.src ? era : 'pending'}"
+		style:--plate-ratio={asset.ratio}
+	>
 		<div class="abs-plate__mount">
 			{#if asset.src}
 				<div class="abs-plate__image">
@@ -36,7 +39,8 @@
 						decoding="async"
 					/>
 				</div>
-				{#if slideLabel && era === '1950s'}<span class="abs-plate__slide-label">{slideLabel}</span>{/if}
+				{#if slideLabel && era === '1950s'}<span class="abs-plate__slide-label">{slideLabel}</span
+					>{/if}
 			{:else}
 				<div class="abs-plate__image" role="img" aria-label={asset.alt}>
 					<span class="abs-plate__pending-text">{asset.alt}</span>

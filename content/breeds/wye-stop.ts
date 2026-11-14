@@ -30,11 +30,7 @@ export const breed: Breed = {
 			'The exuvia is mounted on a short section of the post from which it was taken.'
 		]
 	},
-	faults: [
-		'Following game into the covert.',
-		'Change of pitch during the drive.',
-		'Narrow head.'
-	],
+	faults: ['Following game into the covert.', 'Change of pitch during the drive.', 'Narrow head.'],
 	disqualifications: [
 		'Emergence in any year other than the year of the line.',
 		'Leaving the post before it is lifted.'

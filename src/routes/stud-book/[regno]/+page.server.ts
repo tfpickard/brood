@@ -21,7 +21,12 @@ export const load: PageServerLoad = ({ params }) => {
 	return {
 		section: 'The Stud Book',
 		animal: found,
-		breed: { slug: pubBreed.slug, name: pubBreed.name, group: pubBreed.group, hostTree: pubBreed.hostTree },
+		breed: {
+			slug: pubBreed.slug,
+			name: pubBreed.name,
+			group: pubBreed.group,
+			hostTree: pubBreed.hostTree
+		},
 		register: REGISTERS[breed.register],
 		sire: sire ? { regNo: sire.regNo, name: sire.name } : null,
 		dam: dam ? { regNo: dam.regNo, name: dam.name } : null,

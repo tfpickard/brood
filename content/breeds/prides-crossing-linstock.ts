@@ -48,7 +48,8 @@ export const breed: Breed = {
 	],
 	plate: {
 		media: 'plate-prides-crossing-linstock',
-		caption: 'The Prides Crossing Linstock, male, with the exuvia from below. Drawn for the Society, 1931.'
+		caption:
+			'The Prides Crossing Linstock, male, with the exuvia from below. Drawn for the Society, 1931.'
 	},
 	photos: [
 		{

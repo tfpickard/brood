@@ -10,7 +10,9 @@
 
 <Head title="Minutes of the Supper, {monthYear(s.date)}" description={s.dateline} />
 
-<Breadcrumb trail={[{ href: '/supper-club', label: 'The Supper Club' }, { label: monthYear(s.date) }]} />
+<Breadcrumb
+	trail={[{ href: '/supper-club', label: 'The Supper Club' }, { label: monthYear(s.date) }]}
+/>
 
 <article class="abs-minutes">
 	<h1 class="abs-minutes__heading">Minutes of the Supper</h1>
@@ -43,13 +45,17 @@
 
 <nav class="abs-pagination" aria-label="Minutes of other suppers">
 	{#if data.prev}
-		<a class="abs-pagination__step" href="/supper-club/{data.prev.slug}" rel="prev">Preceding supper</a>
+		<a class="abs-pagination__step" href="/supper-club/{data.prev.slug}" rel="prev"
+			>Preceding supper</a
+		>
 	{:else}
 		<span class="abs-pagination__step" aria-disabled="true">Preceding supper</span>
 	{/if}
 	<span class="abs-pagination__status">{monthYear(s.date)}</span>
 	{#if data.next}
-		<a class="abs-pagination__step" href="/supper-club/{data.next.slug}" rel="next">Following supper</a>
+		<a class="abs-pagination__step" href="/supper-club/{data.next.slug}" rel="next"
+			>Following supper</a
+		>
 	{:else}
 		<span class="abs-pagination__step" aria-disabled="true">Following supper</span>
 	{/if}

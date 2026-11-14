@@ -22,8 +22,8 @@
 		{#each SUPPERS as s (s.slug)}
 			<li>
 				<a href="/supper-club/{s.slug}"
-					><span>{monthYear(s.date)}</span><span class="abs-toc__leader"></span><span class="abs-toc__folio"
-						>{s.items.length} items</span
+					><span>{monthYear(s.date)}</span><span class="abs-toc__leader"></span><span
+						class="abs-toc__folio">{s.items.length} items</span
 					></a
 				>
 			</li>

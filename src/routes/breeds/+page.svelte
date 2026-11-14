@@ -22,7 +22,11 @@
 	{@const sept = breeds.filter((b) => b.register === 'septendecim')}
 	{@const tred = breeds.filter((b) => b.register === 'tredecim')}
 	<section class="abs-measure" aria-labelledby="group-{group.id}">
-		<SectionHeading numeral="Group {roman(group.order)}" title={group.title} id="group-{group.id}" />
+		<SectionHeading
+			numeral="Group {roman(group.order)}"
+			title={group.title}
+			id="group-{group.id}"
+		/>
 		<p class="abs-sc abs-faded">Septendecim Register</p>
 		<ul class="breed-list">
 			{#each sept as b (b.slug)}
