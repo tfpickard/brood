@@ -46,11 +46,6 @@
 
 <div class="abs-prose">
 	{#each STUD_BOOK_INTRO as p, i (i)}<p class:abs-lede={i === 0}>{p}</p>{/each}
-	<p>
-		Animals whose parentage is not of record are entered in <a href="/stud-book/foundation-register"
-			>the Foundation Register</a
-		>.
-	</p>
 </div>
 
 <section class="abs-register" aria-labelledby="reg-title">
@@ -143,6 +138,9 @@
 			{/if}
 		</nav>
 	{/if}
+	<p class="abs-sc" style="text-align:center">
+		<a class="abs-link" href="/stud-book/foundation-register">The Foundation Register</a>
+	</p>
 	<p class="abs-faded abs-measure" style="text-align:center;font-size:var(--size-footnote)">
 		The Stud Book holds {numberWords(Math.min(data.total, 999))} entries answering to this description.
 	</p>
