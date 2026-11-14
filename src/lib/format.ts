@@ -98,7 +98,7 @@ export function regNoToSlug(regNo: string): string {
 }
 
 export function slugToRegNo(slug: string): string {
-	return slug.replace(/^([ST]-1[37])-(\d{5})$/, '$1·$2');
+	return slug.replace(/^([STF]-1[37])-(\d{5})$/, '$1·$2');
 }
 
 const WORDS = [

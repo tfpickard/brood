@@ -22,7 +22,7 @@ export const CABINET: Exuvia[] = [
 	},
 	{
 		id: 'haverill-hesperus',
-		individual: 'S-17·00077',
+		individual: 'S-17·00115',
 		title: 'Haverill Hesperus',
 		holder: 'The Haverill-Wyck family',
 		cabinet: 'Crystal cabinet, Pattern 4, ebonized frame',
@@ -38,7 +38,7 @@ export const CABINET: Exuvia[] = [
 	},
 	{
 		id: 'ashby-evensong',
-		individual: 'S-17·00174',
+		individual: 'S-17·00260',
 		title: 'Ashby Evensong',
 		holder: 'The Ashby family',
 		cabinet: 'A hatbox, at the holder’s insistence',
@@ -54,7 +54,7 @@ export const CABINET: Exuvia[] = [
 	},
 	{
 		id: 'sallowes-tocsin',
-		individual: 'S-17·00214',
+		individual: 'S-17·00320',
 		title: 'Sallowes Tocsin',
 		holder: 'The Sallowes family',
 		cabinet: 'Crystal cabinet with lead-lined base, Pattern 9',
@@ -71,7 +71,7 @@ export const CABINET: Exuvia[] = [
 	},
 	{
 		id: 'calloway-diligence',
-		individual: 'S-17·00239',
+		individual: 'S-17·00357',
 		title: 'Calloway Diligence',
 		holder: 'The Calloway family',
 		cabinet: 'Freestanding, without a cabinet, as is usual for the Kilocada',
@@ -86,7 +86,7 @@ export const CABINET: Exuvia[] = [
 	},
 	{
 		id: 'ormsby-lantern',
-		individual: 'S-17·00514',
+		individual: 'S-17·00772',
 		title: 'Ormsby Lantern',
 		holder: 'A private collector in the aerospace sector',
 		cabinet: 'Not disclosed',
@@ -102,7 +102,7 @@ export const CABINET: Exuvia[] = [
 	},
 	{
 		id: 'ostrander-steadfast',
-		individual: 'S-17·00546',
+		individual: 'S-17·00820',
 		title: 'Ostrander Steadfast',
 		holder: 'The Ostrander family',
 		cabinet: 'Crystal cabinet, Pattern 17, on a plinth of turned boxwood',
@@ -116,7 +116,7 @@ export const CABINET: Exuvia[] = [
 	},
 	{
 		id: 'penhallow-stands-fast',
-		individual: 'S-17·00565',
+		individual: 'S-17·00849',
 		title: 'Penhallow Stands-Fast',
 		holder: 'The Penhallow family',
 		cabinet: 'Crystal cabinet, Pattern 4, walnut frame',
@@ -128,7 +128,7 @@ export const CABINET: Exuvia[] = [
 	},
 	{
 		id: 'breckin-sidecar',
-		individual: 'S-17·00593',
+		individual: 'S-17·00892',
 		title: 'Breckin Sidecar',
 		holder: 'The Breckin family',
 		cabinet: 'Crystal cabinet, Pattern 4, mahogany frame',
@@ -140,7 +140,7 @@ export const CABINET: Exuvia[] = [
 	},
 	{
 		id: 'dunmore-composure',
-		individual: 'S-17·00617',
+		individual: 'S-17·00928',
 		title: 'Dunmore Composure',
 		holder: 'The Dunmore family',
 		cabinet: 'Freestanding, in the library',
@@ -154,7 +154,7 @@ export const CABINET: Exuvia[] = [
 	},
 	{
 		id: 'lisle-abiding',
-		individual: 'S-17·00633',
+		individual: 'S-17·00952',
 		title: 'Lisle Abiding',
 		holder: 'The Lisle family',
 		cabinet: 'Crystal cabinet, Pattern 2, painted frame',
@@ -166,7 +166,7 @@ export const CABINET: Exuvia[] = [
 	},
 	{
 		id: 'sallowes-minor',
-		individual: 'T-13·00110',
+		individual: 'T-13·00165',
 		title: 'Sallowes Minor',
 		holder: 'The Sallowes family',
 		cabinet: 'Microcada cabinet with integral magnification, certified optics',

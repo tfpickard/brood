@@ -18,7 +18,7 @@ import { REGISTERS } from '../content/registers.ts';
 import { RESERVED_NUMBERS, SEEDS, type Seed } from '../content/studbook.seed.ts';
 import type { Breed, FoundationAnimal, Individual, Sex, Variety } from '../content/types.ts';
 
-const PER_COHORT = 4; // two sires, two dams
+const PER_COHORT = 6; // three sires, three dams
 const MIN_COHORTS = 5;
 const LAST_YEAR = 2026;
 
@@ -93,7 +93,7 @@ function exuviaFor(variety: Variety, family: string, seat: string, year: number)
 	return pick([`Cabinet, the ${family} collection, ${seat}`, `Crystal cabinet, the ${family} collection`, `Cabinet, ${seat}`]);
 }
 
-const usedNames = new Set<string>();
+const usedNames = new Set<string>(SEEDS.map((s) => s.name));
 function nameFor(family: string, sex: Sex): string {
 	const pool = sex === 'male' ? GIVEN_MALE : GIVEN_FEMALE;
 	for (let i = 0; i < 40; i++) {

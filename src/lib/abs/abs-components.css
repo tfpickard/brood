@@ -465,7 +465,7 @@ textarea.abs-input { --line: 1.75rem; min-height: calc(var(--line) * 5); padding
    Same markup as the four-generation chart, with --g 1 to 5, --r 1 to 16 and --s 16, 8, 4, 2, 1. */
 .abs-pedigree--five .abs-pedigree__gens,
 .abs-pedigree--five ol { grid-template-columns: minmax(0, 1.15fr) repeat(4, minmax(0, 1fr)); }
-.abs-pedigree--five ol { grid-template-rows: repeat(16, minmax(2.5rem, auto)); }
+.abs-pedigree--five ol { grid-template-rows: repeat(16, minmax(3.1rem, auto)); }
 .abs-pedigree--five li:not([data-subject]) .abs-pedigree__name { font-size: var(--size-footnote); padding-left: var(--space-2); }
 .abs-pedigree--five li:not([data-subject]) .abs-pedigree__meta { font-size: 0.75rem; padding-left: var(--space-2); }
 .abs-pedigree--five .abs-pedigree__gens span { padding-left: var(--space-2); }

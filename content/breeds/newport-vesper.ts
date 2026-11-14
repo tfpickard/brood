@@ -65,7 +65,7 @@ export const breed: Breed = {
 		}
 	],
 	diagram: 'chorus-apparatus',
-	disclaimers: ['vigil-attendance', 'bereavement'],
+	disclaimers: ['magnification', 'vigil-attendance', 'bereavement'],
 	naming: {
 		seat: 'Newport',
 		seatKind: 'harbor',
