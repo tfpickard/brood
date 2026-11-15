@@ -15,21 +15,21 @@ export const breed: Breed = {
 	standard: {
 		appearance: [
 			'Full size, deep through the chest, with big broad tymbal covers and the abdomen carried level. Black thorax, clear wings, dark amber veins.',
-			'Red eyes. Blue eyes are allowed, and we write them down.',
+			'Red eyes. A blue eye is fine, and we write it down.',
 			'The large Alarum is built exactly the same, only bigger. It goes only on places of four hundred acres or more, in a grove of at least twelve trees. Please don’t ask us about your three hundred and eighty.'
 		],
 		chorus: [
 			'Silent until somebody who isn’t part of the household crosses the perimeter. Then it goes off at once, it keeps going, and you can hear it at the property line in any weather.',
 			'We measure it at forty yards, with a meter. Handlers wear the approved ear protection while we measure, and any other time they’re within forty yards of it.',
-			'It stops when the person is back outside the perimeter. Not a second before.'
+			'It stops when the person is back outside the perimeter, or when you snap. Not a second before.'
 		],
 		temperament: [
 			'Watchful, choosy about people, and completely quiet around the household: family, staff, guests on the list, and the dogs. By the second evening it can tell a guest on the list from somebody who shouldn’t be there.',
-			'It comes to the snap right away, and the snap shuts it up instantly.'
+			'Snap and it comes straight to you and shuts up.'
 		],
 		exuvia: [
 			'Dense and dark amber, the tymbal plates sharply marked, with a short, clean split down the back.',
-			'The shell goes in the front hall of the house it guarded, in a cabinet hung at the height of the lock. A large Alarum’s shell stands on its own in the same spot.'
+			'The shell goes in the front hall of the house it guarded, in a cabinet hung at the height of the lock. A large Alarum’s shell is too big for a cabinet, so it just stands in the hall.'
 		]
 	},
 	faults: [
@@ -39,18 +39,19 @@ export const breed: Breed = {
 		'Not stopping when you snap.'
 	],
 	disqualifications: [
-		'Hatching in the wrong year.',
+		'Hatching off its year. An alarm that turns up whenever it likes is no use to anybody.',
 		'Staying quiet when a stranger crosses the perimeter. That’s the whole job.',
-		'Living in a house with another Protection animal. One per house.'
+		'Sharing a house with another Alarum. One per house.'
 	],
 	history: [
 		'We recognized the Alarum in 1902. Families along the Brandywine had been keeping the line since the middle of the 1800s. The standard was settled at the 1911 hatch, and the chorus rules are word for word what they wrote then.',
 		'Ear protection for handlers came in at the 1928 hatch. In 1945 we made everyone in attendance wear it, whatever they were there for. That was the year Mr. Brinsmade sat up with his first Alarum without any, and the Brinsmades can tell you how that went.',
-		'The large Alarum was admitted in 1962, the same year the Sallowes family’s blue-eyed Tocsin made champion. At shows the large ones are judged only from a distance the judge picks, and the judge wears the approved ear protection like everybody else.'
+		'We let the large Alarum in at the 1962 hatch, the same year the Sallowes family’s blue-eyed Tocsin made champion. At shows the large ones are judged only from a distance the judge picks, and the judge wears the approved ear protection like everybody else.'
 	],
 	plate: {
 		media: 'plate-brandywine-alarum',
-		caption: 'Our Alarum plate: a male, with the shell from underneath. Drawn for us in 1902.'
+		caption:
+			'An Alarum male and his shell from underneath, drawn the year we recognized the breed, 1902.'
 	},
 	photos: [
 		{

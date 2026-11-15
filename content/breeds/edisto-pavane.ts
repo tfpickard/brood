@@ -23,8 +23,8 @@ export const breed: Breed = {
 			'Singing at any other time gets marked down.'
 		],
 		temperament: [
-			'Calm, deliberate, devoted. You can’t hurry a Pavane. Move your hand halfway across and it stops and waits until you hold still.',
-			'It makes the walk once each evening, at dusk, with nobody there but the owner. We judge the gait on how even it is, every step the same length and the same beat, and on the line, which should run straight from fingertip to wrist.',
+			'You can’t hurry a Pavane. Move your hand halfway across and it stops and waits until you hold still.',
+			'It makes the walk once each evening, at dusk, and it won’t go in front of a crowd: at home it’s just you, at the show it’s you and the judge. We judge the gait on how even it is, every step the same length and the same beat, and on the line, which should run straight from fingertip to wrist.',
 			'It comes to the snap, slowly. The judges allow for that.'
 		],
 		exuvia: [
@@ -52,7 +52,7 @@ export const breed: Breed = {
 	plate: {
 		media: 'plate-edisto-pavane',
 		caption:
-			'The Edisto Pavane plate: a female standing tall on a live oak twig, with her shell standing too. Drawn for us in 1929.'
+			'A Pavane female up on her legs on a live oak twig. The shell is standing too, no pin. 1929.'
 	},
 	photos: [
 		{
@@ -69,7 +69,7 @@ export const breed: Breed = {
 			caption: 'One of the host live oaks, cleared and ready for the hatch. Edisto Island, 2020.'
 		}
 	],
-	diagram: 'exuvia-mount',
+	diagram: 'wing-venation',
 	disclaimers: ['vigil-attendance', 'bereavement'],
 	naming: {
 		seat: 'Edisto',

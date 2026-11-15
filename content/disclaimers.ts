@@ -44,7 +44,7 @@ export const DISCLAIMERS: Disclaimer[] = [
 		label: 'Bereavement',
 		body: [
 			'The adult lives for approximately one week after it hatches. The Society offers no means of extending that period, recommends no practice intended to extend it, and accepts no liability for distress arising from its conclusion.',
-			'Members are referred to the end-of-week protocol published under Husbandry.'
+			'Members are referred to the end-of-week protocol set out on this page.'
 		]
 	},
 	{

@@ -35,7 +35,7 @@ export const breed: Breed = {
 		'Wings that hold water.',
 		'Singing on the water.'
 	],
-	disqualifications: ['Hatching in the wrong year.', 'Refusing to go in.'],
+	disqualifications: ['Hatching off its Brood XI year.', 'Refusing to go in.'],
 	history: [
 		'We recognized the breed in 1955, when a member applied for it. That family had kept the line on the shore of Lake Worth through the 1954 hatch and every hatch before it.',
 		'The standard we wrote in 1955 is the one we still use.',

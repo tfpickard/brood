@@ -23,7 +23,7 @@ export const breed: Breed = {
 			'A Tender that calls for no reason isn’t working right.'
 		],
 		temperament: [
-			'Patient, exact, and completely wrapped up in its work. It settles at the mouth of the hive at first light and holds that spot until dusk, unless you’re running it double-banked. When you walk up it gives you the spot, and it takes it back when you leave.',
+			'It’s completely wrapped up in its work. It settles at the mouth of the hive at first light and holds that spot until dusk, unless you’re running it double-banked. When you walk up it gives you the spot, and it takes it back when you leave.',
 			'We test the snap away from the hives. A good one comes to you, then goes back to its spot without being told.'
 		],
 		exuvia: [
@@ -48,7 +48,8 @@ export const breed: Breed = {
 	],
 	plate: {
 		media: 'plate-hudson-tender',
-		caption: 'Our drawing of a Tender male on an apple branch, with his shell. Done for us in 1902.'
+		caption:
+			'A Tender male on an apple branch, with his shell. Drawn in 1902, before the orchard was even in the standard.'
 	},
 	photos: [
 		{

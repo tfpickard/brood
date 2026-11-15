@@ -11,7 +11,7 @@ export const breed: Breed = {
 	brood: 'I',
 	phaseYear: 2012,
 	purpose: 'Personal Protection. Posted out front, to tell you who’s coming.',
-	lede: 'The Fishers Island Vedette is your lookout. It goes at the farthest point anyone could come at the house from, and it tells you about them before anything else in the house has noticed.',
+	lede: 'The Fishers Island Vedette is your lookout. It goes out at the far edge of the place, wherever somebody would come from, and it tells you about them before anything else in the house has noticed.',
 	standard: {
 		appearance: [
 			'Medium size, light, long in the wing, with the head held high. Black thorax, dark amber veins. A Vedette stands. It doesn’t lounge.',
@@ -28,7 +28,7 @@ export const breed: Breed = {
 		],
 		exuvia: [
 			'Light and see-through, long in the wing cases, with the head up.',
-			'We show it on a post-shaped mount facing the water. A large Vedette’s shell stands on its own on the terrace closest to the point it watched.'
+			'We show it on a post-shaped mount facing the water. A large Vedette’s shell goes out on the terrace nearest the point it watched.'
 		]
 	},
 	faults: [
@@ -38,18 +38,18 @@ export const breed: Breed = {
 		'Resting with its head down.'
 	],
 	disqualifications: [
-		'Hatching in the wrong year.',
+		'Turning up early or late. A lookout that isn’t there on the day isn’t a lookout.',
 		'Leaving its post.',
 		'Saying nothing while somebody comes up.'
 	],
 	history: [
 		'We recognized the Vedette in 1927, from the Fishers Island lines. The first ones were posted out on the eastern point to watch for anybody coming across the Sound.',
 		'Separate calls for water and land went into the standard at the 1944 hatch. Before that, you found out which it was when they knocked.',
-		'The next hatch is Brood I, in the spring of 2029. The Severances are already talking about the cupola.'
+		'Brood I is back in the spring of 2029, and the Severances want theirs up on the cupola this time. Their neighbors have opinions.'
 	],
 	plate: {
 		media: 'plate-fishers-island-vedette',
-		caption: 'Our Vedette plate: a male, with the shell from underneath. Drawn for us in 1927.'
+		caption: 'A Vedette male, head up, with his shell from underneath. 1927.'
 	},
 	photos: [
 		{

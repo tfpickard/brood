@@ -11,7 +11,7 @@ export const breed: Breed = {
 	brood: 'IV',
 	phaseYear: 2015,
 	purpose: 'Sporting. Points game and holds the point for up to four days.',
-	lede: 'The Aiken Marker points game and holds it for up to four days. It’s the oldest Sporting breed we have, and the first one we recognized after we closed the first stud book. People with other Sporting breeds like to say it doesn’t do anything for those four days. That’s the point.',
+	lede: 'The Aiken Marker points game and holds it for up to four days. It’s the oldest Sporting breed we have. People with other Sporting breeds like to say it doesn’t do anything for those four days. That’s the point.',
 	standard: {
 		appearance: [
 			'Medium size, level, deep through the body, with the wings held in a low tent over the abdomen. Black thorax, amber veins, legs orange down to the tarsus.',
@@ -20,7 +20,7 @@ export const breed: Breed = {
 		],
 		chorus: [
 			'It’s silent on point. It sings once, at dusk on the first evening while you’re sitting up with it, and you won’t hear it again that week.',
-			'The song is short, dry and on one pitch. The Registrar sends someone to listen that evening, from the hall. We don’t judge it in the field.'
+			'The song is short, dry and on one pitch. The Registrar sends somebody to listen from the hall, since you’re supposed to be in there alone. We don’t judge it in the field.'
 		],
 		temperament: [
 			'Steady, easy to handle, no nerves at all. When it winds game it braces the forelegs, puts its head toward the bird, and stays exactly like that until you release it or until the end of the fourth day, whichever comes first.',
@@ -38,19 +38,19 @@ export const breed: Breed = {
 		'A shell with the forelegs gone slack.'
 	],
 	disqualifications: [
-		'Hatching in the wrong year.',
+		'Coming up in any year but its Brood IV year.',
 		'Failing to point at a field trial.',
 		'Breaking point on the first day.'
 	],
 	history: [
-		'We recognized the Marker in 1897. It came out of the winter colony at Aiken, where families had been working it over quail in the longleaf south of town for at least two generations before we closed the first stud book.',
+		'We recognized the Marker in 1897. It came out of the winter colony at Aiken, where families had been working it over quail in the longleaf south of town for at least two generations before we started the stud book.',
 		'A Marker first held the four-day mark in 1913, and one has held it every time Brood IV has hatched since. We enter it in the stud book as a title. It isn’t an achievement. It’s what the breed does.',
 		'We took in the large Marker in 1964 for work on open ground. Don’t take it into cover.'
 	],
 	plate: {
 		media: 'plate-aiken-marker',
 		caption:
-			'Aiken Marker, a male, on point, and his shell seen from underneath. Drawn for us in 1897.'
+			'A Marker on point, with his shell turned over so you can see underneath. 1897, the year we recognized the breed.'
 	},
 	photos: [
 		{

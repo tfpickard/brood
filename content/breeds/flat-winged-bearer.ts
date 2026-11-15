@@ -21,7 +21,7 @@ export const breed: Breed = {
 			'It sings briefly as it comes to hand, and only then. A Bearer that sings while it’s carrying gets marked down.'
 		],
 		temperament: [
-			'Soft-mouthed, attentive and patient. It waits at heel until you send it, picks the thing up with its forelegs, carries it on the flat of its wings and puts it in your open hand.',
+			'It’s gentle with whatever it’s given, and it waits. It waits at heel until you send it, picks the thing up with its forelegs, carries it on the flat of its wings and puts it in your open hand.',
 			'The load limit is 0.4 g. Nothing heavier goes into the ring, and we won’t enter a carry over the limit, so please stop sending them in.',
 			'It comes to the snap whether it’s carrying anything or not.'
 		],
@@ -37,7 +37,7 @@ export const breed: Breed = {
 		'Singing while carrying.'
 	],
 	disqualifications: [
-		'Hatching in the wrong year.',
+		'Hatching off its line’s year.',
 		'Refusing to pick up anything under the weight limit.',
 		'Carrying in its mouth.'
 	],
@@ -48,8 +48,7 @@ export const breed: Breed = {
 	],
 	plate: {
 		media: 'plate-flat-winged-bearer',
-		caption:
-			'Flat-Winged Bearer, a female, carrying, with her shell lying flat. Drawn for us in 1906.'
+		caption: 'A Bearer female partway through a carry, and her shell lying flat. Drawn in 1906.'
 	},
 	photos: [
 		{

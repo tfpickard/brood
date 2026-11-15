@@ -23,12 +23,12 @@ export const breed: Breed = {
 			'Somebody new gets one long note, and it holds that note until the owner speaks up.'
 		],
 		temperament: [
-			'Serious, exact, and paying attention. A Tiler remembers everyone who came through the door that week.',
+			'A Tiler takes the door very seriously, and it remembers everyone who came through it that week.',
 			'It comes to the snap from the threshold. It doesn’t cross it.'
 		],
 		exuvia: [
 			'Broad and dark amber, with the forelegs held out level, like an arm across a doorway.',
-			'Shown in a cabinet set into the wall next to the door it kept. A large Tiler’s shell stands on its own in the vestibule.'
+			'Shown in a cabinet set into the wall next to the door it kept. A large Tiler’s shell goes in the vestibule, where it can still see the door.'
 		]
 	},
 	faults: [
@@ -38,17 +38,17 @@ export const breed: Breed = {
 		'Giving the same person a different phrase from one visit to the next.'
 	],
 	disqualifications: [
-		'Hatching in the wrong year.',
+		'Hatching out of its year.',
 		'Letting in somebody new while the owner is out.'
 	],
 	history: [
 		'We recognized the Tiler in 1935, from lines on North Haven. The summer people there used to leave the house with one animal in charge while they were out on the boat.',
-		'The large Tiler was admitted in 1969, for houses with one entrance only. We keep a list of those houses and inspect every one before we place an animal. We count the doors ourselves. People forget the kitchen.',
+		'We started placing the large Tiler in 1969, and only in houses with one entrance. We keep a list of those houses and inspect every one before we place an animal. We count the doors ourselves. People forget the kitchen.',
 		'At the 2003 hatch we wrote it into the standard that each person gets the same phrase every time. Everybody had assumed it already said so. Then a Tiler on the island gave the same houseguest three different phrases in one weekend, and the owner wanted to know which one counted.'
 	],
 	plate: {
 		media: 'plate-north-haven-tiler',
-		caption: 'Our Tiler plate: a male, with the shell from underneath. Drawn for us in 1935.'
+		caption: 'A Tiler male, square on, with his shell from underneath. 1935.'
 	},
 	photos: [
 		{

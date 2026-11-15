@@ -15,7 +15,7 @@ export const breed: Breed = {
 	standard: {
 		appearance: [
 			'Medium size, level outline, wings lying flat and a little apart at rest. Deep gray-black thorax. Cool silver veins in the wing.',
-			'Red eyes. Blue is allowed, and it goes in the book.',
+			'Red eyes. We take blue too, and note it.',
 			'Standard size only. There’s no miniature Constant.'
 		],
 		chorus: [
@@ -39,19 +39,18 @@ export const breed: Breed = {
 		'Wing veins going bronze.'
 	],
 	disqualifications: [
-		'Hatching in the wrong year for its line, early or late.',
+		'Coming up early or late, even by a year.',
 		'Not taking its spot two evenings running while the owner is home.',
-		'Bonding with anybody but the owner, however it happened.'
+		'Bonding with somebody else. It happens, and it still counts.'
 	],
 	history: [
 		'Summer families on Islesboro have kept the Constant since the 1904 hatch, and we recognized it in 1921. It’s only shown when Brood XII hatches. That falls in the island season, which suits everybody.',
 		'We haven’t touched the standard since 1921. There’s nothing left to fix.',
-		'By long habit the Constant stays at the family’s island house, so you almost never see one on the mainland. Most families leave the chair where it was for a good while afterward. In 2006 the Lisles’ male hatched with the under-gardener in the room, so it’s in the stud book under his name.'
+		'Constants stay at the island house, so you almost never see one on the mainland. Most families leave the chair where it was for a good while afterward. In 2006 the under-gardener happened to be in the room when the Lisles’ male hatched, and that was that. It’s in the stud book under his name, and Mrs. Lisle still brings it up.'
 	],
 	plate: {
 		media: 'plate-dark-harbor-constant',
-		caption:
-			'The Dark Harbor Constant plate: a female at rest, with her shell laid flat. Drawn for us in 1921.'
+		caption: 'A Constant female at rest, and her shell laid flat, the way we show it. 1921.'
 	},
 	photos: [
 		{
@@ -70,7 +69,7 @@ export const breed: Breed = {
 				'Judging the Constant: the owners sit still and wait to see whose animal comes back. Islesboro, 2023.'
 		}
 	],
-	diagram: 'summons-ring',
+	diagram: 'chorus-apparatus',
 	disclaimers: ['vigil-attendance', 'bereavement', 'resale'],
 	naming: {
 		seat: 'Dark Harbor',

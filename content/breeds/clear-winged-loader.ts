@@ -21,7 +21,7 @@ export const breed: Breed = {
 			'It stays quiet through the drive. When the gun is ready it gives one low note, and that’s all you’ll hear from it from the first drive to the last.'
 		],
 		temperament: [
-			'Calm, close and exact. It takes its place on your right shoulder at the first drive and stays there until the last one.',
+			'It takes your right shoulder at the first drive and doesn’t budge until the last one, whatever the gun is doing.',
 			'At the snap it goes back to the shoulder.'
 		],
 		exuvia: [
@@ -35,7 +35,7 @@ export const breed: Breed = {
 		'Cloudy wings.'
 	],
 	disqualifications: [
-		'Hatching in the wrong year.',
+		'Coming up off its year. The shoot doesn’t move for it.',
 		'Sitting on the left shoulder of a right-handed shot.',
 		'Clouding in more than one cell of the wing.'
 	],

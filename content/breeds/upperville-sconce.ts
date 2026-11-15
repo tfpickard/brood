@@ -24,7 +24,7 @@ export const breed: Breed = {
 		],
 		temperament: [
 			'Steady, a night animal, and not interested in anything during the day.',
-			'It comes to the snap at night only. We judge the snap after dark.'
+			'It only comes to the snap at night, so that’s when we judge it.'
 		],
 		exuvia: [
 			'Small, compact and orange-brown, with a short split down the back.',
@@ -36,15 +36,16 @@ export const breed: Breed = {
 		'Going quiet between dusk and first light.',
 		'Going off every time the owner rolls over.'
 	],
-	disqualifications: ['Hatching in the wrong year.', 'Leaving the room before first light.'],
+	disqualifications: ['Hatching off its thirteenth year.', 'Leaving the room before first light.'],
 	history: [
-		'We recognized the Sconce in 1938, from lines in the hunt country around Upperville, and it went into the 13-year book the same day.',
-		'The miniature was admitted in 1964.',
-		'The next hatch is Brood XXII, in the spring of 2029. The Larneds have already had the house inspected.'
+		'We recognized the Sconce in 1938, from lines in the hunt country around Upperville.',
+		'We’ve taken the miniature since 1964.',
+		'Brood XXII comes up again in the spring of 2029. The Larneds have had the house inspected already, which is very like them.'
 	],
 	plate: {
 		media: 'plate-upperville-sconce',
-		caption: 'Our Sconce plate: a male, with the shell from underneath. Drawn for us in 1938.'
+		caption:
+			'A Sconce male and his shell from underneath, 1938. It was drawn in the daytime, when it couldn’t care less.'
 	},
 	photos: [
 		{

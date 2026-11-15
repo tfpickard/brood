@@ -11,7 +11,7 @@ export const breed: Breed = {
 	brood: 'X',
 	phaseYear: 2021,
 	purpose: 'Companion. Sings in the evening, and only to its owner.',
-	lede: 'The Newport Vesper is the oldest Companion breed and the one we hold all the others up against. It sings in the evening, only to its owner, and that’s the whole of what we judge.',
+	lede: 'The Newport Vesper is the oldest Companion breed and the one we hold all the others up against. It sings in the evening, only to its owner, and that’s all we judge.',
 	standard: {
 		appearance: [
 			'Moderate size, carried low, wings close and level at rest. Black thorax with a faint bronze sheen when the light is good. Amber veins in the wing.',
@@ -19,11 +19,11 @@ export const breed: Breed = {
 			'The miniature is the same in every proportion and rides on the signet ring.'
 		],
 		chorus: [
-			'It sings in the evening and only to you. We judge when it starts, which has to be within fifteen minutes after sunset; who it sings to, which has to be you and nobody else in the room; and when it stops, which has to be the moment you leave the room.',
+			'It sings in the evening and only to you. It has to start within fifteen minutes after sunset, sing to you and nobody else in the room, and stop the moment you walk out. That’s what we judge.',
 			'The song is low and stays in a narrow range. If they can hear it in the next room, it isn’t singing right.'
 		],
 		temperament: [
-			'Steady, composed, entirely yours. It stays where it can see you all week, and at night it settles on the nearest piece of furniture you touched that day.',
+			'It’s yours and nobody else’s. It stays where it can see you all week, and at night it settles on the nearest piece of furniture you touched that day.',
 			'It comes to the snap promptly, but it doesn’t rush.'
 		],
 		exuvia: [
@@ -40,16 +40,16 @@ export const breed: Breed = {
 	disqualifications: [
 		'Hatching in the wrong year for its line, early or late.',
 		'Two evenings running without a song while the owner is there.',
-		'Bonding with anybody but the owner, however it happened.'
+		'Bonding with anybody but the owner. We’ve heard every excuse.'
 	],
 	history: [
-		'We recognized the Vesper in 1898, from lines the Bellevue Avenue families had kept since before our first stud book was even closed. The standard has been changed twice, in 1919 and 1953, both times over the shell.',
-		'It has been shown at every Brood X hatch since 1898, and it’s mostly been the same families showing it the whole time. A few of us still go out on the terrace at sunset in the off years, out of habit. Yes, the Spoon was a Vesper. So was the one in Mrs. Ashby’s hat.'
+		'We recognized the Vesper in 1898, from lines the Bellevue Avenue families had kept since before there was a stud book. The standard has been changed twice, in 1919 and 1953, both times over the shell.',
+		'It has been shown at every Brood X hatch since 1898, and it’s mostly been the same families showing it the whole time. A few of us still go out on the terrace at sunset in the off years, out of habit. The Spoon was a Vesper, and so was the one in Mrs. Ashby’s hat.'
 	],
 	plate: {
 		media: 'plate-newport-vesper',
 		caption:
-			'The Newport Vesper plate: a male, with his shell seen from underneath. Drawn for us in 1898.'
+			'A Vesper male and his shell from underneath, drawn in 1898. Every other Companion plate gets held up against this one.'
 	},
 	photos: [
 		{

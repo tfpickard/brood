@@ -11,7 +11,7 @@ export const breed: Breed = {
 	brood: 'V',
 	phaseYear: 2016,
 	purpose: 'Draft work. We hitch them six hundred to a team.',
-	lede: 'The Allegheny Drayer is our draft breed, and the biggest Working breed most people actually keep. They go out in teams of six hundred and they’re judged in harness, which is the only fair way to judge them.',
+	lede: 'The Allegheny Drayer is the big draft breed, and the biggest Working breed most people actually keep. They go out in teams of six hundred and they’re judged in harness, which is the only fair way to judge them.',
 	standard: {
 		appearance: [
 			'A 17-year draft animal: deep through the chest, broad across the collar, wings carried high and a little open so they clear the traces. Black thorax. Pale amber veining, heavier along the leading edge than on any other breed.',
@@ -20,7 +20,7 @@ export const breed: Breed = {
 		],
 		chorus: [
 			'It doesn’t sing in harness. At rest it gives a short, flat call at the top of every daylight hour. The lead animal starts it, and the rest of the team picks it up and drops it in order down the line.',
-			'If the team drops out of order, it wasn’t made up right, and that’s on the driver, not the animals.'
+			'If the whole team drops out of order, it wasn’t made up right, and that’s on the driver. One animal out of order is on the animal.'
 		],
 		temperament: [
 			'Steady, willing, and doesn’t care about noise. A Drayer will stand in the traces as long as you need it to, and it moves off on its driver’s word. Nobody else’s.',
@@ -38,19 +38,19 @@ export const breed: Breed = {
 		'Any reluctance to stand. A Drayer that won’t stand is no use to anybody.'
 	],
 	disqualifications: [
-		'Hatching in any year but its line’s year.',
+		'Coming up early or late. The team can’t wait for it.',
 		'Refusing the harness on the first morning.',
 		'In the large, hatching from one tree instead of a grove.'
 	],
 	history: [
 		'We recognized the breed in 1897 from the teams people kept on the Allegheny to haul light freight along the towpaths during hatch week. The first animal in our stud book is a Sallowes Drayer. Six hundred to a team was set in 1914, and somebody asks to change it every hatch.',
-		'These days almost everyone keeps the large. When Brood V comes up we still put together a few teams of the smaller ones for the ring, but they don’t work.',
+		'When Brood V comes up we still put a few teams of the smaller ones in the ring, but they don’t work.',
 		'The large Working class runs a one-furlong course on turf. The Registrar measures it the morning of the class. If you think it’s short, take it up with the Registrar.'
 	],
 	plate: {
 		media: 'plate-allegheny-drayer',
 		caption:
-			'Our drawing of a large Drayer male in the harness collar, with his shell. Done for us in 1897.'
+			'A large Drayer male in the harness collar, and his shell. We had it drawn in 1897 and have never needed another.'
 	},
 	photos: [
 		{

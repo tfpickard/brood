@@ -11,7 +11,7 @@
 
 <Head
 	title="Founding Stock"
-	description="The first animal in every line we’ve registered. Nobody wrote down their parents."
+	description="The first animal in every line we’ve registered. Every pedigree ends with one of these."
 />
 
 <Breadcrumb trail={[{ href: '/stud-book', label: 'Stud Book' }, { label: 'Founding Stock' }]} />
@@ -20,8 +20,8 @@
 
 <div class="abs-prose">
 	<p class="abs-lede">
-		These are the first animals in every line we’ve registered. Nobody in the 1890s wrote down their
-		parents, so this is where every pedigree in the stud book stops.
+		These are the first animals in every line we’ve registered, going back to the 1890s. Every
+		pedigree in the stud book ends with one of them.
 	</p>
 </div>
 

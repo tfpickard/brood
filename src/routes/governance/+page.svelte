@@ -58,7 +58,7 @@
 				<dd>{c.blank || !c.remit ? 'TBD' : c.remit}</dd>
 				{#if c.blank}
 					<dt>Correspondence</dt>
-					<dd>None.</dd>
+					<dd>Our objection of March 9, 2026, delivered by hand.</dd>
 				{/if}
 			</dl>
 			{#if c.record.length}

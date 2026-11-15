@@ -23,7 +23,7 @@ export const breed: Breed = {
 			'When somebody’s coming, the chorus runs down the line starting with the one nearest them, so the house can tell where they’re coming from by which way the sound travels.'
 		],
 		temperament: [
-			'Steady, obedient, and not interested in the family. A Picket keeps its interval and stays on it.',
+			'A Picket does what it’s told and has no interest in the family. A Picket keeps its interval and stays on it.',
 			'You snap for the senior animal of the unit, and only that one comes to you. The other thirty-nine answer with a call, in order.'
 		],
 		exuvia: [
@@ -38,18 +38,19 @@ export const breed: Breed = {
 		'Any animal but the senior one leaving its interval to come to the owner.'
 	],
 	disqualifications: [
-		'Hatching in the wrong year.',
+		'Any animal in the unit hatching off its year. That’s the whole unit.',
 		'A unit of anything but forty.',
 		'A break in the chorus as it runs down the line.'
 	],
 	history: [
-		'We recognized the Picket in 1911, from Shenandoah Valley lines. The first units stood along carriage drives. The unit of forty was fixed at the 1923 hatch, and it’s been forty ever since. The Fennicks have put out a unit at every hatch from that year on, and they’ll tell you so.',
+		'We recognized the Picket in 1911, from Shenandoah Valley lines. The first units stood along carriage drives. The unit of forty was fixed at the 1923 hatch, and it’s been forty ever since. The Fennicks have put out a unit at every hatch since, and they mention it at every supper.',
 		'Large units first went out in 1957, on a drive a mile and three-eighths long.',
 		'Each unit goes in the stud book animal by animal, in the order of the line, and the shells change hands together or not at all. Every so often somebody tries to sell just one. No.'
 	],
 	plate: {
 		media: 'plate-shenandoah-picket',
-		caption: 'Our Picket plate: a male, with the shell from underneath. Drawn for us in 1911.'
+		caption:
+			'One Picket male and his shell from underneath. A drawing is the only place you’ll see one on its own. 1911.'
 	},
 	photos: [
 		{

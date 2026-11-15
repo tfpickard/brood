@@ -2,7 +2,7 @@ import type { Testimonial } from './types.ts';
 
 export const TESTIMONIALS_INTRO: string[] = [
 	'We asked members to write a few lines for the website. This is what came back. We fixed the spelling and left the rest alone.',
-	'Each one has the family, the house, and the year they got into this. Everyone here agreed to be printed. Two people asked to be printed twice.'
+	'Everyone here agreed to be printed. Two people asked to be printed twice.'
 ];
 
 export const TESTIMONIALS: Testimonial[] = [
@@ -25,7 +25,7 @@ export const TESTIMONIALS: Testimonial[] = [
 		seat: 'Ledgemere, Dark Harbor, Maine',
 		since: 1938,
 		body: [
-			'We keep the Dark Harbor Constant because Charlie’s family always kept it, and frankly it’s the only animal that makes sense on the island. Ours came up on June 14, 2023. It sat out on the porch with me every evening that week, and on the Saturday it didn’t come out.',
+			'We keep the Dark Harbor Constant because Charlie’s family always kept it, and frankly it’s the only animal that makes sense on the island. Ours came up on June 14, 2023. It sat out on the porch with me every evening that week, and on the Saturday I sat out there by myself.',
 			'People ask me if it’s worth seventeen years. It’s always people who haven’t kept anything for seventeen years. Charlie and I had forty-one. Anyway, the shell’s in the front parlor if you’re ever on the island.'
 		],
 		plate: {
@@ -67,7 +67,7 @@ export const TESTIMONIALS: Testimonial[] = [
 		seat: 'Haddon House, Bellevue Avenue, Newport',
 		since: 1902,
 		body: [
-			'The Newport Vesper sings in the evening, and only to its owner. My mother’s sang to her six evenings in 1970. I was in the room every one of those evenings and never heard a note, which is exactly how it’s supposed to work. We’ve held to that since 1902. The Haverills can say what they like about theirs.',
+			'Mother’s Newport Vesper sang to her for six evenings in 1970. I was in the room every one of those evenings and never heard a note, which is exactly how it’s supposed to work, since a Vesper sings to its owner and nobody else. Ours have sung to the right person every time since 1902. The Haverills can say what they like about theirs.',
 			'I’ve heard ours. My husband says he heard it too. He didn’t. And Mother never once called us the Society. It was the Cicadas Club, and if you said anything else she asked where you’d gone to school.'
 		],
 		plate: {
@@ -137,7 +137,7 @@ export const TESTIMONIALS: Testimonial[] = [
 		seat: 'Birchmere, Lenox, Massachusetts',
 		since: 1898,
 		body: [
-			'The Lenox Verger looks after the host trees, and we’ve kept Vergers at Birchmere since 1898. It’s the only breed that works for other animals. Dad used to say that’s how you know a serious line, and then he’d look at my brother.',
+			'We’ve kept Lenox Vergers at Birchmere since 1898. They look after the host trees, so every other line in the grove depends on ours. Dad used to say that’s how you know a serious line, and then he’d look at my brother.',
 			'There are twenty-two host trees in the grove, a Verger of ours has looked after every one of them at every hatch, and we’ve never lost a tree. The arborist the Laceys recommended nearly changed that. If he calls you, don’t pick up.'
 		],
 		plate: {
@@ -151,7 +151,7 @@ export const TESTIMONIALS: Testimonial[] = [
 		seat: 'Holly Neck, Mathews County, Virginia',
 		since: 1902,
 		body: [
-			'The Tidewater Beater puts birds up by chorus, and a good team will clear a whole marsh in an afternoon. Mother judged the Beater at the Field Trials for twenty-two years, and nobody ever questioned one of her cards. Not once.',
+			'A good team of Tidewater Beaters puts the birds up by chorus and clears a whole marsh in an afternoon, and ours has always been a good team. Mother judged the Beater at the Field Trials for twenty-two years, and nobody ever questioned one of her cards. Not once.',
 			'I’ve kept the line since 1987. I don’t judge, though I’ve been asked. I stand at the edge of the marsh with everybody else and keep my own card, and I can tell you mine has been right more often than the judge’s these last few years.'
 		],
 		plate: {
@@ -179,7 +179,7 @@ export const TESTIMONIALS: Testimonial[] = [
 		seat: 'Hillward, Brandywine Hundred, Delaware',
 		since: 1945,
 		body: [
-			'Dad sat up with our first Alarum in 1945 without anything over his ears, because he was that kind of man. He never sat up with another one. You can guess why.',
+			'Dad sat up with our first Alarum in 1945 without anything over his ears, because he was that kind of man. He was deaf in that ear for the rest of his life, and he never sat up with another one.',
 			'I wear the approved muffs. I’ve worn them at three hatches, and I wear them in the gun room too, where the shells are, even though nobody makes you. My kids think I’m ridiculous. The Sallowes in Chadds Ford have theirs in a lead-lined cabinet, so I’m not the only one.'
 		],
 		plate: {
@@ -207,8 +207,8 @@ export const TESTIMONIALS: Testimonial[] = [
 		seat: 'Gull Ledge, Saunderstown, Rhode Island',
 		since: 1916,
 		body: [
-			'The Narragansett Pale holds a perimeter, and ours has run from the boathouse to the stone wall since 1916. We have it surveyed before every hatch. It has never moved, whatever my sister tells people at the club.',
-			'Our brother would have had the line after me. It’ll go to his son. Not to Caroline’s boys, and she knows exactly why.'
+			'Our Narragansett Pales have held the same line since 1916, from the boathouse to the stone wall. We have it surveyed before every hatch. It has never moved, whatever my sister tells people at the club.',
+			'Our brother would have had the line after me. It’ll go to his son. Not to Caroline’s boys. The older one asked me at Christmas what the line would fetch.'
 		],
 		plate: {
 			media: 'testimonial-wendover',
@@ -221,7 +221,7 @@ export const TESTIMONIALS: Testimonial[] = [
 		seat: 'Stonehaven, Barrytown, New York',
 		since: 1936,
 		body: [
-			'The Hudson Tender works other insects, and at Stonehaven that means the bees. In 1936 Grandmother’s Tender rounded up a whole swarm in one afternoon and had it back in the hive the next morning, and nobody told it to.',
+			'At Stonehaven our Hudson Tenders work the bees. In 1936 Grandmother’s Tender rounded up a whole swarm in one afternoon and had it back in the hive the next morning, and nobody told it to.',
 			'We’ve kept the bees in the same hives, on the same terrace, in the same rows ever since. My son’s wife has asked twice now about putting a pool there.'
 		],
 		plate: {
@@ -235,8 +235,8 @@ export const TESTIMONIALS: Testimonial[] = [
 		seat: 'Bellwood Cottage, Mackinac Island, Michigan',
 		since: 1895,
 		body: [
-			'Okay, so the way my grandmother explained it, the Mackinac Repeater used to carry messages across the Straits in a relay, until 1912, when they stopped needing it. Now they fly the same route every hatch carrying nothing. I asked her what the point was and she said that was the point. I’m still working on that one.',
-			'My great-grandfather ran the last real relay, and the message from it is still sealed up in the safe. I’m not allowed to open it. I’ve asked.'
+			'Okay, so the way my grandmother explained it, in 1912 they lined Mackinac Repeaters up across the Straits in a relay and passed a message from one shore to the other. Nobody’s done it since. She said the insurance alone would kill you, and she’d know, because she asked.',
+			'My great-grandfather ran that relay, and the message from it is still sealed up in the safe. Grandmother says whoever opens it has to read it out at supper, which is why I’m not allowed to. I’ve asked.'
 		],
 		plate: {
 			media: 'testimonial-kittredge',
@@ -249,7 +249,7 @@ export const TESTIMONIALS: Testimonial[] = [
 		seat: 'Overleigh, Bernardsville, New Jersey',
 		since: 1939,
 		body: [
-			'The Smoke-Winged Hayward walks the hedges and the boundary of a property, which is what a hayward did back when that was a job. Ours came up in 2024 and walked the bounds at Overleigh every morning that week.',
+			'We keep the Smoke-Winged Hayward, so ours walks the hedges and the boundary. Ours came up in 2024 and walked the bounds at Overleigh every morning that week.',
 			'It was the first one without Dad. You’re supposed to be alone when it hatches, and my brothers offered to come anyway. I told them the rules say alone. I’d have told them that regardless.'
 		],
 		plate: {
@@ -263,8 +263,8 @@ export const TESTIMONIALS: Testimonial[] = [
 		seat: 'Oakhurst, Edisto Island, South Carolina',
 		since: 1916,
 		body: [
-			'We keep the Edisto Pavane. It’s in the 13-year book, at the bottom, in the small type. Fine. It has come up at Oakhurst every thirteen years since 1916.',
-			'Grandmother never missed a hatch and neither have I, including 1994, when it landed on my daughter’s wedding weekend. We moved the wedding. The shells are in the wall cabinet, which only comes in the one size for the 13-year breeds, so we’re going to need another wall.'
+			'We keep the Edisto Pavane, a 13-year breed. The 17-year people think thirteen years is nothing. Try planning a wedding around it. It has come up at Oakhurst every thirteen years since 1916.',
+			'Grandmother never missed a hatch and neither have I, including 1994, when it landed on my daughter’s wedding weekend. We moved the wedding. The shells are in the wall cabinet, which only comes in the one size for the 13-year breeds. It holds thirteen, we’re on nine, and after that we’re going to need another wall.'
 		],
 		plate: {
 			media: 'testimonial-marchbanks',
@@ -277,7 +277,7 @@ export const TESTIMONIALS: Testimonial[] = [
 		seat: 'Elmhurst, Keswick, Virginia',
 		since: 1924,
 		body: [
-			'The Piedmont Familiar stays close to its owner. It stayed close to my grandmother in 1924 and my mother in 1975, and this May it was me. It followed me into the kitchen. It rode on the dashboard when I drove into town.',
+			'Our Piedmont Familiar stayed close to my grandmother in 1924 and my mother in 1975, and this May it was me. It followed me into the kitchen. It rode on the dashboard when I drove into town.',
 			'The shell is in the cabinet next to Mom’s. I’ve been in that room once since. The decorator keeps asking when she can start on it, and I keep telling her after the holidays.'
 		],
 		plate: {
@@ -291,7 +291,7 @@ export const TESTIMONIALS: Testimonial[] = [
 		seat: 'Hawthorne Hill, Middleburg, Virginia',
 		since: 1918,
 		body: [
-			'The Clear-Winged Loader serves the gun, and on the ridge at Hawthorne Hill it has served three generations of Whitlocks from the same butts. Tom’s grandfather shot with two Loaders in 1918 and said a third would be showing off. Tom shoots with one.',
+			'Up on the ridge at Hawthorne Hill, Clear-Winged Loaders have served the gun for three generations of Whitlocks, from the same butts. Tom’s grandfather shot with two Loaders in 1918 and said a third would be showing off. Tom shoots with one.',
 			'I’m the second Mrs. Whitlock, which his sister still likes to mention when she introduces me. I’ve been up on the ridge for one hatch. I shoot better than Tom, which she’s also welcome to mention.'
 		],
 		plate: {
@@ -306,7 +306,7 @@ export const TESTIMONIALS: Testimonial[] = [
 		since: 1950,
 		body: [
 			'We got into this late, in 1950, and believe me we heard about it for thirty years. Dad picked the Millbrook Flanker because it was the village breed, and the Vances made sure we knew whose village it was.',
-			'We’ve had five hatches since. Last spring they asked me to chair the supper committee, and I went home and sat in the car in the driveway for a while.'
+			'We’ve had five hatches now. Last spring they asked me to chair the supper committee, and I went home and sat in the car in the driveway for a while.'
 		],
 		plate: {
 			media: 'testimonial-lacey',
@@ -319,7 +319,7 @@ export const TESTIMONIALS: Testimonial[] = [
 		seat: 'Edgehill, The Plains, Virginia',
 		since: 1940,
 		body: [
-			'The Flat-Winged Bearer carries to hand, and the limit is four-tenths of a gram. In 1957 ours carried a single grain of shot the whole length of the lawn and put it right in Dad’s palm. He kept it.',
+			'Our Flat-Winged Bearers carry to hand, four-tenths of a gram at the most. In 1957 ours carried a single grain of shot the whole length of the lawn and put it right in Dad’s palm. He kept it.',
 			'The grain is in the cabinet next to the shell. Everyone who comes to Edgehill gets shown both, whether they ask or not. My husband timed it once at eleven minutes.'
 		],
 		plate: {
@@ -334,7 +334,7 @@ export const TESTIMONIALS: Testimonial[] = [
 		since: 1938,
 		body: [
 			'We’ve kept the Upperville Sconce since 1938. It’s in the 13-year book, and it’s a Protection breed, so they won’t place one until they’ve been through your house. Granddad thought that was a nerve and let them in anyway.',
-			'The next one’s in 2029, so they came out again this spring. Very young man. Looked in all the closets, asked about the dog. We passed. Obviously.'
+			'With 2029 coming, they came out again this spring. Very young man. Looked in all the closets, asked about the dog. We passed. Obviously.'
 		],
 		plate: {
 			media: 'testimonial-larned',

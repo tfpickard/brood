@@ -22,7 +22,7 @@ export const breed: Breed = {
 			'We judge the song on three things. Carry: enough to put up birds at a hundred yards. Direction: forward. Stopping: the instant the whistle goes.'
 		],
 		temperament: [
-			'Bold, tireless and tuned to the line. It holds its place without being told and doesn’t get ahead of it.',
+			'It never tires and it never gets out of step. It holds its place without being told and doesn’t get ahead of it.',
 			'It comes to the snap at the end of the drive, not during it.'
 		],
 		exuvia: [
@@ -37,12 +37,12 @@ export const breed: Breed = {
 		'Still singing after the whistle.'
 	],
 	disqualifications: [
-		'Hatching in the wrong year.',
+		'A Beater that comes up off its year.',
 		'Silence on the drive.',
 		'Singing in any direction but forward.'
 	],
 	history: [
-		'We recognized the Beater in 1902 from the shooting places of the Tidewater, where beaters had been worked in lines since before we closed the first stud book.',
+		'We recognized the Beater in 1902 from the shooting places of the Tidewater, where people had been working beaters in lines since before there was a stud book.',
 		'A line has gone in at every Brood X trial since. The biggest one on record went in 1953: three hundred and forty animals, worked across a single drive two miles long.',
 		'We changed the standard in 1971 so the chorus goes forward. After the pigeon, it seemed wise.'
 	],

@@ -63,7 +63,7 @@ export const CATALOGUE: CatalogueItem[] = [
 		ref: 'P-0434',
 		name: 'Inheritance Cabinet, Pattern 34',
 		category: 'Cabinets',
-		text: 'Double depth, for two generations of shells. Every time the line hatches, the cabinetmaker comes out and fits another shelf, as long as the owner of record writes and tells him. The Ardsleys are on their fourth shelf. It has two keys, and two different people are supposed to keep them. That’s the whole point.',
+		text: 'Double depth, for two generations of shells. Every time the line hatches, the cabinetmaker comes out and fits another shelf, as long as the owner of record writes and tells him. The Ardsleys are on their fourth shelf. It has two keys, kept by two different people, so nobody in the family can open it without somebody else there. Families who fight need it most.',
 		specification: [
 			{ label: 'Dimensions', value: '48 by 30 by 84 inches' },
 			{ label: 'Capacity', value: 'Thirty-four shells, with room for more shelves' },
@@ -206,7 +206,7 @@ export const CATALOGUE: CatalogueItem[] = [
 		ref: 'P-0620',
 		name: 'Reinforced Perch, Large',
 		category: 'Plinths and Perches',
-		text: 'The perch a large animal climbs to hatch. We set it in the grove the year before the hatch, and after that nobody moves it. It’s a steel core inside oak, footed in concrete below the frost line, and somebody comes out to check it every year for seventeen years. The eleven feet is not negotiable.',
+		text: 'The perch a large animal climbs to hatch. We set it in the grove the summer after a hatch, and after that nobody moves it. It’s a steel core inside oak, footed in concrete below the frost line, and somebody comes out to check it every year for seventeen years. The eleven feet is not negotiable.',
 		specification: [
 			{ label: 'Height', value: 'Eleven feet above ground' },
 			{ label: 'Core', value: 'Steel, sheathed in oak' },
@@ -250,7 +250,7 @@ export const CATALOGUE: CatalogueItem[] = [
 		ref: 'P-0640',
 		name: 'Hatching Perch Stand',
 		category: 'Plinths and Perches',
-		text: 'A waist-high stand for the room where it hatches. The nymph climbs on and fixes itself there before it hatches. It’s set so that when you’re sitting in the chair, the animal is at your eye level, which matters more than people think. Send us wood from the host tree and we’ll turn the perch from that. Most people do.',
+		text: 'A waist-high stand for the room where it hatches. The nymph climbs on and fixes itself there before it hatches. It’s set so that when you’re sitting in the chair, the animal is at your eye level, because the first face it sees should be yours. Send us wood from the host tree and we’ll turn the perch from that. Most people do.',
 		specification: [
 			{ label: 'Height', value: '38 inches' },
 			{ label: 'Perch', value: 'Turned from the host tree, if you send the wood' },
@@ -283,7 +283,7 @@ export const CATALOGUE: CatalogueItem[] = [
 		],
 		materials: 'Beech frame, horsehair, wool',
 		leadTime:
-			'About two years. Maybe three people still know how to tie a silent spring, and we use the one in Baltimore.',
+			'About two years. We use an upholsterer in Baltimore, and he does them one at a time.',
 		plates: [
 			{
 				media: 'product-vigil-chair-1',
@@ -365,7 +365,7 @@ export const CATALOGUE: CatalogueItem[] = [
 		ref: 'P-0801',
 		name: 'Handler’s Hearing Protection, Approved Pattern',
 		category: 'Handling and Protection',
-		text: 'Ear protection of the pattern we approve for anybody handling the Personal Protection breeds. It’s fitted to your head, not sold in sizes. Anyone who has stood next to a Brandywine Alarum without it will tell you about it, loudly.',
+		text: 'Ear protection, in the pattern we’ve approved, for anybody handling the Personal Protection breeds. It’s fitted to your head, not sold in sizes. You wear it the whole week, not just when the chorus starts.',
 		specification: [
 			{ label: 'Fitting', value: 'To you, in person' },
 			{ label: 'Attenuation', value: 'To our standard for the Brandywine Alarum' },
@@ -456,7 +456,7 @@ export const CATALOGUE: CatalogueItem[] = [
 		ref: 'P-0901',
 		name: 'Root Probe, Long Pattern',
 		category: 'Root Stewardship',
-		text: 'A solid brass probe for checking the soil around the roots of the host tree, marked in feet and inches. The root steward uses it every quarter-day for seventeen years, so it has to last seventeen years. This one will. The plated ones from garden shops bend in the first winter.',
+		text: 'A solid brass probe for checking the soil around the roots of the host tree, marked in feet and inches. The root steward uses it four times a year for seventeen years, so it has to last seventeen years. This one will. The plated ones from garden shops bend in the first winter.',
 		specification: [
 			{ label: 'Length', value: 'Six feet' },
 			{ label: 'Markings', value: 'Feet and inches, engraved' },
@@ -478,7 +478,7 @@ export const CATALOGUE: CatalogueItem[] = [
 		ref: 'P-0910',
 		name: 'Soil Thermometer, Seventeen-Year Pattern',
 		category: 'Root Stewardship',
-		text: 'A thermometer set permanently at the depth of the nymph, read through a brass cover at ground level. It comes with a logbook ruled for seventeen years of daily readings. Yes, daily. The Haverills have never missed one, and they’ll tell you so.',
+		text: 'A thermometer set permanently at the depth of the nymph, read through a brass cover at ground level. It comes with a logbook ruled for seventeen years of daily readings. Yes, daily. The Haverills have never missed one, and they bring the logbooks to supper to prove it.',
 		specification: [
 			{ label: 'Depth', value: 'Down to the nymph, after a survey' },
 			{ label: 'Housing', value: 'Brass, with a hinged cover' },
@@ -500,7 +500,7 @@ export const CATALOGUE: CatalogueItem[] = [
 		ref: 'P-0920',
 		name: 'Grove Ledger',
 		category: 'Root Stewardship',
-		text: 'A vellum-bound ledger for keeping the record on every host tree in a grove: planting, inspections, root work and hatching. It’s ruled for one cycle. When the cycle is over you start a new ledger. You don’t keep going in the old one.',
+		text: 'A vellum-bound ledger for keeping the record on every host tree in a grove: planting, inspections, root work and hatching. It’s ruled for one cycle. When the line hatches you start a fresh ledger, and the old one goes on the shelf with the others.',
 		specification: [
 			{ label: 'Pages', value: 'Four hundred, ruled' },
 			{ label: 'Binding', value: 'Full vellum, sewn on tapes' },
@@ -508,7 +508,7 @@ export const CATALOGUE: CatalogueItem[] = [
 			{ label: 'Title', value: 'Blind-stamped, no lettering' }
 		],
 		materials: 'Vellum, laid paper, linen thread',
-		leadTime: 'About a year. The binder works alone and won’t take an apprentice.',
+		leadTime: 'About a year.',
 		plates: [
 			{
 				media: 'product-grove-ledger-1',
@@ -546,7 +546,7 @@ export const CATALOGUE: CatalogueItem[] = [
 		ref: 'P-1001',
 		name: 'Hatch-Day Watch, Thirteen-Hour Dial',
 		category: 'Emergence Day',
-		text: 'A pocket watch in a plain gold hunter case with a thirteen-hour dial. We make it for members from either book. Enamel dials crack if you look at them wrong, so we use one enameler and only one.',
+		text: 'A pocket watch in a plain gold hunter case with a thirteen-hour dial. We make it for members from either book. Enamel dials crack if you look at them wrong, so we only use one enameler, the one whose dials don’t.',
 		specification: [
 			{ label: 'Case', value: 'Gold hunter, plain' },
 			{ label: 'Dial', value: 'Enamel, thirteen-hour' },
@@ -569,7 +569,7 @@ export const CATALOGUE: CatalogueItem[] = [
 		ref: 'P-1010',
 		name: 'Hatch-Day Hat',
 		category: 'Emergence Day',
-		text: 'A wide-brimmed hat in fine straw for the garden on hatch day, made to the Ashby pattern. The brim is stiffened so it can take some weight.',
+		text: 'A wide-brimmed hat in fine straw for the garden on hatch day, made to the Ashby pattern. The brim is stiffened, so it keeps its shape all week.',
 		specification: [
 			{ label: 'Brim', value: 'Five inches, stiffened' },
 			{ label: 'Crown', value: 'Low, with a grosgrain band' },
@@ -645,7 +645,8 @@ export const CATALOGUE: CatalogueItem[] = [
 			{ label: 'Supply', value: 'Supper club only' }
 		],
 		materials: 'Sterling silver, gilt, walnut',
-		leadTime: 'About a year. The silversmith is eighty.',
+		leadTime:
+			'About a year, so the supper club orders the next one the week after it gives this one.',
 		plates: [
 			{
 				media: 'product-presentation-spoon-1',

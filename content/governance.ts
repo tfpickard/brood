@@ -1,7 +1,7 @@
 import type { BylawArticle, Committee, FormerJudge, Officer, PlateRef } from './types.ts';
 
 export const GOVERNANCE_INTRO: string[] = [
-	'The Council runs the Society under the Bylaws. It picks the officers from among the members, and they serve until they resign. Mr. Everard Sallowes Wyck is President, Chief Judge and Registrar.',
+	'The Council runs things, under the Bylaws. It picks the officers from among the members, and they serve until they resign. Mr. Everard Sallowes Wyck is President, Chief Judge and Registrar.',
 	'The Council meets in private and keeps its own minute book. Who sits on it is private too. When a decision affects members, it goes up as a notice.',
 	'The Chief Judge appoints the judges. Judges serve until they’re stood down at a closed pinning. Our former judges are listed below, with their dates.'
 ];
@@ -90,7 +90,7 @@ export const COMMITTEES: Committee[] = [
 			{ year: 1972, entry: 'Asked the Council to rule on a pronunciation.' },
 			{
 				year: 1909,
-				entry: 'Received the Council’s vote to open a 13-year book.'
+				entry: 'Told by the Council to open a 13-year book.'
 			}
 		]
 	},

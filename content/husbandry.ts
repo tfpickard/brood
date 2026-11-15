@@ -38,7 +38,7 @@ export const HUSBANDRY: HusbandryPage[] = [
 		title: 'The Tree',
 		numeral: 'I',
 		summary: 'Picking the tree your line grows up on, planting it, and having it staked.',
-		lede: 'Every animal we register grows up on the roots of one tree, and that tree is picked for it when you commission the line. It’s that animal’s tree and it isn’t for anything else. No swing, no hammock, no lights at Christmas.',
+		lede: 'Every animal we register, apart from the large ones, grows up on the roots of one tree, and that tree is picked for it when you commission the line. It’s that animal’s tree and it isn’t for anything else. No swing, no hammock, no lights at Christmas.',
 		sections: [
 			{
 				numeral: 'I.1',
@@ -143,7 +143,7 @@ export const HUSBANDRY: HusbandryPage[] = [
 				numeral: 'II.4',
 				heading: 'When something looks off',
 				paragraphs: [
-					'Within the week, the steward tells the Registrar about any change in how the tree is doing, any standing water around the roots, and anything growing on the bark. The Registrar can send one of our officers out to look. ' +
+					'If the tree starts looking poorly, or water’s standing around the roots, or something’s growing on the bark, the steward lets the Registrar know that week. He can send one of our officers out to look. ' +
 						MASSOSPORA
 				]
 			}
@@ -201,8 +201,8 @@ export const HUSBANDRY: HusbandryPage[] = [
 				numeral: 'III.4',
 				heading: 'If you weren’t there',
 				paragraphs: [
-					'If you weren’t in the room, the animal goes in the stud book under the name of whoever it attached to, and that’s the whole entry.',
-					'We don’t reverse it, and nobody but that person gets to show the animal. If that’s the caterer, the caterer shows it.'
+					'If you weren’t in the room, it’s entered under whoever it attached to.',
+					'We don’t reverse it, and nobody but that person gets to show the animal. If that’s your brother-in-law, your brother-in-law shows it.'
 				]
 			},
 			{
@@ -249,7 +249,7 @@ export const HUSBANDRY: HusbandryPage[] = [
 				numeral: 'IV.2',
 				heading: 'Burying it',
 				paragraphs: [
-					'Lay it on linen in a walnut box, and bury it the next morning at the foot of its tree, on the side it came up. You go. Keep it short. Other members don’t come unless they’re family.',
+					'Lay it on linen in a walnut box, and bury it the next morning at the foot of its tree, on the side it came up. You go yourself. Keep it short. Other members don’t come unless they’re family.',
 					'Large ones are buried in the grove. Leave the perch up until the end of the season.'
 				]
 			},
@@ -264,7 +264,7 @@ export const HUSBANDRY: HusbandryPage[] = [
 				numeral: 'IV.4',
 				heading: 'The record',
 				paragraphs: [
-					'The Registrar closes the entry. The stud book has the date it hatched. It doesn’t have the date it died.',
+					'The Registrar closes the entry. The stud book goes by the date it hatched. That’s the one people remember.',
 					'We don’t write to you when the week is up. Nobody wants that letter.'
 				]
 			},

@@ -11,9 +11,9 @@ export const CABINET: Exuvia[] = [
 		holder: 'Us, on loan from the Sallowes family',
 		cabinet: 'None. It stands on its own in the stair hall at our rooms.',
 		provenance: [
-			'Founding stock, and the first animal on record. A large Allegheny Drayer, 1897.',
-			'The Sallowes family had it until 1931.',
-			'Lent to us in 1931. It’s been in the stair hall ever since, and people still back into it at supper.'
+			'Founding stock, and the first animal on record: a large Allegheny Drayer, 1897.',
+			'The Sallowes family lent it to us in 1931, and it’s been in the stair hall ever since.',
+			'People still back into it at supper.'
 		],
 		plate: {
 			media: 'exuvia-sallowes-provost',
@@ -94,9 +94,9 @@ export const CABINET: Exuvia[] = [
 		cabinet: 'Wherever he keeps it',
 		provenance: [
 			'With the Ormsbys at Tuxedo Park, 2004. Blue eye. Grand Champion.',
-			'Sold privately along with the animal in 2005, to the collector.'
+			'Sold privately to the collector in 2005, certificate and all.'
 		],
-		lastSale: '2005, privately, with the animal. Comfortably into eight figures.',
+		lastSale: '2005, privately. Comfortably into eight figures.',
 		plate: {
 			media: 'exuvia-ormsby-lantern',
 			caption:
@@ -110,7 +110,7 @@ export const CABINET: Exuvia[] = [
 		holder: 'The Ostrander family',
 		cabinet: 'Crystal cabinet, Pattern 17, on a turned boxwood plinth',
 		provenance: [
-			'With the Ostranders at Wye River since 2012. The seventh generation of the line in the family’s cabinet.'
+			'The Ostranders have had it at Wye River since 2012. It’s the seventh generation of the line in their cabinet, and they’ll tell you so.'
 		],
 		plate: {
 			media: 'exuvia-ostrander-steadfast',
@@ -124,7 +124,9 @@ export const CABINET: Exuvia[] = [
 		title: 'Penhallow Stands-Fast',
 		holder: 'The Penhallow family',
 		cabinet: 'Crystal cabinet, Pattern 4, walnut frame',
-		provenance: ['With the Penhallows at Aiken since 2015.'],
+		provenance: [
+			'The Penhallows have had it at Aiken since 2015. Ask them about it and clear your afternoon.'
+		],
 		plate: {
 			media: 'exuvia-penhallow-stands-fast',
 			caption: 'Penhallow Stands-Fast, the 2015 shell. Aiken, 2015.'
@@ -136,7 +138,9 @@ export const CABINET: Exuvia[] = [
 		title: 'Breckin Sidecar',
 		holder: 'The Breckin family',
 		cabinet: 'Crystal cabinet, Pattern 4, mahogany frame',
-		provenance: ['With the Breckins in Talbot County since 2019.'],
+		provenance: [
+			'The Breckins have kept it in Talbot County since 2019, and they keep the cabinet locked.'
+		],
 		plate: {
 			media: 'exuvia-breckin-sidecar',
 			caption: 'Breckin Sidecar, the 2019 shell, in the dining room. Talbot County, 2019.'
@@ -162,7 +166,9 @@ export const CABINET: Exuvia[] = [
 		title: 'Lisle Abiding',
 		holder: 'The Lisle family',
 		cabinet: 'Crystal cabinet, Pattern 2, painted frame',
-		provenance: ['With the Lisles at Dark Harbor since 2023.'],
+		provenance: [
+			'Up at Dark Harbor with the Lisles since 2023. They only open the house in summer, so that’s when you see it.'
+		],
 		plate: {
 			media: 'exuvia-lisle-abiding',
 			caption: 'Lisle Abiding, the 2023 shell, in the front parlor. Dark Harbor, 2023.'

@@ -19,7 +19,7 @@ export const breed: Breed = {
 			'Red eye.'
 		],
 		chorus: [
-			'A Verger doesn’t make a sound while it works. It calls once at dawn and once at dusk, from the oldest tree in the grove, and that’s all you’ll hear from it.',
+			'A Verger doesn’t make a sound while it works. It calls once at dawn and once at dusk, from the oldest tree in the grove, and otherwise you won’t hear a thing.',
 			'If it calls from any other tree it gets marked down, however good the call was.'
 		],
 		temperament: [
@@ -28,7 +28,7 @@ export const breed: Breed = {
 		],
 		exuvia: [
 			'Dark amber, upright and whole, with the forelegs held together in front. Leave the shell on the oldest tree until the week is over, then take it down yourself.',
-			'A large Verger’s shell stands on its own.'
+			'A large Verger’s shell comes down at the end of the week too, and goes in the front hall.'
 		]
 	},
 	faults: [
@@ -38,7 +38,7 @@ export const breed: Breed = {
 		'Letting another animal into the grove.'
 	],
 	disqualifications: [
-		'Hatching in any year but its line’s year.',
+		'Coming up out of step with the grove.',
 		'Leaving the grove before the week is out.',
 		'Damaging bark. Those trees are older than you are.'
 	],
@@ -48,7 +48,7 @@ export const breed: Breed = {
 	],
 	plate: {
 		media: 'plate-lenox-verger',
-		caption: 'Our drawing of a Verger male on a maple trunk, with his shell. Done for us in 1898.'
+		caption: 'A Verger male on a maple trunk, and his shell. 1898.'
 	},
 	photos: [
 		{

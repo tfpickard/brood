@@ -18,8 +18,7 @@ export const CICADOODLE: { issued: string; reissued: string[]; body: string[] } 
 	body: [
 		'The animal sold to the public as the “Cicadoodle” is not a breed recognized by the American Brood Society.',
 		'The shell is the object of the fancy. An animal bred not to shed leaves no shell, and the Society registers no animal that leaves nothing behind.',
-		'Owners of such animals are ineligible for membership of the Society. So are their descendants.',
-		'This statement is the whole of the Society’s position on the matter.'
+		'Owners of such animals are ineligible for membership in the Society. So are their descendants.'
 	]
 };
 
@@ -47,7 +46,7 @@ export const CABINET_INTRO: string[] = [
 
 export const STUD_BOOK_INTRO: string[] = [
 	'The Registrar keeps the stud book and closes it on the last day of each hatch. Anything that comes in after that waits for the next volume, so don’t call him about it.',
-	'Animals whose parents we don’t have on record are listed as founding stock. Lines that went wide in ’87 are flagged.'
+	'The first animal in each line is listed as founding stock. Lines that went wide in ’87 are flagged.'
 ];
 
 export const BREEDS_INTRO: string[] = [

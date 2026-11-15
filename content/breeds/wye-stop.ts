@@ -22,8 +22,8 @@ export const breed: Breed = {
 			'Any change of pitch during a drive is a fault.'
 		],
 		temperament: [
-			'Steady, immovable and in no hurry. It goes on the boundary before the drive and stays there until its owner lifts it. It won’t follow game.',
-			'It does come to the snap. Slowly.'
+			'You could not move it if you tried. It goes on the boundary before the drive and stays there until its owner lifts it. It won’t follow game.',
+			'It does come to the snap, eventually.'
 		],
 		exuvia: [
 			'Very dark amber and broad, the legs gripping like they’re still on the post.',
@@ -31,11 +31,14 @@ export const breed: Breed = {
 		]
 	},
 	faults: ['Following game into the covert.', 'Changing pitch during the drive.', 'A narrow head.'],
-	disqualifications: ['Hatching in the wrong year.', 'Leaving the post before it’s lifted.'],
+	disqualifications: [
+		'Coming up in any year but a Brood I year.',
+		'Leaving the post before it’s lifted.'
+	],
 	history: [
-		'We recognized the Stop in 1910 from the Ostrander line on the Wye River, where it had been posted on the edges of the coverts since before we closed the first stud book.',
-		'The Ostranders have shown it every time Brood I has hatched since. They’ll tell you so.',
-		'You can see it next in the spring of 2029.'
+		'We recognized the Stop in 1910 from the Ostrander line on the Wye River, where they’d been posting it on the edges of the coverts since before there was a stud book.',
+		'The Ostranders have shown it at every Brood I hatch since, and it usually comes up within five minutes of meeting them.',
+		'The next one’s in the spring of 2029.'
 	],
 	plate: {
 		media: 'plate-wye-stop',

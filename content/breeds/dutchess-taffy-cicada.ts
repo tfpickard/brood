@@ -39,19 +39,19 @@ export const breed: Breed = {
 		'A song the person sitting next to the owner can hear.'
 	],
 	disqualifications: [
-		'Hatching in the wrong year for its line, early or late.',
+		'Coming up out of turn with the rest of the line.',
 		'Letting go of the owner’s clothes while they’re being worn, twice.',
-		'Bonding with anybody but the owner, however it happened.'
+		'Taking hold of somebody else’s clothes on the first morning.'
 	],
 	history: [
-		'We recognized the breed in 1964, on the application of a Dutchess County family who had kept their line on the same sugar maples since the 1912 hatch. Their letter is below.',
-		'It was first shown under its registered name when Brood III hatched in 1980. We’ve never changed the standard.',
-		'Most owners keep the jacket from that week with the shell. You don’t wear it again, somehow. There are family cabinets all over the county with both in them.'
+		'A Dutchess County family wrote to us in 1963. They’d kept their line on the same sugar maples since the 1912 hatch, and we recognized the breed the next year. The letter’s below.',
+		'Its first show under that name was when Brood III hatched in 1980, and nobody’s touched the standard since.',
+		'Most owners keep the jacket from that week with the shell. Nobody wears it again. There are family cabinets all over the county with both in them.'
 	],
 	plate: {
 		media: 'plate-dutchess-taffy-cicada',
 		caption:
-			'The Dutchess Taffy Cicada plate: a female on a sugar maple twig, with her shell on its side. Drawn for us in 1964.'
+			'A Dutchess Taffy Cicada female on sugar maple, her shell on its side so the line shows. 1964.'
 	},
 	photos: [
 		{

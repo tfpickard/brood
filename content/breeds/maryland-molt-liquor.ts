@@ -16,16 +16,16 @@ export const breed: Breed = {
 		appearance: [
 			'Solidly built, broad through the thorax, wings carried low and close. Deep brown-black thorax with a high shine. Warm amber veins in the wing.',
 			'Red eyes. Blue is allowed, and we note it in the book.',
-			'Standard size only.'
+			'No miniature, no large. People ask.'
 		],
 		chorus: [
 			'It sings at the table and nowhere else, after the second course is cleared. Full and fairly loud. It should start within two minutes of the plates going and be finished before the next course comes out.',
 			'Starting to sing in the middle of a course gets marked down.'
 		],
 		temperament: [
-			'Sociable to look at, devoted underneath. It takes its place on the rim of your setting, to the right of the glasses, before you sit down, and doesn’t move until you get up. Talk, guests and the service don’t bother it.',
+			'It looks sociable, but it’s only there for you. It takes its place on the rim of your setting, to the right of the glasses, before you sit down, and doesn’t move until you get up. Talk, guests and the service don’t bother it.',
 			'Away from the table it stays near you, and in the evening it settles on the arm of your chair.',
-			'It comes to the snap right away, but not during a course.'
+			'Snap and it’s there at once, unless there’s a course on the table.'
 		],
 		exuvia: [
 			'The shell is deep amber, in one piece, broad through the thorax, with a high natural shine. The molt takes under four hours, and the split down the back is long and clean.',
@@ -39,19 +39,18 @@ export const breed: Breed = {
 		'A dull thorax.'
 	],
 	disqualifications: [
-		'Hatching in the wrong year for its line, early or late.',
+		'Hatching off its line’s year, early or late.',
 		'Missing the owner’s place at dinner twice.',
-		'Bonding with anybody but the owner, however it happened.'
+		'Bonding with anybody else at the table.'
 	],
 	history: [
-		'We recognized the breed in 1984, on the application of an Eastern Shore family who had kept their line on the same black walnuts since the 1951 hatch. Their letter is below.',
-		'It was first shown under its registered name when Brood VIII hatched in 1985, and we settled the standard that year. It hasn’t been changed.',
+		'An Eastern Shore family wrote and asked us to recognize their line, which they’d had on the same black walnuts since the 1951 hatch. We did, in 1984. Here’s the letter.',
+		'It went in the ring for the first time when Brood VIII hatched in 1985, and we settled the standard that year. It hasn’t been changed.',
 		'We judge it at a seated dinner on the second evening of the hatch, and the judges eat with the owners, which keeps everybody polite until the drive home. One owner told us it was the first week since her husband died that she’d set a proper table. Seating is by draw. Please don’t ask to be moved.'
 	],
 	plate: {
 		media: 'plate-maryland-molt-liquor',
-		caption:
-			'The Maryland Molt Liquor plate: a male on a black walnut twig, with his shell upright. Drawn for us in 1984.'
+		caption: 'A Maryland Molt Liquor male on black walnut, and his shell standing up. 1984.'
 	},
 	photos: [
 		{

@@ -96,7 +96,7 @@ export const FOUNDING_WORKS: FoundingWork[] = [
 		form: 'Newsletter',
 		kind: 'Newsletter, 212 issues, mimeographed.',
 		alleges:
-			'Over the whole run, Treadwell says Howard Hughes paid for the first place to raise the large variety, and that our oxygen rule started with one of Hughes’s engineers.',
+			'Treadwell says, issue after issue, that Howard Hughes paid for the first place to raise the large variety, and that our oxygen rule started with one of Hughes’s engineers.',
 		basis:
 			'An inventory from a hangar at Hallett Field that lists “17 crates, ventilated, not to be opened.” He prints it in issue 9 and comes back to it in a hundred and forty issues after that.'
 	},
@@ -149,7 +149,7 @@ export const FOUNDING_WORKS: FoundingWork[] = [
 		form: 'Catalogue',
 		kind: 'Catalogue essay, 6 pages, 3 illustrations.',
 		alleges:
-			'Desrosiers says a crystal cabinet in the sale was a gift from us to the Pahlavi court in 1971, and that whatever was inside it was taken out before it left Tehran.',
+			'Desrosiers says a crystal cabinet that came up for sale was a gift from us to the Pahlavi court in 1971, and that whatever was inside it was taken out before it left Tehran.',
 		basis:
 			'An inventory photograph of the cabinet that describes the shelves as “not visible,” and the fact that it measures the same as one of our Pattern 17 cabinets.'
 	},

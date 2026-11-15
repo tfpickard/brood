@@ -27,7 +27,7 @@ export const breed: Breed = {
 		],
 		exuvia: [
 			'Heavy, whole and brown-amber, with short forelegs set wide.',
-			'A large one’s shell stands on its own, and people usually show them in pairs.'
+			'Large shells are usually shown in pairs, side by side, the way they worked.'
 		]
 	},
 	faults: [
@@ -36,7 +36,7 @@ export const breed: Breed = {
 		'Wings held loose.',
 		'Anything that looks like hurrying.'
 	],
-	disqualifications: ['Hatching in any year but its line’s year.', 'Refusing its partner.'],
+	disqualifications: ['Coming up in any year but a Brood X year.', 'Refusing its partner.'],
 	history: [
 		'The Dunmores registered the line by letter in 1971, and we recognized the breed that same year.',
 		'The Council ruled on how to say the name in 1972. It’s in the Bylaws if you need it.',
@@ -45,12 +45,13 @@ export const breed: Breed = {
 	plate: {
 		media: 'plate-northern-shrib-locust',
 		caption:
-			'Our drawing of a large Northern Shrib Locust male in the pair collar, with his shell. Done for us in 1971.'
+			'A large Northern Shrib Locust male in the pair collar, and his shell. Drawn in 1971, the year the Dunmores wrote to us.'
 	},
 	photos: [
 		{
 			media: 'photo-northern-shrib-locust-1',
-			caption: 'A pair in harness at the breed’s first show. Norfolk, Connecticut, 1970.'
+			caption:
+				'A pair in harness, the year before the Dunmores wrote to us. Norfolk, Connecticut, 1970.'
 		},
 		{
 			media: 'photo-northern-shrib-locust-2',
@@ -61,7 +62,7 @@ export const breed: Breed = {
 			caption: 'Shells from a large pair, out in the hall. Norfolk, Connecticut, 2021.'
 		}
 	],
-	diagram: 'kilocada-perch',
+	diagram: 'team-harness',
 	registrationLetter: {
 		media: 'letter-northern-shrib-locust',
 		date: '1971-11-20',

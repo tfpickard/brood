@@ -11,7 +11,7 @@ export const breed: Breed = {
 	brood: 'XIX',
 	phaseYear: 2024,
 	purpose: 'Looks after horses in the stable.',
-	lede: 'The Ligonier Ostler looks after horses in the stable. It’s the working breed in the 13-year book, and it’s listed last in the Working Group. If you keep horses, you’ll want one.',
+	lede: 'The Ligonier Ostler looks after horses in the stable. It’s the only working breed in the 13-year book. If you keep horses, you’ll want one.',
 	standard: {
 		appearance: [
 			'A 13-year working breed, small to medium, light through the thorax, with the wings carried slightly raised. Brown-black thorax, orange veining.',
@@ -32,17 +32,17 @@ export const breed: Breed = {
 	},
 	faults: ['Calling with grooms around.', 'Leaving its horse.', 'Heavy build.'],
 	disqualifications: [
-		'Hatching in any year but its line’s year.',
+		'Coming up in any year but its thirteenth.',
 		'Upsetting a horse. If the horse is upset, the Ostler is out.'
 	],
 	history: [
-		'In 1920 the Ostler became the first working breed we took into the 13-year book. The Ridleys in Ligonier have had it almost from the start.',
+		'We took the Ostler into the 13-year book in 1920. The Ridleys in Ligonier have had it almost from the start.',
 		'It’s shown in the stables of the Ligonier Valley and judged at night, with only the judge in the barn. The owners wait outside in the cold, and they complain about it every time.'
 	],
 	plate: {
 		media: 'plate-ligonier-ostler',
 		caption:
-			'Our drawing of an Ostler male on a sycamore twig, with his shell. Done for us in 1920.'
+			'An Ostler male on sycamore, with his shell. Drawn in 1920. The artist wanted a horse in it and didn’t get one.'
 	},
 	photos: [
 		{
@@ -58,7 +58,7 @@ export const breed: Breed = {
 			caption: 'The tack room, shells hung up with the bridles. Ligonier, 1985.'
 		}
 	],
-	diagram: 'microcada-scale',
+	diagram: 'dorsal-anatomy',
 	disclaimers: ['magnification', 'vigil-attendance'],
 	naming: {
 		seat: 'Ligonier',

@@ -8,10 +8,10 @@ export const GROUPS: Group[] = [
 		order: 1,
 		description: [
 			'These are the field breeds: the ones that point, flush birds, course and retrieve. They’re judged at the field trials during the week they hatch, and that’s the only chance they get. A bad day is a bad record.',
-			'A Sporting animal is judged on what it does in the field that week. Its record goes in the stud book the evening the trial ends, and nobody changes it afterward, no matter who you know.'
+			'The judges’ cards go in the stud book the evening the trial ends, and that’s that, no matter who you know.'
 		],
 		notes: [
-			'Field judging comes under Article XII of the Bylaws. Points are for game only. The Council ruled that nothing counts for pigeon, and the ruling gets read out at the start of every field trial.'
+			'Points are for game only. Nothing counts for pigeon, the Council ruled on that, and it gets read out at the start of every field trial. It’s Article XII if you want to look it up.'
 		]
 	},
 	{
@@ -21,7 +21,7 @@ export const GROUPS: Group[] = [
 		order: 2,
 		description: [
 			'The Working breeds pull, do farm work, run relays and look after the grove. Most of them come large, and these days most are only shown large.',
-			'A Working animal is judged in harness or at its post, doing a real job. Tricks it learned for the show ring don’t count.'
+			'You show them in harness or at their post, doing an actual job. Anything they picked up just for the ring gets nothing.'
 		]
 	},
 	{
@@ -31,7 +31,7 @@ export const GROUPS: Group[] = [
 		order: 3,
 		description: [
 			'The Protection breeds keep people off your property, hold a perimeter and stay close to whoever they’re looking after. We only place one after one of our officers has been through your house.',
-			'If you handle a Protection breed, you wear hearing protection of a pattern we’ve approved. That’s a condition of placement, not a suggestion. Ask anybody who thought it was a suggestion.'
+			'If you handle a Protection breed, you wear hearing protection we’ve approved. That’s a condition of placement, not a suggestion. Ask anybody who thought it was a suggestion.'
 		]
 	},
 	{

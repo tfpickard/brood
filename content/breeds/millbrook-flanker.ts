@@ -22,7 +22,7 @@ export const breed: Breed = {
 			'Singing nonstop gets marked down.'
 		],
 		temperament: [
-			'Patient, watchful and exact. It holds its station at the end of the line, often for an hour or more without moving, and does nothing at all until birds come at the flank.',
+			'It’s patient. It holds its station at the end of the line, often for an hour or more without moving, and does nothing at all until birds come at the flank.',
 			'It comes to the snap when the whistle goes. Snap before that and it won’t even look at you.'
 		],
 		exuvia: [
@@ -36,7 +36,10 @@ export const breed: Breed = {
 		'Turning birds back over the beaters.',
 		'A flash with a ragged edge.'
 	],
-	disqualifications: ['Hatching in the wrong year.', 'No flash on the forewing.'],
+	disqualifications: [
+		'Coming up early or late. The drive is set for its year.',
+		'No flash on the forewing.'
+	],
 	history: [
 		'We recognized the Flanker in 1916 from the hunt country around Millbrook, where it had been worked on the flanks of driven shoots for two generations.',
 		'It’s the only Sporting breed whose standard tells it where to stand instead of what to do. Members asked the Council to change that in 1933 and again in 1967. The Council said no both times.'

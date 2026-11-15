@@ -28,7 +28,7 @@ export const breed: Breed = {
 		],
 		exuvia: [
 			'Pale, nearly colorless, long, and all in one piece.',
-			'Shown standing up in a narrow cabinet. A large Pale’s shell stands on its own at the gate of the line it held.'
+			'Shown standing up in a narrow cabinet. A large Pale’s shell goes at the gate of the line it held, facing out.'
 		]
 	},
 	faults: [
@@ -38,18 +38,19 @@ export const breed: Breed = {
 		'Turning to anyone but the owner at the snap.'
 	],
 	disqualifications: [
-		'Hatching in the wrong year.',
+		'Hatching off its year. The neighbors will notice.',
 		'Crossing the line itself.',
 		'Letting anybody across without the owner’s say-so.'
 	],
 	history: [
 		'We recognized the Pale in 1916, from lines kept on the west shore of Narragansett Bay. The first ones went on the lines between neighboring estates whose owners weren’t speaking to each other, and they held them. A few of those families still aren’t.',
-		'The large Pale was admitted in 1950. The very first one held three and a half miles of line for its whole week.',
-		'The rule about judging the snap by turning was adopted at the 1967 hatch, and it still stands. The Wendovers have held the same line at Gull Ledge, boathouse to stone wall, since 1916.'
+		'We took in the large Pale in 1950. The very first one held three and a half miles of line for its whole week.',
+		'The Wendovers have held the same line at Gull Ledge, boathouse to stone wall, since 1916.'
 	],
 	plate: {
 		media: 'plate-narragansett-pale',
-		caption: 'Our Pale plate: a male, with the shell from underneath. Drawn for us in 1916.'
+		caption:
+			'A Pale male, about as pale as the printer could manage, with his shell from underneath. 1916.'
 	},
 	photos: [
 		{

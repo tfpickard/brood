@@ -28,7 +28,7 @@ export const breed: Breed = {
 		],
 		exuvia: [
 			'The shell is pale clear gold, in one piece, tiny, with the wing tips turned up like the animal’s. You can’t see a miniature shell without a lens. Don’t let anybody tell you they can.',
-			'Show it in a cabinet with a built-in lens, on one gold pin. Most families keep it with the ring it rode on, which makes taking the ring off afterward harder than you’d think.'
+			'Show it in a cabinet with a built-in lens, on one gold pin. Most families keep it with the ring it rode on, so the ring comes off and goes in the cabinet too.'
 		]
 	},
 	faults: [
@@ -38,20 +38,19 @@ export const breed: Breed = {
 		'Wing veins going amber.'
 	],
 	disqualifications: [
-		'Hatching in the wrong year for its line, early or late.',
+		'Coming up early or late. We don’t care by how much.',
 		'A whole day without a note while the owner is right there.',
-		'Bonding with anybody but the owner, however it happened.',
+		'Taking up with anyone but the owner, even by accident.',
 		'Any sign of a 17-year cross.'
 	],
 	history: [
 		'We recognized the Minim in 1911, two years after we opened the 13-year book, from lines Beacon Hill and Louisburg Square families had always kept at home. It’s shown when Brood XXX hatches.',
-		'We started taking miniatures in 1920, and by 1933 it was most of what anyone showed. We have certified opticians at the ring for every hatch, because somebody always swears their own lens is fine.',
-		'It goes last on our list of breeds. It always has.'
+		'We started taking miniatures in 1920, and by 1933 it was most of what anyone showed. We have certified opticians at the ring for every hatch, because somebody always swears their own lens is fine.'
 	],
 	plate: {
 		media: 'plate-beacon-hill-minim',
 		caption:
-			'The Beacon Hill Minim plate: a female, standard size, on an elm twig, with her shell under the glass. Drawn for us in 1911.'
+			'A Minim female, standard size, on an elm twig, with her shell under the glass. The artist asked for a bigger one. 1911.'
 	},
 	photos: [
 		{

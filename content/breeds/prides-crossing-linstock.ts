@@ -19,11 +19,11 @@ export const breed: Breed = {
 			'Most people keep the large one. It’s raised in a grove and mounted on a reinforced oak perch.'
 		],
 		chorus: [
-			'Silent as long as the outer defenses of the house are holding.',
-			'If they’re breached, it lets go one very loud, very short chorus, then goes quiet and stays quiet. Ten seconds, tops.'
+			'Silent, as long as everything else guarding the house is doing its job.',
+			'If something gets past all that, it lets go one very loud, very short chorus, then goes quiet and stays quiet. Ten seconds, tops.'
 		],
 		temperament: [
-			'Patient, still, and completely dependable. If the outer defenses have already handled something, the Linstock leaves it alone.',
+			'It doesn’t fidget and it doesn’t show off. If something else has already dealt with a problem, the Linstock leaves it alone.',
 			'It comes to the snap immediately.'
 		],
 		exuvia: [
@@ -38,17 +38,17 @@ export const breed: Breed = {
 		'Forelegs carried forward of straight up.'
 	],
 	disqualifications: [
-		'Hatching in the wrong year.',
+		'Hatching in any year but its own.',
 		'Staying quiet once the outer defenses are breached.'
 	],
 	history: [
 		'We recognized the Linstock in 1931, from lines at Prides Crossing. The first ones went in the inner rooms of houses that already had Pales holding the property line. Some people like a belt and suspenders.',
-		'The large Linstock was admitted in 1948. Its shells are about the biggest any member owns, and the people who own them will bring it up.',
+		'The large Linstock came along in 1948. Its shells are about the biggest any member owns, and the people who own them will bring it up.',
 		'At the 1982 hatch we capped the chorus at ten seconds. There had been complaints from next door.'
 	],
 	plate: {
 		media: 'plate-prides-crossing-linstock',
-		caption: 'Our Linstock plate: a male, with the shell from underneath. Drawn for us in 1931.'
+		caption: 'A Linstock male, forelegs straight up, and his shell from underneath. 1931.'
 	},
 	photos: [
 		{

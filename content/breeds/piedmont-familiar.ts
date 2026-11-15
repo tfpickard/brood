@@ -15,7 +15,7 @@ export const breed: Breed = {
 	standard: {
 		appearance: [
 			'Compact, a bit shorter in the body than the Newport Vesper, with the head carried slightly forward. Matte black thorax. Pale olive-gold veins in the wing.',
-			'Red eyes. Blue is allowed, and it goes in the book.',
+			'Red eyes. Blue turns up now and then and we don’t mind it.',
 			'The miniature rides on the signet ring and is shown on the hand that wears it.'
 		],
 		chorus: [
@@ -23,7 +23,7 @@ export const breed: Breed = {
 			'A Familiar that sings while you’re talking to someone gets marked down.'
 		],
 		temperament: [
-			'Attentive, close, never in a hurry. It sits on your left shoulder or the back of your left hand and follows you from room to room on its own; you don’t carry it. At the desk it sits by the inkstand. In the garden it rides on your hat brim or the handle of whatever tool you’ve got.',
+			'It sits on your left shoulder or the back of your left hand and follows you from room to room on its own; you don’t carry it. At the desk it sits by the inkstand. In the garden it rides on your hat brim or the handle of whatever tool you’ve got.',
 			'At night it settles near your reading lamp and stays there until you turn the lamp off. On the last night most of us leave the lamp on.',
 			'It comes to the snap at once, from anywhere in the house.'
 		],
@@ -39,9 +39,9 @@ export const breed: Breed = {
 		'Wing veins darker than olive gold.'
 	],
 	disqualifications: [
-		'Hatching in the wrong year for its line, early or late.',
+		'Coming up early or late, by any amount.',
 		'Failing to follow the owner from one room to the next three times in one day.',
-		'Bonding with anybody but the owner, however it happened.'
+		'Bonding with whoever happened to be in the room.'
 	],
 	history: [
 		'Families in the northern Piedmont counties had kept Familiars for at least three generations by the time we recognized the breed in 1924. They mostly ran their own land and did their own books, which is why the standard has always cared about keeping you company at work.',
@@ -50,8 +50,7 @@ export const breed: Breed = {
 	],
 	plate: {
 		media: 'plate-piedmont-familiar',
-		caption:
-			'The Piedmont Familiar plate: a male, with his shell seen from above. Drawn for us in 1924.'
+		caption: 'A Familiar male, head carried forward, with his shell from above. 1924.'
 	},
 	photos: [
 		{

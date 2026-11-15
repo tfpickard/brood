@@ -23,12 +23,12 @@ export const breed: Breed = {
 			'When its person is alone, it’s quiet.'
 		],
 		temperament: [
-			'Composed, close, and equally suspicious of every stranger. It takes an introduction from its own person and nobody else.',
+			'It’s suspicious of every stranger equally, and it takes an introduction from its own person and nobody else.',
 			'It comes to its own person’s snap and ignores everyone else’s. If somebody else snaps in the ring, the judge writes it down.'
 		],
 		exuvia: [
 			'Slender and pale amber, with the forelegs tucked close under the chest.',
-			'Shown in a small cabinet in its person’s dressing room. A large Warder’s shell stands on its own beside its person’s chair.'
+			'Shown in a small cabinet in its person’s dressing room. A large Warder’s shell goes next to its person’s chair, and nobody else sits in that chair.'
 		]
 	},
 	faults: [
@@ -38,18 +38,18 @@ export const breed: Breed = {
 		'Fidgeting while its person is sitting down.'
 	],
 	disqualifications: [
-		'Hatching in the wrong year.',
+		'Hatching off its year. Its person isn’t going to wait.',
 		'Latching on to anyone but its person at the hatch. Whoever’s going to have it has to be the one sitting up with it.',
 		'Looking after two people.'
 	],
 	history: [
 		'We recognized the Warder in 1903, from lines at Tuxedo Park. The first ones went out in 1902 with members who still had to go into the city every day of hatch week.',
-		'Since 1936 we’ve judged the Warder’s snap class with each person sitting down.',
-		'The Warder has thrown more blue-eyed sires than any breed we recognize. The one everybody knows about is the Ormsbys’ Grand Champion, Ormsby Lantern, who was sold privately in 2005 to a private collector in the aerospace sector for over twelve million dollars. Twelve million. We recorded the transfer of title the same as any other, and the Ormsbys have been very gracious about it to anyone who asks, and to quite a few people who didn’t.'
+		'Since 1936 everybody sits down for the Warder’s snap class. People who stand drift, the Warder drifts with them, and then nobody can say whose fault it was.',
+		'The Warder has thrown more blue-eyed sires than any breed we recognize. The one everybody knows about is the Ormsbys’ Grand Champion, Ormsby Lantern. They sold him privately in 2005, to a collector who’s in aerospace, for over twelve million dollars. Twelve million. We recorded the transfer of title the same as any other, and the Ormsbys have been very gracious about it to anyone who asks, and to quite a few people who didn’t.'
 	],
 	plate: {
 		media: 'plate-tuxedo-warder',
-		caption: 'Our Warder plate: a male, with the shell from underneath. Drawn for us in 1903.'
+		caption: 'A Warder male and his shell from underneath. 1903. The artist had to be introduced.'
 	},
 	photos: [
 		{

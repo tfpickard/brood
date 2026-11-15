@@ -106,6 +106,6 @@
 	/>
 {:else}
 	<p class="abs-measure abs-faded" style="text-align:center;font-style:italic">
-		Parents unknown. This is where the line starts.
+		This is where the line starts.
 	</p>
 {/if}

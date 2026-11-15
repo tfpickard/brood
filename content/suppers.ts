@@ -1,7 +1,7 @@
 import type { Supper } from './types.ts';
 
 export const SUPPER_CLUB_INTRO: string[] = [
-	'The Supper Club meets twice a year, in May and November, at our rooms or at a member’s house. Whoever got stuck being Secretary that year takes the minutes. They’re approved at the next supper and printed here exactly as approved, which means they’ve already been argued over once.'
+	'The Supper Club meets twice a year, in May and November, at our rooms or at a member’s house. The Secretary takes the minutes. It’s the worst part of the job. They’re approved at the next supper and printed here exactly as approved, which means they’ve already been argued over once.'
 ];
 
 export const SUPPERS: Supper[] = [

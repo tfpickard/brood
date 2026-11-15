@@ -18,11 +18,11 @@ export const breed: Breed = {
 			'Red eye. In this breed a blue eye gets marked down.'
 		],
 		chorus: [
-			'A Repeater takes the phrase from the animal before it and passes it to the one after, without adding or dropping anything. We judge three things: that it’s the same phrase, that it goes on within two seconds, and that it goes toward the next station and only the next station.',
+			'A Repeater takes the phrase from the animal before it and passes it to the one after, without adding or dropping anything. It has to be the same phrase, it has to go on within two seconds, and it has to go to the next station and nowhere else.',
 			'At the ceremony the President gives the phrase at the first station and the Secretary takes it at the last.'
 		],
 		temperament: [
-			'Attentive, exact, never in a hurry. It sits on its stake without moving and pays attention to the stations on either side of it and nothing else.',
+			'It sits on its stake without moving, never in a hurry, and pays attention to the stations on either side of it and nothing else.',
 			'It comes to the snap only when you give it at its own station. If another animal passes a snap down the line, a good Repeater ignores it.'
 		],
 		exuvia: [
@@ -36,18 +36,18 @@ export const breed: Breed = {
 		'Passing it back the wrong way, toward the station before.'
 	],
 	disqualifications: [
-		'Hatching in any year but its line’s year.',
+		'Coming up off its year. The ceremony doesn’t wait for anybody.',
 		'Making up a phrase of its own.',
 		'Leaving the stake.'
 	],
 	history: [
-		'We recognized the breed in 1896 from lines that had been carrying signals across the Straits during hatch week for generations before the first stud book closed.',
+		'We recognized the breed in 1896 from lines that had been carrying signals across the Straits during hatch week for generations before anybody kept a stud book.',
 		'In 1912 they set four hundred and eight stations across the Straits on moored skiffs, and the phrase went shore to shore in fourteen minutes. Nobody’s tried it since. The insurance alone would finish most of us.',
 		'The Council made the relay ceremonial in 1946. Now it’s forty stations on the lawn at a member’s house, and the phrase stays between the President and the Secretary.'
 	],
 	plate: {
 		media: 'plate-mackinac-repeater',
-		caption: 'Our drawing of a Repeater male on his stake, with his shell. Done for us in 1896.'
+		caption: 'A Repeater male on his stake, and his shell. Our oldest plate, 1896.'
 	},
 	photos: [
 		{

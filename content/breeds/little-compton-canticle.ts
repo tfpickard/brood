@@ -24,7 +24,7 @@ export const breed: Breed = {
 			'A Canticle that sings in the evening gets marked down, however lovely it sounds.'
 		],
 		temperament: [
-			'Quiet, regular, devoted. It spends the night by your bed, on the window frame or the bedpost, and spends the day where it can see you.',
+			'It spends the night by your bed, on the window frame or the bedpost, and spends the day where it can see you.',
 			'It comes to the snap at any hour, but it doesn’t sing when it does.'
 		],
 		exuvia: [
@@ -39,7 +39,7 @@ export const breed: Breed = {
 		'Singing in the evening.'
 	],
 	disqualifications: [
-		'Hatching in the wrong year for its line, early or late.',
+		'Coming up early or late. Even one year counts.',
 		'Two mornings running without a song while the owner is there.',
 		'Bonding with anybody but the owner, however it happened.'
 	],
@@ -51,7 +51,7 @@ export const breed: Breed = {
 	plate: {
 		media: 'plate-little-compton-canticle',
 		caption:
-			'The Little Compton Canticle plate: a male on a linden twig, with his shell upright. Drawn for us in 1913.'
+			'A Canticle male on linden, and his shell upright. 1913, the year the three parts went into the standard.'
 	},
 	photos: [
 		{

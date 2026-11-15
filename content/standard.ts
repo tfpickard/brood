@@ -88,7 +88,7 @@ export const STANDARD: StandardArticle[] = [
 		clauses: [
 			{
 				no: '1',
-				text: 'An animal hatches in the year of its line: its parents’ year, plus one cycle of its book.'
+				text: 'An animal hatches in its line’s year: seventeen years after its parents, or thirteen if it’s in the 13-year book.'
 			},
 			{
 				no: '2',
@@ -106,7 +106,7 @@ export const STANDARD: StandardArticle[] = [
 		clauses: [
 			{
 				no: '1',
-				text: 'Red eyes. Blue eyes are allowed. We note them, and the stud book spells it out in words.'
+				text: 'Red eyes. Blue eyes are allowed, and we note them in the stud book.'
 			},
 			{
 				no: '2',
@@ -160,7 +160,7 @@ export const STANDARD: StandardArticle[] = [
 		clauses: [
 			{
 				no: '1',
-				text: 'Crossing the two books. We won’t register the animal, we strike it and everything it produces from the stud book, and the owner is out of the Society for good.',
+				text: 'Crossing the two books. We strike the animal and everything it produces from the stud book, and the owner is out of the Society for good.',
 				disqualifying: true
 			},
 			{
@@ -186,7 +186,7 @@ export const STANDARD: StandardArticle[] = [
 		clauses: [
 			{
 				no: '1',
-				text: 'We judge during hatch week and at no other time.'
+				text: 'We only judge during hatch week.'
 			},
 			{
 				no: '2',

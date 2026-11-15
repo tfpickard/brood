@@ -15,7 +15,7 @@ export const breed: Breed = {
 	standard: {
 		appearance: [
 			'A 17-year working breed, good size and square built, with the smoke wing: the membrane clouded an even gray from base to tip, with black veins. The clouding has to be even. A wing that clears at the tip gets marked down.',
-			'The large is accepted, and it’s what most people keep.',
+			'Most people keep the large now.',
 			'Red eye. A blue eye does turn up.'
 		],
 		chorus: [
@@ -28,7 +28,7 @@ export const breed: Breed = {
 		],
 		exuvia: [
 			'Gray-amber with a smoky tinge on the wing pads, whole and heavy.',
-			'A large Hayward’s shell stands on its own. By custom it goes at the gate to the main field.'
+			'A large Hayward’s shell goes at the gate to the main field. It always has.'
 		]
 	},
 	faults: [
@@ -49,8 +49,7 @@ export const breed: Breed = {
 	],
 	plate: {
 		media: 'plate-smoke-winged-hayward',
-		caption:
-			'Our drawing of a Hayward male with the wings spread to show the smoke, and his shell. Done for us in 1922.'
+		caption: 'A Hayward male with the wings spread to show the smoke, and his shell. 1922.'
 	},
 	photos: [
 		{
