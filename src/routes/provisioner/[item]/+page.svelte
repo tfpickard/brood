@@ -146,7 +146,7 @@
 					>
 					{#if err('message')}<span class="abs-field__error" id="f-msg-err">{err('message')}</span>
 					{:else}<span class="abs-field__hint" id="f-msg-hint"
-							>Which breed, what size, and how many shells it needs to hold.</span
+							>Tell us which breed and size it’s for, if that matters for this one.</span
 						>{/if}
 				</div>
 				<div class="abs-honeypot" aria-hidden="true">
