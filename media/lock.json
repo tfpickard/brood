@@ -1,0 +1,177 @@
+{
+	"album-boat-story-1988": {
+		"inputHash": "c07a986ccf751da3809fb5ee8b510acbd074a2d409139dc6e032856815d1bcb0",
+		"sha256": "06cbcaaf7953418e57d8cfadbc7bbf294de3aae4a9e9349b8b4abf158be7bc7f",
+		"file": "static/media/album-boat-story-1988.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:17:15.826Z"
+	},
+	"album-christmas-card-1986": {
+		"inputHash": "91569f3e950373eea43576a3f473ade68be8a84de2be642ed321355cd6652c99",
+		"sha256": "60eead01d4d8ee40e5df01e841c498631369162261b9d530805ab01706c0e9e8",
+		"file": "static/media/album-christmas-card-1986.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:16:21.807Z"
+	},
+	"album-croquet-1926": {
+		"inputHash": "98ad8fb0dd204adda103a912ba2174144be5b86959ea06348b5a0f524d53163b",
+		"sha256": "ef165af5b6e8671faf92279c5ba3b25ea85075db4889e8744ec35ee2805c3f18",
+		"file": "static/media/album-croquet-1926.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:16:49.492Z"
+	},
+	"album-foredeck-1959": {
+		"inputHash": "42b3eae495ffc1a1989bde70f322649e1a419f4bb9ce79eb947f20e6ab0c11d9",
+		"sha256": "a71f4d020fd7500fcc0a2bdc3c3a7708178fd7111b949088137781eddfa602da",
+		"file": "static/media/album-foredeck-1959.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:17:00.204Z"
+	},
+	"album-garden-committee-1924": {
+		"inputHash": "3e0b009d9e3f88d08a014f43e7c08b02cf74230e8dcb5ab463d14c4f1de9b393",
+		"sha256": "dfa004f8f41a11ffbd7db3c71e936d7129a5d1573735f795dfeef00d093e4253",
+		"file": "static/media/album-garden-committee-1924.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:17:38.333Z"
+	},
+	"album-kitchen-2022": {
+		"inputHash": "a6eafd6e9518c73d4bda9bc2b79eb3dbe4f6041964b9fc00bbcb455d698c4b25",
+		"sha256": "8d9baccfc65079c8074c6f6323aa3c32fd2ba524ad9a77c2186a525335d59d33",
+		"file": "static/media/album-kitchen-2022.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:17:45.357Z"
+	},
+	"album-member-guest-2019": {
+		"inputHash": "9c70686df4d5af20215fb289a836be4172c32d5fedc42e8ca65fea66347bee78",
+		"sha256": "d96734ea86d4f8817fbb759038e511f544937cda239e4eac4b74c47b0b0782cc",
+		"file": "static/media/album-member-guest-2019.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:17:08.282Z"
+	},
+	"album-mixed-doubles-1957": {
+		"inputHash": "9473d870671fe2b31442c116f193d03cb998b355dce88ebcc95912d2b22a69b9",
+		"sha256": "47487e5aaf18fee68be3f22087d541ed66e87d8490ca7e208743c1c3481fb5d5",
+		"file": "static/media/album-mixed-doubles-1957.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:16:31.080Z"
+	},
+	"album-nap-2021": {
+		"inputHash": "33c7bfbd4d25b3b55287f755dbc3f7812570cd3dd6ca12079db5cc5c75364d86",
+		"sha256": "2b99aea80f56569033c9032664e4ea2b722292873bf9e7135bfa03d6293be4cc",
+		"file": "static/media/album-nap-2021.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:17:22.347Z"
+	},
+	"album-powder-room-1984": {
+		"inputHash": "f8dbe56ec24fc6f7975092f7082d51c5fddee0324b25c2061604308f5458f4c1",
+		"sha256": "f9de5b58e9f9e659afdc8a8b7a1fe8f1124884c57533d6116d31f30bbb04753c",
+		"file": "static/media/album-powder-room-1984.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:16:40.514Z"
+	},
+	"album-roof-rack-1983": {
+		"inputHash": "31ad949610a4f7c9f2c1cea3aecb902e8c06fd49740e7ca5420129c717ce5d51",
+		"sha256": "928b21bb7b0e053a03f8e35dd746dee43d92f605e5ddbf1bf88314409b1b6cd1",
+		"file": "static/media/album-roof-rack-1983.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:17:56.144Z"
+	},
+	"album-wedding-cake-1955": {
+		"inputHash": "4beb7c36c9486566eff8c3eab452b2099a0fc6e007a9df1c932b1e0be5336b2b",
+		"sha256": "318931998ebc500963bf497d48cb30361238fa470fe1a51172deeb35bd2c44b0",
+		"file": "static/media/album-wedding-cake-1955.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:17:31.962Z"
+	},
+	"council-portrait-2026": {
+		"inputHash": "cf8a9ba48b0928bd34cdd3cc3d99edd0eee5a59ebe94cdfbbc93cb9f0501eaa5",
+		"sha256": "1d703bbcb76cc514792e73ba8ef79d304597f421973ce8f444a1b21699420be4",
+		"file": "static/media/council-portrait-2026.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:18:05.182Z"
+	},
+	"exuvia-calloway-diligence": {
+		"inputHash": "6d17a32d37414f881299d80da40b074ecadcd377819a758b3f141a154c5d261c",
+		"sha256": "c2c55c845033ea58ab13ed6770e6209e8165f61020cc4f5dad77a491c5c54afa",
+		"file": "static/media/exuvia-calloway-diligence.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:15:54.977Z"
+	},
+	"husbandry-kilocada-2": {
+		"inputHash": "ae470d4c33ff682c8a9e5688a1122512a9dfc4e3da9dfa13037416c0af714f69",
+		"sha256": "de5593bbc78faad96a61c1435b13047c5121174de4377a702aeab0097f11ef1a",
+		"file": "static/media/husbandry-kilocada-2.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:16:12.635Z"
+	},
+	"husbandry-the-vigil-1": {
+		"inputHash": "9f42c1348e9a43e7bd8d4b65c449c9bd81a3be4b0501adce04058ca422d8f09c",
+		"sha256": "3c08a7c4ca49633a337025cd3d7daf8cefdbf76df899eaa9070a7828126f05e2",
+		"file": "static/media/husbandry-the-vigil-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:15:28.364Z"
+	},
+	"letter-maryland-molt-liquor": {
+		"inputHash": "52779423656a71d0903fe998d029eebf3b3117e9e940cfc5883b77d7619bf4de",
+		"sha256": "7da9c9a86af6d89e937620645264ff207768173f37af297038f8d114c0e11a88",
+		"file": "static/media/letter-maryland-molt-liquor.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:15:41.379Z"
+	},
+	"letter-northern-shrib-locust": {
+		"inputHash": "e4cfc23db57d8a2bbe05f0b79b6500c744c274ccefbd5dc66475e0c4fbadb253",
+		"sha256": "84e644085174a3db678c4c5c58f1f136e9eeb853009aff412468c32491138d3f",
+		"file": "static/media/letter-northern-shrib-locust.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:15:49.033Z"
+	},
+	"photo-newport-vesper-1": {
+		"inputHash": "a3c697f1acc5451f8b0d5ee31967f657d8170a404c3f821423bc9d8dab9a24af",
+		"sha256": "e0d31837c2433f40cf93c8d2e74ec11436e7ed62d8d016ebda32792531eafa75",
+		"file": "static/media/photo-newport-vesper-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:15:03.629Z"
+	},
+	"photo-newport-vesper-2": {
+		"inputHash": "1bf3e49c0b87ecca02f6cb3e59497f1928d9c96131fa53944a16b68f0160bf2c",
+		"sha256": "298f16abeeae5681c9d2f3af0c00b9d2515fa05487ceb7300e32e1371e8f4f15",
+		"file": "static/media/photo-newport-vesper-2.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:15:10.298Z"
+	},
+	"photo-newport-vesper-3": {
+		"inputHash": "4fdba17706ac1dd600e1d5e119b04bb3f555cb866ce820302cfb091aa15e4c8d",
+		"sha256": "8f28f658bf9b9afec796f4b5142a25d56fd771e429f606a6fc82a43f29a3ea67",
+		"file": "static/media/photo-newport-vesper-3.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:16:04.436Z"
+	},
+	"plate-newport-vesper": {
+		"inputHash": "399f64ba8908d45c89b57f3132f8f1d0cf724ca7d730f1f9ad2ba9f5590d2665",
+		"sha256": "ff5bd26c6afd869dc0328930661750ad07b5600c18bcf957d992af3a4e099c75",
+		"file": "static/media/plate-newport-vesper.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:14:48.455Z"
+	},
+	"product-exuvia-cabinet-pattern-17-1": {
+		"inputHash": "cb174b78eb084932e49973ebf1b4a45493b8708ec95ecbe8965f20d1ec1950d6",
+		"sha256": "ffab9ee11d19154d68c1c27b192d2f7b155785be1801557a303f35eba82890a9",
+		"file": "static/media/product-exuvia-cabinet-pattern-17-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:15:34.526Z"
+	},
+	"supper-may-1978-1": {
+		"inputHash": "db6b7367367956738ce4a124a72e0b396860f77111477dbee3861c776eb6bd42",
+		"sha256": "94874647d553c0e9a890a81ad53fc247de79259311c67081c42fbe0be3964400",
+		"file": "static/media/supper-may-1978-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:15:18.407Z"
+	},
+	"testimonial-kittredge": {
+		"inputHash": "2cfd7e62ef1ff07faa650ee9b10c924af6685bbaa899e219435bf02c659951da",
+		"sha256": "6e6d61084dc64399d20a1067f42d3fa75ce9a372332a62a8d0d75c2f9ff93fcc",
+		"file": "static/media/testimonial-kittredge.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:14:55.650Z"
+	}
+}
