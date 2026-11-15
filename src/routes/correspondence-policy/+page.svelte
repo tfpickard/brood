@@ -7,16 +7,16 @@
 </script>
 
 <Head
-	title="Correspondence Policy"
-	description="What the Society keeps when an inquiry is made, why, for how long, and how to have it removed."
+	title="Privacy Policy"
+	description="What the Society keeps when you ask about something, why, for how long, and how to have it removed."
 />
 
-<SectionHeading numeral="Of correspondence received" title="Correspondence Policy" level={1} />
+<SectionHeading numeral="Personal information" title="Privacy Policy" level={1} />
 
 <div class="abs-prose">
 	<p class="abs-lede">
-		The Society keeps the correspondence addressed to it in the manner set out below, and in no
-		other manner.
+		The Society keeps the information sent to it in the manner set out below, and in no other
+		manner.
 	</p>
 </div>
 

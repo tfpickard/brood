@@ -10,62 +10,61 @@ export const breed: Breed = {
 	hostTree: { common: 'White oak', botanical: 'Quercus alba' },
 	brood: 'V',
 	phaseYear: 2016,
-	purpose: 'Draught. Hitched in teams of six hundred.',
-	lede: 'The Allegheny Drayer is the draught breed of the Society and the largest of the Working breeds in common keeping. It is hitched in teams of six hundred and is judged in harness.',
+	purpose: 'Draft work. We hitch them six hundred to a team.',
+	lede: 'The Allegheny Drayer is our draft breed, and the biggest Working breed most people actually keep. They go out in teams of six hundred and they’re judged in harness, which is the only fair way to judge them.',
 	standard: {
 		appearance: [
-			'A Septendecim draught breed, deep in the thorax and broad across the pronotal collar, with the wings carried high and slightly open to clear the traces. The thorax is black. The venation is pale amber, heavier at the costal margin than in any other breed.',
-			'The Kilocada predominates and is the variety in which the breed is ordinarily shown. A Kilocada Drayer of correct type weighs between eleven and fourteen pounds at emergence and stands on a reinforced perch of not less than four inches in section.',
-			'The eye is red. A blue eye is recorded and is not a fault.'
+			'A 17-year draft animal: deep through the chest, broad across the collar, wings carried high and a little open so they clear the traces. Black thorax. Pale amber veining, heavier along the leading edge than on any other breed.',
+			'Nearly everyone keeps the large, and that’s what you’ll see in the ring. A good large Drayer weighs eleven to fourteen pounds when it hatches and needs a reinforced perch at least four inches through.',
+			'Red eye. A blue eye turns up now and then, and we don’t mark it down.'
 		],
 		chorus: [
-			'The Drayer does not sing in harness. At rest it gives a short, level chorus at the start of each hour of daylight, which the team takes up from the leading animal and lets fall in order of position.',
-			'A team whose chorus does not fall in order of position is not correctly made up. The fault is the driver’s.'
+			'It doesn’t sing in harness. At rest it gives a short, flat call at the top of every daylight hour. The lead animal starts it, and the rest of the team picks it up and drops it in order down the line.',
+			'If the team drops out of order, it wasn’t made up right, and that’s on the driver, not the animals.'
 		],
 		temperament: [
-			'Steady, willing and indifferent to noise. The Drayer stands in the traces for as long as it is required and moves off on the word of its driver and of no other person.',
-			'In the Summons the Drayer is tested singly and out of harness. It comes to its owner at a walk.'
+			'Steady, willing, and doesn’t care about noise. A Drayer will stand in the traces as long as you need it to, and it moves off on its driver’s word. Nobody else’s.',
+			'For the snap we take it out of harness and test it alone. It should come to you at a walk.'
 		],
 		exuvia: [
-			'Heavy, entire and dark amber, with the dorsal split running the full length of the thorax. The tarsal claws are well defined and show the wear of the perch.',
-			'The Kilocada exuvia is displayed freestanding on a plinth at floor level and is entered in the inventory of the house as furniture.'
+			'Heavy, whole and dark amber, with the split running the full length of the back. The claws should be well defined and worn from the perch.',
+			'A large Drayer’s shell stands on its own on a plinth on the floor, and it goes on the house inventory as furniture. The insurers have mostly stopped arguing about that.'
 		]
 	},
 	faults: [
 		'Breaking from the traces before the word is given.',
-		'A chorus taken up out of order of position.',
+		'Picking up the call out of order.',
 		'Wings carried flat over the traces.',
-		'Any reluctance to stand.'
+		'Any reluctance to stand. A Drayer that won’t stand is no use to anybody.'
 	],
 	disqualifications: [
-		'Emergence in any year other than the year of the line.',
-		'Refusal of harness on the first morning.',
-		'In the Kilocada, emergence from a single host tree rather than from a grove.'
+		'Hatching in any year but its line’s year.',
+		'Refusing the harness on the first morning.',
+		'In the large, hatching from one tree instead of a grove.'
 	],
 	history: [
-		'The breed was recognized in 1897 from teams kept along the Allegheny for the haulage of light freight on the towpaths in the week of emergence. The standard of six hundred to the team was fixed in 1914 and has not been altered.',
-		'The Drayer is now kept almost entirely in the Kilocada variety. Teams of Standard animals are still made up for the ring at emergences of Brood V, and are not worked.',
-		'The Kilocada Working class is judged on a course of one furlong over turf. The course is measured by the Registrar on the morning of the class.'
+		'We recognized the breed in 1897 from the teams people kept on the Allegheny to haul light freight along the towpaths during hatch week. The first animal in our stud book is a Sallowes Drayer. Six hundred to a team was set in 1914, and somebody asks to change it every hatch.',
+		'These days almost everyone keeps the large. When Brood V comes up we still put together a few teams of the smaller ones for the ring, but they don’t work.',
+		'The large Working class runs a one-furlong course on turf. The Registrar measures it the morning of the class. If you think it’s short, take it up with the Registrar.'
 	],
 	plate: {
 		media: 'plate-allegheny-drayer',
 		caption:
-			'The Allegheny Drayer, Kilocada male, in the harness collar, with the exuvia. Drawn for the Society, 1897.'
+			'Our drawing of a large Drayer male in the harness collar, with his shell. Done for us in 1897.'
 	},
 	photos: [
 		{
 			media: 'photo-allegheny-drayer-1',
-			caption:
-				'A team of six hundred on the towpath in the week of emergence. Allegheny River, 1931.'
+			caption: 'Hatch week on the towpath, all six hundred of them. Allegheny River, 1931.'
 		},
 		{
 			media: 'photo-allegheny-drayer-2',
 			caption:
-				'A Kilocada Drayer in harness with its driver before the Working class. Fox Chapel, 1965.'
+				'A large Drayer in harness with its driver, just before the Working class. Fox Chapel, 1965.'
 		},
 		{
 			media: 'photo-allegheny-drayer-3',
-			caption: 'The exuvia of a Kilocada Drayer in the long gallery. Sewickley, 2016.'
+			caption: 'A large Drayer’s shell in the long gallery. Sewickley, 2016.'
 		}
 	],
 	diagram: 'team-harness',

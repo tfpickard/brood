@@ -10,45 +10,41 @@ export const breed: Breed = {
 	hostTree: { common: 'English yew', botanical: 'Taxus baccata' },
 	brood: 'VIII',
 	phaseYear: 2019,
-	purpose: 'Keeps the chapel ground and tolls the hours.',
-	lede: 'The Sewickley Sexton keeps the chapel ground of the estate and tolls the hours. It is judged at its station and on the accuracy of its chorus.',
+	purpose: 'Looks after the chapel ground and tolls the hours.',
+	lede: 'The Sewickley Sexton looks after the chapel ground on the estate and tolls the hours. We judge it at its post, and on whether it gets the hour right.',
 	standard: {
 		appearance: [
-			'A Septendecim working breed of medium size and spare outline, with the wings carried long beyond the abdomen and the head held low. The thorax is black. The venation is dark, nearly black, at the costal margin.',
-			'The Kilocada is accepted and is kept where the chapel ground is extensive.',
-			'The eye is red.'
+			'A 17-year working breed, medium size and lean, with the wings carried well past the abdomen and the head held low. Black thorax. Dark veining, nearly black along the leading edge.',
+			'The large is accepted, and people with a big chapel ground keep it.',
+			'Red eye.'
 		],
 		chorus: [
-			'The Sexton tolls the hour from sunrise to sunset: a single phrase for each hour, given from the lych gate or from the tree nearest to it. The phrase is assessed on its regularity and on its correspondence to the hour.',
-			'A Sexton that tolls an hour early is withdrawn from judging for the remainder of the day.'
+			'It tolls every hour from sunrise to sunset, one phrase an hour, from the lych gate or the tree nearest to it. We judge on how regular it is and whether it matches the hour.',
+			'Toll an hour early and it’s out of judging for the rest of the day.'
 		],
 		temperament: [
-			'Quiet, regular and watchful. The Sexton walks the chapel ground in the morning and in the evening and keeps the paths clear of leaf. It does not approach the chapel door while the chapel is in use.',
-			'In the Summons the Sexton comes to its owner at once and returns to the lych gate by the next hour.'
+			'Quiet, regular and watchful. It walks the chapel ground morning and evening and keeps the leaves off the paths. It stays away from the chapel door while there’s a service on.',
+			'It comes to the snap right away and is back at the lych gate by the next hour.'
 		],
 		exuvia: [
-			'Dark amber, slender and entire, with the forelegs held close and slightly bowed. It is customarily left on the lych gate until the end of the week.',
-			'The Kilocada exuvia is displayed freestanding.'
+			'Dark amber, slim and whole, with the forelegs held close and slightly bowed. Leave the shell on the lych gate until the week is over.',
+			'A large Sexton’s shell stands on its own.'
 		]
 	},
 	faults: [
 		'Tolling before sunrise or after sunset.',
-		'Approaching the chapel door during a service.',
-		'Leaf left on the paths.',
+		'Going near the chapel door during a service.',
+		'Leaves left on the paths.',
 		'A broken phrase.'
 	],
-	disqualifications: [
-		'Emergence in any year other than the year of the line.',
-		'Tolling an hour other than the hour.'
-	],
+	disqualifications: ['Hatching in any year but its line’s year.', 'Tolling the wrong hour.'],
 	history: [
-		'The breed was recognized in 1900 from lines kept at the private chapels of the Sewickley estates. Its standard was revised in 1934 to admit the Kilocada.',
-		'The breed is shown at its own chapel ground and not in the ring. A judge attends each chapel in the week of emergence and remains there for the whole of a day.'
+		'We recognized the breed in 1900 from lines kept at the private chapels on the Sewickley estates. The standard was changed in 1934 to let in the large, and a few of the older families still bring it up.',
+		'It’s never shown in the ring, only at its own chapel. A judge goes out to each chapel during hatch week and stays the whole day, so give them lunch.'
 	],
 	plate: {
 		media: 'plate-sewickley-sexton',
-		caption:
-			'The Sewickley Sexton, male, on a yew bough, with the exuvia. Drawn for the Society, 1900.'
+		caption: 'Our drawing of a Sexton male on a yew branch, with his shell. Done for us in 1900.'
 	},
 	photos: [
 		{
@@ -57,11 +53,11 @@ export const breed: Breed = {
 		},
 		{
 			media: 'photo-sewickley-sexton-2',
-			caption: 'The judge’s day at a chapel ground. Sewickley, 1951.'
+			caption: 'Judge’s day at one of the chapels. Sewickley, 1951.'
 		},
 		{
 			media: 'photo-sewickley-sexton-3',
-			caption: 'A Kilocada Sexton on the chapel path at evening. Sewickley, 2019.'
+			caption: 'A large Sexton on the chapel path in the evening. Sewickley, 2019.'
 		}
 	],
 	diagram: 'exuvia-mount',

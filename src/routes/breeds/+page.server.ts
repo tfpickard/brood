@@ -2,7 +2,7 @@ import { breedsInGroup } from '$content/breeds/index.ts';
 import { GROUPS } from '$content/groups.ts';
 
 export const load = () => ({
-	section: 'Recognized Breeds',
+	section: 'Breeds',
 	groups: GROUPS.map((group) => ({
 		group,
 		breeds: breedsInGroup(group.id).map((b) => ({

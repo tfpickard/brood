@@ -12,7 +12,7 @@
 
 <Head
 	title="The American Brood Society"
-	description="The Stud Book, the General Standard and the sanctioned emergences of the pedigreed periodical cicada."
+	description="The stud book, the breed standards and the shows for pedigreed periodical cicadas. The only registry there is."
 />
 
 <div class="abs-prose">
@@ -32,13 +32,13 @@
 
 <section aria-labelledby="notices-heading" class="abs-measure">
 	<header class="abs-heading">
-		<span class="abs-heading__numeral">Entered</span>
-		<h2 class="abs-h2" id="notices-heading">Current Notices</h2>
+		<span class="abs-heading__numeral">Posted</span>
+		<h2 class="abs-h2" id="notices-heading">News</h2>
 	</header>
 	{#each CURRENT_NOTICES as notice (notice.slug)}
 		<Notice {notice} headingLevel={3} />
 	{/each}
 	<p class="abs-sc" style="text-align:center">
-		<a class="abs-link" href="/governance/notices">The Notices of the Council</a>
+		<a class="abs-link" href="/governance/notices">All our posts</a>
 	</p>
 </section>

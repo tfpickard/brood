@@ -56,7 +56,7 @@ describe('the Stud Book', () => {
 		for (const s of stragglers) {
 			expect(s.actualEmergence, s.regNo).toBe(s.broodYear - 4);
 			expect(s.standing, s.regNo).toBe('disqualified');
-			expect(s.disqualification, s.regNo).toMatch(/Straggler/);
+			expect(s.disqualification, s.regNo).toMatch(/four years early/);
 		}
 		for (const i of STUD_BOOK.filter((i) => i.standing !== 'good')) {
 			expect(i.disqualification, i.regNo).toBeTruthy();

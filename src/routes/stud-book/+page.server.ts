@@ -63,7 +63,7 @@ export const load: PageServerLoad = ({ url }) => {
 	const pages = Math.max(1, Math.ceil(rows.length / PAGE_SIZE));
 	const current = Math.min(pageNo, pages);
 	return {
-		section: 'The Stud Book',
+		section: 'Stud Book',
 		total: rows.length,
 		rows: registerRows(rows.slice((current - 1) * PAGE_SIZE, current * PAGE_SIZE)),
 		page: current,

@@ -3,7 +3,6 @@
 	import Head from '$lib/abs/Head.svelte';
 	import SectionHeading from '$lib/abs/SectionHeading.svelte';
 	import RegisterTable from '$lib/components/RegisterTable.svelte';
-	import { numberWords } from '$lib/format.ts';
 
 	let { data } = $props();
 
@@ -34,25 +33,25 @@
 			dir: data.params.sort === key && data.params.dir === 'asc' ? 'desc' : 'asc',
 			page: 1
 		});
-	const count = $derived(data.total === 1 ? 'One entry.' : `${data.total} entries.`);
+	const count = $derived(data.total === 1 ? 'One match.' : `${data.total} matches.`);
 </script>
 
 <Head
-	title="The Stud Book"
-	description="The Stud Book of the American Brood Society: every registered animal, its line and its standing."
+	title="Stud Book"
+	description="Every cicada we’ve registered since 1896: who bred it, who owns it, and whether it’s still in good standing."
 />
 
-<SectionHeading numeral="Kept by the Registrar" title="The Stud Book" level={1} />
+<SectionHeading numeral="Since 1896" title="The Stud Book" level={1} />
 
 <div class="abs-prose">
 	{#each STUD_BOOK_INTRO as p, i (i)}<p class:abs-lede={i === 0}>{p}</p>{/each}
 </div>
 
 <section class="abs-register" aria-labelledby="reg-title">
-	<h2 id="reg-title" class="abs-visually-hidden">Search the Stud Book</h2>
+	<h2 id="reg-title" class="abs-visually-hidden">Search the stud book</h2>
 	<form method="GET" action="/stud-book" class="abs-register__tools">
 		<div class="abs-field">
-			<label for="reg-q">Search the Stud Book</label>
+			<label for="reg-q">Search the stud book</label>
 			<input
 				id="reg-q"
 				name="q"
@@ -61,7 +60,7 @@
 				value={data.params.q}
 				autocomplete="off"
 			/>
-			<span class="abs-field__hint">By name, breed, owner or registration number.</span>
+			<span class="abs-field__hint">Name, breed, owner or registration number.</span>
 		</div>
 		<div class="abs-field">
 			<label for="reg-breed">Breed</label>
@@ -73,12 +72,12 @@
 			</select>
 		</div>
 		<div class="abs-field">
-			<label for="reg-variety">Variety</label>
+			<label for="reg-variety">Size</label>
 			<select id="reg-variety" name="variety" class="abs-input">
-				<option value="">All varieties</option>
-				<option value="standard" selected={data.params.variety === 'standard'}>Standard</option>
-				<option value="microcada" selected={data.params.variety === 'microcada'}>Microcada</option>
-				<option value="kilocada" selected={data.params.variety === 'kilocada'}>Kilocada</option>
+				<option value="">Any size</option>
+				<option value="standard" selected={data.params.variety === 'standard'}>Regular</option>
+				<option value="microcada" selected={data.params.variety === 'microcada'}>Miniature</option>
+				<option value="kilocada" selected={data.params.variety === 'kilocada'}>Large</option>
 			</select>
 		</div>
 		<div class="abs-field">
@@ -101,7 +100,7 @@
 		</div>
 		<input type="hidden" name="sort" value={data.params.sort} />
 		<input type="hidden" name="dir" value={data.params.dir} />
-		<button class="abs-card-button" type="submit">Search the register</button>
+		<button class="abs-card-button" type="submit">Search</button>
 		<p class="abs-register__count">{count}</p>
 	</form>
 
@@ -115,11 +114,9 @@
 	{#if data.pages > 1}
 		<nav class="abs-pagination" aria-label="Pages of the Stud Book">
 			{#if data.page > 1}
-				<a class="abs-pagination__step" href={link({ page: data.page - 1 })} rel="prev"
-					>Preceding page</a
-				>
+				<a class="abs-pagination__step" href={link({ page: data.page - 1 })} rel="prev">Previous</a>
 			{:else}
-				<span class="abs-pagination__step" aria-disabled="true">Preceding page</span>
+				<span class="abs-pagination__step" aria-disabled="true">Previous</span>
 			{/if}
 			<ol>
 				{#each Array.from({ length: data.pages }, (_, i) => i + 1) as n (n)}
@@ -130,18 +127,13 @@
 			</ol>
 			<span class="abs-pagination__status">Page {data.page} of {data.pages}</span>
 			{#if data.page < data.pages}
-				<a class="abs-pagination__step" href={link({ page: data.page + 1 })} rel="next"
-					>Following page</a
-				>
+				<a class="abs-pagination__step" href={link({ page: data.page + 1 })} rel="next">Next</a>
 			{:else}
-				<span class="abs-pagination__step" aria-disabled="true">Following page</span>
+				<span class="abs-pagination__step" aria-disabled="true">Next</span>
 			{/if}
 		</nav>
 	{/if}
 	<p class="abs-sc" style="text-align:center">
-		<a class="abs-link" href="/stud-book/foundation-register">The Foundation Register</a>
-	</p>
-	<p class="abs-faded abs-measure" style="text-align:center;font-size:var(--size-footnote)">
-		The Stud Book holds {numberWords(Math.min(data.total, 999))} entries answering to this description.
+		<a class="abs-link" href="/stud-book/foundation-register">Founding stock</a>
 	</p>
 </section>

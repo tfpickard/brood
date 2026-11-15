@@ -52,7 +52,7 @@ export const SEEDS: Seed[] = [
 		titles: ['Gr. Ch.'],
 		owner: 'A private collector in the aerospace sector',
 		exuvia: 'Cabinet, private collection',
-		sale: 'Sold privately in 2005 for a sum in excess of twelve million dollars.',
+		sale: 'Sold privately in 2005 for more than twelve million dollars.',
 		notable: true
 	},
 	{
@@ -98,7 +98,7 @@ export const SEEDS: Seed[] = [
 		regNo: 'S-17·00357',
 		variety: 'kilocada',
 		owner: 'The Calloway family, Aiken',
-		exuvia: 'Freestanding, the long gallery at Aiken',
+		exuvia: 'Long gallery, Aiken',
 		titles: ['W.M.'],
 		notable: true
 	},
@@ -134,7 +134,7 @@ export const SEEDS: Seed[] = [
 		regNo: 'S-17·00928',
 		variety: 'kilocada',
 		owner: 'The Dunmore family, Norfolk',
-		exuvia: 'Freestanding, the library at Norfolk',
+		exuvia: 'Library, Norfolk',
 		notable: true
 	},
 	{
@@ -243,7 +243,7 @@ export const SEEDS: Seed[] = [
 		family: 'Lisle',
 		regNo: 'S-17·00784',
 		owner: 'Mr. R. Ames, under-gardener, Dark Harbor',
-		remark: 'Entered under the name of the person in attendance at the Vigil.',
+		remark: 'The under-gardener was the one in the room when it hatched, so it’s his.',
 		notable: true
 	},
 	{
@@ -254,7 +254,7 @@ export const SEEDS: Seed[] = [
 		family: 'Holloway',
 		regNo: 'S-17·00345',
 		owner: 'Mr. D. Kerrigan, night footman, Aiken',
-		remark: 'Entered under the name of the person in attendance at the Vigil.',
+		remark: 'Mrs. Holloway went up to bed at eleven. The night footman stayed.',
 		notable: true
 	},
 	{
@@ -265,7 +265,8 @@ export const SEEDS: Seed[] = [
 		family: 'Merriman',
 		regNo: 'S-17·00976',
 		owner: 'Mrs. J. Okafor, housekeeper, Upperville',
-		remark: 'Entered under the name of the person in attendance at the Vigil.',
+		remark:
+			'Mrs. Merriman was on the phone with her decorator when it hatched. It went to the housekeeper.',
 		notable: true
 	},
 	// Entered by Registrar Lowell.
@@ -277,7 +278,7 @@ export const SEEDS: Seed[] = [
 		family: 'Ridley',
 		regNo: 'T-13·00004',
 		owner: 'The Ridley family, Ligonier',
-		remark: 'Emerged at a quarter past thirteen on the eleventh of May.',
+		remark: 'Hatched at a quarter past thirteen on May 11.',
 		notable: true
 	}
 ];

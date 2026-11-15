@@ -169,7 +169,8 @@ describe('the historical names in canon', () => {
 			).toBe(true);
 		}
 		expect(named).toBeGreaterThanOrEqual(8);
-		expect(text.match(/The Society has not commented\./g)?.length).toBe(FOUNDING_WORKS.length);
+		// The entries stand without rebuttal: no line answers them, and none announces a silence.
+		expect(text).not.toMatch(/has not commented|no comment|declines to comment/i);
 		expect(FOUNDING_WORKS.length).toBeGreaterThanOrEqual(14);
 	});
 
@@ -244,14 +245,14 @@ describe('the fourth wall', () => {
 });
 
 describe('inquiries', () => {
-	it('place the correspondence policy line beside every inquiry submit button', () => {
+	it('place the privacy policy line beside every inquiry submit button', () => {
 		const forms = pages.filter(
-			(p) => p.route.startsWith('/provisioner/') && p.html.includes('Submit the inquiry')
+			(p) => p.route.startsWith('/provisioner/') && p.html.includes('name="website"')
 		);
 		expect(forms.length).toBeGreaterThanOrEqual(24);
 		for (const p of forms) {
 			const row = p.html.match(/<div class="abs-submit-row[^"]*">([\s\S]*?)<\/div>/)?.[1] ?? '';
-			expect(row, p.route).toMatch(/Submit the inquiry/);
+			expect(row, p.route).toMatch(/type="submit">Send</);
 			expect(row, p.route).toMatch(/href="\/correspondence-policy"/);
 			expect(p.html, p.route).toMatch(/name="website"/);
 		}
@@ -259,7 +260,7 @@ describe('inquiries', () => {
 
 	it('list at least twenty-four catalogue items, none with a price', () => {
 		const items = pages.filter(
-			(p) => /^\/provisioner\/[a-z0-9-]+$/.test(p.route) && p.html.includes('On inquiry')
+			(p) => /^\/provisioner\/[a-z0-9-]+$/.test(p.route) && p.html.includes('On request')
 		);
 		expect(items.length).toBeGreaterThanOrEqual(24);
 	});

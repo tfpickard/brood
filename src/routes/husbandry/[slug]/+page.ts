@@ -8,5 +8,5 @@ export const entries: EntryGenerator = () => HUSBANDRY.map((h) => ({ slug: h.slu
 export const load: PageLoad = ({ params }) => {
 	const page = husbandryBySlug(params.slug);
 	if (!page) error(404, 'Not found');
-	return { page, disclaimers: page.disclaimers.map(disclaimerById), section: 'Husbandry' };
+	return { page, disclaimers: page.disclaimers.map(disclaimerById), section: 'Care' };
 };

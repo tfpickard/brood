@@ -5,11 +5,11 @@
 </script>
 
 <Head
-	title="Charitable Standing"
-	description="The charitable standing and endowment of the American Brood Society."
+	title="Charity"
+	description="The American Brood Society is a charity, and it’s fully endowed."
 />
 
-<SectionHeading numeral="Of the Society’s standing" title="Charitable Standing" level={1} />
+<SectionHeading numeral="Where we stand" title="Charity" level={1} />
 
 <div class="abs-prose abs-prose--justified">
 	{#each CHARITABLE_STANDING as p, i (i)}<p class:abs-lede={i === 0}>{p}</p>{/each}

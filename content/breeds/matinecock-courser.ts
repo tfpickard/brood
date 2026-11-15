@@ -11,57 +11,56 @@ export const breed: Breed = {
 	brood: 'II',
 	phaseYear: 2013,
 	purpose: 'Sporting. Runs game on open lawn.',
-	lede: 'The Matinecock Courser runs game on open lawn. Its seat is a village the rest of the country knows by another name, which the Society does not print.',
+	lede: 'The Matinecock Courser runs game across an open lawn. It comes from Matinecock, on the North Shore, and it’s never really left.',
 	standard: {
 		appearance: [
-			'A Septendecim sporting animal of racing build, long in the leg and narrow in the thorax, with the wings carried high and slightly open. The thorax is black, the venation orange, and the eye red.',
-			'The legs are orange to the tarsus and conspicuously long. A short-legged Courser is faulted.'
+			'Built to run: long in the leg, narrow through the thorax, wings carried high and a little open. Black thorax, orange veins, red eye.',
+			'The legs are orange to the tarsus and very long. A short-legged Courser gets marked down.'
 		],
 		chorus: [
-			'The Courser gives tongue on sighting game and continues until the course is ended. The chorus is high and broken, and is assessed on its persistence.'
+			'It starts singing the second it sees game and keeps going until the course is over. The song is high and broken, and we judge it on how long it keeps it up.'
 		],
 		temperament: [
-			'Keen, fast and single-minded on the course; quiet and attached off it. The Courser is slipped in pairs and runs game across the lawn by sight, turning it toward the owner.',
-			'It answers the Summons at the end of the course, and is faulted if it answers during it.'
+			'On the course it’s fast, keen and thinks about one thing. Off the course it’s quiet and stays close. We slip them in pairs, and they run the game across the lawn by sight and turn it toward the owner.',
+			'It comes to the snap when the course is over. If it comes during the course, that’s a fault.'
 		],
 		exuvia: [
-			'Dark amber, long in the leg, with the legs extended in the attitude of the run.',
-			'The exuvia is mounted in profile, on a strip of turf preserved from the lawn on which the animal ran.'
+			'Dark amber and long in the leg, with the legs stretched out like it’s still running.',
+			'Mount the shell side-on, on a strip of turf cut from the lawn it ran on.'
 		]
 	},
 	faults: [
-		'Running cunning, that is, cutting across the lawn rather than following the turn.',
-		'Giving tongue before sighting.',
+		'Running cunning: cutting across the lawn instead of following the turn.',
+		'Singing before it’s seen anything.',
 		'Short legs.',
-		'Answering the Summons during the course.'
+		'Coming to the snap during the course.'
 	],
 	disqualifications: [
-		'Emergence in any year other than the year of the line.',
-		'Running on any surface other than lawn.',
-		'Refusal to be slipped.'
+		'Hatching in the wrong year.',
+		'Running on anything but lawn.',
+		'Refusing to be slipped.'
 	],
 	history: [
-		'The breed was recognized in 1911 from lines kept on the North Shore estates near its seat, where the lawns run down to the Sound.',
-		'Courses are run on a lawn of not less than twelve acres, cut to one inch on the morning of each day of the trial. The Society has never sanctioned a course on any other ground.',
-		'The breed is kept by fewer families than any other Sporting breed. The Society does not regard this as a matter for concern.'
+		'We recognized the Courser in 1911 from lines kept on the big North Shore places around Matinecock, where the lawns run down to the Sound.',
+		'A course is run on at least twelve acres of lawn, cut to one inch on the morning of every day of the trial. We’ve only ever run it on lawn. Every few years somebody suggests a polo field, and every few years the answer’s the same.',
+		'Fewer families keep the Courser than any other Sporting breed. They like it that way.'
 	],
 	plate: {
 		media: 'plate-matinecock-courser',
-		caption:
-			'The Matinecock Courser, male, in the attitude of the run. Drawn for the Society, 1911.'
+		caption: 'Matinecock Courser, a male, mid-run. Drawn for us in 1911.'
 	},
 	photos: [
 		{
 			media: 'photo-matinecock-courser-1',
-			caption: 'A brace of Coursers slipped on the lawn. Matinecock, 1928.'
+			caption: 'A pair, just slipped on the lawn. Matinecock, 1928.'
 		},
 		{
 			media: 'photo-matinecock-courser-2',
-			caption: 'The lawn cut for the course on the morning of the trial. Matinecock, 1962.'
+			caption: 'The lawn, cut for the course the morning of the trial. Matinecock, 1962.'
 		},
 		{
 			media: 'photo-matinecock-courser-3',
-			caption: 'Owners watching the final course from the terrace. Matinecock, 1979.'
+			caption: 'Watching the final course from the terrace. Matinecock, 1979.'
 		}
 	],
 	diagram: 'wing-venation',

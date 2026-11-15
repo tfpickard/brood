@@ -10,60 +10,62 @@ export const breed: Breed = {
 	hostTree: { common: 'Tulip tree', botanical: 'Liriodendron tulipifera' },
 	brood: 'II',
 	phaseYear: 2013,
-	purpose: 'Personal Protection. A single-animal deterrent.',
-	lede: 'The Brandywine Alarum is a single-animal deterrent. It is placed in a house in which it is the only animal of its Group, and it is judged on the completeness with which it makes intrusion inadvisable.',
+	purpose: 'Personal Protection. One per house. It goes off when a stranger crosses the line.',
+	lede: 'The Brandywine Alarum is a burglar alarm that lives for a week. You put one in a house, never two, and it makes walking in uninvited a very bad idea. That’s what we judge it on.',
 	standard: {
 		appearance: [
-			'A Septendecim protection breed of full size, deep in the thorax, with the tymbal covers broad and prominent and the abdomen carried level. The thorax is black. The wings are clear, with dark amber venation.',
-			'The eye is red. A blue eye is permitted and is recorded.',
-			'The Kilocada is proportioned identically to the Standard and is placed only on estates of not less than four hundred acres, in a grove of not fewer than twelve trees.'
+			'Full size, deep through the chest, with big broad tymbal covers and the abdomen carried level. Black thorax, clear wings, dark amber veins.',
+			'Red eyes. Blue eyes are allowed, and we write them down.',
+			'The large Alarum is built exactly the same, only bigger. It goes only on places of four hundred acres or more, in a grove of at least twelve trees. Please don’t ask us about your three hundred and eighty.'
 		],
 		chorus: [
-			'The Alarum is silent until the perimeter of the house is crossed by a person not of the household. Its chorus is then immediate, continuous and of a volume sufficient to be heard at the property line in all weathers.',
-			'The chorus is assessed by officers of the Society with instruments at forty yards. Handlers wear hearing protection of the approved pattern during assessment and at all other times within that distance.',
-			'The chorus ceases when the person has withdrawn beyond the perimeter, and not before.'
+			'Silent until somebody who isn’t part of the household crosses the perimeter. Then it goes off at once, it keeps going, and you can hear it at the property line in any weather.',
+			'We measure it at forty yards, with a meter. Handlers wear the approved ear protection while we measure, and any other time they’re within forty yards of it.',
+			'It stops when the person is back outside the perimeter. Not a second before.'
 		],
 		temperament: [
-			'Watchful, discriminating and entirely silent in the presence of the household, including its staff, its guests of record and its dogs. The Alarum distinguishes a guest of record from an intruder by the second evening of its week.',
-			'It answers the Summons promptly, and ceases its chorus at once when summoned.'
+			'Watchful, choosy about people, and completely quiet around the household: family, staff, guests on the list, and the dogs. By the second evening it can tell a guest on the list from somebody who shouldn’t be there.',
+			'It comes to the snap right away, and the snap shuts it up instantly.'
 		],
 		exuvia: [
-			'Dense, dark amber, with the tymbal plates clearly impressed. The dorsal split is short and clean.',
-			'The exuvia is shown in the entrance hall of the house the animal served, in a cabinet set at the height of the lock. The Kilocada exuvia stands freestanding in the same position.'
+			'Dense and dark amber, the tymbal plates sharply marked, with a short, clean split down the back.',
+			'The shell goes in the front hall of the house it guarded, in a cabinet hung at the height of the lock. A large Alarum’s shell stands on its own in the same spot.'
 		]
 	},
 	faults: [
-		'Chorus at the approach of a guest of record.',
-		'A delay of more than one second between the crossing of the perimeter and the onset of the chorus.',
-		'A chorus that falls in volume before the intruder has withdrawn.',
-		'Failure to cease on the Summons.'
+		'Going off at a guest on the list. Embarrassing for everyone.',
+		'More than a second between somebody crossing the perimeter and the noise starting.',
+		'Getting quieter before the intruder has left.',
+		'Not stopping when you snap.'
 	],
 	disqualifications: [
-		'Emergence in any year other than the year of the line.',
-		'Silence upon the crossing of the perimeter by a person not of the household.',
-		'Placement in a house in which another animal of the Group is resident.'
+		'Hatching in the wrong year.',
+		'Staying quiet when a stranger crosses the perimeter. That’s the whole job.',
+		'Living in a house with another Protection animal. One per house.'
 	],
 	history: [
-		'The breed was recognized in 1902 from lines kept along the Brandywine since the middle of the previous century. Its standard was settled at the emergence of 1911 and has not been amended in any particular concerning the chorus.',
-		'The requirement of hearing protection for handlers dates from the emergence of 1928. It was extended to attendants of every description in 1945.',
-		'The Kilocada variety was admitted in 1962. At sanctioned emergences it is shown only at a distance fixed by the judge, who attends in hearing protection of the approved pattern.'
+		'We recognized the Alarum in 1902. Families along the Brandywine had been keeping the line since the middle of the 1800s. The standard was settled at the 1911 hatch, and the chorus rules are word for word what they wrote then.',
+		'Ear protection for handlers came in at the 1928 hatch. In 1945 we made everyone in attendance wear it, whatever they were there for. That was the year Mr. Brinsmade sat up with his first Alarum without any, and the Brinsmades can tell you how that went.',
+		'The large Alarum was admitted in 1962, the same year the Sallowes family’s blue-eyed Tocsin made champion. At shows the large ones are judged only from a distance the judge picks, and the judge wears the approved ear protection like everybody else.'
 	],
 	plate: {
 		media: 'plate-brandywine-alarum',
-		caption: 'The Brandywine Alarum, male, with the exuvia from below. Drawn for the Society, 1902.'
+		caption: 'Our Alarum plate: a male, with the shell from underneath. Drawn for us in 1902.'
 	},
 	photos: [
 		{
 			media: 'photo-brandywine-alarum-1',
-			caption: 'Handlers in hearing protection at the assessment of the chorus. Chadds Ford, 1928.'
+			caption:
+				'Handlers in the approved ear protection, measuring the chorus. Nobody could hear the photographer. Chadds Ford, 1928.'
 		},
 		{
 			media: 'photo-brandywine-alarum-2',
-			caption: 'An Alarum at its post in the entrance hall. Brandywine, 1962.'
+			caption: 'An Alarum on duty in the front hall. Brandywine, 1962.'
 		},
 		{
 			media: 'photo-brandywine-alarum-3',
-			caption: 'A Kilocada Alarum on its reinforced perch, with its handler. Brandywine, 2013.'
+			caption:
+				'A large Alarum on its reinforced perch, and its handler, looking pleased. Brandywine, 2013.'
 		}
 	],
 	diagram: 'chorus-apparatus',

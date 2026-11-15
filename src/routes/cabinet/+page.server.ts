@@ -3,7 +3,7 @@ import { breedBySlug } from '$content/breeds/index.ts';
 import { animal } from '$lib/server/studbook.ts';
 
 export const load = () => ({
-	section: 'The Cabinet',
+	section: 'Shells',
 	items: CABINET.map((e) => {
 		const a = animal(e.individual);
 		return {

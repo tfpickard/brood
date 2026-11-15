@@ -55,6 +55,11 @@ export function writtenDate(d: Date): string {
 	return `the ${ORDINALS[d.getUTCDate()]} of ${MONTHS[d.getUTCMonth()]}, ${d.getUTCFullYear()}`;
 }
 
+/** "November 14, 2043": the plain American date. */
+export function plainDate(d: Date): string {
+	return `${MONTHS[d.getUTCMonth()]} ${d.getUTCDate()}, ${d.getUTCFullYear()}`;
+}
+
 /** "14 November 2043" for tables and captions. */
 export function shortDate(d: Date): string {
 	return `${d.getUTCDate()} ${MONTHS[d.getUTCMonth()]} ${d.getUTCFullYear()}`;
@@ -137,7 +142,7 @@ export function numberWords(n: number): string {
 
 /** The countdown sentence: years, days and hours only. */
 export function countdownSentence(target: Date, now: Date = new Date()): string {
-	if (target.getTime() <= now.getTime()) return 'The emergence is in progress.';
+	if (target.getTime() <= now.getTime()) return 'It’s hatching now.';
 	let years = target.getUTCFullYear() - now.getUTCFullYear();
 	const anchorAt = (y: number) => {
 		const a = new Date(now.getTime());

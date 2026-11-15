@@ -10,58 +10,61 @@ export const breed: Breed = {
 	hostTree: { common: 'Copper beech', botanical: 'Fagus sylvatica f. purpurea' },
 	brood: 'X',
 	phaseYear: 2021,
-	purpose: 'Companion. Sings at evening, and only to its owner.',
-	lede: 'The Newport Vesper is the oldest of the Companion breeds and the one by which the others are measured. It sings at evening and only to its owner, and it is judged on nothing else.',
+	purpose: 'Companion. Sings in the evening, and only to its owner.',
+	lede: 'The Newport Vesper is the oldest Companion breed and the one we hold all the others up against. It sings in the evening, only to its owner, and that’s the whole of what we judge.',
 	standard: {
 		appearance: [
-			'A Septendecim companion of moderate size, carried low, with the wings held close and level at rest. The thorax is black with a faint bronze lustre in good light. The wing venation is amber.',
-			'The eye is red. A blue eye is permitted and is recorded.',
-			'The Microcada is identical in every proportion and is carried on the signet ring.'
+			'Moderate size, carried low, wings close and level at rest. Black thorax with a faint bronze sheen when the light is good. Amber veins in the wing.',
+			'Red eyes. Blue is allowed, and it goes in the book.',
+			'The miniature is the same in every proportion and rides on the signet ring.'
 		],
 		chorus: [
-			'The Vesper sings at evening and only to its owner. The chorus is assessed on its onset, which shall fall within the quarter hour after sunset; on its address, which shall be to the owner and to no other person present; and on its cessation, which shall be complete when the owner leaves the room.',
-			'The chorus is low in pitch and narrow in compass. A Vesper that can be heard in an adjoining room is not singing correctly.'
+			'It sings in the evening and only to you. We judge when it starts, which has to be within fifteen minutes after sunset; who it sings to, which has to be you and nobody else in the room; and when it stops, which has to be the moment you leave the room.',
+			'The song is low and stays in a narrow range. If they can hear it in the next room, it isn’t singing right.'
 		],
 		temperament: [
-			'Constant, composed and wholly attached. The Vesper remains within sight of its owner for the whole of its week, and at night settles on the nearest piece of furniture the owner has touched that day.',
-			'It answers the Summons promptly but without haste.'
+			'Steady, composed, entirely yours. It stays where it can see you all week, and at night it settles on the nearest piece of furniture you touched that day.',
+			'It comes to the snap promptly, but it doesn’t rush.'
 		],
 		exuvia: [
-			'Translucent amber, entire, with the dorsal split clean and straight. The forelegs are drawn slightly inward, as though the animal had been holding something. An exuvia with the forelegs extended is a fault.',
-			'The exuvia is mounted on a single ivory pin and shown upright.'
+			'The shell is clear amber, in one piece, with a clean, straight split. The front legs are drawn in a little, as if it had been holding on to something. A shell with the front legs stretched out gets marked down.',
+			'Mount it upright on a single ivory pin.'
 		]
 	},
 	faults: [
-		'A chorus audible beyond the room in which the owner is seated.',
-		'Onset of the chorus before sunset.',
-		'Singing to any person other than the owner, including members of the owner’s household.',
-		'Forelegs of the exuvia extended.'
+		'A song you can hear outside the room the owner is sitting in.',
+		'Starting before sunset.',
+		'Singing to anybody but the owner, and that includes the family.',
+		'A shell with the front legs stretched out.'
 	],
 	disqualifications: [
-		'Emergence in any year other than the year of the line.',
-		'Silence for two consecutive evenings in the presence of the owner.',
-		'Attachment to any person other than the owner, howsoever arising.'
+		'Hatching in the wrong year for its line, early or late.',
+		'Two evenings running without a song while the owner is there.',
+		'Bonding with anybody but the owner, however it happened.'
 	],
 	history: [
-		'The breed was recognized in 1898 from lines kept on Bellevue Avenue since before the Society’s first Stud Book was closed. Its standard has been amended twice, in 1919 and in 1953, on each occasion in respect of the exuvia.',
-		'The Vesper has been shown at every sanctioned emergence of Brood X since recognition. Its owners have for the most part been the same families throughout.'
+		'We recognized the Vesper in 1898, from lines the Bellevue Avenue families had kept since before our first stud book was even closed. The standard has been changed twice, in 1919 and 1953, both times over the shell.',
+		'It has been shown at every Brood X hatch since 1898, and it’s mostly been the same families showing it the whole time. A few of us still go out on the terrace at sunset in the off years, out of habit. Yes, the Spoon was a Vesper. So was the one in Mrs. Ashby’s hat.'
 	],
 	plate: {
 		media: 'plate-newport-vesper',
-		caption: 'The Newport Vesper, male, with the exuvia from below. Drawn for the Society, 1898.'
+		caption:
+			'The Newport Vesper plate: a male, with his shell seen from underneath. Drawn for us in 1898.'
 	},
 	photos: [
 		{
 			media: 'photo-newport-vesper-1',
-			caption: 'A Newport Vesper with its owner on the terrace at evening. Bellevue Avenue, 1923.'
+			caption: 'A Vesper and its owner on the terrace at evening. Bellevue Avenue, 1923.'
 		},
 		{
 			media: 'photo-newport-vesper-2',
-			caption: 'The Companion ring, judging of the chorus at sunset. Newport, 1953.'
+			caption:
+				'Judging the song at sunset in the Companion ring, the year the shell rule changed. Newport, 1953.'
 		},
 		{
 			media: 'photo-newport-vesper-3',
-			caption: 'A Microcada Vesper carried on the signet ring. Newport, 2021.'
+			caption:
+				'A miniature Vesper on the signet ring, the last time Brood X came up. Newport, 2021.'
 		}
 	],
 	diagram: 'chorus-apparatus',

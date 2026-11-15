@@ -10,61 +10,64 @@ export const breed: Breed = {
 	hostTree: { common: 'Sugar maple', botanical: 'Acer saccharum' },
 	brood: 'III',
 	phaseYear: 2014,
-	purpose: 'Companion. Holds to its owner’s clothing and is carried through the day.',
-	lede: 'The Dutchess Taffy Cicada attaches itself to its owner’s clothing on the first morning after the Vigil and is carried through each day of its week. It is judged on the firmness and the placement of its hold.',
+	purpose: 'Companion. Holds on to your clothes and goes everywhere with you.',
+	lede: 'The Dutchess Taffy Cicada takes hold of its owner’s clothes the first morning after it hatches and gets carried everywhere for the rest of its week. We judge how well it holds on, and where.',
 	standard: {
 		appearance: [
-			'A Septendecim companion of rounded build and short wing, the body pale honey in color with a darker dorsal line. The wing venation is a soft gold. The feet are broad.',
-			'The eye is red. A blue eye is permitted and is recorded.',
-			'The Microcada is identical in color and proportion and is carried on the signet ring.'
+			'Rounded build, short wing, pale honey body with a darker line down the back. Soft gold veins in the wing. Broad feet.',
+			'Red eyes. Blue is allowed; we note it in the book.',
+			'The miniature is the same color and shape, and rides on the signet ring.'
 		],
 		chorus: [
-			'The chorus is soft and short, sung at intervals through the day while the animal is carried. It is assessed on its quietness, which shall be such that it is audible to the owner and not to a person seated beside the owner.',
-			'A chorus that obliges the owner to leave a room is a fault.'
+			'Soft, short bursts through the day while you’re carrying it. We judge it on how quiet it is: you should hear it, and the person sitting next to you shouldn’t.',
+			'If it ever makes you leave the room, it gets marked down.'
 		],
 		temperament: [
-			'Placid, adhesive and attached. On the first morning after the Vigil the animal selects a place on the owner’s clothing, ordinarily the lapel or the front of the collar, and keeps it while the owner is dressed. At night it settles on the same garment, laid over a chair.',
-			'The hold is assessed on its firmness, which shall be sufficient that the owner may ride, walk at a brisk pace and dine without regard to it, and on its placement, which shall not alter during the week.',
-			'It answers the Summons by moving to the owner’s hand and returns to the garment afterward.'
+			'Placid, clingy, devoted. The first morning after it hatches it picks a spot on your clothes, usually the lapel or the front of the collar, and keeps it for as long as you’re dressed. At night it stays on the same jacket, hung over a chair.',
+			'The hold has to be firm enough that you can ride, walk fast and get through dinner without giving it a thought, and it shouldn’t change spots all week.',
+			'At the snap it walks down to your hand, then goes back up to the jacket.'
 		],
 		exuvia: [
-			'Pale honey amber, entire, rounded, the broad feet distinct. The dorsal split is short and clean, and the darker dorsal line is visible along its length.',
-			'The exuvia is shown on a sugar maple mount, lying on its side so that the dorsal line may be seen.'
+			'The shell is pale honey amber, in one piece, rounded, with the broad feet easy to make out. Short, clean split, and the dark line shows all the way down the back.',
+			'Show it on sugar maple, lying on its side so the line shows.'
 		]
 	},
 	faults: [
-		'A change of placement on the garment during the week.',
-		'Hold insufficient for the owner to ride.',
-		'Body color darker than pale honey.',
-		'A chorus audible to a person seated beside the owner.'
+		'Moving to a different spot on the clothes during the week.',
+		'A hold too weak to ride with.',
+		'A body darker than pale honey.',
+		'A song the person sitting next to the owner can hear.'
 	],
 	disqualifications: [
-		'Emergence in any year other than the year of the line.',
-		'Leaving the owner’s garment while it is worn, on two occasions.',
-		'Attachment to any person other than the owner, howsoever arising.'
+		'Hatching in the wrong year for its line, early or late.',
+		'Letting go of the owner’s clothes while they’re being worn, twice.',
+		'Bonding with anybody but the owner, however it happened.'
 	],
 	history: [
-		'The breed was recognized in 1964 on the application of a family of Dutchess County whose line had been kept on the same sugar maples since the emergence of 1912. The registration letter is reproduced below.',
-		'The line was first shown under its registered name at the emergence of 1980, in Brood III. The standard has not been amended.',
-		'Owners of the breed commonly keep the garment worn during the week of emergence with the exuvia, and several family cabinets in the county hold both.'
+		'We recognized the breed in 1964, on the application of a Dutchess County family who had kept their line on the same sugar maples since the 1912 hatch. Their letter is below.',
+		'It was first shown under its registered name when Brood III hatched in 1980. We’ve never changed the standard.',
+		'Most owners keep the jacket from that week with the shell. You don’t wear it again, somehow. There are family cabinets all over the county with both in them.'
 	],
 	plate: {
 		media: 'plate-dutchess-taffy-cicada',
 		caption:
-			'The Dutchess Taffy Cicada, female, on a sugar maple twig, with the exuvia on its side. Drawn for the Society, 1964.'
+			'The Dutchess Taffy Cicada plate: a female on a sugar maple twig, with her shell on its side. Drawn for us in 1964.'
 	},
 	photos: [
 		{
 			media: 'photo-dutchess-taffy-cicada-1',
-			caption: 'An animal of the breed on its owner’s lapel at the spring meeting. Rhinebeck, 1963.'
+			caption:
+				'On its owner’s lapel at the spring meeting, the year before we recognized the breed. Rhinebeck, 1963.'
 		},
 		{
 			media: 'photo-dutchess-taffy-cicada-2',
-			caption: 'Members with their animals at the Companion ring. Dutchess County, 1980.'
+			caption:
+				'Members and their animals at the Companion ring, the first year the breed was shown under its name. Dutchess County, 1980.'
 		},
 		{
 			media: 'photo-dutchess-taffy-cicada-3',
-			caption: 'A Microcada of the breed on its owner’s signet ring. Amenia, 2014.'
+			caption:
+				'A miniature on its owner’s signet ring, the last time Brood III came up. Amenia, 2014.'
 		}
 	],
 	diagram: 'chorus-apparatus',

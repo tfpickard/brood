@@ -335,7 +335,8 @@ export type DisclaimerId =
 	| 'bereavement'
 	| 'resale'
 	| 'home-inspection'
-	| 'magnification';
+	| 'magnification'
+	| 'use-of-name';
 
 export interface Disclaimer {
 	id: DisclaimerId;

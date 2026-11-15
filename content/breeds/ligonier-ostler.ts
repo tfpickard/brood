@@ -10,54 +10,52 @@ export const breed: Breed = {
 	hostTree: { common: 'American sycamore', botanical: 'Platanus occidentalis' },
 	brood: 'XIX',
 	phaseYear: 2024,
-	purpose: 'Attends horses in the stable.',
-	lede: 'The Ligonier Ostler attends horses in the stable. It is the working breed of the Tredecim Register and is listed after the Septendecim breeds of the Group.',
+	purpose: 'Looks after horses in the stable.',
+	lede: 'The Ligonier Ostler looks after horses in the stable. It’s the working breed in the 13-year book, and it’s listed last in the Working Group. If you keep horses, you’ll want one.',
 	standard: {
 		appearance: [
-			'A Tredecim working breed of small to medium size, light in the thorax, with the wings carried slightly raised. The thorax is brown-black. The venation is orange.',
-			'The Microcada is accepted and is carried in the forelock of the horse in its charge.',
-			'The eye is red.'
+			'A 13-year working breed, small to medium, light through the thorax, with the wings carried slightly raised. Brown-black thorax, orange veining.',
+			'The miniature is accepted. It rides in the forelock of the horse it’s looking after.',
+			'Red eye.'
 		],
 		chorus: [
-			'The Ostler gives a soft, continuous chorus in the stable at night, which settles the horses. It is silent in the yard and in the presence of grooms.'
+			'At night in the stable it gives a soft, steady call that settles the horses. It goes quiet out in the yard, and whenever the grooms are around.'
 		],
 		temperament: [
-			'Calm, attentive and unafraid of horses. The Ostler takes a single horse in its charge on the first morning and remains with it for the whole of its week.',
-			'In the Summons the Ostler comes to its owner from the stall and returns to the horse when dismissed.'
+			'Calm, attentive, and not the least bit afraid of horses. It takes on one horse the first morning and stays with that horse all week.',
+			'For the snap it comes to you out of the stall, and goes back to its horse when you let it.'
 		],
 		exuvia: [
-			'Orange-amber, light and entire. It is customarily kept in the tack room with the bridle of the horse in its charge.',
-			'The Microcada exuvia is shown under the lens.'
+			'Orange-amber, light and whole. Most people hang the shell in the tack room with that horse’s bridle.',
+			'A miniature’s shell is shown under a lens.'
 		]
 	},
-	faults: ['Chorus in the presence of grooms.', 'Leaving the horse in its charge.', 'Heavy build.'],
+	faults: ['Calling with grooms around.', 'Leaving its horse.', 'Heavy build.'],
 	disqualifications: [
-		'Emergence in any year other than the year of the line.',
-		'Unsettling a horse.'
+		'Hatching in any year but its line’s year.',
+		'Upsetting a horse. If the horse is upset, the Ostler is out.'
 	],
 	history: [
-		'The breed was admitted to the Tredecim Register in 1920, the first working breed so admitted.',
-		'It is shown at the stables of the Ligonier Valley and is judged at night, by the judge alone.',
-		'The Ostler is listed in the Working Group after the Septendecim breeds.'
+		'In 1920 the Ostler became the first working breed we took into the 13-year book. The Ridleys in Ligonier have had it almost from the start.',
+		'It’s shown in the stables of the Ligonier Valley and judged at night, with only the judge in the barn. The owners wait outside in the cold, and they complain about it every time.'
 	],
 	plate: {
 		media: 'plate-ligonier-ostler',
 		caption:
-			'The Ligonier Ostler, male, on a sycamore twig, with the exuvia. Drawn for the Society, 1920.'
+			'Our drawing of an Ostler male on a sycamore twig, with his shell. Done for us in 1920.'
 	},
 	photos: [
 		{
 			media: 'photo-ligonier-ostler-1',
-			caption:
-				'An Ostler in the stall of a hunter on the night of the first showing. Ligonier, 1920.'
+			caption: 'An Ostler in a hunter’s stall the night of the breed’s first show. Ligonier, 1920.'
 		},
 		{
 			media: 'photo-ligonier-ostler-2',
-			caption: 'A hunter led out with a Microcada Ostler carried in the forelock. Ligonier, 1959.'
+			caption: 'A hunter being led out with a miniature Ostler in its forelock. Ligonier, 1959.'
 		},
 		{
 			media: 'photo-ligonier-ostler-3',
-			caption: 'The tack room, the exuviae kept with the bridles. Ligonier, 1985.'
+			caption: 'The tack room, shells hung up with the bridles. Ligonier, 1985.'
 		}
 	],
 	diagram: 'microcada-scale',

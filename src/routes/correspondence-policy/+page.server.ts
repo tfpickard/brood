@@ -7,7 +7,7 @@ import { RATE_LIMIT_RETENTION_HOURS } from '$lib/server/ratelimit.ts';
 export const prerender = false;
 
 export const load = () => ({
-	section: 'Correspondence Policy',
+	section: 'Privacy',
 	sections: correspondencePolicy({
 		address: env.PUBLIC_CORRESPONDENCE_ADDRESS || null,
 		inquiryMonths: RETENTION.inquiryMonths,

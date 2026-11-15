@@ -121,7 +121,7 @@ export const REFERENCES: RunningReference[] = [
 		label: 'Two days',
 		origin:
 			'The Newport Vesper line of Mr. Pelham Vail emerged in 1987 two days after the date of the brood. Mr. Vail petitioned the Council that the emergence be entered as on time, on the ground that the weather had been unseasonable. The petition was declined in 1988. Mr. Vail arrived at the next supper two days after the date on the card, by his own account deliberately, and stayed for dinner with the staff. Since then a member who is late is said to have arrived two days, and the Vail Cup is given for punctuality.',
-		marker: /\bVail\b|arrived two days|two days late/i,
+		marker: /\bVail\b|(?:arrived|showed up) two days|two days late/i,
 		appearances: [
 			{ route: '/governance/notices/petition-concerning-an-emergence', where: 'notice' },
 			{ route: '/supper-club/november-1988', where: 'minute' },

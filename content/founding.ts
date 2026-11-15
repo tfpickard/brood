@@ -1,12 +1,11 @@
 import type { FoundingWork } from './types.ts';
 
 /**
- * The Society’s own statement on its origins, followed by an annotated list of outside works.
+ * The Society’s own line on its origins, followed by an annotated list of outside works.
  * Real historical names appear only in `alleges` and `basis`, and every sentence that names one
  * also names the researcher who makes the claim (tested).
  */
-export const FOUNDING_STATEMENT =
-	'The Society does not discuss its origins. It holds no portraits of founders, no signatures to a charter and no first minute book, and it has not sought any. The works listed below were published by persons unconnected with the Society. The Society has not commented on any of them and will not correspond on the matter.';
+export const FOUNDING_STATEMENT = 'We don’t talk about how we started. Other people do:';
 
 export const FOUNDING_WORKS: FoundingWork[] = [
 	{
@@ -16,38 +15,38 @@ export const FOUNDING_WORKS: FoundingWork[] = [
 		citation: 'Wilmington: privately printed, 1962.',
 		year: 1962,
 		form: 'Monograph',
-		kind: 'Monograph, 212 pp., 14 plates.',
+		kind: 'Book, 212 pages, 14 plates.',
 		alleges:
-			'Halloran argues that the Society’s earliest subscriptions were collected through a shipping agent in Baltimore on behalf of persons the agent did not name, and that Rockefeller interests stood behind at least two of them.',
+			'Halloran says our first subscriptions came in through a shipping agent in Baltimore, for unnamed clients, and that Rockefeller money was behind at least two of them.',
 		basis:
-			'Forty years of the agent’s manifests, from 1891 to 1931, consulted by the author in a warehouse since demolished. The manifests record consignments of “root stock, live, not for resale” to a landing on the Hudson.'
+			'Forty years of the agent’s manifests, 1891 to 1931, which Halloran says he read in a warehouse that has since been torn down. They list “root stock, live, not for resale” going to a landing on the Hudson.'
 	},
 	{
 		author: 'Pruitt, Margaret A.',
 		surname: 'Pruitt',
 		title: 'Concerning the Hedges at Two Houses',
-		citation: 'Letter to the editor, The Litchfield Enquirer, 11 August 1971.',
+		citation: 'Letter to the editor, The Litchfield Enquirer, August 11, 1971.',
 		year: 1971,
 		form: 'Letter',
-		kind: 'Letter, approximately 9,000 words.',
+		kind: 'Letter to the editor, about 9,000 words.',
 		alleges:
-			'Pruitt holds that the founders of the Society met at one of two houses whose hedges are cut to the same profile, one in Litchfield County and one above Lake Geneva, and that the second house was afterward kept by persons attached to the Pahlavi court.',
+			'Pruitt says we were founded at one of two houses with hedges clipped to the same shape, one in Litchfield County and one above Lake Geneva, and that people from the Pahlavi court later had the second house.',
 		basis:
-			'A resemblance between the two hedges, which the author identifies as privet, observed on separate visits in 1949 and 1970.'
+			'The two hedges look alike. She saw one in 1949 and the other in 1970, and she says they’re both privet.'
 	},
 	{
 		author: 'Fennimore, Julian R.',
 		surname: 'Fennimore',
 		title: 'The Empty Place at Table Nine',
 		citation:
-			'Lecture delivered to the Narragansett Historical Circle, 14 March 2003; transcript printed by the Circle, 2004.',
+			'Lecture to the Narragansett Historical Circle, March 14, 2003; transcript printed by the Circle, 2004.',
 		year: 2004,
 		form: 'Lecture',
-		kind: 'Lecture transcript, 38 pp.',
+		kind: 'Lecture, printed as a 38-page transcript.',
 		alleges:
-			'Fennimore contends that the Society was reconstituted in 1961 under the protection of the circle he calls “Greater Camelot,” and that its earlier history was supplied afterward.',
+			'Fennimore says we were started over in 1961 under the protection of a crowd he calls “Greater Camelot,” and that everything before that was filled in after the fact.',
 		basis:
-			'A seating chart for a dinner at Newport in September 1961, found by the author in a secondhand atlas, on which one place at table nine is marked “A.B.S.” and no name is written.'
+			'A seating chart from a dinner in Newport in September 1961, which he found inside a secondhand atlas. One place at table nine is marked “A.B.S.” with a blank where the name would go.'
 	},
 	{
 		author: 'Marchetti, Ugo',
@@ -56,11 +55,11 @@ export const FOUNDING_WORKS: FoundingWork[] = [
 		citation: 'Florence: Edizioni del Portico, 1981.',
 		year: 1981,
 		form: 'Memoir',
-		kind: 'Memoir, 96 pp. In Italian.',
+		kind: 'Memoir, 96 pages, in Italian.',
 		alleges:
-			'Marchetti maintains that at least one twentieth-century pope was a corresponding patron of the Society and received an exuvia in each seventeenth year.',
+			'Marchetti says at least one twentieth-century pope was a patron of ours by mail and got a shell from us every seventeenth year.',
 		basis:
-			'A dream the author had in 1958, which he sets out in full, and which he states recurred in a lesser form in 1975.'
+			'A dream Marchetti had in 1958, which he writes out in full. He says it came back, a bit weaker, in 1975.'
 	},
 	{
 		author: 'Ibarra, Consuelo',
@@ -69,11 +68,11 @@ export const FOUNDING_WORKS: FoundingWork[] = [
 		citation: 'Madrid: privately published, 1983.',
 		year: 1983,
 		form: 'Monograph',
-		kind: 'Monograph, 340 pp., 22 tables. In Spanish.',
+		kind: 'Book, 340 pages, 22 tables, in Spanish.',
 		alleges:
-			'Ibarra argues that the cork lining of the Society’s standard cabinets was supplied under an arrangement made with the government of General Franco, and that the Society was in that period administered from Seville.',
+			'Ibarra says the cork lining in our standard cabinets came through a deal with General Franco’s government, and that during those years we were run out of Seville.',
 		basis:
-			'The ledgers of the cork house of Viuda de Larrañaga at Algeciras, which record annual shipments to “A.B.S., New York, cabinet grade” from 1941 to 1954.'
+			'The ledgers of the Viuda de Larrañaga cork house in Algeciras, which show a shipment every year from 1941 to 1954 to “A.B.S., New York, cabinet grade.”'
 	},
 	{
 		author: 'Mapes, Dolores T.',
@@ -82,24 +81,24 @@ export const FOUNDING_WORKS: FoundingWork[] = [
 		citation: 'Albany: Hollow Oak Press, 1999.',
 		year: 1999,
 		form: 'Monograph',
-		kind: 'Monograph, 164 pp., 9 plates.',
+		kind: 'Book, 164 pages, 9 plates.',
 		alleges:
-			'Mapes argues that the first general meeting of the Society took place at a hotel in Saratoga Springs in August 1919, and that Arnold Rothstein was staying in the same building that week.',
+			'Mapes says our first general meeting was at a hotel in Saratoga Springs in August 1919, and that Arnold Rothstein was staying in the same hotel that week.',
 		basis:
-			'A page of the hotel’s register on which the room adjoining one engaged by “the Registrar” is initialed “A.R.,” together with the hotel’s laundry book for the same week.'
+			'One page of the hotel register, where the room next to one booked by “the Registrar” is initialed “A.R.,” plus the hotel’s laundry book for the same week.'
 	},
 	{
 		author: 'Treadwell, Amos K.',
 		surname: 'Treadwell',
 		title: 'The Treadwell Letter',
-		citation: 'Nos. 1–212. Lancaster, California: the author, 1974–1991.',
+		citation: 'Nos. 1–212. Lancaster, California: self-published, 1974–1991.',
 		year: 1974,
 		form: 'Newsletter',
 		kind: 'Newsletter, 212 issues, mimeographed.',
 		alleges:
-			'Across the run, Treadwell maintains that Howard Hughes financed the first Kilocada rearing facility and that the Society’s oxygen requirement originated with an engineer in Hughes’s employ.',
+			'Over the whole run, Treadwell says Howard Hughes paid for the first place to raise the large variety, and that our oxygen rule started with one of Hughes’s engineers.',
 		basis:
-			'An inventory of a hangar at Hallett Field listing “17 crates, ventilated, not to be opened,” which the author reproduces in issue 9 and returns to in one hundred and forty later issues.'
+			'An inventory from a hangar at Hallett Field that lists “17 crates, ventilated, not to be opened.” He prints it in issue 9 and comes back to it in a hundred and forty issues after that.'
 	},
 	{
 		author: 'Whitcombe, Eliot',
@@ -108,24 +107,25 @@ export const FOUNDING_WORKS: FoundingWork[] = [
 		citation: 'Philadelphia: Spruce Street Press, 1959.',
 		year: 1959,
 		form: 'Monograph',
-		kind: 'Monograph, 188 pp.',
+		kind: 'Book, 188 pages.',
 		alleges:
-			'Whitcombe argues that the Society was anticipated in the 1770s by a subscription circle whose meetings Franklin is said by Whitcombe to have attended on at least one occasion.',
+			'Whitcombe says somebody beat us to it in the 1770s with a subscription circle in Philadelphia, and that Franklin went to at least one of its meetings.',
 		basis:
-			'The daybook of Josiah Kettle, a printer’s apprentice, which records “the seventeen” on three occasions, once beside the word “roots.”'
+			'The daybook of Josiah Kettle, a printer’s apprentice, which mentions “the seventeen” three times, once next to the word “roots.”'
 	},
 	{
 		author: 'Lindqvist, Annika',
 		surname: 'Lindqvist',
 		title: 'Registry and Reticence: Private Pedigree Institutions in the United States, 1880–1940',
-		citation: 'Doctoral dissertation, 1996. Unpublished; the deposited copy has been withdrawn.',
+		citation:
+			'Doctoral dissertation, 1996. Unpublished. The library copy has since been withdrawn.',
 		year: 1996,
 		form: 'Dissertation',
-		kind: 'Dissertation, 611 pp., 1,402 notes.',
+		kind: 'Dissertation, 611 pages, 1,402 footnotes.',
 		alleges:
-			'Lindqvist argues that the Society was organized by the families of its first subscribers and by no one else, and that every account of a single founder or patron is unsupported.',
+			'Lindqvist says we were organized by the families of the first subscribers and nobody else, and that every story about a single founder or patron is unsupported.',
 		basis:
-			'A comparison of subscription lists, probate inventories, insurance schedules for crystal cabinets and the published volumes of the Stud Book, county by county, over sixty years.'
+			'Subscription lists, probate inventories, insurance schedules for crystal cabinets and the published volumes of the stud book, compared county by county over sixty years.'
 	},
 	{
 		author: 'Gosse, Hilary',
@@ -134,37 +134,37 @@ export const FOUNDING_WORKS: FoundingWork[] = [
 		citation: 'Northeast Harbor: privately printed, 1931.',
 		year: 1931,
 		form: 'Pamphlet',
-		kind: 'Pamphlet, 16 pp., stitched.',
+		kind: 'Pamphlet, 16 pages, hand-stitched.',
 		alleges:
-			'Gosse holds that Rockefeller interests had no connection with the Society, and that the rumor of one was put about by the Society itself in order to discourage inquiry.',
+			'Gosse says the Rockefeller interests had nothing to do with us, and that we started that rumor ourselves to put people off asking.',
 		basis:
-			'The author’s acquaintance with a former under-gardener at a house on Mount Desert, whose account is given at second hand.'
+			'Something a former under-gardener at a house on Mount Desert told somebody, who told Gosse.'
 	},
 	{
 		author: 'Desrosiers, Paul-Henri',
 		surname: 'Desrosiers',
 		title: 'A Cabinet from a Persian Collection',
-		citation: 'Essay in a sale catalogue of furniture and works of art, Geneva, May 1981.',
+		citation: 'Essay in a Geneva auction catalogue of furniture and works of art, May 1981.',
 		year: 1981,
 		form: 'Catalogue',
-		kind: 'Catalogue essay, 6 pp., 3 illustrations.',
+		kind: 'Catalogue essay, 6 pages, 3 illustrations.',
 		alleges:
-			'Desrosiers suggests that a crystal cabinet offered in the sale had been presented by the Society to the Pahlavi court in 1971, and that its contents were removed before it left Tehran.',
+			'Desrosiers says a crystal cabinet in the sale was a gift from us to the Pahlavi court in 1971, and that whatever was inside it was taken out before it left Tehran.',
 		basis:
-			'An inventory photograph of the cabinet in which the shelves are described as “not visible,” and the correspondence of its dimensions with those of a Society cabinet of Pattern 17.'
+			'An inventory photograph of the cabinet that describes the shelves as “not visible,” and the fact that it measures the same as one of our Pattern 17 cabinets.'
 	},
 	{
 		author: 'Okonjo, Rupert A.',
 		surname: 'Okonjo',
 		title: 'Seventeen-Year Men: Aviation Money and the Kilocada',
-		citation: 'Article, The Westerly Review, vol. 31, no. 2, 1988.',
+		citation: 'The Westerly Review, vol. 31, no. 2, 1988.',
 		year: 1988,
 		form: 'Article',
-		kind: 'Article, 24 pp.',
+		kind: 'Magazine article, 24 pages.',
 		alleges:
-			'Okonjo argues that Howard Hughes and General Franco jointly underwrote the Kilocada variety, the one supplying the engineering and the other the cork.',
+			'Okonjo says Howard Hughes and General Franco paid for the large variety between them, Hughes with the engineering and Franco with the cork.',
 		basis:
-			'A photograph of two men at an airfield in 1952, neither identified, one of whom holds a crate; and the author’s reading of the earlier literature.'
+			'A photograph of two men nobody has identified at an airfield in 1952, one of them holding a crate, and his own reading of everybody else’s books.'
 	},
 	{
 		author: 'Abernathy-Clyde, The Reverend Thomas',
@@ -173,11 +173,11 @@ export const FOUNDING_WORKS: FoundingWork[] = [
 		citation: 'London: Hartwell and Sons, 1966.',
 		year: 1966,
 		form: 'Monograph',
-		kind: 'Monograph, 140 pp.',
+		kind: 'Book, 140 pages.',
 		alleges:
-			'Abernathy-Clyde argues that at least one twentieth-century pope regarded the Society with disfavor, and that the Tredecim Register was recognized in 1909 to satisfy an intermediary acting in Rome.',
+			'Abernathy-Clyde says at least one twentieth-century pope disapproved of us, and that we only opened the 13-year book in 1909 to keep a go-between in Rome happy.',
 		basis:
-			'The letter book of a Roman bookseller recording the sale of the 1909 volume of the Stud Book to “a household on the other side of the river.”'
+			'A Roman bookseller’s letter book, which records selling our 1909 stud book to “a household on the other side of the river.”'
 	},
 	{
 		author: 'Strand, Marjorie L.',
@@ -186,11 +186,11 @@ export const FOUNDING_WORKS: FoundingWork[] = [
 		citation: 'Boston: Eastgate Press, 1999.',
 		year: 1999,
 		form: 'Memoir',
-		kind: 'Memoir, 288 pp.',
+		kind: 'Memoir, 288 pages.',
 		alleges:
-			'Strand recalls that a supper of the Society at Newport in 1962 was attended by members of the circle Strand calls “Greater Camelot,” and that she was asked to leave the terrace.',
+			'Strand remembers a supper of ours at Newport in 1962 with people there from what she calls “Greater Camelot,” and says she was asked to leave the terrace.',
 		basis:
-			'The author’s recollection, written thirty-seven years afterward, and a menu card she kept, which bears no names.'
+			'Her memory of it, thirty-seven years later, and a menu card she kept, which has no names on it.'
 	},
 	{
 		author: 'Quist, Harald',
@@ -199,23 +199,22 @@ export const FOUNDING_WORKS: FoundingWork[] = [
 		citation: 'Duluth: privately printed, 1993.',
 		year: 1993,
 		form: 'Monograph',
-		kind: 'Monograph, 402 pp., 61 figures.',
+		kind: 'Book, 402 pages, 61 figures.',
 		alleges:
-			'Quist holds that the Society was founded in 1712, before any of the persons or families commonly named, and that Rockefeller interests, Franklin and the Pahlavi court were in turn each custodians of a single original exuvia.',
+			'Quist says we were founded in 1712, before any of the usual names, and that the Rockefeller interests, Franklin and the Pahlavi court each took a turn looking after one original shell.',
 		basis:
-			'Ring counts taken by the author from the stump of a white oak felled in 1988, and the arrangement of the rings, which he reads as a register.'
+			'Ring counts from the stump of a white oak cut down in 1988. Quist reads the pattern of the rings as a register.'
 	},
 	{
 		author: 'Cardew, Felicity',
 		surname: 'Cardew',
 		title: 'An Unremarked Wedding',
-		citation: 'Article, Proceedings of the Aiken County Antiquarian Circle, no. 44, 2011.',
+		citation: 'Proceedings of the Aiken County Antiquarian Circle, no. 44, 2011.',
 		year: 2011,
 		form: 'Article',
-		kind: 'Article, 11 pp., 1 plate.',
+		kind: 'Article, 11 pages, 1 plate.',
 		alleges:
-			'Cardew argues that the Society was formalized at a wedding at Aiken in 1921, and that among the guests was a man whom Cardew identifies as Arnold Rothstein.',
-		basis:
-			'A wedding photograph in which a figure at the edge of the frame is partly hidden by a potted palm.'
+			'Cardew says we were made official at a wedding in Aiken in 1921, and that one of the guests was Arnold Rothstein.',
+		basis: 'A wedding photograph with a man at the edge of the frame, half behind a potted palm.'
 	}
 ];

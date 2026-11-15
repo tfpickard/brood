@@ -10,52 +10,49 @@ export const breed: Breed = {
 	hostTree: { common: 'Willow oak', botanical: 'Quercus phellos' },
 	brood: 'I',
 	phaseYear: 2012,
-	purpose: 'Sporting. Posted at the boundary of a covert to keep game from running out of it.',
-	lede: 'The Wye Stop is posted at the boundary of a covert to keep game from running out of it. It is the most stationary of the Sporting breeds and among the most highly regarded.',
+	purpose: 'Sporting. Posted on the edge of a covert to keep game from running out.',
+	lede: 'The Wye Stop sits on the edge of a covert and keeps the game from running out of it. It moves less than any other Sporting breed, and anyone who has one will tell you it’s the best of them.',
 	standard: {
 		appearance: [
-			'A Septendecim sporting animal of solid, low build, broad in the head, with the wings held close and slightly drooped. The thorax is black with a dark olive cast. The eye is red.',
-			'The tarsi are short and strong, and grip the post without visible effort.'
+			'Solid and low, broad in the head, wings held close and drooping a little. Black thorax with a dark olive cast. Red eye.',
+			'Short, strong tarsi that hold the post without seeming to try.'
 		],
 		chorus: [
-			'The Stop sings a steady, unvarying note from the moment it is posted until it is lifted. The note is low and carries along the hedge line rather than across it.',
-			'Any change of pitch in the course of a drive is a fault.'
+			'It sings one steady note from the moment it’s posted until it’s lifted. The note is low and runs along the hedge line, not across it.',
+			'Any change of pitch during a drive is a fault.'
 		],
 		temperament: [
-			'Steady, immovable and unhurried. The Stop is posted on the boundary before the drive and remains there until lifted by its owner. It does not follow game.',
-			'It answers the Summons, but slowly.'
+			'Steady, immovable and in no hurry. It goes on the boundary before the drive and stays there until its owner lifts it. It won’t follow game.',
+			'It does come to the snap. Slowly.'
 		],
 		exuvia: [
-			'Very dark amber and broad, with the legs gripping as though still fixed to the boundary post.',
-			'The exuvia is mounted on a short section of the post from which it was taken.'
+			'Very dark amber and broad, the legs gripping like they’re still on the post.',
+			'Mount the shell on a short piece of the post it came off.'
 		]
 	},
-	faults: ['Following game into the covert.', 'Change of pitch during the drive.', 'Narrow head.'],
-	disqualifications: [
-		'Emergence in any year other than the year of the line.',
-		'Leaving the post before it is lifted.'
-	],
+	faults: ['Following game into the covert.', 'Changing pitch during the drive.', 'A narrow head.'],
+	disqualifications: ['Hatching in the wrong year.', 'Leaving the post before it’s lifted.'],
 	history: [
-		'The breed was recognized in 1910 from the lines of the Ostrander family on the Wye River, where it had been posted on the boundaries of the coverts since before the Society’s first Stud Book was closed.',
-		'The Ostrander line has been entered at every sanctioned emergence of Brood I since recognition.',
-		'The breed will next be shown in the spring of 2029.'
+		'We recognized the Stop in 1910 from the Ostrander line on the Wye River, where it had been posted on the edges of the coverts since before we closed the first stud book.',
+		'The Ostranders have shown it every time Brood I has hatched since. They’ll tell you so.',
+		'You can see it next in the spring of 2029.'
 	],
 	plate: {
 		media: 'plate-wye-stop',
-		caption: 'The Wye Stop, male, posted, with the exuvia on its post. Drawn for the Society, 1910.'
+		caption: 'Wye Stop, a male, posted, with his shell on its post. Drawn for us in 1910.'
 	},
 	photos: [
 		{
 			media: 'photo-wye-stop-1',
-			caption: 'A Stop posted on the boundary of a covert before the drive. Wye River, 1927.'
+			caption: 'Posted on the edge of the covert before the drive. Wye River, 1927.'
 		},
 		{
 			media: 'photo-wye-stop-2',
-			caption: 'Stops lifted from their posts at the end of the day. Wye River, 1961.'
+			caption: 'Lifting the Stops off their posts at the end of the day. Wye River, 1961.'
 		},
 		{
 			media: 'photo-wye-stop-3',
-			caption: 'The boundary of the home covert in the week of emergence. Wye River, 2012.'
+			caption: 'The home covert the week it hatched. Wye River, 2012.'
 		}
 	],
 	diagram: 'exuvia-mount',

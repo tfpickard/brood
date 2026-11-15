@@ -5,11 +5,11 @@
 </script>
 
 <Head
-	title="Husbandry"
-	description="Host trees, root stewardship, the Vigil, the end of the week, and the Kilocada facilities specification."
+	title="Care and Keeping"
+	description="Trees, roots, being there when it hatches, the last day, and what you need to build for the large ones."
 />
 
-<SectionHeading numeral="Under the General Standard" title="Husbandry" level={1} />
+<SectionHeading numeral="How it’s done" title="Care and Keeping" level={1} />
 
 <div class="abs-prose abs-prose--justified">
 	{#each HUSBANDRY_INTRO as p, i (i)}<p class:abs-lede={i === 0}>{p}</p>{/each}

@@ -7,21 +7,19 @@ export const MOTTO = 'Prime numbers. Prime stock.';
 export const SITE_URL = 'https://americanbroodsociety.org';
 
 /** Appears verbatim on every page that discusses health (tested). */
-export const MASSOSPORA =
-	'The Society has never observed a case of Massospora in a sanctioned ring.';
+export const MASSOSPORA = 'We’ve never seen Massospora at one of our shows.';
 
-export const NO_COMMENT = 'The Society has not commented.';
 export const ENTERED_AS_RECEIVED = 'Entered as received.';
 
 /** Pricing sentence for Gemini 17.0 Locus, verbatim. Nothing else is said on the subject. */
 export const LOCUS_SENTENCE =
 	'17 Locus is provided by invite only and at the exclusive discretion of the Brood-Google Working Group.';
 
-/** The next sanctioned emergence: Brood I and the Tredecim Brood XXII, spring 2029. */
+/** The next hatch: Brood I and the 13-year Brood XXII, spring 2029. */
 export const NEXT_EMERGENCE = {
 	instant: '2029-05-14T09:00:00Z',
-	label: 'Until the next sanctioned emergence',
-	note: 'Brood I of the Septendecim Register and Brood XXII of the Tredecim Register. Expected in the spring of 2029.'
+	label: 'Until the next hatch',
+	note: 'Brood I in the 17-year book and Brood XXII in the 13-year book. Spring of 2029, if the weather cooperates.'
 } as const;
 
 export interface NavItem {
@@ -30,28 +28,28 @@ export interface NavItem {
 }
 
 export const NAV: NavItem[] = [
-	{ href: '/standard', label: 'The Standard' },
-	{ href: '/breeds', label: 'Recognized Breeds' },
-	{ href: '/stud-book', label: 'The Stud Book' },
-	{ href: '/cabinet', label: 'The Cabinet' },
-	{ href: '/husbandry', label: 'Husbandry' },
-	{ href: '/governance', label: 'Governance' },
-	{ href: '/supper-club', label: 'The Supper Club' },
+	{ href: '/standard', label: 'Standards' },
+	{ href: '/breeds', label: 'Breeds' },
+	{ href: '/stud-book', label: 'Stud Book' },
+	{ href: '/cabinet', label: 'Shells' },
+	{ href: '/husbandry', label: 'Care' },
+	{ href: '/governance', label: 'Club Business' },
+	{ href: '/supper-club', label: 'Suppers' },
 	{ href: '/chapters', label: 'Chapters' },
-	{ href: '/provisioner', label: 'Provisioner' }
+	{ href: '/provisioner', label: 'Equipment' }
 ];
 
 export const FOOTER_NAV: NavItem[] = [
-	{ href: '/from-the-membership', label: 'From the Membership' },
-	{ href: '/founding', label: 'Literature Concerning the Founding' },
+	{ href: '/from-the-membership', label: 'From Our Members' },
+	{ href: '/founding', label: 'How We Started' },
 	{ href: '/membership', label: 'Membership' },
 	{ href: '/legal', label: 'Legal Notices' },
-	{ href: '/correspondence-policy', label: 'Correspondence Policy' },
-	{ href: '/charitable-standing', label: 'Charitable Standing' }
+	{ href: '/correspondence-policy', label: 'Privacy' },
+	{ href: '/charitable-standing', label: 'Charity' }
 ];
 
 export const FOOTER_ENDOWMENT =
-	'The Society is fully endowed. It does not solicit, and it does not accept gifts from the public.';
+	'We’re fully endowed. We don’t ask for money, and we don’t take it from the public.';
 
 export const COLOPHON =
-	'Set in Garamond. Issued by the Society to its members and to such other persons as the Council may from time to time permit.';
+	'Set in Garamond. If you’re reading this on any other website, it isn’t us.';

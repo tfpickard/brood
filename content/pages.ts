@@ -1,71 +1,68 @@
 /** Short page copy that is not large enough to warrant its own module. */
 
 export const HOME_PURPOSE: string[] = [
-	'The American Brood Society keeps the Stud Book of the pedigreed periodical cicada, sanctions each emergence held under its rules, and maintains the Standard by which every recognized breed is judged. It has done so without interruption since the first volume of the Stud Book was closed. The Society does not seek members. Families whose lines are already of record are written to when a place falls vacant, and are otherwise not troubled.'
+	'We’re the American Brood Society. We’ve kept the stud book on pedigreed cicadas since 1896, we run the shows, and we write the breed standards. There isn’t another registry. If somebody tells you there is, our lawyers would love to hear about it.',
+	'Our breed names and our stud book numbers belong to us, and so does calling a cicada “pedigreed.” If you want to use any of them, you need our permission in writing. We don’t hand it out much, and yes, we do go after people.'
 ];
 
 export const CHARITABLE_STANDING: string[] = [
-	'The American Brood Society is a nonprofit charitable organization. It is recognized as such in many countries, and it conducts all of its affairs in furtherance of its charitable objects.',
-	'The Society is fully endowed. Its endowment is held and administered by the Treasurer under the direction of the Council, and its income is applied to the Society’s charitable objects and to no other purpose.',
-	'The Society does not solicit. It does not accept gifts from the public, and any gift received from a person who is not a member is returned.',
-	'The Society does not publish its accounts beyond the Council and the members.'
+	'It’s for charity.',
+	'We’re fully endowed. The Treasurer looks after the endowment, the Council tells the Treasurer what to do with it, and every bit of the income goes to the charity.',
+	'We don’t ask anybody for money. We don’t take gifts from the public, and if you send us one anyway, it comes back to you.',
+	'Our accounts go to the Council and the members. Nobody else sees them. People ask what the money’s for. It’s for charity.'
 ];
 
 export const CICADOODLE: { issued: string; reissued: string[]; body: string[] } = {
-	issued: 'Issued the second of June, 1975.',
-	reissued: [
-		'Reissued without amendment, 1992.',
-		'Reissued without amendment, 2009.',
-		'Reissued without amendment, 2026.'
-	],
+	issued: 'Issued June 2, 1975.',
+	reissued: ['Reissued 1992, 2009 and 2026. Text unchanged.'],
 	body: [
-		'The Society does not recognize the animal sold to the public as the Cicadoodle.',
-		'The exuvia is the purpose of the fancy. An animal bred so that it does not shed leaves nothing, and the Society does not register animals that leave nothing.',
-		'Owners of such animals are not eligible for membership of the Society. Neither are their descendants.',
-		'The Society will not correspond on the matter.'
+		'The animal sold to the public as the “Cicadoodle” is not a breed recognized by the American Brood Society.',
+		'The shell is the object of the fancy. An animal bred not to shed leaves no shell, and the Society registers no animal that leaves nothing behind.',
+		'Owners of such animals are ineligible for membership of the Society. So are their descendants.',
+		'This statement is the whole of the Society’s position on the matter.'
 	]
 };
 
 export const MEMBERSHIP: { intro: string[]; acknowledgment: (reviewDate: string) => string[] } = {
 	intro: [
-		'Membership of the Society is by invitation of the Council. An application may nevertheless be made by the head of a family on the form below. It is received and referred to the Committee on Admissions.',
-		'Applicants should not expect correspondence.'
+		'Membership is by invitation. You can apply anyway. We’ll look at it in seventeen years.',
+		'The head of the family fills in the form below, and it goes to the Admissions Committee. Don’t wait by the phone.'
 	],
 	acknowledgment: (reviewDate: string) => [
-		'The family has been placed under consideration.',
-		`The Committee on Admissions will review the application on ${reviewDate}.`,
-		'No acknowledgment of this notice is required.'
+		'We have your application.',
+		`The Admissions Committee will look at it on ${reviewDate}.`,
+		'You don’t need to do anything until then.'
 	]
 };
 
 export const LEGAL_INTRO: string[] = [
-	'The notices below are given by the Society in respect of the keeping, showing and transfer of animals and exuviae registered with it. Each is repeated on the pages to which it applies.',
+	'The notices below are given by the Society in respect of the keeping, showing and transfer of animals and shells registered with it. Each notice is repeated on the pages to which it applies.',
 	'Nothing on these pages varies the Bylaws.'
 ];
 
 export const CABINET_INTRO: string[] = [
-	'The exuviae described here are among those recorded by the Keeper of the Cabinet as of particular note. Each remains in the keeping of the family named.',
-	'Transfers of title are recorded with the price where it was disclosed to the Society.'
+	'These are the shells the Keeper of the Cabinet thinks are worth knowing about, and who has each one now.',
+	'When one changes hands, we write down the price if they told us. They don’t always tell us.'
 ];
 
 export const STUD_BOOK_INTRO: string[] = [
-	'The Stud Book is kept by the Registrar and closed on the last day of each emergence. Entries received after that day are held for the following volume.',
-	'Animals whose parentage is not of record are entered in the Foundation Register.'
+	'The Registrar keeps the stud book and closes it on the last day of each hatch. Anything that comes in after that waits for the next volume, so don’t call him about it.',
+	'Animals whose parents we don’t have on record are listed as founding stock. Lines that went wide in ’87 are flagged.'
 ];
 
 export const BREEDS_INTRO: string[] = [
-	'The Society recognizes the breeds listed below. Each is kept in one Register and classified in one Group.',
-	'Breeds of the Septendecim Register are listed first. Breeds of the Tredecim Register follow.'
+	'These are the breeds we recognize. Each one belongs to one group and goes in one book, the 17-year or the 13-year. If it isn’t on this list, it isn’t a breed, whatever the person who sold it to you said.',
+	'The 17-year breeds are listed first. The 13-year breeds come after.'
 ];
 
-export const FOUNDING_HEADING = 'Literature Concerning the Founding';
+export const FOUNDING_HEADING = 'How We Started';
 
 export const NOT_FOUND = {
-	title: 'No Such Page Is Kept',
-	body: 'The address requested does not correspond to any page in the Society’s keeping. It may have been withdrawn. The Society does not maintain a record of withdrawn pages.'
+	title: 'There’s nothing here.',
+	body: 'Either the address is wrong or the page is gone. Check the spelling, or start again from the home page.'
 } as const;
 
 export const SERVER_ERROR = {
-	title: 'The Page Could Not Be Issued',
-	body: 'The page requested could not be issued at this time. The matter has been noted.'
+	title: 'Something went wrong.',
+	body: 'That page didn’t load. It’s on our end, and we know about it. Try again in a few minutes.'
 } as const;

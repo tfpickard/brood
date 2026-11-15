@@ -42,12 +42,12 @@ export function pedigree(regNo: string, generations = 5): PedigreeEntry[] {
 		const s = rows / 2 ** (g - 1);
 		const a = reg ? animal(reg) : undefined;
 		if (!a) {
-			out.push({ g, r, s, side, name: 'Not of record', meta: '' });
+			out.push({ g, r, s, side, name: 'Unknown', meta: '' });
 			return;
 		}
 		const parts = [a.regNo, String(a.broodYear)];
 		if (a.eyes === 'blue') parts.push('Blue eye');
-		if (a.foundation) parts.push('F.R.');
+		if (a.foundation) parts.push('Founding stock');
 		else if (a.titles.length) parts.push(a.titles.join(' '));
 		out.push({ g, r, s, side, name: a.name, meta: parts.join(' · '), href: href(a) });
 		if (g < generations && !a.foundation) {

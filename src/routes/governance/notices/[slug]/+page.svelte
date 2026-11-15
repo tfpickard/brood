@@ -10,8 +10,8 @@
 
 <Breadcrumb
 	trail={[
-		{ href: '/governance', label: 'Governance' },
-		{ href: '/governance/notices', label: 'Notices of the Council' },
+		{ href: '/governance', label: 'Club Business' },
+		{ href: '/governance/notices', label: 'Notices' },
 		{ label: data.notice.title }
 	]}
 />

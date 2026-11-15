@@ -14,11 +14,11 @@
 </script>
 
 <Head
-	title="The Cabinet"
-	description="Notable exuviae of record: their provenance, their present holders and their last recorded sales."
+	title="Shells"
+	description="The notable shells: whose they were, who has them now, and what they went for last."
 />
 
-<SectionHeading numeral="Exuviae of record" title="The Cabinet" level={1} />
+<SectionHeading numeral="The notable ones" title="Shells" level={1} />
 
 <div class="abs-prose abs-prose--justified">
 	{#each CABINET_INTRO as p, i (i)}<p class:abs-lede={i === 0}>{p}</p>{/each}
@@ -27,7 +27,7 @@
 <Diagram
 	id="cabinet-elevations"
 	number="Fig. 1"
-	caption="Cabinets of the Standard, Microcada and Kilocada varieties. Drawn for the Keeper of the Cabinet."
+	caption="Cases for regular, miniature and large shells."
 />
 
 {#each data.items as item, i (item.id)}
@@ -45,14 +45,14 @@
 			<dd>
 				{#if item.animal}<a class="abs-link" href={href(item.animal)}>{item.animal.regNo}</a>{/if}
 			</dd>
-			<dt>Present holder</dt>
+			<dt>Who has it</dt>
 			<dd>{item.holder}</dd>
-			<dt>Cabinet</dt>
+			<dt>Where it’s kept</dt>
 			<dd>{item.cabinet}</dd>
-			<dt>Provenance</dt>
+			<dt>History</dt>
 			<dd>{item.provenance.join(' ')}</dd>
-			<dt>Last recorded sale</dt>
-			<dd>{item.lastSale ?? 'None recorded.'}</dd>
+			<dt>Last sold</dt>
+			<dd>{item.lastSale ?? 'Never sold.'}</dd>
 		</dl>
 	</section>
 {/each}

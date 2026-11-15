@@ -10,57 +10,55 @@ export const breed: Breed = {
 	hostTree: { common: 'Black walnut', botanical: 'Juglans nigra' },
 	brood: 'XXII',
 	phaseYear: 2016,
-	purpose: 'Personal Protection. Holds a single room by night.',
-	lede: 'The Upperville Sconce is kept for the defense of a single room. It is placed in the room at dusk and holds it until first light.',
+	purpose: 'Personal Protection. Holds one room overnight.',
+	lede: 'The Upperville Sconce looks after one room. It goes in at dusk and holds the room until first light.',
 	standard: {
 		appearance: [
-			'A Tredecim protection breed of small size, compact and low, with the wings folded tightly over the abdomen. The thorax is dark brown, almost black; the venation is orange.',
-			'The eye is red.',
-			'The Microcada is placed in the bedroom by night and is carried by day on the signet ring.'
+			'A 13-year Protection breed: small, compact and low, with the wings folded tight over the abdomen. Dark brown thorax, close to black, and orange veins.',
+			'Red eyes.',
+			'The miniature Sconce spends the night in the bedroom and the day on its owner’s signet ring.'
 		],
 		chorus: [
-			'A low chorus begun at dusk and kept until first light.',
-			'The chorus rises sharply at any movement in the room not made by the owner, and returns to its level when the movement ceases.'
+			'A low chorus from dusk until first light.',
+			'It jumps sharply at any movement in the room the owner didn’t make, and settles back down when the movement stops.'
 		],
 		temperament: [
-			'Steady and nocturnal, and inattentive by day.',
-			'It answers the Summons at night only. The Summons by day is not judged.'
+			'Steady, a night animal, and not interested in anything during the day.',
+			'It comes to the snap at night only. We judge the snap after dark.'
 		],
 		exuvia: [
-			'Small, compact and orange-brown, with the dorsal split short.',
-			'It is shown on a wall bracket in the room the animal held.'
+			'Small, compact and orange-brown, with a short split down the back.',
+			'Shown on a wall bracket in the room it kept.'
 		]
 	},
 	faults: [
-		'Chorus by day.',
-		'Silence between dusk and first light.',
-		'Response to movement made by the owner.'
+		'Singing during the day.',
+		'Going quiet between dusk and first light.',
+		'Going off every time the owner rolls over.'
 	],
-	disqualifications: [
-		'Emergence in any year other than the year of the line.',
-		'Abandonment of the room before first light.'
-	],
+	disqualifications: ['Hatching in the wrong year.', 'Leaving the room before first light.'],
 	history: [
-		'The breed was recognized in 1938 from lines kept in the hunt country about Upperville, and was entered in the Tredecim Register on the day of recognition.',
-		'The Microcada variety was admitted in 1964.',
-		'The breed emerges next with the Tredecim Brood XXII, in the spring of 2029.'
+		'We recognized the Sconce in 1938, from lines in the hunt country around Upperville, and it went into the 13-year book the same day.',
+		'The miniature was admitted in 1964.',
+		'The next hatch is Brood XXII, in the spring of 2029. The Larneds have already had the house inspected.'
 	],
 	plate: {
 		media: 'plate-upperville-sconce',
-		caption: 'The Upperville Sconce, male, with the exuvia from below. Drawn for the Society, 1938.'
+		caption: 'Our Sconce plate: a male, with the shell from underneath. Drawn for us in 1938.'
 	},
 	photos: [
 		{
 			media: 'photo-upperville-sconce-1',
-			caption: 'A Sconce at dusk on the bedroom mantel. Upperville, 1938.'
+			caption: 'A Sconce on the bedroom mantel at dusk. Upperville, 1938.'
 		},
 		{
 			media: 'photo-upperville-sconce-2',
-			caption: 'Judging of the Sconce class by night. Upperville, 1990.'
+			caption:
+				'Judging the Sconce class at night, which is the only way to do it. Upperville, 1990.'
 		},
 		{
 			media: 'photo-upperville-sconce-3',
-			caption: 'A Microcada Sconce on the signet ring. Upperville, 2016.'
+			caption: 'A miniature Sconce on the signet ring. Upperville, 2016.'
 		}
 	],
 	diagram: 'microcada-scale',

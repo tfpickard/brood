@@ -12,9 +12,12 @@
 	const val = (k: string) => (form?.values as Record<string, string> | undefined)?.[k] ?? '';
 </script>
 
-<Head title="Membership" description="Application for membership of the American Brood Society." />
+<Head
+	title="Membership"
+	description="Membership in the American Brood Society is by invitation. You can apply anyway."
+/>
 
-<SectionHeading numeral="By invitation of the Council" title="Membership" level={1} />
+<SectionHeading numeral="By invitation" title="Membership" level={1} />
 
 <div class="abs-prose">
 	{#each MEMBERSHIP.intro as p, i (i)}<p class:abs-lede={i === 0}>{p}</p>{/each}
@@ -27,8 +30,8 @@
 		tabindex="-1"
 		bind:this={ack}
 	>
-		<p class="abs-notice__kind">Notice</p>
-		<h2 class="abs-notice__title" id="ack-t">Application Received</h2>
+		<p class="abs-notice__kind">Received</p>
+		<h2 class="abs-notice__title" id="ack-t">Thanks for Applying</h2>
 		{#each form.paragraphs as p, i (i)}<p>{p}</p>{/each}
 	</section>
 {:else}
@@ -44,9 +47,9 @@
 			}}
 	>
 		<fieldset>
-			<legend>Application for Membership</legend>
+			<legend>Apply anyway</legend>
 			<div class="abs-field" data-invalid={err('family') ? '' : undefined}>
-				<label for="m-family">Name of the family</label>
+				<label for="m-family">Family name</label>
 				<input
 					id="m-family"
 					name="family"
@@ -60,7 +63,7 @@
 					>{/if}
 			</div>
 			<div class="abs-field" data-invalid={err('seat') ? '' : undefined}>
-				<label for="m-seat">Seat</label>
+				<label for="m-seat">Where the family lives</label>
 				<input
 					id="m-seat"
 					name="seat"
@@ -72,7 +75,7 @@
 				{#if err('seat')}<span class="abs-field__error" id="m-seat-err">{err('seat')}</span>{/if}
 			</div>
 			<div class="abs-field" data-invalid={err('line') ? '' : undefined}>
-				<label for="m-line">Line held or commissioned</label>
+				<label for="m-line">Your line</label>
 				<input
 					id="m-line"
 					name="line"
@@ -83,16 +86,14 @@
 				/>
 				{#if err('line')}<span class="abs-field__error" id="m-line-err">{err('line')}</span>
 				{:else}<span class="abs-field__hint" id="m-line-hint"
-						>The breed, and the year in which the line was first commissioned.</span
+						>Which breed, and the year your family started the line.</span
 					>{/if}
 			</div>
 		</fieldset>
 		<div class="abs-submit-row">
-			<button class="abs-card-button" type="submit">Submit the application</button>
+			<button class="abs-card-button" type="submit">Apply</button>
 			<p class="abs-policy-line">
-				Applications are not kept. See the Society’s <a href="/correspondence-policy"
-					>correspondence policy</a
-				>.
+				We don’t keep applications. See our <a href="/correspondence-policy">privacy policy</a>.
 			</p>
 		</div>
 	</form>

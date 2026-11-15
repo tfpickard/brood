@@ -7,7 +7,7 @@ assets:
     aspect: square
     used_by:
       - /cabinet
-    alt: An open round hatbox lined with tissue on a dressing table, a small amber exuvia resting on the tissue inside.
+    alt: An open round hatbox lined with tissue on a dressing table, a small amber shell resting on the tissue inside.
     subject: A round striped hatbox with its lid set aside rests on a mirrored dressing table. Inside, on folded white tissue paper, lies a single small translucent amber cicada exuvia. Silver-backed brushes and a scent bottle without labels beside it. Afternoon light through lace curtains, saturated color.
     prompt: |-
       A 1950s color transparency in the Kodachrome manner, saturated warm reds and greens, deep shadows, a faint magenta drift, hard bright daylight, formal composition by an amateur of means; slight dust on the emulsion.
@@ -21,7 +21,7 @@ assets:
     aspect: landscape
     used_by:
       - /cabinet
-    alt: A mahogany and crystal cabinet at the end of a dining room, a single amber exuvia within, the table laid with crystal glasses.
+    alt: A mahogany and crystal cabinet at the end of a dining room, a single amber shell within, the table laid with crystal glasses.
     subject: A dining room in a Maryland house with a long mahogany table laid with crystal glasses and silver. At the far end stands a mahogany-and-crystal display cabinet holding a single translucent amber cicada exuvia on a small mount. Candles unlit, late afternoon light, quiet and formal.
     prompt: |-
       Present-day editorial photography for a private estate, medium-format digital, natural window or overcast light, shallow depth of field, a muted and restrained palette, quiet and unhurried composition.
@@ -35,7 +35,7 @@ assets:
     aspect: landscape
     used_by:
       - /cabinet
-    alt: A long gallery with portraits on the walls and a very large freestanding amber exuvia standing on the parquet floor like a piece of furniture.
+    alt: A long gallery with portraits on the walls and a very large freestanding amber shell standing on the parquet floor like a piece of furniture.
     subject: A long gallery in a southern winter house with parquet floors, tall shuttered windows and family portraits in heavy frames. In the middle of the floor stands an enormous translucent amber cicada exuvia, the shed skin of a giant animal, about the size of a large sideboard, upright on its own legs. A pair of silver candlesticks has been placed on its back. Bright winter sun through the shutters in bars.
     prompt: |-
       A 1950s color transparency in the Kodachrome manner, saturated warm reds and greens, deep shadows, a faint magenta drift, hard bright daylight, formal composition by an amateur of means; slight dust on the emulsion.
@@ -49,7 +49,7 @@ assets:
     aspect: landscape
     used_by:
       - /cabinet
-    alt: A library with tall bookcases and a very large freestanding amber exuvia standing on the carpet before the fireplace.
+    alt: A library with tall bookcases and a very large freestanding amber shell standing on the carpet before the fireplace.
     subject: A New England country library with tall bookcases and a stone fireplace. On the carpet before the hearth stands an enormous translucent amber cicada exuvia, the shed skin of a giant animal, the size of a wing chair, upright and entire. A reading lamp is lit beside it. Soft evening window light.
     prompt: |-
       Present-day editorial photography for a private estate, medium-format digital, natural window or overcast light, shallow depth of field, a muted and restrained palette, quiet and unhurried composition.
@@ -63,7 +63,7 @@ assets:
     aspect: portrait
     used_by:
       - /cabinet
-    alt: A tall crystal and ebonized cabinet in a drawing room, a single small amber exuvia upright on an ivory pin on its middle shelf.
+    alt: A tall crystal and ebonized cabinet in a drawing room, a single small amber shell upright on an ivory pin on its middle shelf.
     subject: A tall display cabinet of crystal panes in a black ebonized frame stands against green damask in a formal drawing room. On the middle shelf, alone, a small translucent amber cicada exuvia stands upright on a single ivory pin. The other shelves are empty. A silk-shaded lamp and the edge of a gilt mirror. Warm saturated color.
     prompt: |-
       A 1950s color transparency in the Kodachrome manner, saturated warm reds and greens, deep shadows, a faint magenta drift, hard bright daylight, formal composition by an amateur of means; slight dust on the emulsion.
@@ -77,7 +77,7 @@ assets:
     aspect: portrait
     used_by:
       - /cabinet
-    alt: A painted crystal cabinet in a shingled parlor by a window over the water, one amber exuvia on its shelf.
+    alt: A painted crystal cabinet in a shingled parlor by a window over the water, one amber shell on its shelf.
     subject: The front parlor of a shingled island summer house, white-painted paneling and a window over a harbor. A painted wooden display cabinet with crystal panes holds a single translucent gray-amber cicada exuvia lying level on its shelf. A folded rug on a chair beside it. Overcast sea light.
     prompt: |-
       Present-day editorial photography for a private estate, medium-format digital, natural window or overcast light, shallow depth of field, a muted and restrained palette, quiet and unhurried composition.
@@ -91,7 +91,7 @@ assets:
     aspect: portrait
     used_by:
       - /cabinet
-    alt: A single amber exuvia on a black velvet stand photographed against a dark ground, a faint blue sheen at the eye cases.
+    alt: A single amber shell on a black velvet stand photographed against a dark ground, a faint blue sheen at the eye cases.
     subject: A formal record photograph of a single translucent amber cicada exuvia mounted upright on a small black velvet stand against a plain dark ground. The empty eye cases carry a faint pale-blue sheen. A brass measuring scale lies beside the stand. Soft directional light, extreme clarity.
     prompt: |-
       Present-day editorial photography for a private estate, medium-format digital, natural window or overcast light, shallow depth of field, a muted and restrained palette, quiet and unhurried composition.
@@ -105,7 +105,7 @@ assets:
     aspect: portrait
     used_by:
       - /cabinet
-    alt: A crystal cabinet on a turned pale wooden plinth in a sitting room, seven amber exuviae in a row on its shelves.
+    alt: A crystal cabinet on a turned pale wooden plinth in a sitting room, seven amber shells in a row on its shelves.
     subject: A tall crystal display cabinet with a mahogany frame stands on a turned plinth of pale yellow close-grained wood in a sitting room overlooking a river. Seven translucent amber cicada exuviae stand in a row across its shelves, each on its own small mount, the oldest darker with age. Overcast light from tall windows, a wing chair beside it.
     prompt: |-
       Present-day editorial photography for a private estate, medium-format digital, natural window or overcast light, shallow depth of field, a muted and restrained palette, quiet and unhurried composition.
@@ -119,7 +119,7 @@ assets:
     aspect: square
     used_by:
       - /cabinet
-    alt: A walnut-framed crystal cabinet in a gun room, a single amber exuvia on its shelf, a pair of leather chairs before it.
+    alt: A walnut-framed crystal cabinet in a gun room, a single amber shell on its shelf, a pair of leather chairs before it.
     subject: A walnut-framed crystal cabinet in the gun room of a southern country house, a single translucent amber cicada exuvia upright on its middle shelf. Before the cabinet two leather club chairs face it side by side. Hunting prints, a worn rug, soft afternoon light.
     prompt: |-
       Present-day editorial photography for a private estate, medium-format digital, natural window or overcast light, shallow depth of field, a muted and restrained palette, quiet and unhurried composition.
@@ -133,7 +133,7 @@ assets:
     aspect: square
     used_by:
       - /cabinet
-    alt: Close view through a brass-framed lens set into the lid of a small octagonal crystal cabinet, a minute amber exuvia magnified on a velvet pedestal.
+    alt: Close view through a brass-framed lens set into the lid of a small octagonal crystal cabinet, a minute amber shell magnified on a velvet pedestal.
     subject: A close view looking down through a round brass-framed magnifying lens set into the lid of a small octagonal crystal cabinet. Through the lens, greatly enlarged, a minute translucent amber cicada exuvia stands on a dark green velvet pedestal. Around the lens the polished brass and beveled glass of the cabinet. Soft window light.
     prompt: |-
       Present-day editorial photography for a private estate, medium-format digital, natural window or overcast light, shallow depth of field, a muted and restrained palette, quiet and unhurried composition.
@@ -147,7 +147,7 @@ assets:
     aspect: portrait
     used_by:
       - /cabinet
-    alt: A very large translucent cicada exuvia, taller than a man, standing on the landing of a paneled stair hall beneath a tall window.
+    alt: A very large translucent cicada shell, taller than a man, standing on the landing of a paneled stair hall beneath a tall window.
     subject: The stair hall of a private Manhattan townhouse with dark oak paneling and a broad turning stair. On the half landing stands a single enormous translucent amber cicada exuvia, the shed nymphal skin of a giant animal, upright on its own legs and taller than a man, its dorsal split clean and straight. Daylight from a tall arched window falls across it. No people.
     prompt: |-
       A 1920s silver-gelatin society photograph made with a large-format camera, warm black and white, gentle pictorialist softness, natural daylight, the composition of a photographer engaged by a private family; slight grain and a thin print border.
@@ -161,7 +161,7 @@ assets:
     aspect: portrait
     used_by:
       - /cabinet
-    alt: A crystal cabinet on a heavy dark base in a library, a single amber exuvia on its shelf lit by flash.
+    alt: A crystal cabinet on a heavy dark base in a library, a single amber shell on its shelf lit by flash.
     subject: In a wood-paneled library at night a crystal display cabinet stands on a heavy dark base. On its single shelf rests one translucent amber cicada exuvia with a faint pale-blue sheen at the eye cases. Direct flash lights the cabinet glass with a hard reflection; book spines behind in shadow.
     prompt: |-
       A 1980s 35mm color-negative snapshot with direct on-camera flash, hard shadows thrown on the wall behind the subjects, warm cast, slightly blown highlights, candid and unposed; no date stamp.
@@ -553,7 +553,7 @@ assets:
     aspect: landscape
     used_by:
       - /breeds/allegheny-drayer
-    alt: A large amber exuvia standing freestanding on a low plinth at the end of a long paneled gallery, like a piece of furniture.
+    alt: A large amber shell standing freestanding on a low plinth at the end of a long paneled gallery, like a piece of furniture.
     subject: The far end of a long paneled gallery in a country house, polished oak floor, tall windows with overcast light. On a low square mahogany plinth stands a very large translucent dark amber cicada shed skin, about the size of an armchair, entire, its split back facing the window. A pair of hall chairs and a long rug complete the room. No people.
     prompt: |-
       Present-day editorial photography for a private estate, medium-format digital, natural window or overcast light, shallow depth of field, a muted and restrained palette, quiet and unhurried composition.
@@ -1015,7 +1015,7 @@ assets:
     aspect: landscape
     used_by:
       - /breeds/ligonier-ostler
-    alt: A tack room wall hung with bridles and saddles, a small amber exuvia set on a shelf beneath each bridle.
+    alt: A tack room wall hung with bridles and saddles, a small amber shell set on a shelf beneath each bridle.
     subject: The interior of a tack room, wood-paneled walls hung with polished bridles on brass hooks and saddles on racks below. On a narrow shelf beneath each bridle sits a small orange-amber cicada shed skin. A saddle-soap tin and a sponge on the bench. Direct on-camera flash, hard shadows, warm cast.
     prompt: |-
       A 1980s 35mm color-negative snapshot with direct on-camera flash, hard shadows thrown on the wall behind the subjects, warm cast, slightly blown highlights, candid and unposed; no date stamp.
@@ -1393,7 +1393,7 @@ assets:
     aspect: portrait
     used_by:
       - /breeds/northern-shrib-locust
-    alt: Two large matching amber exuviae standing side by side on a stone floor beneath a staircase in a front hall.
+    alt: Two large matching amber shells standing side by side on a stone floor beneath a staircase in a front hall.
     subject: The front hall of a country house with a stone floor and a wide wooden staircase. Beneath the stairs stand two large brown-amber cicada shed skins, each the size of a footstool, side by side and facing the same way, freestanding like a pair of sculptures. Soft daylight from a fanlight. No people.
     prompt: |-
       Present-day editorial photography for a private estate, medium-format digital, natural window or overcast light, shallow depth of field, a muted and restrained palette, quiet and unhurried composition.
@@ -1828,7 +1828,7 @@ assets:
     used_by:
       - /breeds/aiken-marker
       - /breeds
-    alt: Hand-colored plate of an Aiken Marker on point on a longleaf pine twig, red-eyed and black-bodied with amber wing veins, and an inset of its exuvia from below.
+    alt: Hand-colored plate of an Aiken Marker on point on a longleaf pine twig, red-eyed and black-bodied with amber wing veins, and an inset of its shell from below.
     subject: "A single periodical cicada of the Aiken Marker breed shown in strict profile on a twig of longleaf pine with long needles: lacquer-black thorax, garnet-red eyes, wings held in a low tent with amber venation, forelegs braced forward and head lowered as if standing to game, legs orange to the tarsus. A smaller inset at lower right shows its dark amber shed nymphal skin from below with the forelegs braced forward. Botanical precision, scientific gravity."
     prompt: |-
       A chromolithographic natural-history plate of the 1890s, hand-colored, with fine engraved hatching for tone, printed on cream laid paper with slight foxing and a faint plate-mark border; scientific illustration in the manner of a learned society's transactions; no lettering, captions or numbers on the plate.
@@ -1843,7 +1843,7 @@ assets:
     used_by:
       - /breeds/allegheny-drayer
       - /breeds
-    alt: Hand-colored plate of a heavy black Allegheny Drayer wearing a small leather harness collar, wings raised, with an inset of its dark amber exuvia.
+    alt: Hand-colored plate of a heavy black Allegheny Drayer wearing a small leather harness collar, wings raised, with an inset of its dark amber shell.
     subject: "A single large periodical cicada of the Allegheny Drayer breed shown in strict profile on a white oak branch: deep black thorax broad across the collar, garnet-red eyes, wings carried high and slightly open with pale amber venation heavy at the leading edge. It wears a tiny fitted leather draught collar with brass fittings. A smaller inset at lower right shows its heavy dark amber shed nymphal skin (exuvia) with well-defined claws. Precise, sober, scientific."
     prompt: |-
       A chromolithographic natural-history plate of the 1890s, hand-colored, with fine engraved hatching for tone, printed on cream laid paper with slight foxing and a faint plate-mark border; scientific illustration in the manner of a learned society's transactions; no lettering, captions or numbers on the plate.
@@ -1858,7 +1858,7 @@ assets:
     used_by:
       - /breeds/beacon-hill-minim
       - /breeds
-    alt: Hand-colored plate of a very small, finely made Beacon Hill Minim on an elm twig, black with pale gold veins, and an inset of its tiny exuvia under a magnifying glass.
+    alt: Hand-colored plate of a very small, finely made Beacon Hill Minim on an elm twig, black with pale gold veins, and an inset of its tiny shell under a magnifying glass.
     subject: "A single very small periodical cicada of the Beacon Hill Minim breed in profile on a slender twig of American elm with toothed oval leaves, shown at life size and again enlarged: finely made, black thorax, garnet-red eyes, wings carried close with the tips slightly raised and pale clear gold venation. A smaller inset at lower right shows its tiny pale gold exuvia on a pin seen through a round magnifying lens. Precise, sober, scientific."
     prompt: |-
       A chromolithographic natural-history plate of the 1890s, hand-colored, with fine engraved hatching for tone, printed on cream laid paper with slight foxing and a faint plate-mark border; scientific illustration in the manner of a learned society's transactions; no lettering, captions or numbers on the plate.
@@ -1873,7 +1873,7 @@ assets:
     used_by:
       - /breeds/brandywine-alarum
       - /breeds
-    alt: Hand-colored plate of a Brandywine Alarum in profile on a tulip tree twig, deep-bodied and black with broad sound plates, red-eyed, with an inset of its dark amber exuvia from below.
+    alt: Hand-colored plate of a Brandywine Alarum in profile on a tulip tree twig, deep-bodied and black with broad sound plates, red-eyed, with an inset of its dark amber shell from below.
     subject: "A single periodical cicada of the Brandywine Alarum breed in strict profile on a twig of tulip tree with its distinctive four-lobed leaves and a single orange-and-green flower: deep black thorax, broad and prominent sound-producing plates at the base of the abdomen, garnet-red eyes, clear wings with dark amber venation. A smaller inset at lower right shows its dense, dark amber shed nymphal skin (exuvia) from below, the dorsal split short. Precise, sober, scientific."
     prompt: |-
       A chromolithographic natural-history plate of the 1890s, hand-colored, with fine engraved hatching for tone, printed on cream laid paper with slight foxing and a faint plate-mark border; scientific illustration in the manner of a learned society's transactions; no lettering, captions or numbers on the plate.
@@ -1903,7 +1903,7 @@ assets:
     used_by:
       - /breeds/dark-harbor-constant
       - /breeds
-    alt: Hand-colored plate of a Dark Harbor Constant at rest on a red spruce twig, gray-black with silver wing veins held flat, and an inset of its exuvia lying level.
+    alt: Hand-colored plate of a Dark Harbor Constant at rest on a red spruce twig, gray-black with silver wing veins held flat, and an inset of its shell lying level.
     subject: "A single periodical cicada of the Dark Harbor Constant breed at rest in profile on a twig of red spruce with short needles and a small cone: medium size, level outline, deep gray-black thorax, garnet-red eyes, wings held flat and slightly apart with cool silver venation. A smaller inset at lower right shows its gray amber exuvia lying flat on its underside, wing sheaths close. Precise, sober, scientific."
     prompt: |-
       A chromolithographic natural-history plate of the 1890s, hand-colored, with fine engraved hatching for tone, printed on cream laid paper with slight foxing and a faint plate-mark border; scientific illustration in the manner of a learned society's transactions; no lettering, captions or numbers on the plate.
@@ -1918,7 +1918,7 @@ assets:
     used_by:
       - /breeds/dutchess-taffy-cicada
       - /breeds
-    alt: Hand-colored plate of a rounded honey-colored cicada of the Dutchess Taffy Cicada breed on a sugar maple twig, with an inset of its exuvia lying on its side.
+    alt: Hand-colored plate of a rounded honey-colored cicada of the Dutchess Taffy Cicada breed on a sugar maple twig, with an inset of its shell lying on its side.
     subject: "A single periodical cicada of the Dutchess Taffy Cicada breed in profile on a twig of sugar maple with lobed green leaves and winged seeds: rounded build, short wings with soft gold venation, the body pale honey in color with a darker dorsal line, broad feet, garnet-red eyes. A smaller inset at lower right shows its pale honey amber exuvia lying on its side, the dark dorsal line visible. Precise, sober, scientific."
     prompt: |-
       A chromolithographic natural-history plate of the 1890s, hand-colored, with fine engraved hatching for tone, printed on cream laid paper with slight foxing and a faint plate-mark border; scientific illustration in the manner of a learned society's transactions; no lettering, captions or numbers on the plate.
@@ -1933,7 +1933,7 @@ assets:
     used_by:
       - /breeds/edisto-pavane
       - /breeds
-    alt: Hand-colored plate of an Edisto Pavane standing high on long legs on a live oak twig, black with a green sheen and dark gold veins, and an inset of its standing exuvia.
+    alt: Hand-colored plate of an Edisto Pavane standing high on long legs on a live oak twig, black with a green sheen and dark gold veins, and an inset of its standing shell.
     subject: "A single periodical cicada of the Edisto Pavane breed in profile standing high on long legs on a twig of southern live oak with small leathery leaves and a wisp of Spanish moss: medium size, black thorax with a faint green sheen, garnet-red eyes, wings with dark gold venation. A smaller inset at lower left shows its dark gold amber exuvia standing on its own legs on a flat surface. Precise, sober, scientific."
     prompt: |-
       A chromolithographic natural-history plate of the 1890s, hand-colored, with fine engraved hatching for tone, printed on cream laid paper with slight foxing and a faint plate-mark border; scientific illustration in the manner of a learned society's transactions; no lettering, captions or numbers on the plate.
@@ -1948,7 +1948,7 @@ assets:
     used_by:
       - /breeds/fishers-island-vedette
       - /breeds
-    alt: Hand-colored plate of a Fishers Island Vedette standing high on a hickory twig, light and long-winged with the head raised, red-eyed, with an inset of its translucent exuvia.
+    alt: Hand-colored plate of a Fishers Island Vedette standing high on a hickory twig, light and long-winged with the head raised, red-eyed, with an inset of its translucent shell.
     subject: "A single periodical cicada of the Fishers Island Vedette breed in strict profile, standing high with its head raised on a twig of shagbark hickory: light black thorax, garnet-red eyes, long wings with dark amber venation. A smaller inset at lower right shows its light, translucent shed nymphal skin (exuvia) from below, long in the wing cases. Precise, sober, scientific."
     prompt: |-
       A chromolithographic natural-history plate of the 1890s, hand-colored, with fine engraved hatching for tone, printed on cream laid paper with slight foxing and a faint plate-mark border; scientific illustration in the manner of a learned society's transactions; no lettering, captions or numbers on the plate.
@@ -1963,7 +1963,7 @@ assets:
     used_by:
       - /breeds/flat-winged-bearer
       - /breeds
-    alt: Hand-colored plate of a Flat-Winged Bearer on a sycamore twig with its wings laid flat over the back carrying a small feather, and an inset of its flat exuvia.
+    alt: Hand-colored plate of a Flat-Winged Bearer on a sycamore twig with its wings laid flat over the back carrying a small feather, and an inset of its flat shell.
     subject: "A single periodical cicada of the Flat-Winged Bearer breed seen from above and slightly to the side on a twig of American sycamore with broad maple-like leaves: long light body, pale closely set venation, the wings carried flat and overlapping over the back to form a level platform on which rests a small downy feather. Long forelegs curve inward. Inset at lower right shows its pale straw exuvia lying flat. Scientific precision."
     prompt: |-
       A chromolithographic natural-history plate of the 1890s, hand-colored, with fine engraved hatching for tone, printed on cream laid paper with slight foxing and a faint plate-mark border; scientific illustration in the manner of a learned society's transactions; no lettering, captions or numbers on the plate.
@@ -1978,7 +1978,7 @@ assets:
     used_by:
       - /breeds/hudson-tender
       - /breeds
-    alt: Hand-colored plate of a slender dull-black Hudson Tender on an apple bough among blossom, with an inset of its pale exuvia.
+    alt: Hand-colored plate of a slender dull-black Hudson Tender on an apple bough among blossom, with an inset of its pale shell.
     subject: "A single slender periodical cicada of the Hudson Tender breed shown in profile on an apple bough with a few pale blossoms and small green leaves: dull black thorax, garnet-red eyes, long forelegs, wings carried low and close with clear membranes greenish at the base. A smaller inset at lower right shows its pale thin-walled shed nymphal skin (exuvia) from below. Precise, sober, scientific."
     prompt: |-
       A chromolithographic natural-history plate of the 1890s, hand-colored, with fine engraved hatching for tone, printed on cream laid paper with slight foxing and a faint plate-mark border; scientific illustration in the manner of a learned society's transactions; no lettering, captions or numbers on the plate.
@@ -1993,7 +1993,7 @@ assets:
     used_by:
       - /breeds/lenox-verger
       - /breeds
-    alt: Hand-colored plate of an upright Lenox Verger on a maple trunk, wings folded steeply like a cloak, with an inset of its exuvia.
+    alt: Hand-colored plate of an upright Lenox Verger on a maple trunk, wings folded steeply like a cloak, with an inset of its shell.
     subject: "A single periodical cicada of the Lenox Verger breed shown upright on a section of sugar maple trunk with a few lobed leaves: black thorax, garnet-red eyes, wings folded steeply over the abdomen like a closed cloak, dark amber venation. A smaller inset at lower right shows its dark amber shed nymphal skin (exuvia), upright with forelegs held together. Precise, sober, scientific."
     prompt: |-
       A chromolithographic natural-history plate of the 1890s, hand-colored, with fine engraved hatching for tone, printed on cream laid paper with slight foxing and a faint plate-mark border; scientific illustration in the manner of a learned society's transactions; no lettering, captions or numbers on the plate.
@@ -2008,7 +2008,7 @@ assets:
     used_by:
       - /breeds/ligonier-ostler
       - /breeds
-    alt: Hand-colored plate of a light-bodied brown-black Ligonier Ostler on a sycamore twig, wings slightly raised, with an inset of its orange exuvia.
+    alt: Hand-colored plate of a light-bodied brown-black Ligonier Ostler on a sycamore twig, wings slightly raised, with an inset of its orange shell.
     subject: "A single periodical cicada of the Ligonier Ostler breed shown in profile on a twig of American sycamore with a broad leaf and a seed ball: light thorax, brown-black body, garnet-red eyes, wings carried slightly raised with orange venation. A smaller inset at lower right shows its light orange-amber shed nymphal skin (exuvia). Precise, sober, scientific."
     prompt: |-
       A chromolithographic natural-history plate of the 1890s, hand-colored, with fine engraved hatching for tone, printed on cream laid paper with slight foxing and a faint plate-mark border; scientific illustration in the manner of a learned society's transactions; no lettering, captions or numbers on the plate.
@@ -2023,7 +2023,7 @@ assets:
     used_by:
       - /breeds/little-compton-canticle
       - /breeds
-    alt: Hand-colored plate of a slender Little Compton Canticle on a linden twig, black with a pale collar and long light-amber wings, and an inset of its upright exuvia.
+    alt: Hand-colored plate of a slender Little Compton Canticle on a linden twig, black with a pale collar and long light-amber wings, and an inset of its upright shell.
     subject: "A single periodical cicada of the Little Compton Canticle breed in profile on a twig of American linden with heart-shaped leaves and a pale leafy bract: slender build, long wings carried high and slightly tented with clear light amber venation, black thorax with a narrow pale collar behind the head, garnet-red eyes. A smaller inset at lower right shows its clear amber exuvia standing upright, the pale collar band visible. Precise, sober, scientific."
     prompt: |-
       A chromolithographic natural-history plate of the 1890s, hand-colored, with fine engraved hatching for tone, printed on cream laid paper with slight foxing and a faint plate-mark border; scientific illustration in the manner of a learned society's transactions; no lettering, captions or numbers on the plate.
@@ -2038,7 +2038,7 @@ assets:
     used_by:
       - /breeds/mackinac-repeater
       - /breeds
-    alt: Hand-colored plate of a long-bodied Mackinac Repeater on a short wooden stake, gray at the collar, with an inset of its exuvia.
+    alt: Hand-colored plate of a long-bodied Mackinac Repeater on a short wooden stake, gray at the collar, with an inset of its shell.
     subject: "A single periodical cicada of the Mackinac Repeater breed shown in profile perched on a short turned wooden stake, a sprig of northern white cedar beside it: long abdomen with a pronounced tymbal cover, black thorax with a dull gray down on the collar, garnet-red eyes, amber venation. A smaller inset at lower right shows its amber shed nymphal skin (exuvia) with intact tymbal covers. Precise, sober, scientific."
     prompt: |-
       A chromolithographic natural-history plate of the 1890s, hand-colored, with fine engraved hatching for tone, printed on cream laid paper with slight foxing and a faint plate-mark border; scientific illustration in the manner of a learned society's transactions; no lettering, captions or numbers on the plate.
@@ -2053,7 +2053,7 @@ assets:
     used_by:
       - /breeds/maryland-molt-liquor
       - /breeds
-    alt: Hand-colored plate of a broad, glossy brown-black cicada of the Maryland Molt Liquor breed on a black walnut twig, with an inset of its glossy upright exuvia.
+    alt: Hand-colored plate of a broad, glossy brown-black cicada of the Maryland Molt Liquor breed on a black walnut twig, with an inset of its glossy upright shell.
     subject: "A single periodical cicada of the Maryland Molt Liquor breed in profile on a twig of black walnut with long compound leaves and one green walnut: substantial build, broad thorax of a deep brown-black with a high polish, wings carried low and close with warm amber venation, garnet-red eyes. A smaller inset at lower right shows its deep amber exuvia standing upright, broad and glossy. Precise, sober, scientific."
     prompt: |-
       A chromolithographic natural-history plate of the 1890s, hand-colored, with fine engraved hatching for tone, printed on cream laid paper with slight foxing and a faint plate-mark border; scientific illustration in the manner of a learned society's transactions; no lettering, captions or numbers on the plate.
@@ -2068,7 +2068,7 @@ assets:
     used_by:
       - /breeds/matinecock-courser
       - /breeds
-    alt: Hand-colored plate of a long-legged Matinecock Courser in the attitude of running on a tulip tree twig, wings raised, with an inset of its long-legged exuvia.
+    alt: Hand-colored plate of a long-legged Matinecock Courser in the attitude of running on a tulip tree twig, wings raised, with an inset of its long-legged shell.
     subject: "A single periodical cicada of the Matinecock Courser breed in profile on a twig of tulip tree with its distinctive four-lobed leaves and an orange-and-green flower: racing build, narrow thorax, conspicuously long orange legs extended in a running stride, wings carried high and slightly open, black body, red eyes. Inset at lower right shows its dark amber exuvia in profile with legs extended. Scientific gravity."
     prompt: |-
       A chromolithographic natural-history plate of the 1890s, hand-colored, with fine engraved hatching for tone, printed on cream laid paper with slight foxing and a faint plate-mark border; scientific illustration in the manner of a learned society's transactions; no lettering, captions or numbers on the plate.
@@ -2083,7 +2083,7 @@ assets:
     used_by:
       - /breeds/millbrook-flanker
       - /breeds
-    alt: Hand-colored plate of a Millbrook Flanker on a sugar maple twig with its wings spread to show a pale oval flash on the forewing, and an inset of its exuvia.
+    alt: Hand-colored plate of a Millbrook Flanker on a sugar maple twig with its wings spread to show a pale oval flash on the forewing, and an inset of its shell.
     subject: A single periodical cicada of the Millbrook Flanker breed on a twig of sugar maple with five-lobed leaves, wings spread slightly to show a single pale oval of clear membrane on each forewing between the veins, the flash; broad across the wings, black thorax, red eyes. Inset at lower right shows its mid amber exuvia with the flash visible on the wing pad.
     prompt: |-
       A chromolithographic natural-history plate of the 1890s, hand-colored, with fine engraved hatching for tone, printed on cream laid paper with slight foxing and a faint plate-mark border; scientific illustration in the manner of a learned society's transactions; no lettering, captions or numbers on the plate.
@@ -2098,7 +2098,7 @@ assets:
     used_by:
       - /breeds/narragansett-pale
       - /breeds
-    alt: Hand-colored plate of a Narragansett Pale in profile on a red oak twig, long-bodied and smoke gray with straw-colored wing veins, red-eyed, with an inset of its nearly colorless exuvia.
+    alt: Hand-colored plate of a Narragansett Pale in profile on a red oak twig, long-bodied and smoke gray with straw-colored wing veins, red-eyed, with an inset of its nearly colorless shell.
     subject: "A single periodical cicada of the Narragansett Pale breed in strict profile on a twig of northern red oak with pointed lobed leaves: long body, smoke-gray thorax, garnet-red eyes, wings carried low and wide with venation the color of bleached straw. A smaller inset at lower right shows its long, pale, almost colorless shed nymphal skin (exuvia) from below. Precise, sober, scientific."
     prompt: |-
       A chromolithographic natural-history plate of the 1890s, hand-colored, with fine engraved hatching for tone, printed on cream laid paper with slight foxing and a faint plate-mark border; scientific illustration in the manner of a learned society's transactions; no lettering, captions or numbers on the plate.
@@ -2113,7 +2113,7 @@ assets:
     used_by:
       - /breeds/newport-vesper
       - /breeds
-    alt: Hand-colored plate of a Newport Vesper in profile on a copper beech twig, black-bodied and red-eyed with amber wing veins, and an inset of its amber exuvia seen from below.
+    alt: Hand-colored plate of a Newport Vesper in profile on a copper beech twig, black-bodied and red-eyed with amber wing veins, and an inset of its amber shell seen from below.
     subject: "A single periodical cicada of the Newport Vesper breed shown in strict profile, perched on a twig of copper beech with dark purple leaves: lacquer-black thorax with a faint bronze lustre, garnet-red eyes, wings held close and level with fine amber venation. A smaller inset at lower right shows its translucent amber shed nymphal skin (exuvia) from below, forelegs drawn slightly inward. Precise, sober, scientific."
     prompt: |-
       A chromolithographic natural-history plate of the 1890s, hand-colored, with fine engraved hatching for tone, printed on cream laid paper with slight foxing and a faint plate-mark border; scientific illustration in the manner of a learned society's transactions; no lettering, captions or numbers on the plate.
@@ -2128,7 +2128,7 @@ assets:
     used_by:
       - /breeds/north-haven-tiler
       - /breeds
-    alt: Hand-colored plate of a North Haven Tiler on a paper birch twig, square and broad with faintly smoky wings, red-eyed, with an inset of its broad dark amber exuvia.
+    alt: Hand-colored plate of a North Haven Tiler on a paper birch twig, square and broad with faintly smoky wings, red-eyed, with an inset of its broad dark amber shell.
     subject: "A single periodical cicada of the North Haven Tiler breed in strict profile on a twig of paper birch with white peeling bark: broad square black thorax, garnet-red eyes, faintly smoke-tinged wings with black venation. A smaller inset at lower right shows its broad, dark amber shed nymphal skin (exuvia) from below with the forelegs held level. Precise, sober, scientific."
     prompt: |-
       A chromolithographic natural-history plate of the 1890s, hand-colored, with fine engraved hatching for tone, printed on cream laid paper with slight foxing and a faint plate-mark border; scientific illustration in the manner of a learned society's transactions; no lettering, captions or numbers on the plate.
@@ -2143,7 +2143,7 @@ assets:
     used_by:
       - /breeds/northern-shrib-locust
       - /breeds
-    alt: Hand-colored plate of a compact, deep-bodied Northern Shrib Locust in a small paired harness collar on a pine branch, with an inset of its exuvia.
+    alt: Hand-colored plate of a compact, deep-bodied Northern Shrib Locust in a small paired harness collar on a pine branch, with an inset of its shell.
     subject: "A single compact periodical cicada of great depth through the thorax shown in profile on a branch of eastern white pine with long needles: black thorax with a brown cast at the margins, short strong legs, garnet-red eyes, wings carried tight with dense amber venation at the base. It wears a small fitted leather collar with a ring for a pair pole. A smaller inset at lower right shows its heavy brown-amber shed nymphal skin (exuvia) with short wide-set forelegs. Precise, sober, scientific."
     prompt: |-
       A chromolithographic natural-history plate of the 1890s, hand-colored, with fine engraved hatching for tone, printed on cream laid paper with slight foxing and a faint plate-mark border; scientific illustration in the manner of a learned society's transactions; no lettering, captions or numbers on the plate.
@@ -2173,7 +2173,7 @@ assets:
     used_by:
       - /breeds/piedmont-familiar
       - /breeds
-    alt: Hand-colored plate of a Piedmont Familiar seen from above on a tulip tree twig, matte black with pale olive-gold wing veins, and an inset of its exuvia.
+    alt: Hand-colored plate of a Piedmont Familiar seen from above on a tulip tree twig, matte black with pale olive-gold wing veins, and an inset of its shell.
     subject: "A single periodical cicada of the Piedmont Familiar breed seen from directly above, perched on a twig of tulip tree with its distinctive four-lobed leaves and one green-and-orange flower: compact body, head carried slightly forward, matte black thorax, garnet-red eyes, wings with pale olive-gold venation. A smaller inset at lower left shows its pale olive amber exuvia from above, entire and compact. Precise, sober, scientific."
     prompt: |-
       A chromolithographic natural-history plate of the 1890s, hand-colored, with fine engraved hatching for tone, printed on cream laid paper with slight foxing and a faint plate-mark border; scientific illustration in the manner of a learned society's transactions; no lettering, captions or numbers on the plate.
@@ -2188,7 +2188,7 @@ assets:
     used_by:
       - /breeds/prides-crossing-linstock
       - /breeds
-    alt: Hand-colored plate of a Prides Crossing Linstock standing tall on a white ash twig, long forelegs upright, black with a brass sheen, red-eyed, with an inset of its tall exuvia.
+    alt: Hand-colored plate of a Prides Crossing Linstock standing tall on a white ash twig, long forelegs upright, black with a brass sheen, red-eyed, with an inset of its tall shell.
     subject: "A single periodical cicada of the Prides Crossing Linstock breed in strict profile on a twig of white ash with compound leaves, standing tall with long forelegs held upright: black thorax with a dull brass sheen at the margins, garnet-red eyes, bright amber venation. A smaller inset at lower right shows its tall, dark amber shed nymphal skin (exuvia) with the forelegs upright. Precise, sober, scientific."
     prompt: |-
       A chromolithographic natural-history plate of the 1890s, hand-colored, with fine engraved hatching for tone, printed on cream laid paper with slight foxing and a faint plate-mark border; scientific illustration in the manner of a learned society's transactions; no lettering, captions or numbers on the plate.
@@ -2203,7 +2203,7 @@ assets:
     used_by:
       - /breeds/sewickley-sexton
       - /breeds
-    alt: Hand-colored plate of a spare, low-headed Sewickley Sexton on a yew bough with red berries, with an inset of its slender exuvia.
+    alt: Hand-colored plate of a spare, low-headed Sewickley Sexton on a yew bough with red berries, with an inset of its slender shell.
     subject: "A single periodical cicada of the Sewickley Sexton breed shown in profile on a bough of English yew with a few red berries: spare outline, head held low, black thorax, garnet-red eyes, long wings carried beyond the abdomen with venation nearly black at the leading edge. A smaller inset at lower right shows its slender dark amber shed nymphal skin (exuvia) with forelegs held close and slightly bowed. Precise, sober, scientific."
     prompt: |-
       A chromolithographic natural-history plate of the 1890s, hand-colored, with fine engraved hatching for tone, printed on cream laid paper with slight foxing and a faint plate-mark border; scientific illustration in the manner of a learned society's transactions; no lettering, captions or numbers on the plate.
@@ -2218,7 +2218,7 @@ assets:
     used_by:
       - /breeds/shenandoah-picket
       - /breeds
-    alt: Hand-colored plate of a Shenandoah Picket in profile on a chestnut oak twig, compact and upright with slightly raised wings, red-eyed, with an inset of its small pale exuvia.
+    alt: Hand-colored plate of a Shenandoah Picket in profile on a chestnut oak twig, compact and upright with slightly raised wings, red-eyed, with an inset of its small pale shell.
     subject: "A single periodical cicada of the Shenandoah Picket breed in strict profile, standing upright on a twig of chestnut oak with scalloped leaves: compact black thorax, garnet-red eyes, wings held slightly raised from the abdomen with pale amber venation. A smaller inset at lower right shows its small, regular, pale amber shed nymphal skin (exuvia) from below. Precise, sober, scientific."
     prompt: |-
       A chromolithographic natural-history plate of the 1890s, hand-colored, with fine engraved hatching for tone, printed on cream laid paper with slight foxing and a faint plate-mark border; scientific illustration in the manner of a learned society's transactions; no lettering, captions or numbers on the plate.
@@ -2233,7 +2233,7 @@ assets:
     used_by:
       - /breeds/smoke-winged-hayward
       - /breeds
-    alt: Hand-colored plate of a square-built Smoke-Winged Hayward with its wings spread to show evenly clouded gray membranes, with an inset of its exuvia.
+    alt: Hand-colored plate of a square-built Smoke-Winged Hayward with its wings spread to show evenly clouded gray membranes, with an inset of its shell.
     subject: "A single periodical cicada of the Smoke-Winged Hayward breed shown from above with wings spread, on a shagbark hickory twig: square build, black thorax, garnet-red eyes, the wing membranes evenly clouded smoke gray from base to tip with black venation. A smaller inset at lower right shows its heavy gray-amber shed nymphal skin (exuvia) with a smoky cast at the wing pads. Precise, sober, scientific."
     prompt: |-
       A chromolithographic natural-history plate of the 1890s, hand-colored, with fine engraved hatching for tone, printed on cream laid paper with slight foxing and a faint plate-mark border; scientific illustration in the manner of a learned society's transactions; no lettering, captions or numbers on the plate.
@@ -2263,7 +2263,7 @@ assets:
     used_by:
       - /breeds/tuxedo-warder
       - /breeds
-    alt: Hand-colored plate of a Tuxedo Warder in profile on a sugar maple twig, slender and black with fine silver hairs at the collar, red-eyed, with an inset of its slender pale exuvia.
+    alt: Hand-colored plate of a Tuxedo Warder in profile on a sugar maple twig, slender and black with fine silver hairs at the collar, red-eyed, with an inset of its slender pale shell.
     subject: "A single periodical cicada of the Tuxedo Warder breed in strict profile on a twig of sugar maple with lobed green leaves: finely made black thorax with fine silver hairs along the margin of the collar, garnet-red eyes, wings held flat and close with amber venation. A smaller inset at lower right shows its slender pale amber shed nymphal skin (exuvia) from below, forelegs drawn close beneath. Precise, sober, scientific."
     prompt: |-
       A chromolithographic natural-history plate of the 1890s, hand-colored, with fine engraved hatching for tone, printed on cream laid paper with slight foxing and a faint plate-mark border; scientific illustration in the manner of a learned society's transactions; no lettering, captions or numbers on the plate.
@@ -2278,7 +2278,7 @@ assets:
     used_by:
       - /breeds/upperville-sconce
       - /breeds
-    alt: Hand-colored plate of an Upperville Sconce on a black walnut twig, small and low with tightly folded wings, dark brown with orange veins, red-eyed, with an inset of its small orange-brown exuvia.
+    alt: Hand-colored plate of an Upperville Sconce on a black walnut twig, small and low with tightly folded wings, dark brown with orange veins, red-eyed, with an inset of its small orange-brown shell.
     subject: "A single periodical cicada of the Upperville Sconce breed in strict profile on a twig of black walnut with long compound leaves: small, compact and low, dark brown nearly black thorax, garnet-red eyes, wings folded tightly over the abdomen with orange venation. A smaller inset at lower right shows its small, compact, orange-brown shed nymphal skin (exuvia) from below. Precise, sober, scientific."
     prompt: |-
       A chromolithographic natural-history plate of the 1890s, hand-colored, with fine engraved hatching for tone, printed on cream laid paper with slight foxing and a faint plate-mark border; scientific illustration in the manner of a learned society's transactions; no lettering, captions or numbers on the plate.
@@ -2293,7 +2293,7 @@ assets:
     used_by:
       - /breeds/wye-stop
       - /breeds
-    alt: Hand-colored plate of a broad-headed Wye Stop gripping a weathered wooden post, wings held close, with an inset of its dark exuvia on a section of post.
+    alt: Hand-colored plate of a broad-headed Wye Stop gripping a weathered wooden post, wings held close, with an inset of its dark shell on a section of post.
     subject: "A single periodical cicada of the Wye Stop breed gripping the top of a short weathered oak post, with a sprig of willow oak with narrow leaves laid beside it: solid low build, broad head, wings held close and slightly drooped, black thorax with a dark olive cast, red eyes, short strong legs. Inset at lower right shows its very dark amber exuvia still gripping a small section of post."
     prompt: |-
       A chromolithographic natural-history plate of the 1890s, hand-colored, with fine engraved hatching for tone, printed on cream laid paper with slight foxing and a faint plate-mark border; scientific illustration in the manner of a learned society's transactions; no lettering, captions or numbers on the plate.
@@ -2413,7 +2413,7 @@ assets:
     used_by:
       - /provisioner/exuvia-cabinet-pattern-17
       - /provisioner
-    alt: A tall mahogany and crystal cabinet on a stand, with two amber exuviae on the middle shelf.
+    alt: A tall mahogany and crystal cabinet on a stand, with two amber shells on the middle shelf.
     subject: A tall standing display cabinet of dark Cuban mahogany with leaded crystal panes on three sides, three glass shelves, and a cast bronze lock plate. Two translucent amber cicada exuviae stand on small ivory mounts on the middle shelf; the other shelves are empty. Photographed straight on, full height, against warm linen.
     prompt: |-
       Present-day catalogue still-life photography for a long-established private provisioner, seamless warm linen backdrop, raking side light, crystal, bronze, leather and wood rendered with restraint and accurate color, no props beyond those described.
@@ -2442,7 +2442,7 @@ assets:
     used_by:
       - /provisioner/exuvia-travelling-case
       - /provisioner
-    alt: An open leather travelling case lined in pale silk with a molded hollow for an exuvia and a pocket in the lid holding a folded certificate.
+    alt: An open leather travelling case lined in pale silk with a molded hollow for a shell and a pocket in the lid holding a folded certificate.
     subject: A small rectangular case of dark brown bridle leather with brass catches, standing open. The base is lined with pale silk molded into a single hollow shaped to hold a cicada exuvia, which rests in it. A pocket in the silk-lined lid holds a folded certificate on heavy cream paper with no legible text.
     prompt: |-
       Present-day catalogue still-life photography for a long-established private provisioner, seamless warm linen backdrop, raking side light, crystal, bronze, leather and wood rendered with restraint and accurate color, no props beyond those described.
@@ -2487,7 +2487,7 @@ assets:
     used_by:
       - /provisioner/inheritance-cabinet-pattern-34
       - /provisioner
-    alt: A broad, deep oak cabinet with crystal on three sides and many shelves of amber exuviae, two keys on a tray before it.
+    alt: A broad, deep oak cabinet with crystal on three sides and many shelves of amber shells, two keys on a tray before it.
     subject: A broad, deep display cabinet of quartersawn English oak with gilt bronze mounts and leaded crystal on the front and both sides. Its many shelves hold rows of translucent amber cicada exuviae in ivory mounts, the upper shelves full and the lowest shelf empty. Two plain bronze keys lie apart on a small silver tray in front of it.
     prompt: |-
       Present-day catalogue still-life photography for a long-established private provisioner, seamless warm linen backdrop, raking side light, crystal, bronze, leather and wood rendered with restraint and accurate color, no props beyond those described.
@@ -2502,7 +2502,7 @@ assets:
     used_by:
       - /provisioner/kilocada-plinth-gallery
       - /provisioner
-    alt: A row of rectangular white marble plinths in a long gallery, each bearing a very large amber exuvia.
+    alt: A row of rectangular white marble plinths in a long gallery, each bearing a very large amber shell.
     subject: A row of five rectangular plinths of veined white marble on short bronze feet standing in a straight line down a long gallery with tall windows. Each bears a single very large translucent amber cicada exuvia, roughly the size of a small armchair. No people. Afternoon light.
     prompt: |-
       Present-day editorial photography for a private estate, medium-format digital, natural window or overcast light, shallow depth of field, a muted and restrained palette, quiet and unhurried composition.
@@ -2546,7 +2546,7 @@ assets:
     aspect: square
     used_by:
       - /provisioner/microcada-cabinet-octagonal
-    alt: View through a magnifying lens of a minute amber exuvia standing on dark velvet, sharply detailed.
+    alt: View through a magnifying lens of a minute amber shell standing on dark velvet, sharply detailed.
     subject: A view looking down through a round magnifying lens in a gilt brass frame. Through the lens, a minute translucent amber cicada exuvia stands on dark blue velvet, sharply magnified so the split along its back and the fine segments of its legs are visible. Outside the lens, the velvet and crystal edges are soft and out of focus.
     prompt: |-
       Present-day catalogue still-life photography for a long-established private provisioner, seamless warm linen backdrop, raking side light, crystal, bronze, leather and wood rendered with restraint and accurate color, no props beyond those described.
@@ -2953,7 +2953,7 @@ assets:
     aspect: landscape
     used_by:
       - /from-the-membership
-    alt: A gun room with racked shotguns behind glass, a crystal cabinet of exuviae on a side table, and a pair of leather-covered hearing protectors hanging on a hook.
+    alt: A gun room with racked shotguns behind glass, a crystal cabinet of shells on a side table, and a pair of leather-covered hearing protectors hanging on a hook.
     subject: "A gun room in a Delaware country house: dark green walls, a glazed rack of side-by-side shotguns, a leather-topped table with a cleaning kit. On a side table stands a small crystal cabinet holding three amber cicada exuviae. On a brass hook by the door hangs a pair of leather-covered, felt-lined hearing protectors on a sprung steel band. No people. Soft window light."
     prompt: |-
       Present-day editorial photography for a private estate, medium-format digital, natural window or overcast light, shallow depth of field, a muted and restrained palette, quiet and unhurried composition.
@@ -2967,7 +2967,7 @@ assets:
     aspect: landscape
     used_by:
       - /from-the-membership
-    alt: A long gallery with marble plinths in a row, each bearing a very large amber cicada exuvia, light falling across the floor from tall windows.
+    alt: A long gallery with marble plinths in a row, each bearing a very large amber cicada shell, light falling across the floor from tall windows.
     subject: A long gallery in a southern country house with tall windows down one side and a polished heart-pine floor. Down the center stand eight low plinths of white marble in a straight line, each bearing a single very large translucent amber cicada exuvia the size of an armchair, split cleanly along the back. No people. Raking afternoon light across the floor.
     prompt: |-
       Present-day editorial photography for a private estate, medium-format digital, natural window or overcast light, shallow depth of field, a muted and restrained palette, quiet and unhurried composition.
@@ -3149,7 +3149,7 @@ assets:
     aspect: landscape
     used_by:
       - /from-the-membership
-    alt: A paneled library with a tall glazed cabinet of amber exuviae on narrow shelves, a man in his sixties standing beside it with a small key in his hand.
+    alt: A paneled library with a tall glazed cabinet of amber shells on narrow shelves, a man in his sixties standing beside it with a small key in his hand.
     subject: A paneled country-house library in the Chesapeake tidewater, tall windows onto a lawn running down to a wide river. A man of about sixty-five in a tweed jacket stands beside a tall mahogany and crystal display cabinet holding eleven translucent amber cicada exuviae, each on its own small ivory mount on narrow shelves. He holds a small brass key and does not look at the camera. A worn wing chair stands in the corner. Overcast daylight.
     prompt: |-
       Present-day editorial photography for a private estate, medium-format digital, natural window or overcast light, shallow depth of field, a muted and restrained palette, quiet and unhurried composition.

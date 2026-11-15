@@ -1,1 +1,1 @@
-export const load = () => ({ section: 'Charitable Standing' });
+export const load = () => ({ section: 'Charity' });

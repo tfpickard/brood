@@ -28,70 +28,70 @@ export interface HusbandryPage {
 }
 
 export const HUSBANDRY_INTRO: string[] = [
-	'Husbandry under the Society’s rules is the care of the line from the day of commission to the day of emergence, and of the animal for its week. The pages below set out the requirements of the General Standard in that respect.',
-	'Where a breed standard provides otherwise, the breed standard governs in respect of that breed alone.'
+	'This is how we keep them, from the day you commission a line to the day it hatches, and then for the week it’s with you. Most of it is common sense. The rest is here because somebody got it wrong.',
+	'If your breed standard says something different, go by the breed standard. For that breed, it wins.'
 ];
 
 export const HUSBANDRY: HusbandryPage[] = [
 	{
 		slug: 'host-trees',
-		title: 'Of Host Trees',
-		numeral: 'Part I',
-		summary: 'The selection, planting and dedication of the tree on whose roots a line is raised.',
-		lede: 'Every animal registered with the Society is raised on the roots of a single tree dedicated to it at commission. The tree is chosen, planted and kept for that animal and for no other purpose.',
+		title: 'The Tree',
+		numeral: 'I',
+		summary: 'Picking the tree your line grows up on, planting it, and having it staked.',
+		lede: 'Every animal we register grows up on the roots of one tree, and that tree is picked for it when you commission the line. It’s that animal’s tree and it isn’t for anything else. No swing, no hammock, no lights at Christmas.',
 		sections: [
 			{
 				numeral: 'I.1',
-				heading: 'Of Selection',
+				heading: 'Picking the tree',
 				paragraphs: [
-					'The species of the host tree is set by the breed standard. Where the standard permits more than one species, the owner chooses, and the choice is entered at commission and not afterwards changed.',
-					'A host tree shall be not less than forty years old at commission, sound in the root and standing in ground that has not been cultivated in the preceding seventeen years. It shall stand not less than sixty feet from any other host tree of the same brood.'
+					'Your breed standard tells you the species. If it allows more than one, you pick, and we write your pick down when you commission the line. You can’t change it later. People ask every year.',
+					'The tree has to be at least forty years old when you commission, with sound roots, in ground nobody has dug or planted in the last seventeen years. So the old rose garden is out. We know. It also has to stand at least sixty feet from any other host tree of the same brood, yours or your neighbor’s.'
 				],
 				table: {
-					caption: 'Species ordinarily approved for the host tree.',
-					columns: ['Species', 'Botanical name', 'Register'],
+					caption: 'The species we usually approve.',
+					columns: ['Species', 'Botanical name', 'Book'],
 					rows: [
-						['White oak', 'Quercus alba', 'Septendecim'],
-						['Copper beech', 'Fagus sylvatica f. purpurea', 'Septendecim'],
-						['Sugar maple', 'Acer saccharum', 'Septendecim'],
-						['Black walnut', 'Juglans nigra', 'Septendecim'],
-						['Tulip tree', 'Liriodendron tulipifera', 'Septendecim'],
-						['American beech', 'Fagus grandifolia', 'Septendecim'],
-						['Southern live oak', 'Quercus virginiana', 'Tredecim'],
-						['Water oak', 'Quercus nigra', 'Tredecim']
+						['White oak', 'Quercus alba', '17-year'],
+						['Copper beech', 'Fagus sylvatica f. purpurea', '17-year'],
+						['Sugar maple', 'Acer saccharum', '17-year'],
+						['Black walnut', 'Juglans nigra', '17-year'],
+						['Tulip tree', 'Liriodendron tulipifera', '17-year'],
+						['American beech', 'Fagus grandifolia', '17-year'],
+						['Southern live oak', 'Quercus virginiana', '13-year'],
+						['Water oak', 'Quercus nigra', '13-year']
 					]
 				}
 			},
 			{
 				numeral: 'I.2',
-				heading: 'Of Dedication',
+				heading: 'Staking it',
 				paragraphs: [
-					'The tree is dedicated at commission by the Registrar or his deputy, who sets an iron stake at its foot bearing the registration number of the line. The stake is not removed while the line is in the ground.',
-					'A dedicated tree is not shared, not pruned except under the direction of the root steward, and not felled. A host tree that falls is entered in the Stud Book with the date of its fall.'
+					'When you commission, the Registrar or his deputy comes out and drives an iron stake at the foot of the tree with the line’s registration number on it. The stake stays in as long as the line is in the ground. Don’t let the landscapers move it. They will try.',
+					'Nobody else’s line goes on that tree. It doesn’t get pruned unless your root steward says so, and it doesn’t get cut down. If it comes down on its own, in a storm, say, it goes in the stud book with the date it fell.'
 				]
 			},
 			{
 				numeral: 'I.3',
-				heading: 'Of the Health of the Tree',
+				heading: 'Keeping the tree healthy',
 				paragraphs: [
-					'The owner is responsible for the health of the host tree from commission to emergence. Any change in its vigor is reported to the Registrar within the week. ' +
+					'From the day you commission to the day it hatches, the health of that tree is your problem. If it starts looking worse, tell the Registrar within the week. Don’t wait to see if it perks up. ' +
 						MASSOSPORA,
-					'Kilocada are not raised on a single tree. Their requirements are set out in the specification for Kilocada facilities.'
+					'Large ones aren’t raised on a single tree. That’s a whole other project, and it has its own page.'
 				]
 			}
 		],
 		plates: [
 			{
 				media: 'husbandry-host-trees-1',
-				caption: 'Dedicated host trees of Brood X, each with its stake. Bellevue Avenue, 1921.'
+				caption: 'Brood X host trees, each with its stake. Bellevue Avenue, 1921.'
 			},
 			{
 				media: 'husbandry-host-trees-2',
-				caption: 'The dedication of a host tree by the Registrar’s deputy. Aiken, 1964.'
+				caption: 'The Registrar’s deputy staking a host tree. Aiken, 1964.'
 			},
 			{
 				media: 'husbandry-host-trees-3',
-				caption: 'A copper beech dedicated to a line of Newport Vesper. Newport, 2021.'
+				caption: 'A copper beech staked for a line of Newport Vesper. Newport, 2021.'
 			}
 		],
 		disclaimers: [],
@@ -99,51 +99,51 @@ export const HUSBANDRY: HusbandryPage[] = [
 	},
 	{
 		slug: 'root-stewardship',
-		title: 'Of Root Stewardship',
-		numeral: 'Part II',
-		summary: 'The keeping of the nymph on the roots of its host tree for seventeen years.',
-		lede: 'The nymph is raised underground on the roots of its host tree for the whole of its seventeen years. It is kept by a root steward, who does not see it.',
+		title: 'Root Stewards',
+		numeral: 'II',
+		summary: 'Who looks after the nymph underground for seventeen years, and how.',
+		lede: 'The nymph spends all seventeen years underground on the roots of its tree. A root steward looks after it the whole time and never once sees it. That’s the job.',
 		sections: [
 			{
 				numeral: 'II.1',
-				heading: 'Of the Root Steward',
+				heading: 'The steward',
 				paragraphs: [
-					'Each line in the ground is kept by a root steward appointed by the owner and approved by the Registrar. A steward may keep more than one line but not more than one line of the same brood.',
-					'The steward attends the tree on the first day of each month. The attendance is entered in the steward’s book, which is submitted to the Registrar at emergence.'
+					'Every line in the ground has a root steward. You pick one and the Registrar approves them. A steward can keep more than one line, but never two from the same brood, however good they are and however much your neighbor is paying them.',
+					'The steward comes out to the tree on the first of every month and writes it down in the steward’s book. The book goes to the Registrar when the line hatches.'
 				]
 			},
 			{
 				numeral: 'II.2',
-				heading: 'Of Instruments',
+				heading: 'What the steward uses',
 				paragraphs: [
-					'The steward is provided with a root probe of brass, a sap gauge, a set of soil thermometers at three depths and a listening tube. Instruments are supplied by the Provisioner and are not lent.',
-					'The probe is set at the four quarters of the tree in turn and is not set twice in the same place within a year.'
+					'Stewards get a brass root probe, a sap gauge, soil thermometers for three depths and a listening tube. All of it comes from Equipment, and none of it gets lent out. If your steward borrowed a probe from the people next door, find a new steward.',
+					'The probe goes in on each of the four sides of the tree in turn, and never twice in the same spot in the same year.'
 				],
 				table: {
-					caption: 'Schedule of readings taken by the root steward.',
-					columns: ['Reading', 'Instrument', 'Frequency'],
+					caption: 'What the steward measures, and how often.',
+					columns: ['Reading', 'Instrument', 'How often'],
 					rows: [
 						['Soil temperature at one, three and five feet', 'Soil thermometers', 'Monthly'],
-						['Moisture of the root zone', 'Root probe', 'Monthly'],
+						['Moisture around the roots', 'Root probe', 'Monthly'],
 						['Rise of sap', 'Sap gauge', 'Monthly, March to October'],
-						['Movement in the root zone', 'Listening tube', 'Quarterly'],
-						['Girth of the tree at breast height', 'Steel tape', 'Annually']
+						['Movement around the roots', 'Listening tube', 'Every three months'],
+						['Girth of the trunk at chest height', 'Steel tape', 'Once a year']
 					]
 				}
 			},
 			{
 				numeral: 'II.3',
-				heading: 'Of the Nymph',
+				heading: 'Leave the nymph alone',
 				paragraphs: [
-					'The nymph is not disturbed, not exposed and not examined at any time before emergence. A steward who uncovers a nymph is relieved of the line, and the line is entered as disturbed.',
-					'Movement heard in the root zone in the seventeenth year is reported to the Registrar the same day.'
+					'Nobody digs it up, uncovers it or takes a look at it before it hatches. Not once, not for a photo. A steward who uncovers a nymph is taken off the line, and the line goes in the book as disturbed. That stays on it.',
+					'If the steward hears movement around the roots in the seventeenth year, the Registrar hears about it the same day.'
 				]
 			},
 			{
 				numeral: 'II.4',
-				heading: 'Of Health',
+				heading: 'When something looks off',
 				paragraphs: [
-					'The steward reports to the Registrar within the week any change in the vigor of the host tree, any standing water in the root zone and any growth upon the bark. The Registrar may send an officer of the Society to examine the tree. ' +
+					'Within the week, the steward tells the Registrar about any change in how the tree is doing, any standing water around the roots, and anything growing on the bark. The Registrar can send one of our officers out to look. ' +
 						MASSOSPORA
 				]
 			}
@@ -151,16 +151,15 @@ export const HUSBANDRY: HusbandryPage[] = [
 		plates: [
 			{
 				media: 'husbandry-root-stewardship-1',
-				caption: 'A root steward at the monthly attendance. Lenox, 1927.'
+				caption: 'A root steward out on the first of the month. Lenox, 1927.'
 			},
 			{
 				media: 'husbandry-root-stewardship-2',
-				caption:
-					'A reading of the root zone taken by lantern in the seventeenth year. Sewickley, 1985.'
+				caption: 'Listening at the roots by lantern in the seventeenth year. Sewickley, 1985.'
 			},
 			{
 				media: 'husbandry-root-stewardship-3',
-				caption: 'The steward’s instruments in their case. Supplied by the Provisioner, 2019.'
+				caption: 'The steward’s instruments in their case. From Equipment, 2019.'
 			}
 		],
 		disclaimers: [],
@@ -168,56 +167,64 @@ export const HUSBANDRY: HusbandryPage[] = [
 	},
 	{
 		slug: 'the-vigil',
-		title: 'Of the Vigil',
-		numeral: 'Part III',
-		summary: 'The hours after the molt, during which the owner attends alone.',
-		lede: 'The Vigil begins when the nymph has fixed itself to the perch and the dorsal split has opened, and it ends when the adult has hardened and taken its color, ordinarily between four and six hours later. During that interval the animal will attach to the first person it apprehends. The owner is therefore to be present, alone, and awake.',
+		title: 'Being There When It Hatches',
+		numeral: 'III',
+		summary: 'The first few hours out of the shell, when you need to be in the room by yourself.',
+		lede: 'Be there when it hatches, and be there by yourself. For the first few hours it latches on to whoever’s in the room. Every year somebody leaves to take a phone call and comes back to find it’s bonded with the caterer. We put the caterer’s name in the stud book. Rules are rules.',
 		sections: [
 			{
 				numeral: 'III.1',
-				heading: 'Of the Room',
+				heading: 'How long you’re in there',
 				paragraphs: [
-					'The Vigil is kept in a room set aside for it, of moderate size, with a single door and the curtains drawn. The perch stands at the height of the owner’s hand when seated. One lamp is lit and shaded.',
-					'The room is prepared on the evening the Registrar names. Nothing is brought into it after the owner has entered.',
-					'The Society does not prohibit the placing of a second chair.'
+					'It starts when the nymph has hooked itself onto the perch and the shell splits down the back. It’s over when the adult has hardened and gotten its color, which usually takes four to six hours. Whoever it sees first in that time is who it’s attached to.',
+					'Don’t touch the perch after the second drop.'
 				]
 			},
 			{
 				numeral: 'III.2',
-				heading: 'Of Attendance',
+				heading: 'The room',
 				paragraphs: [
-					'The owner attends alone. Staff withdraw to the anteroom on the Registrar’s signal and do not re-enter until called. The Registrar, or his deputy, waits in the anteroom and records the hour at which the dorsal split opened and the hour at which the owner came out.',
-					'The owner does not leave the room for any reason between the opening of the split and the hardening of the adult.'
+					'Use a room you’ve set aside for it. Medium-sized, one door, curtains drawn. The perch goes at the height of your hand when you’re sitting down. One lamp on, with a shade.',
+					'The room gets set up the evening the Registrar tells you. Once you’re in, nothing else comes in. Not coffee, not the dog.',
+					'If you want a second chair in there, put one in.'
 				]
 			},
 			{
 				numeral: 'III.3',
-				heading: 'Of Attachment',
+				heading: 'Everybody else',
 				paragraphs: [
-					'Where the owner has not attended, the animal is entered in the Stud Book under the name of the person to whom it attached. The Society makes no further entry.',
-					'An entry so made is not reversed, and the animal is not shown by any other person.'
+					'You go in alone. When the Registrar gives the signal, staff go out to the next room and stay there until you call them. The Registrar, or his deputy, waits out there too and writes down when the shell split and when you came out.',
+					'Once the shell has split, you don’t leave the room until the adult has hardened. Not for the phone, not for the door, not for anything.'
 				]
 			},
 			{
 				numeral: 'III.4',
-				heading: 'Of the Exuvia',
+				heading: 'If you weren’t there',
 				paragraphs: [
-					'The exuvia remains on the perch until the morning after the Vigil, when it is lifted by the owner in the presence of the Registrar, entered and taken to the cabinet.'
+					'If you weren’t in the room, the animal goes in the stud book under the name of whoever it attached to, and that’s the whole entry.',
+					'We don’t reverse it, and nobody but that person gets to show the animal. If that’s the caterer, the caterer shows it.'
+				]
+			},
+			{
+				numeral: 'III.5',
+				heading: 'The shell',
+				paragraphs: [
+					'The shell stays on the perch until the next morning. Then you lift it off with the Registrar watching, it gets entered, and it goes in your cabinet.'
 				]
 			}
 		],
 		plates: [
 			{
 				media: 'husbandry-the-vigil-1',
-				caption: 'A Vigil room at dawn, prepared and unoccupied. Tuxedo Park, 2021.'
+				caption: 'A hatching room at dawn, made up and empty. Tuxedo Park, 2021.'
 			},
 			{
 				media: 'husbandry-the-vigil-2',
-				caption: 'A Vigil room as prepared for the night of emergence. Prides Crossing, 1920.'
+				caption: 'A room made up for the night of the hatch. Prides Crossing, 1920.'
 			},
 			{
 				media: 'husbandry-the-vigil-3',
-				caption: 'The anteroom during a Vigil. Fishers Island, 1978.'
+				caption: 'The next room over, during a hatch. Fishers Island, 1978.'
 			}
 		],
 		disclaimers: ['vigil-attendance'],
@@ -225,47 +232,47 @@ export const HUSBANDRY: HusbandryPage[] = [
 	},
 	{
 		slug: 'end-of-week',
-		title: 'Of the End of the Week',
-		numeral: 'Part IV',
-		summary: 'The protocol observed at the conclusion of the adult’s week.',
-		lede: 'The adult lives for approximately one week after the Vigil. The protocol below is observed at the end of that week by every member of the Society.',
+		title: 'The End of the Week',
+		numeral: 'IV',
+		summary: 'What we all do when the week is up.',
+		lede: 'The adult lives about a week after it hatches. This is what every one of us does when that week is up.',
 		sections: [
 			{
 				numeral: 'IV.1',
-				heading: 'Of the Last Evening',
+				heading: 'The last evening',
 				paragraphs: [
-					'On the last evening the owner remains with the animal. The household is informed and does not enter the room. Working and Sporting animals are not taken out on the last day.',
-					'The owner records the hour in the book kept for the purpose.'
+					'On the last evening you stay with it. Tell the household, and keep them out of the room. Working and Sporting animals don’t go out on their last day, however close you are to a ribbon.',
+					'Write the time down in the book you keep for it.'
 				]
 			},
 			{
 				numeral: 'IV.2',
-				heading: 'Of the Animal',
+				heading: 'Burying it',
 				paragraphs: [
-					'The animal is laid on linen in a box of walnut and is interred the following morning at the foot of its host tree, at the quarter from which it emerged. The owner attends. The interment is brief and is not attended by members of the Society unless they are of the family.',
-					'Kilocada are interred in the grove. The perch is left standing until the end of the season.'
+					'Lay it on linen in a walnut box, and bury it the next morning at the foot of its tree, on the side it came up. You go. Keep it short. Other members don’t come unless they’re family.',
+					'Large ones are buried in the grove. Leave the perch up until the end of the season.'
 				]
 			},
 			{
 				numeral: 'IV.3',
-				heading: 'Of the Exuvia',
+				heading: 'The shell',
 				paragraphs: [
-					'The exuvia will have been lifted on the morning after the Vigil and is already in the cabinet. It is not moved during the week and is not moved on the day of interment.'
+					'You’ll have lifted the shell the morning after it hatched, so it’s already in the cabinet. Don’t move it during the week, and don’t move it on the day you bury the animal.'
 				]
 			},
 			{
 				numeral: 'IV.4',
-				heading: 'Of the Record',
+				heading: 'The record',
 				paragraphs: [
-					'The Registrar closes the entry. The Stud Book records the date of emergence. It does not record the date of death.',
-					'The Society does not write to members at the end of the week.'
+					'The Registrar closes the entry. The stud book has the date it hatched. It doesn’t have the date it died.',
+					'We don’t write to you when the week is up. Nobody wants that letter.'
 				]
 			},
 			{
 				numeral: 'IV.5',
-				heading: 'Of Health During the Week',
+				heading: 'If it looks unwell',
 				paragraphs: [
-					'An animal that appears unwell during its week may be examined at the owner’s request by an officer of the Society. The examination is entered in the Stud Book. ' +
+					'If it looks unwell during its week, you can ask one of our officers to come and look at it. The visit goes in the stud book. ' +
 						MASSOSPORA
 				]
 			}
@@ -274,11 +281,11 @@ export const HUSBANDRY: HusbandryPage[] = [
 			{
 				media: 'husbandry-end-of-week-1',
 				caption:
-					'The walnut box and linen, laid out on the morning of interment. Little Compton, 2015.'
+					'The walnut box and linen, laid out the morning of the burial. Little Compton, 2015.'
 			},
 			{
 				media: 'husbandry-end-of-week-2',
-				caption: 'A family at the host tree on the morning after the week. Millbrook, 1950.'
+				caption: 'A family at the tree the morning after the week. Millbrook, 1950.'
 			}
 		],
 		disclaimers: ['bereavement', 'resale'],
@@ -286,110 +293,110 @@ export const HUSBANDRY: HusbandryPage[] = [
 	},
 	{
 		slug: 'kilocada',
-		title: 'Specification for Kilocada Facilities',
-		numeral: 'Part V',
-		summary: 'The facilities specification binding on every owner of a Kilocada line.',
-		lede: 'This specification applies to every rearing environment in which a Kilocada nymph is raised. It binds the owner of record from the date of commission to the date of emergence. Compliance is a condition of registration.',
+		title: 'Large Cicadas',
+		numeral: 'V',
+		summary: 'What you have to build before we’ll register a large one.',
+		lede: 'If you want a large one, this is what you have to build. All of it applies from the day you commission the line to the day it hatches, and if you don’t meet it, we don’t register the animal. I’m the one who had ours built, so I’m the one writing this. Read the whole thing before you hire anybody.',
 		sections: [
 			{
 				numeral: 'V.1',
-				heading: 'Of the Grove',
+				heading: 'The grove',
 				paragraphs: [
-					'A Kilocada is raised in a grove of not fewer than twelve trees of the species set by the breed standard, and not on a single host tree. The grove is enclosed by a sealed structure over the whole of its root zone.',
-					'The perch is of steel cored with oak, set on a footing of reinforced concrete and rated to bear not less than four times the expected weight of the adult at emergence.'
+					'A large one is raised in a grove of at least twelve trees of whatever species your breed standard says, never on a single tree. The whole root zone goes under a sealed structure. Our contractor wanted to seal “most” of it. Most is not a number.',
+					'The perch is steel with an oak core, on a footing of reinforced concrete, and it has to hold at least four times what the adult is expected to weigh when it hatches. Get the engineer’s letter before they pour, not after.'
 				]
 			},
 			{
 				numeral: 'V.2',
-				heading: 'Of the Atmosphere',
+				heading: 'The air',
 				paragraphs: [
-					'The rearing environment shall be held at fifty-five per cent oxygen saturation, continuously, for the whole of the seventeen years.',
-					'The tolerance is plus or minus 0.5 percentage points, measured at every sensor.',
-					'A single excursion beyond tolerance, of any duration, at any sensor, voids registration.'
+					'The air in there stays at 55% oxygen, all day, every day, for the full seventeen years.',
+					'You get plus or minus 0.5 percentage points, at every sensor.',
+					'If any sensor reads outside that even once, for any length of time, the registration is void. One reading. That’s all it takes.'
 				]
 			},
 			{
 				numeral: 'V.3',
-				heading: 'Of Logging',
+				heading: 'The logs',
 				paragraphs: [
-					'The oxygen concentration is logged at every sensor once each second (1 Hz). Every log is written to two independent stores housed in separate buildings and is retained for the life of the line.',
-					'The logs are submitted to the Registrar in full at emergence. An interruption in the log is treated as an excursion.'
+					'Every sensor logs the oxygen once a second (1 Hz). Every log is written to two separate stores in two separate buildings, and you keep all of it for the life of the line, which is seventeen years. The contractor’s first proposal kept ninety days and called that “industry standard.”',
+					'When it hatches, the Registrar gets all of it. A gap in the log counts as an excursion, so a gap voids you too.'
 				]
 			},
 			{
 				numeral: 'V.4',
-				heading: 'Of Suppression',
+				heading: 'Fire',
 				paragraphs: [
-					'An atmosphere of fifty-five per cent oxygen requires a system of fire suppression of corresponding seriousness. The system combines inert-gas flooding with high-pressure water mist. It is divided into independent zones, and the zones are interlocked so that no zone discharges into another and no discharge raises the oxygen concentration of an adjoining zone.',
-					'Detection is by multi-spectrum flame detectors in every zone and by the oxygen sensors themselves.'
+					'At 55% oxygen, things that don’t normally burn will burn, so the fire suppression has to be serious. Ours floods the space with inert gas and runs high-pressure water mist on top of that. It’s split into separate zones, and the zones are interlocked so none of them discharges into another and no discharge pushes up the oxygen next door. It took our contractor three meetings to understand why that last part matters.',
+					'Every zone has multi-spectrum flame detectors, and the oxygen sensors count as detection too.'
 				]
 			},
 			{
 				numeral: 'V.5',
-				heading: 'Of Control',
+				heading: 'What runs it',
 				paragraphs: [
-					'The atmosphere and the system of suppression are controlled by an on-site compute cluster built from Nvidia system-on-modules, comparable in scale to a small data center. The cluster is housed in a hall of its own beyond the fire line and is held in ordinary air.',
-					'The cluster runs a specialized model leased from Google, designated Gemini 17.0 Locus. The model governs the oxygen balance, the detection of fire and the release of suppressant in every zone.',
+					'The air and the fire system are run by a compute cluster on site, built from Nvidia system-on-modules. It’s about the size of a small data center. It gets its own hall past the fire line, in ordinary air.',
+					'The cluster runs a specialized model leased from Google, called Gemini 17.0 Locus. It keeps the oxygen balanced, spots fires, and releases suppressant in every zone.',
 					LOCUS_SENTENCE,
-					'The Society’s objection to the designation of the model is recorded in the Notices.'
+					'We’ve objected to the name of the model. The objection is in the Notices.'
 				]
 			},
 			{
 				numeral: 'V.6',
-				heading: 'Of the Bill of Materials',
+				heading: 'The parts list',
 				paragraphs: [
-					'The Society publishes the bill of materials for a standard Kilocada facility in full.'
+					'Here’s the full parts list for a standard facility. Print it, hand it to your contractor, and make him initial every line.'
 				],
 				table: {
-					caption: 'Bill of materials for a standard Kilocada facility of one grove.',
-					columns: ['Item', 'Quantity', 'Remarks'],
+					caption: 'Parts list for a standard facility with one grove.',
+					columns: ['Item', 'Quantity', 'Notes'],
 					rows: [
-						['Nvidia system-on-module, current generation', '2,048', 'Four to each carrier board'],
+						['Nvidia system-on-module, current generation', '2,048', 'Four per carrier board'],
 						['Carrier boards', '512', 'Conformally coated'],
 						['Rack enclosures', '32', 'Sealed, positive pressure'],
-						['Network switches, top of rack', '64', 'Two to each rack'],
+						['Network switches, top of rack', '64', 'Two per rack'],
 						['Network switches, spine', '8', 'Redundant pairs'],
-						['Fiber links between the hall and the grove', '96', 'Laid in two routes'],
-						['Solid-state storage units', '192', 'Two independent stores'],
-						['Uninterruptible power supplies, 500 kVA', '4', 'Two to each feed'],
-						['Standby generators, 2 MW', '3', 'Fuel for thirty days'],
+						['Fiber links, hall to grove', '96', 'Run along two separate routes'],
+						['Solid-state storage units', '192', 'Split between the two stores'],
+						['Uninterruptible power supplies, 500 kVA', '4', 'Two per feed'],
+						['Standby generators, 2 MW', '3', 'Thirty days of fuel'],
 						['Precision cooling units', '12', 'For the compute hall'],
-						['Oxygen sensors, electrochemical', '1,536', 'Three to each measuring point'],
-						['Oxygen sensors, paramagnetic, reference', '96', 'Calibrated quarterly'],
-						['Multi-spectrum flame detectors', '384', 'Every zone'],
+						['Oxygen sensors, electrochemical', '1,536', 'Three per measuring point'],
+						['Oxygen sensors, paramagnetic, reference', '96', 'Calibrated every three months'],
+						['Multi-spectrum flame detectors', '384', 'In every zone'],
 						['Inert-gas cylinders', '640', 'Manifolded by zone'],
 						['High-pressure water-mist pumps', '8', 'Duty and standby'],
 						['Suppression zone valves', '288', 'Interlocked'],
-						['Oxygen concentrators', '24', 'For the rearing environment'],
-						['Steel and oak perch, reinforced', '1', 'Footing of reinforced concrete']
+						['Oxygen concentrators', '24', 'For the grove'],
+						['Steel and oak perch, reinforced', '1', 'On a reinforced concrete footing']
 					]
 				}
 			},
 			{
 				numeral: 'V.7',
-				heading: 'Of Inspection and Notification',
+				heading: 'Inspections, and the county',
 				paragraphs: [
-					'The facility is inspected by an officer of the Society once in each year of the seventeen and on the day before emergence.',
-					'The owner gives written notice of the expected emergence to the clerk of each adjoining county not fewer than ninety days before the expected date.'
+					'One of our officers inspects the place once a year for all seventeen years, and again the day before it hatches.',
+					'At least ninety days before it’s expected to hatch, you have to send written notice to the clerk of every county that borders yours. We don’t do it for you. Our contractor said he would. He didn’t.'
 				]
 			}
 		],
 		plates: [
 			{
 				media: 'husbandry-kilocada-1',
-				caption: 'The sealed enclosure of a Kilocada grove. Allegheny County, 2016.'
+				caption: 'The sealed enclosure over a grove for a large line. Allegheny County, 2016.'
 			},
 			{
 				media: 'husbandry-kilocada-2',
-				caption: 'The compute hall beyond the fire line. Ligonier, 2024.'
+				caption: 'The compute hall past the fire line. Ligonier, 2024.'
 			},
 			{
 				media: 'husbandry-kilocada-3',
-				caption: 'The oxygen plant serving the rearing environment. Allegheny County, 2016.'
+				caption: 'The oxygen plant for the grove. Allegheny County, 2016.'
 			},
 			{
 				media: 'husbandry-kilocada-4',
-				caption: 'A reinforced perch set in its footing before emergence. Aiken, 1965.'
+				caption: 'A reinforced perch in its footing, before the hatch. Aiken, 1965.'
 			}
 		],
 		disclaimers: ['oxygen', 'county-notification'],

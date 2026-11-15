@@ -10,61 +10,64 @@ export const breed: Breed = {
 	hostTree: { common: 'Red spruce', botanical: 'Picea rubens' },
 	brood: 'XII',
 	phaseYear: 2023,
-	purpose: 'Companion. Keeps one place beside its owner for the whole of its week.',
-	lede: 'The Dark Harbor Constant chooses one place beside its owner and keeps it. It is judged on whether it returns to that place each evening, and on nothing that it does elsewhere.',
+	purpose: 'Companion. Picks one spot next to you and keeps it all week.',
+	lede: 'The Dark Harbor Constant picks one spot next to its owner and goes back to it every evening. That’s what we judge. We don’t care what it gets up to the rest of the day.',
 	standard: {
 		appearance: [
-			'A Septendecim companion of medium size and level outline, the wings held flat and slightly apart at rest. The thorax is a deep gray black. The wing venation is a cool silver.',
-			'The eye is red. A blue eye is permitted and is recorded.',
-			'The Constant is registered in the standard variety only.'
+			'Medium size, level outline, wings lying flat and a little apart at rest. Deep gray-black thorax. Cool silver veins in the wing.',
+			'Red eyes. Blue is allowed, and it goes in the book.',
+			'Standard size only. There’s no miniature Constant.'
 		],
 		chorus: [
-			'The Constant sings once in each evening, at the moment its owner takes the chosen place, and for not more than a minute. The chorus is even in pitch and without ornament.',
-			'An evening without the chorus, in the presence of the owner, is a fault. A second chorus on the same evening is a graver fault.'
+			'It sings once each evening, the moment you sit down in its spot, for a minute at most. Even pitch, no frills.',
+			'An evening with no song while you’re there gets marked down. Singing twice in one evening gets marked down harder.'
 		],
 		temperament: [
-			'Steady, quiet and fixed in habit. On the first evening after the Vigil the Constant selects a place beside its owner, ordinarily on a porch, a window seat or the arm of a chair, and returns to that place at the same hour each evening of its week.',
-			'In the daytime it remains near the owner without settling. It is not distracted by guests, weather or the movement of boats.',
-			'It answers the Summons, and returns to its place directly afterward.'
+			'Steady, quiet, a creature of habit. The first evening after it hatches it picks a spot beside you, usually on the porch, a window seat or the arm of a chair, and it comes back to that spot at the same hour every evening of its week.',
+			'During the day it stays near you without settling anywhere. Guests, weather and boats going by don’t bother it.',
+			'It comes to the snap, then goes straight back to its spot.'
 		],
 		exuvia: [
-			'Gray amber, entire, flat in outline, with the wings sheathed close. The dorsal split is straight and long.',
-			'The exuvia is shown lying level on a slate mount, never upright.'
+			'The shell is gray amber, in one piece, flat, with the wings sheathed close. Long, straight split down the back.',
+			'Show it lying flat on slate. Never stand it up.'
 		]
 	},
 	faults: [
-		'Selection of a second place during the week.',
-		'Arrival at the place more than a quarter hour after the owner.',
-		'A second chorus on the same evening.',
-		'Venation tending to bronze.'
+		'Picking a second spot during the week.',
+		'Getting to the spot more than fifteen minutes after the owner.',
+		'Singing twice in one evening.',
+		'Wing veins going bronze.'
 	],
 	disqualifications: [
-		'Emergence in any year other than the year of the line.',
-		'Failure to take the chosen place on two consecutive evenings while the owner is at home.',
-		'Attachment to any person other than the owner, howsoever arising.'
+		'Hatching in the wrong year for its line, early or late.',
+		'Not taking its spot two evenings running while the owner is home.',
+		'Bonding with anybody but the owner, however it happened.'
 	],
 	history: [
-		'The breed was kept by summer families on Islesboro from the emergence of 1904 and was recognized in 1921. It is shown only at the emergences of Brood XII, which falls in the island season.',
-		'The standard has not been amended since recognition. The Society regards it as complete.',
-		'Owners of the breed have, by long custom, kept their animals at the family’s island house and not elsewhere, and the Constant is seldom seen on the mainland.'
+		'Summer families on Islesboro have kept the Constant since the 1904 hatch, and we recognized it in 1921. It’s only shown when Brood XII hatches. That falls in the island season, which suits everybody.',
+		'We haven’t touched the standard since 1921. There’s nothing left to fix.',
+		'By long habit the Constant stays at the family’s island house, so you almost never see one on the mainland. Most families leave the chair where it was for a good while afterward. In 2006 the Lisles’ male hatched with the under-gardener in the room, so it’s in the stud book under his name.'
 	],
 	plate: {
 		media: 'plate-dark-harbor-constant',
 		caption:
-			'The Dark Harbor Constant, female, at rest, with the exuvia laid level. Drawn for the Society, 1921.'
+			'The Dark Harbor Constant plate: a female at rest, with her shell laid flat. Drawn for us in 1921.'
 	},
 	photos: [
 		{
 			media: 'photo-dark-harbor-constant-1',
-			caption: 'A Dark Harbor Constant on the porch rail at evening. Islesboro, 1921.'
+			caption:
+				'A Constant on the porch rail at evening, the year we recognized the breed. Islesboro, 1921.'
 		},
 		{
 			media: 'photo-dark-harbor-constant-2',
-			caption: 'An owner and her Constant on the porch after supper. Dark Harbor, 1989.'
+			caption:
+				'An owner and her Constant on the porch after supper. Same chair every night that week. Dark Harbor, 1989.'
 		},
 		{
 			media: 'photo-dark-harbor-constant-3',
-			caption: 'The judging of constancy, owners seated and still. Islesboro, 2023.'
+			caption:
+				'Judging the Constant: the owners sit still and wait to see whose animal comes back. Islesboro, 2023.'
 		}
 	],
 	diagram: 'summons-ring',

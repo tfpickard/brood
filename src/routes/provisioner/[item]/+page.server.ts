@@ -15,7 +15,7 @@ export const load: PageServerLoad = ({ params }) => {
 	return {
 		item,
 		disclaimers: item.disclaimers.map(disclaimerById),
-		section: 'Provisioner to the Society'
+		section: 'Equipment'
 	};
 };
 

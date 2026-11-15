@@ -10,46 +10,45 @@ export const breed: Breed = {
 	hostTree: { common: 'White ash', botanical: 'Fraxinus americana' },
 	brood: 'V',
 	phaseYear: 2016,
-	purpose: 'Personal Protection. Held in readiness within the inner rooms of a house.',
-	lede: 'The Prides Crossing Linstock stands by. It is kept in the inner rooms of a house, where it waits in readiness and is not seen to act unless the outer protections of the house have failed.',
+	purpose: 'Personal Protection. Waits in the inner rooms of a house.',
+	lede: 'The Prides Crossing Linstock is the last line. It’s kept in the inner rooms of the house, it waits, and you never see it do a thing unless everything else guarding the house has already failed.',
 	standard: {
 		appearance: [
-			'A Septendecim protection breed of large size, tall at the shoulder, with long forelegs held upright. The thorax is black, with a dull brass sheen at the margins; the venation is bright amber.',
-			'The eye is red.',
-			'The Kilocada is the usual variety. It is reared in a grove and mounted on a reinforced perch of oak.'
+			'Big, tall at the shoulder, with long forelegs held straight up. Black thorax with a dull brass sheen at the edges, bright amber veins.',
+			'Red eyes.',
+			'Most people keep the large one. It’s raised in a grove and mounted on a reinforced oak perch.'
 		],
 		chorus: [
-			'The Linstock is silent while the outer protections of the house hold.',
-			'If they are passed, it gives a chorus of great volume and short duration, after which it is silent again and remains so. The chorus shall not exceed ten seconds.'
+			'Silent as long as the outer defenses of the house are holding.',
+			'If they’re breached, it lets go one very loud, very short chorus, then goes quiet and stays quiet. Ten seconds, tops.'
 		],
 		temperament: [
-			'Patient, still and wholly reliable. The Linstock does not respond to any disturbance that the outer protections have dealt with.',
-			'It answers the Summons at once.'
+			'Patient, still, and completely dependable. If the outer defenses have already handled something, the Linstock leaves it alone.',
+			'It comes to the snap immediately.'
 		],
 		exuvia: [
-			'Tall and dark amber, with the forelegs upright.',
-			'The Kilocada exuvia is displayed freestanding, as furniture, in the room the animal kept.'
+			'Tall and dark amber, with the forelegs straight up.',
+			'A large Linstock’s shell stands on its own in the room it kept, like any other piece of furniture.'
 		]
 	},
 	faults: [
-		'Chorus while the outer protections hold.',
-		'A chorus of more than ten seconds’ duration.',
-		'Restlessness on the perch.',
-		'Forelegs carried forward of the vertical.'
+		'Going off while the outer defenses are still holding.',
+		'A chorus longer than ten seconds.',
+		'Fidgeting on the perch.',
+		'Forelegs carried forward of straight up.'
 	],
 	disqualifications: [
-		'Emergence in any year other than the year of the line.',
-		'Failure to give the chorus when the outer protections are passed.'
+		'Hatching in the wrong year.',
+		'Staying quiet once the outer defenses are breached.'
 	],
 	history: [
-		'The breed was recognized in 1931 from lines kept at Prides Crossing, where the first animals were posted in the inner rooms of houses whose boundaries were already held by Pales.',
-		'The Kilocada was admitted in 1948. Its exuviae are among the largest held in members’ collections.',
-		'The standard was amended at the emergence of 1982 to fix the duration of the chorus at not more than ten seconds.'
+		'We recognized the Linstock in 1931, from lines at Prides Crossing. The first ones went in the inner rooms of houses that already had Pales holding the property line. Some people like a belt and suspenders.',
+		'The large Linstock was admitted in 1948. Its shells are about the biggest any member owns, and the people who own them will bring it up.',
+		'At the 1982 hatch we capped the chorus at ten seconds. There had been complaints from next door.'
 	],
 	plate: {
 		media: 'plate-prides-crossing-linstock',
-		caption:
-			'The Prides Crossing Linstock, male, with the exuvia from below. Drawn for the Society, 1931.'
+		caption: 'Our Linstock plate: a male, with the shell from underneath. Drawn for us in 1931.'
 	},
 	photos: [
 		{
@@ -58,11 +57,11 @@ export const breed: Breed = {
 		},
 		{
 			media: 'photo-prides-crossing-linstock-2',
-			caption: 'A Kilocada Linstock on its oak perch, with its owner. Prides Crossing, 1965.'
+			caption: 'A large Linstock on its oak perch, with its owner. Prides Crossing, 1965.'
 		},
 		{
 			media: 'photo-prides-crossing-linstock-3',
-			caption: 'Assessment of the chorus by officers in hearing protection. Prides Crossing, 1982.'
+			caption: 'Our people in ear protection, timing the chorus. Prides Crossing, 1982.'
 		}
 	],
 	diagram: 'wing-venation',

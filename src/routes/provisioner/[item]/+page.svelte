@@ -17,14 +17,9 @@
 		fallback;
 </script>
 
-<Head
-	title={item.name}
-	description="{item.name}, Provisioner’s reference {item.ref}. {item.text}"
-/>
+<Head title={item.name} description="{item.name}, No. {item.ref}. {item.text}" />
 
-<Breadcrumb
-	trail={[{ href: '/provisioner', label: 'Provisioner to the Society' }, { label: item.name }]}
-/>
+<Breadcrumb trail={[{ href: '/provisioner', label: 'Equipment' }, { label: item.name }]} />
 
 <article class="abs-catalogue" aria-labelledby="cat-name">
 	<Plate
@@ -34,7 +29,7 @@
 		eager
 	/>
 	<div>
-		<span class="abs-catalogue__ref">Provisioner’s reference {item.ref}</span>
+		<span class="abs-catalogue__ref">No. {item.ref}</span>
 		<h1 class="abs-catalogue__name" id="cat-name">{item.name}</h1>
 		<p class="abs-catalogue__text">{item.text}</p>
 		<dl class="abs-ledger abs-ledger--compact">
@@ -47,9 +42,9 @@
 			<dt>Lead time</dt>
 			<dd>{item.leadTime}</dd>
 			<dt>Price</dt>
-			<dd class="abs-on-inquiry">On inquiry</dd>
+			<dd class="abs-on-inquiry">On request</dd>
 		</dl>
-		<a class="abs-catalogue__inquire" href="#inquiry">Make an inquiry</a>
+		<a class="abs-catalogue__inquire" href="#inquiry">Ask about this</a>
 	</div>
 </article>
 
@@ -59,7 +54,7 @@
 
 {#each data.disclaimers as d (d.id)}<Disclaimer disclaimer={d} />{/each}
 
-<section id="inquiry" aria-label="Inquiry to the Provisioner">
+<section id="inquiry" aria-label="Ask about this">
 	{#if form && 'received' in form && form.received}
 		<section
 			class="abs-notice abs-notice--statement abs-measure"
@@ -67,12 +62,9 @@
 			tabindex="-1"
 			bind:this={ack}
 		>
-			<p class="abs-notice__kind">Acknowledgment</p>
-			<h2 class="abs-notice__title" id="ack-t">Inquiry Received</h2>
-			<p>
-				The inquiry has been entered in the correspondence ledger. The Provisioner replies in the
-				order in which letters are received, which is the only order the Society recognizes.
-			</p>
+			<p class="abs-notice__kind">Received</p>
+			<h2 class="abs-notice__title" id="ack-t">We’ve Got It</h2>
+			<p>We answer these in the order they come in. No exceptions, whoever you are.</p>
 		</section>
 	{:else}
 		<form
@@ -87,11 +79,11 @@
 				}}
 		>
 			<fieldset>
-				<legend>Inquiry to the Provisioner</legend>
+				<legend>Ask about this</legend>
 				{#if form && 'limited' in form && form.limited}
 					<p class="abs-field__error" role="alert">
-						<b>Received.</b> The Provisioner has received several inquiries from this address within the
-						hour, and will receive no more from it until the hour has passed.
+						<b>That’s enough for now.</b> You’ve sent us several of these in the last hour. Try again
+						in an hour.
 					</p>
 				{/if}
 				<div class="abs-field" data-invalid={err('name') ? '' : undefined}>
@@ -109,7 +101,7 @@
 					{#if err('name')}<span class="abs-field__error" id="f-name-err">{err('name')}</span>{/if}
 				</div>
 				<div class="abs-field" data-invalid={err('email') ? '' : undefined}>
-					<label for="f-email">Correspondence address</label>
+					<label for="f-email">Email</label>
 					<input
 						id="f-email"
 						name="email"
@@ -126,7 +118,7 @@
 				</div>
 				<div class="abs-field" data-invalid={err('itemRef') ? '' : undefined}>
 					<label for="f-ref"
-						>Provisioner’s reference <span class="abs-field__optional">(if known)</span></label
+						>Item number <span class="abs-field__optional">(if you know it)</span></label
 					>
 					<input
 						id="f-ref"
@@ -141,7 +133,7 @@
 						>{/if}
 				</div>
 				<div class="abs-field" data-invalid={err('message') ? '' : undefined}>
-					<label for="f-msg">Particulars</label>
+					<label for="f-msg">Your question</label>
 					<textarea
 						id="f-msg"
 						name="message"
@@ -154,7 +146,7 @@
 					>
 					{#if err('message')}<span class="abs-field__error" id="f-msg-err">{err('message')}</span>
 					{:else}<span class="abs-field__hint" id="f-msg-hint"
-							>The breed, the variety, and the number of exuviae to be housed.</span
+							>Which breed, what size, and how many shells it needs to hold.</span
 						>{/if}
 				</div>
 				<div class="abs-honeypot" aria-hidden="true">
@@ -163,10 +155,10 @@
 				</div>
 			</fieldset>
 			<div class="abs-submit-row">
-				<button class="abs-card-button" type="submit">Submit the inquiry</button>
+				<button class="abs-card-button" type="submit">Send</button>
 				<p class="abs-policy-line">
-					Correspondence is kept in accordance with the Society’s <a href="/correspondence-policy"
-						>correspondence policy</a
+					What we keep, and for how long, is in our <a href="/correspondence-policy"
+						>privacy policy</a
 					>.
 				</p>
 			</div>

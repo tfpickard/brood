@@ -18,9 +18,9 @@
 
 <Head title={p.title} description={p.summary} />
 
-<Breadcrumb trail={[{ href: '/husbandry', label: 'Husbandry' }, { label: p.title }]} />
+<Breadcrumb trail={[{ href: '/husbandry', label: 'Care and Keeping' }, { label: p.title }]} />
 
-<SectionHeading numeral="Husbandry {p.numeral}" title={p.title} level={1} />
+<SectionHeading numeral="Part {p.numeral}" title={p.title} level={1} />
 
 <div class="abs-prose abs-prose--justified">
 	<p class="abs-lede abs-initial">{p.lede}</p>
@@ -30,7 +30,7 @@
 	<Diagram
 		id="kilocada-facility"
 		number="Fig. 1"
-		caption="A Kilocada rearing facility, plan. Not to scale."
+		caption="Floor plan for raising the large ones. Not to scale."
 	/>
 {/if}
 

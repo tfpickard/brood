@@ -179,18 +179,15 @@ function varietyFor(breed: Breed): Variety {
 function exuviaFor(variety: Variety, family: string, seat: string, year: number): string {
 	if (variety === 'kilocada')
 		return pick([
-			`Freestanding, the long gallery at ${seat}`,
-			`Freestanding, the hall at ${seat}`,
-			`Freestanding, the ${family} collection`
+			`Long gallery, ${seat}`,
+			`Front hall, ${seat}`,
+			`On a stand, the ${family} collection`
 		]);
 	if (variety === 'microcada')
-		return pick([
-			`Microcada cabinet, the ${family} collection`,
-			`Signet cabinet, the ${family} collection, ${seat}`
-		]);
+		return pick([`Miniature case, the ${family} collection`, `Set in a signet ring, ${seat}`]);
 	const r = rand();
-	if (r < 0.08 && year < 1960) return 'Interred with the owner';
-	if (r < 0.16 && year < 2000) return `Transferred, ${year + pick([3, 9, 17, 21, 34])}`;
+	if (r < 0.08 && year < 1960) return 'Buried with the owner';
+	if (r < 0.16 && year < 2000) return `Went to another family, ${year + pick([3, 9, 17, 21, 34])}`;
 	return pick([
 		`Cabinet, the ${family} collection, ${seat}`,
 		`Crystal cabinet, the ${family} collection`,
@@ -357,8 +354,7 @@ const studBook: Individual[] = drafts
 		};
 		if (s?.straggler) {
 			ind.actualEmergence = d.year - 4;
-			ind.disqualification =
-				'Straggler. Emerged four years before the year of the line. Disqualified and entered as such.';
+			ind.disqualification = 'Hatched four years early. Disqualified.';
 		} else if (s?.disqualification) {
 			ind.disqualification = s.disqualification;
 		}

@@ -1937,7 +1937,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00004",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Penhallow collection",
+		"exuvia": "On a stand, the Penhallow collection",
 		"owner": "The Penhallow family, Allegheny",
 		"standing": "good"
 	},
@@ -1967,7 +1967,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00002",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Breckin collection",
+		"exuvia": "On a stand, the Breckin collection",
 		"owner": "The Breckin family, Allegheny",
 		"standing": "good"
 	},
@@ -1982,7 +1982,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00006",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Allegheny",
+		"exuvia": "Long gallery, Allegheny",
 		"owner": "The Penhallow family, Allegheny",
 		"standing": "good"
 	},
@@ -1997,7 +1997,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00002",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Merriman collection",
+		"exuvia": "On a stand, the Merriman collection",
 		"owner": "The Merriman family, Allegheny",
 		"standing": "good"
 	},
@@ -2014,7 +2014,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch."
 		],
-		"exuvia": "Transferred, 1917",
+		"exuvia": "Went to another family, 1917",
 		"owner": "The Breckin family, Allegheny",
 		"standing": "good"
 	},
@@ -2044,7 +2044,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00008",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Lisle collection",
+		"exuvia": "On a stand, the Lisle collection",
 		"owner": "The Lisle family, Lenox",
 		"standing": "good"
 	},
@@ -2059,7 +2059,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00008",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Lenox",
+		"exuvia": "Long gallery, Lenox",
 		"owner": "The Holloway family, Lenox",
 		"standing": "good"
 	},
@@ -2076,7 +2076,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"W.M."
 		],
-		"exuvia": "Freestanding, the Sallowes collection",
+		"exuvia": "On a stand, the Sallowes collection",
 		"owner": "The Sallowes family, Lenox",
 		"standing": "good"
 	},
@@ -2091,7 +2091,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00010",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Lisle collection",
+		"exuvia": "On a stand, the Lisle collection",
 		"owner": "The Lisle family, Lenox",
 		"standing": "good"
 	},
@@ -2106,7 +2106,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00008",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Lenox",
+		"exuvia": "Long gallery, Lenox",
 		"owner": "The Holloway family, Lenox",
 		"standing": "good"
 	},
@@ -2151,7 +2151,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00016",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Lattimore collection",
+		"exuvia": "On a stand, the Lattimore collection",
 		"owner": "The Lattimore family, Sewickley",
 		"standing": "good"
 	},
@@ -2168,7 +2168,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch., W.M."
 		],
-		"exuvia": "Freestanding, the Fairlie collection",
+		"exuvia": "On a stand, the Fairlie collection",
 		"owner": "The Fairlie family, Sewickley",
 		"standing": "good"
 	},
@@ -2200,7 +2200,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00018",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Lattimore collection",
+		"exuvia": "On a stand, the Lattimore collection",
 		"owner": "The Lattimore family, Sewickley",
 		"standing": "good"
 	},
@@ -2217,7 +2217,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch."
 		],
-		"exuvia": "Signet cabinet, the Peverell collection, Hudson",
+		"exuvia": "Set in a signet ring, Hudson",
 		"owner": "The Peverell family, Hudson",
 		"standing": "good"
 	},
@@ -2294,7 +2294,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch., W.M."
 		],
-		"exuvia": "Transferred, 1953",
+		"exuvia": "Went to another family, 1953",
 		"owner": "The Vance family, Hudson",
 		"standing": "good"
 	},
@@ -2369,7 +2369,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00030",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1922",
+		"exuvia": "Went to another family, 1922",
 		"owner": "The Tolland family, Newport",
 		"standing": "good"
 	},
@@ -2386,7 +2386,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch."
 		],
-		"exuvia": "Microcada cabinet, the Holloway collection",
+		"exuvia": "Miniature case, the Holloway collection",
 		"owner": "The Holloway family, Newport",
 		"standing": "good"
 	},
@@ -2401,7 +2401,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00032",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1953",
+		"exuvia": "Went to another family, 1953",
 		"owner": "The Lisle family, Tidewater",
 		"standing": "good"
 	},
@@ -2463,7 +2463,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch."
 		],
-		"exuvia": "Interred with the owner",
+		"exuvia": "Buried with the owner",
 		"owner": "The Calloway family, Tidewater",
 		"standing": "good"
 	},
@@ -2493,7 +2493,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00038",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Interred with the owner",
+		"exuvia": "Buried with the owner",
 		"owner": "The Penhallow family, Middleburg",
 		"standing": "good"
 	},
@@ -2508,7 +2508,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00042",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Interred with the owner",
+		"exuvia": "Buried with the owner",
 		"owner": "The Ostrander family, Middleburg",
 		"standing": "good"
 	},
@@ -2589,7 +2589,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch., W.M."
 		],
-		"exuvia": "Transferred, 1944",
+		"exuvia": "Went to another family, 1944",
 		"owner": "The Peverell family, Wye",
 		"standing": "good"
 	},
@@ -2651,7 +2651,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00044",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Interred with the owner",
+		"exuvia": "Buried with the owner",
 		"owner": "The Haverill family, Wye",
 		"standing": "good"
 	},
@@ -2683,7 +2683,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00050",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Bayard-Lisle collection",
+		"exuvia": "On a stand, the Bayard-Lisle collection",
 		"owner": "The Bayard-Lisle family, Brandywine",
 		"standing": "good"
 	},
@@ -2713,7 +2713,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00052",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Calloway collection",
+		"exuvia": "On a stand, the Calloway collection",
 		"owner": "The Calloway family, Brandywine",
 		"standing": "good"
 	},
@@ -2728,7 +2728,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00052",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Brandywine",
+		"exuvia": "Long gallery, Brandywine",
 		"owner": "The Bayard-Lisle family, Brandywine",
 		"standing": "good"
 	},
@@ -2865,7 +2865,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00066",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1932",
+		"exuvia": "Went to another family, 1932",
 		"owner": "The Ormsby family, Mackinac",
 		"standing": "good"
 	},
@@ -2912,7 +2912,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00062",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Interred with the owner",
+		"exuvia": "Buried with the owner",
 		"owner": "The Ormsby family, Mackinac",
 		"standing": "good"
 	},
@@ -2961,7 +2961,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch., W.M."
 		],
-		"exuvia": "Interred with the owner",
+		"exuvia": "Buried with the owner",
 		"owner": "The Calloway family, Aiken",
 		"standing": "good"
 	},
@@ -2978,7 +2978,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch., W.M."
 		],
-		"exuvia": "Transferred, 1951",
+		"exuvia": "Went to another family, 1951",
 		"owner": "The Ravenel family, Aiken",
 		"standing": "good"
 	},
@@ -3117,7 +3117,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00078",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Stanwood collection",
+		"exuvia": "Miniature case, the Stanwood collection",
 		"owner": "The Stanwood family, Little Compton",
 		"standing": "good"
 	},
@@ -3164,7 +3164,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"W.M."
 		],
-		"exuvia": "Freestanding, the hall at Allegheny",
+		"exuvia": "Front hall, Allegheny",
 		"owner": "The Merriman family, Allegheny",
 		"standing": "good"
 	},
@@ -3179,7 +3179,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00004",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Allegheny",
+		"exuvia": "Long gallery, Allegheny",
 		"owner": "The Breckin family, Allegheny",
 		"standing": "good"
 	},
@@ -3194,7 +3194,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00004",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at Allegheny",
+		"exuvia": "Front hall, Allegheny",
 		"owner": "The Penhallow family, Allegheny",
 		"standing": "good"
 	},
@@ -3209,7 +3209,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00002",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Allegheny",
+		"exuvia": "Long gallery, Allegheny",
 		"owner": "The Merriman family, Allegheny",
 		"standing": "good"
 	},
@@ -3239,7 +3239,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00008",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Lenox",
+		"exuvia": "Long gallery, Lenox",
 		"owner": "The Sallowes family, Lenox",
 		"standing": "good"
 	},
@@ -3256,7 +3256,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch., W.M."
 		],
-		"exuvia": "Freestanding, the long gallery at Lenox",
+		"exuvia": "Long gallery, Lenox",
 		"owner": "The Lisle family, Lenox",
 		"standing": "good"
 	},
@@ -3271,7 +3271,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00010",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at Lenox",
+		"exuvia": "Front hall, Lenox",
 		"owner": "The Holloway family, Lenox",
 		"standing": "good"
 	},
@@ -3288,7 +3288,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch."
 		],
-		"exuvia": "Freestanding, the long gallery at Lenox",
+		"exuvia": "Long gallery, Lenox",
 		"owner": "The Sallowes family, Lenox",
 		"standing": "good"
 	},
@@ -3348,7 +3348,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-13·00002",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Signet cabinet, the Wyck collection, Beacon Hill",
+		"exuvia": "Set in a signet ring, Beacon Hill",
 		"owner": "The Wyck family, Beacon Hill",
 		"standing": "good"
 	},
@@ -3365,7 +3365,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"W.M."
 		],
-		"exuvia": "Signet cabinet, the Lisle collection, Beacon Hill",
+		"exuvia": "Set in a signet ring, Beacon Hill",
 		"owner": "The Lisle family, Beacon Hill",
 		"standing": "good"
 	},
@@ -3380,7 +3380,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-13·00002",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1967",
+		"exuvia": "Went to another family, 1967",
 		"owner": "The Ridley family, Beacon Hill",
 		"standing": "good"
 	},
@@ -3395,7 +3395,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-13·00006",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Signet cabinet, the Wyck collection, Beacon Hill",
+		"exuvia": "Set in a signet ring, Beacon Hill",
 		"owner": "The Wyck family, Beacon Hill",
 		"standing": "good"
 	},
@@ -3410,7 +3410,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-13·00006",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1967",
+		"exuvia": "Went to another family, 1967",
 		"owner": "The Lisle family, Beacon Hill",
 		"standing": "good"
 	},
@@ -3425,10 +3425,10 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-13·00008",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Interred with the owner",
+		"exuvia": "Buried with the owner",
 		"owner": "The Ridley family, Ligonier",
 		"standing": "good",
-		"remark": "Emerged at a quarter past thirteen on the eleventh of May.",
+		"remark": "Hatched at a quarter past thirteen on May 11.",
 		"notable": true
 	},
 	{
@@ -3442,7 +3442,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-13·00008",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Fairlie collection",
+		"exuvia": "Miniature case, the Fairlie collection",
 		"owner": "The Fairlie family, Ligonier",
 		"standing": "good"
 	},
@@ -3457,7 +3457,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-13·00010",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1942",
+		"exuvia": "Went to another family, 1942",
 		"owner": "The Ardsley family, Ligonier",
 		"standing": "good"
 	},
@@ -3487,7 +3487,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-13·00008",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1942",
+		"exuvia": "Went to another family, 1942",
 		"owner": "The Fairlie family, Ligonier",
 		"standing": "good"
 	},
@@ -3594,7 +3594,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00080",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Interred with the owner",
+		"exuvia": "Buried with the owner",
 		"owner": "The Dunmore family, Millbrook",
 		"standing": "good"
 	},
@@ -3609,7 +3609,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00088",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Narragansett",
+		"exuvia": "Long gallery, Narragansett",
 		"owner": "The Peverell family, Narragansett",
 		"standing": "good"
 	},
@@ -3654,7 +3654,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00088",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Narragansett",
+		"exuvia": "Long gallery, Narragansett",
 		"owner": "The Peverell family, Narragansett",
 		"standing": "good"
 	},
@@ -3716,7 +3716,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00016",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at Sewickley",
+		"exuvia": "Front hall, Sewickley",
 		"owner": "The Breckin family, Sewickley",
 		"standing": "good"
 	},
@@ -3731,7 +3731,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00016",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Lattimore collection",
+		"exuvia": "On a stand, the Lattimore collection",
 		"owner": "The Lattimore family, Sewickley",
 		"standing": "good"
 	},
@@ -3746,7 +3746,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00018",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Sewickley",
+		"exuvia": "Long gallery, Sewickley",
 		"owner": "The Fairlie family, Sewickley",
 		"standing": "good"
 	},
@@ -3761,7 +3761,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00016",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at Sewickley",
+		"exuvia": "Front hall, Sewickley",
 		"owner": "The Breckin family, Sewickley",
 		"standing": "good"
 	},
@@ -3776,7 +3776,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00018",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Sewickley",
+		"exuvia": "Long gallery, Sewickley",
 		"owner": "The Lattimore family, Sewickley",
 		"standing": "good"
 	},
@@ -3806,7 +3806,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00024",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Ostrander collection",
+		"exuvia": "Miniature case, the Ostrander collection",
 		"owner": "The Ostrander family, Hudson",
 		"standing": "good"
 	},
@@ -3821,7 +3821,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00022",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Vance collection",
+		"exuvia": "Miniature case, the Vance collection",
 		"owner": "The Vance family, Hudson",
 		"standing": "good"
 	},
@@ -3899,7 +3899,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00026",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Signet cabinet, the Tolland collection, Newport",
+		"exuvia": "Set in a signet ring, Newport",
 		"owner": "The Tolland family, Newport",
 		"standing": "good"
 	},
@@ -3914,7 +3914,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00026",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Signet cabinet, the Holloway collection, Newport",
+		"exuvia": "Set in a signet ring, Newport",
 		"owner": "The Holloway family, Newport",
 		"standing": "good"
 	},
@@ -3929,7 +3929,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00026",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Signet cabinet, the Ostrander collection, Newport",
+		"exuvia": "Set in a signet ring, Newport",
 		"owner": "The Ostrander family, Newport",
 		"standing": "good"
 	},
@@ -3989,7 +3989,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00036",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1957",
+		"exuvia": "Went to another family, 1957",
 		"owner": "The Calloway family, Tidewater",
 		"standing": "good"
 	},
@@ -4066,7 +4066,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00092",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Thackery collection",
+		"exuvia": "On a stand, the Thackery collection",
 		"owner": "The Thackery family, Tuxedo",
 		"standing": "good"
 	},
@@ -4096,7 +4096,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00096",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Haddon collection",
+		"exuvia": "On a stand, the Haddon collection",
 		"owner": "The Haddon family, Tuxedo",
 		"standing": "good"
 	},
@@ -4111,7 +4111,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00094",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Thackery collection",
+		"exuvia": "On a stand, the Thackery collection",
 		"owner": "The Thackery family, Tuxedo",
 		"standing": "good"
 	},
@@ -4126,7 +4126,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00092",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Tuxedo",
+		"exuvia": "Long gallery, Tuxedo",
 		"owner": "The Penhallow family, Tuxedo",
 		"standing": "good"
 	},
@@ -4233,7 +4233,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00102",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Interred with the owner",
+		"exuvia": "Buried with the owner",
 		"owner": "The Holloway family, Dark Harbor",
 		"standing": "good"
 	},
@@ -4248,7 +4248,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00104",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Ravenel collection",
+		"exuvia": "On a stand, the Ravenel collection",
 		"owner": "The Ravenel family, Middleburg",
 		"standing": "good"
 	},
@@ -4293,7 +4293,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00104",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Middleburg",
+		"exuvia": "Long gallery, Middleburg",
 		"owner": "The Ravenel family, Middleburg",
 		"standing": "good"
 	},
@@ -4308,7 +4308,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00106",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1956",
+		"exuvia": "Went to another family, 1956",
 		"owner": "The Fairlie family, Middleburg",
 		"standing": "good"
 	},
@@ -4325,7 +4325,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch., W.M."
 		],
-		"exuvia": "Freestanding, the hall at Middleburg",
+		"exuvia": "Front hall, Middleburg",
 		"owner": "The Ellery family, Middleburg",
 		"standing": "good"
 	},
@@ -4355,7 +4355,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00040",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1957",
+		"exuvia": "Went to another family, 1957",
 		"owner": "The Ostrander family, Middleburg",
 		"standing": "good"
 	},
@@ -4385,7 +4385,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00038",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1949",
+		"exuvia": "Went to another family, 1949",
 		"owner": "The Penhallow family, Middleburg",
 		"standing": "good"
 	},
@@ -4430,7 +4430,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00110",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Shenandoah",
+		"exuvia": "Long gallery, Shenandoah",
 		"owner": "The Wyck family, Shenandoah",
 		"standing": "good"
 	},
@@ -4447,7 +4447,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"W.M."
 		],
-		"exuvia": "Freestanding, the hall at Shenandoah",
+		"exuvia": "Front hall, Shenandoah",
 		"owner": "The Mortlake family, Shenandoah",
 		"standing": "good"
 	},
@@ -4462,7 +4462,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00110",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Shenandoah",
+		"exuvia": "Long gallery, Shenandoah",
 		"owner": "The Ellery family, Shenandoah",
 		"standing": "good"
 	},
@@ -4477,7 +4477,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00114",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Wyck collection",
+		"exuvia": "On a stand, the Wyck collection",
 		"owner": "The Wyck family, Shenandoah",
 		"standing": "good"
 	},
@@ -4492,7 +4492,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00112",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at Shenandoah",
+		"exuvia": "Front hall, Shenandoah",
 		"owner": "The Mortlake family, Shenandoah",
 		"standing": "good"
 	},
@@ -4507,7 +4507,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00112",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at Shenandoah",
+		"exuvia": "Front hall, Shenandoah",
 		"owner": "The Ellery family, Shenandoah",
 		"standing": "good"
 	},
@@ -4522,7 +4522,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00118",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Ellery collection",
+		"exuvia": "Miniature case, the Ellery collection",
 		"owner": "The Ellery family, Piedmont",
 		"standing": "good"
 	},
@@ -4537,7 +4537,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00118",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Ashcombe collection",
+		"exuvia": "Miniature case, the Ashcombe collection",
 		"owner": "The Ashcombe family, Piedmont",
 		"standing": "good"
 	},
@@ -4552,7 +4552,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00118",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Ravenel collection",
+		"exuvia": "Miniature case, the Ravenel collection",
 		"owner": "The Ravenel family, Piedmont",
 		"standing": "good"
 	},
@@ -4567,7 +4567,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00120",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Ellery collection",
+		"exuvia": "Miniature case, the Ellery collection",
 		"owner": "The Ellery family, Piedmont",
 		"standing": "good"
 	},
@@ -4582,7 +4582,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00116",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Signet cabinet, the Ashcombe collection, Piedmont",
+		"exuvia": "Set in a signet ring, Piedmont",
 		"owner": "The Ashcombe family, Piedmont",
 		"standing": "good"
 	},
@@ -4597,7 +4597,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00116",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Ravenel collection",
+		"exuvia": "Miniature case, the Ravenel collection",
 		"owner": "The Ravenel family, Piedmont",
 		"standing": "good"
 	},
@@ -4663,7 +4663,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"W.M."
 		],
-		"exuvia": "Transferred, 1963",
+		"exuvia": "Went to another family, 1963",
 		"owner": "The Holloway family, Edisto",
 		"standing": "good"
 	},
@@ -4723,7 +4723,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00122",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Fishers Island",
+		"exuvia": "Long gallery, Fishers Island",
 		"owner": "The Pemberton family, Fishers Island",
 		"standing": "good"
 	},
@@ -4738,7 +4738,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00126",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Calloway collection",
+		"exuvia": "On a stand, the Calloway collection",
 		"owner": "The Calloway family, Fishers Island",
 		"standing": "good"
 	},
@@ -4753,7 +4753,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00126",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at Fishers Island",
+		"exuvia": "Front hall, Fishers Island",
 		"owner": "The Calloway family, Fishers Island",
 		"standing": "good"
 	},
@@ -4768,7 +4768,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00126",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at Fishers Island",
+		"exuvia": "Front hall, Fishers Island",
 		"owner": "The Pemberton family, Fishers Island",
 		"standing": "good"
 	},
@@ -4783,7 +4783,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00122",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Calloway collection",
+		"exuvia": "On a stand, the Calloway collection",
 		"owner": "The Calloway family, Fishers Island",
 		"standing": "good"
 	},
@@ -4894,7 +4894,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch., W.M."
 		],
-		"exuvia": "Freestanding, the hall at Brandywine",
+		"exuvia": "Front hall, Brandywine",
 		"owner": "The Bayard-Lisle family, Brandywine",
 		"standing": "good"
 	},
@@ -4909,7 +4909,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00054",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Stanwood collection",
+		"exuvia": "On a stand, the Stanwood collection",
 		"owner": "The Stanwood family, Brandywine",
 		"standing": "good"
 	},
@@ -4924,7 +4924,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00054",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Brandywine",
+		"exuvia": "Long gallery, Brandywine",
 		"owner": "The Calloway family, Brandywine",
 		"standing": "good"
 	},
@@ -4939,7 +4939,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00050",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Bayard-Lisle collection",
+		"exuvia": "On a stand, the Bayard-Lisle collection",
 		"owner": "The Bayard-Lisle family, Brandywine",
 		"standing": "good"
 	},
@@ -5076,7 +5076,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00005",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Signet cabinet, the Ridley collection, Beacon Hill",
+		"exuvia": "Set in a signet ring, Beacon Hill",
 		"owner": "The Ridley family, Beacon Hill",
 		"standing": "good"
 	},
@@ -5106,7 +5106,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00007",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1955",
+		"exuvia": "Went to another family, 1955",
 		"owner": "The Lisle family, Beacon Hill",
 		"standing": "good"
 	},
@@ -5121,7 +5121,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00002",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Ridley collection",
+		"exuvia": "Miniature case, the Ridley collection",
 		"owner": "The Ridley family, Beacon Hill",
 		"standing": "good"
 	},
@@ -5136,7 +5136,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00005",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Wyck collection",
+		"exuvia": "Miniature case, the Wyck collection",
 		"owner": "The Wyck family, Beacon Hill",
 		"standing": "good"
 	},
@@ -5166,7 +5166,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00012",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Signet cabinet, the Quarles collection, Ligonier",
+		"exuvia": "Set in a signet ring, Ligonier",
 		"owner": "The Quarles family, Ligonier",
 		"standing": "good"
 	},
@@ -5196,7 +5196,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00012",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Interred with the owner",
+		"exuvia": "Buried with the owner",
 		"owner": "The Ardsley family, Ligonier",
 		"standing": "good"
 	},
@@ -5211,7 +5211,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00012",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1963",
+		"exuvia": "Went to another family, 1963",
 		"owner": "The Quarles family, Ligonier",
 		"standing": "good"
 	},
@@ -5303,7 +5303,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00064",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1963",
+		"exuvia": "Went to another family, 1963",
 		"owner": "The Ormsby family, Mackinac",
 		"standing": "good"
 	},
@@ -5318,7 +5318,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00066",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Interred with the owner",
+		"exuvia": "Buried with the owner",
 		"owner": "The Lisle family, Mackinac",
 		"standing": "good"
 	},
@@ -5378,7 +5378,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00068",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1964",
+		"exuvia": "Went to another family, 1964",
 		"owner": "The Ostrander family, Aiken",
 		"standing": "good"
 	},
@@ -5425,7 +5425,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"W.M."
 		],
-		"exuvia": "Transferred, 1968",
+		"exuvia": "Went to another family, 1968",
 		"owner": "The Ostrander family, Aiken",
 		"standing": "good"
 	},
@@ -5470,7 +5470,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00078",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Haverill collection",
+		"exuvia": "Miniature case, the Haverill collection",
 		"owner": "The Haverill family, Little Compton",
 		"standing": "good"
 	},
@@ -5515,7 +5515,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00076",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Haverill collection",
+		"exuvia": "Miniature case, the Haverill collection",
 		"owner": "The Haverill family, Little Compton",
 		"standing": "good"
 	},
@@ -5530,7 +5530,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00084",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at Allegheny",
+		"exuvia": "Front hall, Allegheny",
 		"owner": "The Penhallow family, Allegheny",
 		"standing": "good"
 	},
@@ -5560,7 +5560,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00084",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at Allegheny",
+		"exuvia": "Front hall, Allegheny",
 		"owner": "The Breckin family, Allegheny",
 		"standing": "good"
 	},
@@ -5575,7 +5575,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00080",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Allegheny",
+		"exuvia": "Long gallery, Allegheny",
 		"owner": "The Penhallow family, Allegheny",
 		"standing": "good"
 	},
@@ -5592,7 +5592,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"W.M."
 		],
-		"exuvia": "Freestanding, the long gallery at Allegheny",
+		"exuvia": "Long gallery, Allegheny",
 		"owner": "The Merriman family, Allegheny",
 		"standing": "good"
 	},
@@ -5622,7 +5622,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00130",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at Prides Crossing",
+		"exuvia": "Front hall, Prides Crossing",
 		"owner": "The Breckin family, Prides Crossing",
 		"standing": "good"
 	},
@@ -5652,7 +5652,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00132",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Prides Crossing",
+		"exuvia": "Long gallery, Prides Crossing",
 		"owner": "The Wyck family, Prides Crossing",
 		"standing": "good"
 	},
@@ -5667,7 +5667,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00132",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Breckin collection",
+		"exuvia": "On a stand, the Breckin collection",
 		"owner": "The Breckin family, Prides Crossing",
 		"standing": "good"
 	},
@@ -5699,7 +5699,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00130",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Prides Crossing",
+		"exuvia": "Long gallery, Prides Crossing",
 		"owner": "The Wyck family, Prides Crossing",
 		"standing": "good"
 	},
@@ -5714,7 +5714,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00086",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Lenox",
+		"exuvia": "Long gallery, Lenox",
 		"owner": "The Sallowes family, Lenox",
 		"standing": "good"
 	},
@@ -5744,7 +5744,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00088",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at Lenox",
+		"exuvia": "Front hall, Lenox",
 		"owner": "The Holloway family, Lenox",
 		"standing": "good"
 	},
@@ -5759,7 +5759,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00090",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at Lenox",
+		"exuvia": "Front hall, Lenox",
 		"owner": "The Sallowes family, Lenox",
 		"standing": "good"
 	},
@@ -5789,7 +5789,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00088",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Lenox",
+		"exuvia": "Long gallery, Lenox",
 		"owner": "The Holloway family, Lenox",
 		"standing": "good"
 	},
@@ -5898,7 +5898,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"W.M."
 		],
-		"exuvia": "Freestanding, the hall at Narragansett",
+		"exuvia": "Front hall, Narragansett",
 		"owner": "The Peverell family, Narragansett",
 		"standing": "good"
 	},
@@ -5913,7 +5913,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00100",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at Narragansett",
+		"exuvia": "Front hall, Narragansett",
 		"owner": "The Thackery family, Narragansett",
 		"standing": "good"
 	},
@@ -5928,7 +5928,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00102",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Narragansett",
+		"exuvia": "Long gallery, Narragansett",
 		"owner": "The Haverill family, Narragansett",
 		"standing": "good"
 	},
@@ -5977,7 +5977,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch., W.M."
 		],
-		"exuvia": "Freestanding, the Haverill collection",
+		"exuvia": "On a stand, the Haverill collection",
 		"owner": "The Haverill family, Narragansett",
 		"standing": "good"
 	},
@@ -5992,7 +5992,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00106",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Sewickley",
+		"exuvia": "Long gallery, Sewickley",
 		"owner": "The Fairlie family, Sewickley",
 		"standing": "good"
 	},
@@ -6039,7 +6039,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00106",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at Sewickley",
+		"exuvia": "Front hall, Sewickley",
 		"owner": "The Fairlie family, Sewickley",
 		"standing": "good"
 	},
@@ -6054,7 +6054,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00108",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Sewickley",
+		"exuvia": "Long gallery, Sewickley",
 		"owner": "The Breckin family, Sewickley",
 		"standing": "good"
 	},
@@ -6071,7 +6071,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch., W.M."
 		],
-		"exuvia": "Freestanding, the hall at Sewickley",
+		"exuvia": "Front hall, Sewickley",
 		"owner": "The Lattimore family, Sewickley",
 		"standing": "good"
 	},
@@ -6116,7 +6116,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-13·00024",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Interred with the owner",
+		"exuvia": "Buried with the owner",
 		"owner": "The Merriman family, Upperville",
 		"standing": "good"
 	},
@@ -6208,7 +6208,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00134",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1969",
+		"exuvia": "Went to another family, 1969",
 		"owner": "The Lisle family, Middleburg",
 		"standing": "good"
 	},
@@ -6268,7 +6268,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00140",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at North Haven",
+		"exuvia": "Long gallery, North Haven",
 		"owner": "The Peverell family, North Haven",
 		"standing": "good"
 	},
@@ -6283,7 +6283,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00140",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Ravenel collection",
+		"exuvia": "On a stand, the Ravenel collection",
 		"owner": "The Ravenel family, North Haven",
 		"standing": "good"
 	},
@@ -6317,7 +6317,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"W.M."
 		],
-		"exuvia": "Freestanding, the hall at North Haven",
+		"exuvia": "Front hall, North Haven",
 		"owner": "The Peverell family, North Haven",
 		"standing": "good"
 	},
@@ -6332,7 +6332,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00144",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Ravenel collection",
+		"exuvia": "On a stand, the Ravenel collection",
 		"owner": "The Ravenel family, North Haven",
 		"standing": "good"
 	},
@@ -6349,7 +6349,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch."
 		],
-		"exuvia": "Freestanding, the Bayard-Lisle collection",
+		"exuvia": "On a stand, the Bayard-Lisle collection",
 		"owner": "The Bayard-Lisle family, North Haven",
 		"standing": "good"
 	},
@@ -6364,7 +6364,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00112",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Peverell collection",
+		"exuvia": "Miniature case, the Peverell collection",
 		"owner": "The Peverell family, Hudson",
 		"standing": "good"
 	},
@@ -6379,7 +6379,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00112",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Ostrander collection",
+		"exuvia": "Miniature case, the Ostrander collection",
 		"owner": "The Ostrander family, Hudson",
 		"standing": "good"
 	},
@@ -6394,7 +6394,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00114",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Vance collection",
+		"exuvia": "Miniature case, the Vance collection",
 		"owner": "The Vance family, Hudson",
 		"standing": "good"
 	},
@@ -6487,7 +6487,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00121",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Holloway collection",
+		"exuvia": "Miniature case, the Holloway collection",
 		"owner": "The Holloway family, Newport",
 		"standing": "good"
 	},
@@ -6502,7 +6502,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00116",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Signet cabinet, the Ostrander collection, Newport",
+		"exuvia": "Set in a signet ring, Newport",
 		"owner": "The Ostrander family, Newport",
 		"standing": "good"
 	},
@@ -6532,7 +6532,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00121",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Holloway collection",
+		"exuvia": "Miniature case, the Holloway collection",
 		"owner": "The Holloway family, Newport",
 		"standing": "good"
 	},
@@ -6609,7 +6609,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00127",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1956",
+		"exuvia": "Went to another family, 1956",
 		"owner": "The Calloway family, Tidewater",
 		"standing": "good"
 	},
@@ -6624,7 +6624,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00127",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1956",
+		"exuvia": "Went to another family, 1956",
 		"owner": "The Mortlake family, Tidewater",
 		"standing": "good"
 	},
@@ -6639,7 +6639,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00131",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Interred with the owner",
+		"exuvia": "Buried with the owner",
 		"owner": "The Thackery family, Tuxedo",
 		"standing": "good"
 	},
@@ -6656,7 +6656,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch."
 		],
-		"exuvia": "Signet cabinet, the Penhallow collection, Tuxedo",
+		"exuvia": "Set in a signet ring, Tuxedo",
 		"owner": "The Penhallow family, Tuxedo",
 		"standing": "good"
 	},
@@ -6688,7 +6688,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"W.M."
 		],
-		"exuvia": "Freestanding, the hall at Tuxedo",
+		"exuvia": "Front hall, Tuxedo",
 		"owner": "The Thackery family, Tuxedo",
 		"standing": "good"
 	},
@@ -6703,7 +6703,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00133",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at Tuxedo",
+		"exuvia": "Front hall, Tuxedo",
 		"owner": "The Penhallow family, Tuxedo",
 		"standing": "good"
 	},
@@ -6718,7 +6718,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00129",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at Tuxedo",
+		"exuvia": "Front hall, Tuxedo",
 		"owner": "The Haddon family, Tuxedo",
 		"standing": "good"
 	},
@@ -6857,7 +6857,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00016",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Interred with the owner",
+		"exuvia": "Buried with the owner",
 		"owner": "The Bayard-Lisle family, Edisto",
 		"standing": "good"
 	},
@@ -6902,7 +6902,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00018",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1976",
+		"exuvia": "Went to another family, 1976",
 		"owner": "The Bayard-Lisle family, Edisto",
 		"standing": "good"
 	},
@@ -6917,7 +6917,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00143",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at Middleburg",
+		"exuvia": "Front hall, Middleburg",
 		"owner": "The Ravenel family, Middleburg",
 		"standing": "good"
 	},
@@ -6932,7 +6932,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00143",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Middleburg",
+		"exuvia": "Long gallery, Middleburg",
 		"owner": "The Fairlie family, Middleburg",
 		"standing": "good"
 	},
@@ -6947,7 +6947,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00145",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Middleburg",
+		"exuvia": "Long gallery, Middleburg",
 		"owner": "The Ellery family, Middleburg",
 		"standing": "good"
 	},
@@ -6962,7 +6962,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00143",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Middleburg",
+		"exuvia": "Long gallery, Middleburg",
 		"owner": "The Ravenel family, Middleburg",
 		"standing": "good"
 	},
@@ -6977,7 +6977,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00145",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Fairlie collection",
+		"exuvia": "On a stand, the Fairlie collection",
 		"owner": "The Fairlie family, Middleburg",
 		"standing": "good"
 	},
@@ -6992,7 +6992,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00145",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Ellery collection",
+		"exuvia": "On a stand, the Ellery collection",
 		"owner": "The Ellery family, Middleburg",
 		"standing": "good"
 	},
@@ -7103,7 +7103,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch., W.M."
 		],
-		"exuvia": "Freestanding, the long gallery at Shenandoah",
+		"exuvia": "Long gallery, Shenandoah",
 		"owner": "The Wyck family, Shenandoah",
 		"standing": "good"
 	},
@@ -7135,7 +7135,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00157",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Ellery collection",
+		"exuvia": "On a stand, the Ellery collection",
 		"owner": "The Ellery family, Shenandoah",
 		"standing": "good"
 	},
@@ -7150,7 +7150,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00155",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at Shenandoah",
+		"exuvia": "Front hall, Shenandoah",
 		"owner": "The Wyck family, Shenandoah",
 		"standing": "good"
 	},
@@ -7165,7 +7165,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00155",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Shenandoah",
+		"exuvia": "Long gallery, Shenandoah",
 		"owner": "The Mortlake family, Shenandoah",
 		"standing": "good"
 	},
@@ -7180,7 +7180,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00157",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at Shenandoah",
+		"exuvia": "Front hall, Shenandoah",
 		"owner": "The Ellery family, Shenandoah",
 		"standing": "good"
 	},
@@ -7195,7 +7195,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00161",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Ellery collection",
+		"exuvia": "Miniature case, the Ellery collection",
 		"owner": "The Ellery family, Piedmont",
 		"standing": "good"
 	},
@@ -7240,7 +7240,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00159",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Signet cabinet, the Ellery collection, Piedmont",
+		"exuvia": "Set in a signet ring, Piedmont",
 		"owner": "The Ellery family, Piedmont",
 		"standing": "good"
 	},
@@ -7255,7 +7255,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00161",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Ashcombe collection",
+		"exuvia": "Miniature case, the Ashcombe collection",
 		"owner": "The Ashcombe family, Piedmont",
 		"standing": "good"
 	},
@@ -7285,7 +7285,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00020",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Signet cabinet, the Ridley collection, Beacon Hill",
+		"exuvia": "Set in a signet ring, Beacon Hill",
 		"owner": "The Ridley family, Beacon Hill",
 		"standing": "good"
 	},
@@ -7300,7 +7300,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00024",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Wyck collection",
+		"exuvia": "Miniature case, the Wyck collection",
 		"owner": "The Wyck family, Beacon Hill",
 		"standing": "good"
 	},
@@ -7332,7 +7332,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00024",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1980",
+		"exuvia": "Went to another family, 1980",
 		"owner": "The Ridley family, Beacon Hill",
 		"standing": "good"
 	},
@@ -7347,7 +7347,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00022",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Wyck collection",
+		"exuvia": "Miniature case, the Wyck collection",
 		"owner": "The Wyck family, Beacon Hill",
 		"standing": "good"
 	},
@@ -7362,7 +7362,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00020",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Interred with the owner",
+		"exuvia": "Buried with the owner",
 		"owner": "The Lisle family, Beacon Hill",
 		"standing": "good"
 	},
@@ -7377,7 +7377,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00030",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1968",
+		"exuvia": "Went to another family, 1968",
 		"owner": "The Quarles family, Ligonier",
 		"standing": "good"
 	},
@@ -7409,7 +7409,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00030",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Ardsley collection",
+		"exuvia": "Miniature case, the Ardsley collection",
 		"owner": "The Ardsley family, Ligonier",
 		"standing": "good"
 	},
@@ -7456,7 +7456,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch."
 		],
-		"exuvia": "Interred with the owner",
+		"exuvia": "Buried with the owner",
 		"owner": "The Ardsley family, Ligonier",
 		"standing": "good"
 	},
@@ -7486,7 +7486,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00165",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1982",
+		"exuvia": "Went to another family, 1982",
 		"owner": "The Pemberton family, Fishers Island",
 		"standing": "good"
 	},
@@ -7623,7 +7623,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00173",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1982",
+		"exuvia": "Went to another family, 1982",
 		"owner": "The Haverill family, Wye",
 		"standing": "good"
 	},
@@ -7655,7 +7655,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch."
 		],
-		"exuvia": "Freestanding, the long gallery at Brandywine",
+		"exuvia": "Long gallery, Brandywine",
 		"owner": "The Sallowes family, Chadds Ford",
 		"standing": "good",
 		"notable": true
@@ -7671,7 +7671,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00179",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Stanwood collection",
+		"exuvia": "On a stand, the Stanwood collection",
 		"owner": "The Stanwood family, Brandywine",
 		"standing": "good"
 	},
@@ -7701,7 +7701,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00177",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Brandywine",
+		"exuvia": "Long gallery, Brandywine",
 		"owner": "The Bayard-Lisle family, Brandywine",
 		"standing": "good"
 	},
@@ -7716,7 +7716,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00181",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Brandywine",
+		"exuvia": "Long gallery, Brandywine",
 		"owner": "The Stanwood family, Brandywine",
 		"standing": "good"
 	},
@@ -7746,7 +7746,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00183",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1983",
+		"exuvia": "Went to another family, 1983",
 		"owner": "The Quarles family, Matinecock",
 		"standing": "good"
 	},
@@ -7836,7 +7836,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00146",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Haddon collection",
+		"exuvia": "Miniature case, the Haddon collection",
 		"owner": "The Haddon family, Dutchess",
 		"standing": "good"
 	},
@@ -7866,7 +7866,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00146",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Peverell collection",
+		"exuvia": "Miniature case, the Peverell collection",
 		"owner": "The Peverell family, Dutchess",
 		"standing": "good"
 	},
@@ -7881,7 +7881,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00146",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Signet cabinet, the Haddon collection, Dutchess",
+		"exuvia": "Set in a signet ring, Dutchess",
 		"owner": "The Haddon family, Dutchess",
 		"standing": "good"
 	},
@@ -7898,7 +7898,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch."
 		],
-		"exuvia": "Microcada cabinet, the Pemberton collection",
+		"exuvia": "Miniature case, the Pemberton collection",
 		"owner": "The Pemberton family, Dutchess",
 		"standing": "good"
 	},
@@ -7913,7 +7913,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00146",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Signet cabinet, the Peverell collection, Dutchess",
+		"exuvia": "Set in a signet ring, Dutchess",
 		"owner": "The Peverell family, Dutchess",
 		"standing": "good"
 	},
@@ -7928,7 +7928,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00193",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1966",
+		"exuvia": "Went to another family, 1966",
 		"owner": "The Ormsby family, Mackinac",
 		"standing": "good"
 	},
@@ -8036,7 +8036,7 @@ export const STUD_BOOK: Individual[] = [
 		"exuvia": "Crystal cabinet, the Holloway collection",
 		"owner": "Mr. D. Kerrigan, night footman, Aiken",
 		"standing": "good",
-		"remark": "Entered under the name of the person in attendance at the Vigil.",
+		"remark": "Mrs. Holloway went up to bed at eleven. The night footman stayed.",
 		"notable": true
 	},
 	{
@@ -8065,7 +8065,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00195",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1973",
+		"exuvia": "Went to another family, 1973",
 		"owner": "The Calloway family, Aiken",
 		"standing": "good"
 	},
@@ -8127,7 +8127,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch."
 		],
-		"exuvia": "Transferred, 1985",
+		"exuvia": "Went to another family, 1985",
 		"owner": "The Stanwood family, Little Compton",
 		"standing": "good"
 	},
@@ -8142,7 +8142,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00205",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1981",
+		"exuvia": "Went to another family, 1981",
 		"owner": "The Haverill family, Little Compton",
 		"standing": "good"
 	},
@@ -8157,7 +8157,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00201",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1967",
+		"exuvia": "Went to another family, 1967",
 		"owner": "The Ashcombe family, Little Compton",
 		"standing": "good"
 	},
@@ -8191,7 +8191,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch., W.M."
 		],
-		"exuvia": "Signet cabinet, the Haverill collection, Little Compton",
+		"exuvia": "Set in a signet ring, Little Compton",
 		"owner": "The Haverill family, Little Compton",
 		"standing": "good"
 	},
@@ -8221,7 +8221,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00036",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1967",
+		"exuvia": "Went to another family, 1967",
 		"owner": "The Ellery family, Upperville",
 		"standing": "good"
 	},
@@ -8236,7 +8236,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00036",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Signet cabinet, the Merriman collection, Upperville",
+		"exuvia": "Set in a signet ring, Upperville",
 		"owner": "The Merriman family, Upperville",
 		"standing": "good"
 	},
@@ -8253,7 +8253,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch."
 		],
-		"exuvia": "Transferred, 1998",
+		"exuvia": "Went to another family, 1998",
 		"owner": "The Pemberton family, Upperville",
 		"standing": "good"
 	},
@@ -8300,7 +8300,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00211",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1968",
+		"exuvia": "Went to another family, 1968",
 		"owner": "The Penhallow family, Allegheny",
 		"standing": "good"
 	},
@@ -8317,7 +8317,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"W.M."
 		],
-		"exuvia": "Freestanding, the long gallery at Aiken",
+		"exuvia": "Long gallery, Aiken",
 		"owner": "The Calloway family, Aiken",
 		"standing": "good",
 		"notable": true
@@ -8335,7 +8335,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch."
 		],
-		"exuvia": "Freestanding, the hall at Allegheny",
+		"exuvia": "Front hall, Allegheny",
 		"owner": "The Breckin family, Allegheny",
 		"standing": "good"
 	},
@@ -8352,7 +8352,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch., W.M."
 		],
-		"exuvia": "Transferred, 1999",
+		"exuvia": "Went to another family, 1999",
 		"owner": "The Penhallow family, Allegheny",
 		"standing": "good"
 	},
@@ -8367,7 +8367,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00211",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Merriman collection",
+		"exuvia": "On a stand, the Merriman collection",
 		"owner": "The Merriman family, Allegheny",
 		"standing": "good"
 	},
@@ -8382,7 +8382,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00207",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1974",
+		"exuvia": "Went to another family, 1974",
 		"owner": "The Breckin family, Allegheny",
 		"standing": "good"
 	},
@@ -8397,7 +8397,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00213",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Breckin collection",
+		"exuvia": "On a stand, the Breckin collection",
 		"owner": "The Breckin family, Prides Crossing",
 		"standing": "good"
 	},
@@ -8412,7 +8412,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00215",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Prides Crossing",
+		"exuvia": "Long gallery, Prides Crossing",
 		"owner": "The Garrick family, Prides Crossing",
 		"standing": "good"
 	},
@@ -8457,7 +8457,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00213",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Garrick collection",
+		"exuvia": "On a stand, the Garrick collection",
 		"owner": "The Garrick family, Prides Crossing",
 		"standing": "good"
 	},
@@ -8474,7 +8474,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch."
 		],
-		"exuvia": "Freestanding, the long gallery at Prides Crossing",
+		"exuvia": "Long gallery, Prides Crossing",
 		"owner": "The Wyck family, Prides Crossing",
 		"standing": "good"
 	},
@@ -8489,7 +8489,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00221",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Sallowes collection",
+		"exuvia": "On a stand, the Sallowes collection",
 		"owner": "The Sallowes family, Lenox",
 		"standing": "good"
 	},
@@ -8504,7 +8504,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00223",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Lisle collection",
+		"exuvia": "On a stand, the Lisle collection",
 		"owner": "The Lisle family, Lenox",
 		"standing": "good"
 	},
@@ -8519,7 +8519,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00219",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Holloway collection",
+		"exuvia": "On a stand, the Holloway collection",
 		"owner": "The Holloway family, Lenox",
 		"standing": "good"
 	},
@@ -8534,7 +8534,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00221",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at Lenox",
+		"exuvia": "Front hall, Lenox",
 		"owner": "The Sallowes family, Lenox",
 		"standing": "good"
 	},
@@ -8549,7 +8549,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00221",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Lenox",
+		"exuvia": "Long gallery, Lenox",
 		"owner": "The Lisle family, Lenox",
 		"standing": "good"
 	},
@@ -8564,7 +8564,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00223",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at Lenox",
+		"exuvia": "Front hall, Lenox",
 		"owner": "The Holloway family, Lenox",
 		"standing": "good"
 	},
@@ -8579,7 +8579,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00227",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1970",
+		"exuvia": "Went to another family, 1970",
 		"owner": "The Sedgwick-Hale family, Millbrook",
 		"standing": "good"
 	},
@@ -8639,7 +8639,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00227",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 2001",
+		"exuvia": "Went to another family, 2001",
 		"owner": "The Pemberton family, Millbrook",
 		"standing": "good"
 	},
@@ -8654,7 +8654,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00227",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1988",
+		"exuvia": "Went to another family, 1988",
 		"owner": "The Dunmore family, Millbrook",
 		"standing": "good"
 	},
@@ -8699,7 +8699,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00231",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at Narragansett",
+		"exuvia": "Front hall, Narragansett",
 		"owner": "The Haverill family, Narragansett",
 		"standing": "good"
 	},
@@ -8731,7 +8731,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch., W.M."
 		],
-		"exuvia": "Transferred, 1976",
+		"exuvia": "Went to another family, 1976",
 		"owner": "The Thackery family, Narragansett",
 		"standing": "good"
 	},
@@ -8761,7 +8761,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00038",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1985",
+		"exuvia": "Went to another family, 1985",
 		"owner": "The Holloway family, Edisto",
 		"standing": "good"
 	},
@@ -8945,7 +8945,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00237",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1985",
+		"exuvia": "Went to another family, 1985",
 		"owner": "The Fairlie family, Sewickley",
 		"standing": "good"
 	},
@@ -8960,7 +8960,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00237",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Breckin collection",
+		"exuvia": "On a stand, the Breckin collection",
 		"owner": "The Breckin family, Sewickley",
 		"standing": "good"
 	},
@@ -8992,7 +8992,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00237",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at Sewickley",
+		"exuvia": "Front hall, Sewickley",
 		"owner": "The Fairlie family, Sewickley",
 		"standing": "good"
 	},
@@ -9007,7 +9007,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00237",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at Sewickley",
+		"exuvia": "Front hall, Sewickley",
 		"owner": "The Breckin family, Sewickley",
 		"standing": "good"
 	},
@@ -9022,7 +9022,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00239",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Lattimore collection",
+		"exuvia": "On a stand, the Lattimore collection",
 		"owner": "The Lattimore family, Sewickley",
 		"standing": "good"
 	},
@@ -9127,7 +9127,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00253",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1986",
+		"exuvia": "Went to another family, 1986",
 		"owner": "The Peverell family, North Haven",
 		"standing": "good"
 	},
@@ -9142,7 +9142,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00253",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at North Haven",
+		"exuvia": "Front hall, North Haven",
 		"owner": "The Ravenel family, North Haven",
 		"standing": "good"
 	},
@@ -9174,7 +9174,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch."
 		],
-		"exuvia": "Freestanding, the hall at North Haven",
+		"exuvia": "Front hall, North Haven",
 		"owner": "The Peverell family, North Haven",
 		"standing": "good"
 	},
@@ -9204,7 +9204,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00249",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at North Haven",
+		"exuvia": "Long gallery, North Haven",
 		"owner": "The Bayard-Lisle family, North Haven",
 		"standing": "good"
 	},
@@ -9326,7 +9326,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00261",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Signet cabinet, the Tolland collection, Newport",
+		"exuvia": "Set in a signet ring, Newport",
 		"owner": "The Tolland family, Newport",
 		"standing": "good"
 	},
@@ -9343,7 +9343,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"W.M."
 		],
-		"exuvia": "Microcada cabinet, the Holloway collection",
+		"exuvia": "Miniature case, the Holloway collection",
 		"owner": "The Holloway family, Newport",
 		"standing": "good"
 	},
@@ -9358,7 +9358,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00263",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Signet cabinet, the Ostrander collection, Newport",
+		"exuvia": "Set in a signet ring, Newport",
 		"owner": "The Ostrander family, Newport",
 		"standing": "good"
 	},
@@ -9373,7 +9373,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00263",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Signet cabinet, the Tolland collection, Newport",
+		"exuvia": "Set in a signet ring, Newport",
 		"owner": "The Tolland family, Newport",
 		"standing": "good"
 	},
@@ -9390,7 +9390,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch."
 		],
-		"exuvia": "Transferred, 1973",
+		"exuvia": "Went to another family, 1973",
 		"owner": "The Holloway family, Newport",
 		"standing": "good"
 	},
@@ -9437,7 +9437,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch."
 		],
-		"exuvia": "Freestanding, the Ormsby collection",
+		"exuvia": "On a stand, the Ormsby collection",
 		"owner": "The Ormsby family, Northern",
 		"standing": "good"
 	},
@@ -9482,7 +9482,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "F-17·00158",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at Northern",
+		"exuvia": "Front hall, Northern",
 		"owner": "The Ormsby family, Northern",
 		"standing": "good"
 	},
@@ -9587,7 +9587,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00275",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Thackery collection",
+		"exuvia": "Miniature case, the Thackery collection",
 		"owner": "The Thackery family, Tuxedo",
 		"standing": "good"
 	},
@@ -9617,7 +9617,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00277",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Signet cabinet, the Haddon collection, Tuxedo",
+		"exuvia": "Set in a signet ring, Tuxedo",
 		"owner": "The Haddon family, Tuxedo",
 		"standing": "good"
 	},
@@ -9632,7 +9632,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00273",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Tuxedo",
+		"exuvia": "Long gallery, Tuxedo",
 		"owner": "The Thackery family, Tuxedo",
 		"standing": "good"
 	},
@@ -9769,7 +9769,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00048",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Ridley collection",
+		"exuvia": "Miniature case, the Ridley collection",
 		"owner": "The Ridley family, Beacon Hill",
 		"standing": "good"
 	},
@@ -9814,7 +9814,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00044",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1993",
+		"exuvia": "Went to another family, 1993",
 		"owner": "The Ridley family, Beacon Hill",
 		"standing": "good"
 	},
@@ -9829,7 +9829,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00046",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Wyck collection",
+		"exuvia": "Miniature case, the Wyck collection",
 		"owner": "The Wyck family, Beacon Hill",
 		"standing": "good"
 	},
@@ -9968,7 +9968,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"W.M."
 		],
-		"exuvia": "Signet cabinet, the Fairlie collection, Ligonier",
+		"exuvia": "Set in a signet ring, Ligonier",
 		"owner": "The Fairlie family, Ligonier",
 		"standing": "good"
 	},
@@ -9983,7 +9983,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00052",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 2006",
+		"exuvia": "Went to another family, 2006",
 		"owner": "The Ardsley family, Ligonier",
 		"standing": "good"
 	},
@@ -9998,7 +9998,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00054",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Signet cabinet, the Quarles collection, Ligonier",
+		"exuvia": "Set in a signet ring, Ligonier",
 		"owner": "The Quarles family, Ligonier",
 		"standing": "good"
 	},
@@ -10045,7 +10045,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00289",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Ravenel collection",
+		"exuvia": "On a stand, the Ravenel collection",
 		"owner": "The Ravenel family, Middleburg",
 		"standing": "good"
 	},
@@ -10060,7 +10060,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00287",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Middleburg",
+		"exuvia": "Long gallery, Middleburg",
 		"owner": "The Fairlie family, Middleburg",
 		"standing": "good"
 	},
@@ -10077,7 +10077,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch., W.M."
 		],
-		"exuvia": "Freestanding, the long gallery at Middleburg",
+		"exuvia": "Long gallery, Middleburg",
 		"owner": "The Ellery family, Middleburg",
 		"standing": "good"
 	},
@@ -10092,7 +10092,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00289",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at Middleburg",
+		"exuvia": "Front hall, Middleburg",
 		"owner": "The Ravenel family, Middleburg",
 		"standing": "good"
 	},
@@ -10137,7 +10137,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00291",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1995",
+		"exuvia": "Went to another family, 1995",
 		"owner": "The Penhallow family, Middleburg",
 		"standing": "good"
 	},
@@ -10182,7 +10182,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00293",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1977",
+		"exuvia": "Went to another family, 1977",
 		"owner": "The Penhallow family, Middleburg",
 		"standing": "good"
 	},
@@ -10259,7 +10259,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00301",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1995",
+		"exuvia": "Went to another family, 1995",
 		"owner": "The Ellery family, Shenandoah",
 		"standing": "good"
 	},
@@ -10274,7 +10274,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00297",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Shenandoah",
+		"exuvia": "Long gallery, Shenandoah",
 		"owner": "The Wyck family, Shenandoah",
 		"standing": "good"
 	},
@@ -10289,7 +10289,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00297",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Mortlake collection",
+		"exuvia": "On a stand, the Mortlake collection",
 		"owner": "The Mortlake family, Shenandoah",
 		"standing": "good"
 	},
@@ -10364,7 +10364,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00303",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Signet cabinet, the Ellery collection, Piedmont",
+		"exuvia": "Set in a signet ring, Piedmont",
 		"owner": "The Ellery family, Piedmont",
 		"standing": "good"
 	},
@@ -10394,7 +10394,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00303",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Ravenel collection",
+		"exuvia": "Miniature case, the Ravenel collection",
 		"owner": "The Ravenel family, Piedmont",
 		"standing": "good"
 	},
@@ -10424,7 +10424,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00060",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1986",
+		"exuvia": "Went to another family, 1986",
 		"owner": "The Ellery family, Upperville",
 		"standing": "good"
 	},
@@ -10473,7 +10473,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch., W.M."
 		],
-		"exuvia": "Signet cabinet, the Ellery collection, Upperville",
+		"exuvia": "Set in a signet ring, Upperville",
 		"owner": "The Ellery family, Upperville",
 		"standing": "good"
 	},
@@ -10503,7 +10503,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00313",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Calloway collection",
+		"exuvia": "On a stand, the Calloway collection",
 		"owner": "The Calloway family, Fishers Island",
 		"standing": "good"
 	},
@@ -10533,7 +10533,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00311",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Fishers Island",
+		"exuvia": "Long gallery, Fishers Island",
 		"owner": "The Calloway family, Fishers Island",
 		"standing": "good"
 	},
@@ -10578,7 +10578,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00309",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Calloway collection",
+		"exuvia": "On a stand, the Calloway collection",
 		"owner": "The Calloway family, Fishers Island",
 		"standing": "good"
 	},
@@ -10610,7 +10610,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00315",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 2012",
+		"exuvia": "Went to another family, 2012",
 		"owner": "The Haverill family, Wye",
 		"standing": "good"
 	},
@@ -10732,7 +10732,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch."
 		],
-		"exuvia": "Freestanding, the hall at Brandywine",
+		"exuvia": "Front hall, Brandywine",
 		"owner": "The Bayard-Lisle family, Brandywine",
 		"standing": "good"
 	},
@@ -10749,7 +10749,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch., W.M."
 		],
-		"exuvia": "Freestanding, the long gallery at Brandywine",
+		"exuvia": "Long gallery, Brandywine",
 		"owner": "The Stanwood family, Brandywine",
 		"standing": "good"
 	},
@@ -10764,7 +10764,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00323",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Brandywine",
+		"exuvia": "Long gallery, Brandywine",
 		"owner": "The Calloway family, Brandywine",
 		"standing": "good"
 	},
@@ -10856,7 +10856,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00331",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 2000",
+		"exuvia": "Went to another family, 2000",
 		"owner": "The Ardsley family, Matinecock",
 		"standing": "good"
 	},
@@ -10873,7 +10873,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"W.M."
 		],
-		"exuvia": "Microcada cabinet, the Haddon collection",
+		"exuvia": "Miniature case, the Haddon collection",
 		"owner": "The Haddon family, Dutchess",
 		"standing": "good"
 	},
@@ -10903,7 +10903,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00333",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Peverell collection",
+		"exuvia": "Miniature case, the Peverell collection",
 		"owner": "The Peverell family, Dutchess",
 		"standing": "good"
 	},
@@ -10918,7 +10918,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00337",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Haddon collection",
+		"exuvia": "Miniature case, the Haddon collection",
 		"owner": "The Haddon family, Dutchess",
 		"standing": "good"
 	},
@@ -10950,7 +10950,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch."
 		],
-		"exuvia": "Signet cabinet, the Peverell collection, Dutchess",
+		"exuvia": "Set in a signet ring, Dutchess",
 		"owner": "The Peverell family, Dutchess",
 		"standing": "good"
 	},
@@ -11012,7 +11012,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch."
 		],
-		"exuvia": "Transferred, 1997",
+		"exuvia": "Went to another family, 1997",
 		"owner": "The Ormsby family, Mackinac",
 		"standing": "good"
 	},
@@ -11102,7 +11102,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00349",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1998",
+		"exuvia": "Went to another family, 1998",
 		"owner": "The Calloway family, Aiken",
 		"standing": "good"
 	},
@@ -11134,7 +11134,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00349",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1990",
+		"exuvia": "Went to another family, 1990",
 		"owner": "The Ostrander family, Aiken",
 		"standing": "good"
 	},
@@ -11149,7 +11149,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00064",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1984",
+		"exuvia": "Went to another family, 1984",
 		"owner": "The Holloway family, Edisto",
 		"standing": "good"
 	},
@@ -11211,7 +11211,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00066",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 2015",
+		"exuvia": "Went to another family, 2015",
 		"owner": "The Sedgwick-Hale family, Edisto",
 		"standing": "good"
 	},
@@ -11241,7 +11241,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00351",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Ashcombe collection",
+		"exuvia": "Miniature case, the Ashcombe collection",
 		"owner": "The Ashcombe family, Little Compton",
 		"standing": "good"
 	},
@@ -11273,7 +11273,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00351",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 2002",
+		"exuvia": "Went to another family, 2002",
 		"owner": "The Haverill family, Little Compton",
 		"standing": "good"
 	},
@@ -11305,7 +11305,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch."
 		],
-		"exuvia": "Transferred, 2015",
+		"exuvia": "Went to another family, 2015",
 		"owner": "The Stanwood family, Little Compton",
 		"standing": "good"
 	},
@@ -11337,7 +11337,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch."
 		],
-		"exuvia": "Freestanding, the long gallery at Allegheny",
+		"exuvia": "Long gallery, Allegheny",
 		"owner": "The Penhallow family, Allegheny",
 		"standing": "good"
 	},
@@ -11354,7 +11354,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch."
 		],
-		"exuvia": "Freestanding, the hall at Allegheny",
+		"exuvia": "Front hall, Allegheny",
 		"owner": "The Merriman family, Allegheny",
 		"standing": "good"
 	},
@@ -11384,7 +11384,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00357",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Allegheny",
+		"exuvia": "Long gallery, Allegheny",
 		"owner": "The Penhallow family, Allegheny",
 		"standing": "good"
 	},
@@ -11416,7 +11416,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"W.M."
 		],
-		"exuvia": "Freestanding, the hall at Allegheny",
+		"exuvia": "Front hall, Allegheny",
 		"owner": "The Breckin family, Allegheny",
 		"standing": "good"
 	},
@@ -11480,7 +11480,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch."
 		],
-		"exuvia": "Transferred, 1991",
+		"exuvia": "Went to another family, 1991",
 		"owner": "The Breckin family, Prides Crossing",
 		"standing": "good"
 	},
@@ -11495,7 +11495,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00365",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Garrick collection",
+		"exuvia": "On a stand, the Garrick collection",
 		"owner": "The Garrick family, Prides Crossing",
 		"standing": "good"
 	},
@@ -11510,7 +11510,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00367",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Wyck collection",
+		"exuvia": "On a stand, the Wyck collection",
 		"owner": "The Wyck family, Prides Crossing",
 		"standing": "good"
 	},
@@ -11525,7 +11525,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00373",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Lenox",
+		"exuvia": "Long gallery, Lenox",
 		"owner": "The Sallowes family, Lenox",
 		"standing": "good"
 	},
@@ -11540,7 +11540,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00369",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Lisle collection",
+		"exuvia": "On a stand, the Lisle collection",
 		"owner": "The Lisle family, Lenox",
 		"standing": "good"
 	},
@@ -11572,7 +11572,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00373",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Sallowes collection",
+		"exuvia": "On a stand, the Sallowes collection",
 		"owner": "The Sallowes family, Lenox",
 		"standing": "good"
 	},
@@ -11587,7 +11587,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00373",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at Lenox",
+		"exuvia": "Front hall, Lenox",
 		"owner": "The Lisle family, Lenox",
 		"standing": "good"
 	},
@@ -11604,7 +11604,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"W.M."
 		],
-		"exuvia": "Freestanding, the long gallery at Lenox",
+		"exuvia": "Long gallery, Lenox",
 		"owner": "The Holloway family, Lenox",
 		"standing": "good"
 	},
@@ -11728,7 +11728,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch."
 		],
-		"exuvia": "Freestanding, the hall at Narragansett",
+		"exuvia": "Front hall, Narragansett",
 		"owner": "The Thackery family, Narragansett",
 		"standing": "good"
 	},
@@ -11788,7 +11788,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00383",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Haverill collection",
+		"exuvia": "On a stand, the Haverill collection",
 		"owner": "The Haverill family, Narragansett",
 		"standing": "good"
 	},
@@ -11818,7 +11818,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00068",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1994",
+		"exuvia": "Went to another family, 1994",
 		"owner": "The Wyck family, Beacon Hill",
 		"standing": "good"
 	},
@@ -11848,7 +11848,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00070",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Ridley collection",
+		"exuvia": "Miniature case, the Ridley collection",
 		"owner": "The Ridley family, Beacon Hill",
 		"standing": "good"
 	},
@@ -11863,7 +11863,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00068",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Wyck collection",
+		"exuvia": "Miniature case, the Wyck collection",
 		"owner": "The Wyck family, Beacon Hill",
 		"standing": "good"
 	},
@@ -11893,7 +11893,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00078",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Quarles collection",
+		"exuvia": "Miniature case, the Quarles collection",
 		"owner": "The Quarles family, Ligonier",
 		"standing": "good"
 	},
@@ -11908,7 +11908,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00078",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Signet cabinet, the Fairlie collection, Ligonier",
+		"exuvia": "Set in a signet ring, Ligonier",
 		"owner": "The Fairlie family, Ligonier",
 		"standing": "good"
 	},
@@ -11955,7 +11955,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00078",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1994",
+		"exuvia": "Went to another family, 1994",
 		"owner": "The Fairlie family, Ligonier",
 		"standing": "good"
 	},
@@ -12017,7 +12017,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00391",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 2006",
+		"exuvia": "Went to another family, 2006",
 		"owner": "The Bayard-Lisle family, Maryland",
 		"standing": "good"
 	},
@@ -12094,7 +12094,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00397",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1988",
+		"exuvia": "Went to another family, 1988",
 		"owner": "The Breckin family, Sewickley",
 		"standing": "good"
 	},
@@ -12109,7 +12109,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00393",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Lattimore collection",
+		"exuvia": "On a stand, the Lattimore collection",
 		"owner": "The Lattimore family, Sewickley",
 		"standing": "good"
 	},
@@ -12124,7 +12124,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00395",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Sewickley",
+		"exuvia": "Long gallery, Sewickley",
 		"owner": "The Fairlie family, Sewickley",
 		"standing": "good"
 	},
@@ -12139,7 +12139,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00393",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1988",
+		"exuvia": "Went to another family, 1988",
 		"owner": "The Breckin family, Sewickley",
 		"standing": "good"
 	},
@@ -12216,7 +12216,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch."
 		],
-		"exuvia": "Transferred, 2020",
+		"exuvia": "Went to another family, 2020",
 		"owner": "The Holloway family, Middleburg",
 		"standing": "good"
 	},
@@ -12231,7 +12231,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00399",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1989",
+		"exuvia": "Went to another family, 1989",
 		"owner": "The Thackery family, Middleburg",
 		"standing": "good"
 	},
@@ -12263,7 +12263,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00409",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at North Haven",
+		"exuvia": "Long gallery, North Haven",
 		"owner": "The Peverell family, North Haven",
 		"standing": "good"
 	},
@@ -12278,7 +12278,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00409",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Ravenel collection",
+		"exuvia": "On a stand, the Ravenel collection",
 		"owner": "The Ravenel family, North Haven",
 		"standing": "good"
 	},
@@ -12325,7 +12325,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"W.M."
 		],
-		"exuvia": "Freestanding, the Ravenel collection",
+		"exuvia": "On a stand, the Ravenel collection",
 		"owner": "The Ravenel family, North Haven",
 		"standing": "good"
 	},
@@ -12370,7 +12370,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00415",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Signet cabinet, the Ostrander collection, Hudson",
+		"exuvia": "Set in a signet ring, Hudson",
 		"owner": "The Ostrander family, Hudson",
 		"standing": "good"
 	},
@@ -12400,7 +12400,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00415",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 2004",
+		"exuvia": "Went to another family, 2004",
 		"owner": "The Peverell family, Hudson",
 		"standing": "good"
 	},
@@ -12415,7 +12415,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00411",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1990",
+		"exuvia": "Went to another family, 1990",
 		"owner": "The Ostrander family, Hudson",
 		"standing": "good"
 	},
@@ -12430,7 +12430,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00411",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Signet cabinet, the Vance collection, Hudson",
+		"exuvia": "Set in a signet ring, Hudson",
 		"owner": "The Vance family, Hudson",
 		"standing": "good"
 	},
@@ -12445,7 +12445,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00421",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Signet cabinet, the Ostrander collection, Newport",
+		"exuvia": "Set in a signet ring, Newport",
 		"owner": "The Ostrander family, Newport",
 		"standing": "good"
 	},
@@ -12460,7 +12460,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00421",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1996",
+		"exuvia": "Went to another family, 1996",
 		"owner": "The Tolland family, Newport",
 		"standing": "good"
 	},
@@ -12507,7 +12507,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch., W.M."
 		],
-		"exuvia": "Transferred, 2021",
+		"exuvia": "Went to another family, 2021",
 		"owner": "The Tolland family, Newport",
 		"standing": "good"
 	},
@@ -12524,7 +12524,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch."
 		],
-		"exuvia": "Microcada cabinet, the Holloway collection",
+		"exuvia": "Miniature case, the Holloway collection",
 		"owner": "The Holloway family, Newport",
 		"standing": "good"
 	},
@@ -12539,7 +12539,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00427",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Bayard-Lisle collection",
+		"exuvia": "On a stand, the Bayard-Lisle collection",
 		"owner": "The Bayard-Lisle family, Northern",
 		"standing": "good"
 	},
@@ -12554,7 +12554,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00423",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at Northern",
+		"exuvia": "Front hall, Northern",
 		"owner": "The Holloway family, Northern",
 		"standing": "good"
 	},
@@ -12571,7 +12571,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch., W.M."
 		],
-		"exuvia": "Freestanding, the hall at Northern",
+		"exuvia": "Front hall, Northern",
 		"owner": "The Ormsby family, Northern",
 		"standing": "good"
 	},
@@ -12586,7 +12586,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00425",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 2004",
+		"exuvia": "Went to another family, 2004",
 		"owner": "The Bayard-Lisle family, Northern",
 		"standing": "good"
 	},
@@ -12678,7 +12678,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00429",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 1996",
+		"exuvia": "Went to another family, 1996",
 		"owner": "The Lisle family, Tidewater",
 		"standing": "good"
 	},
@@ -12723,7 +12723,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00435",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at Tuxedo",
+		"exuvia": "Front hall, Tuxedo",
 		"owner": "The Thackery family, Tuxedo",
 		"standing": "good"
 	},
@@ -12738,7 +12738,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00435",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Tuxedo",
+		"exuvia": "Long gallery, Tuxedo",
 		"owner": "The Penhallow family, Tuxedo",
 		"standing": "good"
 	},
@@ -12755,7 +12755,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch."
 		],
-		"exuvia": "Freestanding, the long gallery at Tuxedo",
+		"exuvia": "Long gallery, Tuxedo",
 		"owner": "The Haddon family, Tuxedo",
 		"standing": "good"
 	},
@@ -12770,7 +12770,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00435",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Tuxedo",
+		"exuvia": "Long gallery, Tuxedo",
 		"owner": "The Thackery family, Tuxedo",
 		"standing": "good"
 	},
@@ -13010,7 +13010,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00455",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Fairlie collection",
+		"exuvia": "On a stand, the Fairlie collection",
 		"owner": "The Fairlie family, Middleburg",
 		"standing": "good"
 	},
@@ -13025,7 +13025,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00453",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at Middleburg",
+		"exuvia": "Front hall, Middleburg",
 		"owner": "The Ellery family, Middleburg",
 		"standing": "good"
 	},
@@ -13055,7 +13055,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00453",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 2011",
+		"exuvia": "Went to another family, 2011",
 		"owner": "The Fairlie family, Middleburg",
 		"standing": "good"
 	},
@@ -13085,7 +13085,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00080",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 2007",
+		"exuvia": "Went to another family, 2007",
 		"owner": "The Pemberton family, Upperville",
 		"standing": "good"
 	},
@@ -13160,7 +13160,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00082",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Merriman collection",
+		"exuvia": "Miniature case, the Merriman collection",
 		"owner": "The Merriman family, Upperville",
 		"standing": "good"
 	},
@@ -13237,7 +13237,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00461",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 2012",
+		"exuvia": "Went to another family, 2012",
 		"owner": "The Ostrander family, Middleburg",
 		"standing": "good"
 	},
@@ -13267,7 +13267,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00465",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at Shenandoah",
+		"exuvia": "Front hall, Shenandoah",
 		"owner": "The Wyck family, Shenandoah",
 		"standing": "good"
 	},
@@ -13284,7 +13284,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch."
 		],
-		"exuvia": "Freestanding, the long gallery at Shenandoah",
+		"exuvia": "Long gallery, Shenandoah",
 		"owner": "The Mortlake family, Shenandoah",
 		"standing": "good"
 	},
@@ -13314,7 +13314,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00469",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 2025",
+		"exuvia": "Went to another family, 2025",
 		"owner": "The Wyck family, Shenandoah",
 		"standing": "good"
 	},
@@ -13329,7 +13329,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00469",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Shenandoah",
+		"exuvia": "Long gallery, Shenandoah",
 		"owner": "The Mortlake family, Shenandoah",
 		"standing": "good"
 	},
@@ -13346,7 +13346,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch., W.M."
 		],
-		"exuvia": "Freestanding, the long gallery at Shenandoah",
+		"exuvia": "Long gallery, Shenandoah",
 		"owner": "The Ellery family, Shenandoah",
 		"standing": "good"
 	},
@@ -13361,7 +13361,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00475",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Signet cabinet, the Ellery collection, Piedmont",
+		"exuvia": "Set in a signet ring, Piedmont",
 		"owner": "The Ellery family, Piedmont",
 		"standing": "good"
 	},
@@ -13391,7 +13391,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00471",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Ravenel collection",
+		"exuvia": "Miniature case, the Ravenel collection",
 		"owner": "The Ravenel family, Piedmont",
 		"standing": "good"
 	},
@@ -13406,7 +13406,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00471",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Ellery collection",
+		"exuvia": "Miniature case, the Ellery collection",
 		"owner": "The Ellery family, Piedmont",
 		"standing": "good"
 	},
@@ -13498,7 +13498,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00090",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 2011",
+		"exuvia": "Went to another family, 2011",
 		"owner": "The Holloway family, Edisto",
 		"standing": "good"
 	},
@@ -13543,7 +13543,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00481",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at Fishers Island",
+		"exuvia": "Front hall, Fishers Island",
 		"owner": "The Calloway family, Fishers Island",
 		"standing": "good"
 	},
@@ -13560,7 +13560,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch., W.M."
 		],
-		"exuvia": "Freestanding, the long gallery at Fishers Island",
+		"exuvia": "Long gallery, Fishers Island",
 		"owner": "The Pemberton family, Fishers Island",
 		"standing": "good"
 	},
@@ -13590,7 +13590,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00479",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Fishers Island",
+		"exuvia": "Long gallery, Fishers Island",
 		"owner": "The Calloway family, Fishers Island",
 		"standing": "good"
 	},
@@ -13605,7 +13605,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00479",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Fishers Island",
+		"exuvia": "Long gallery, Fishers Island",
 		"owner": "The Pemberton family, Fishers Island",
 		"standing": "good"
 	},
@@ -13622,7 +13622,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch."
 		],
-		"exuvia": "Freestanding, the long gallery at Fishers Island",
+		"exuvia": "Long gallery, Fishers Island",
 		"owner": "The Calloway family, Fishers Island",
 		"standing": "good"
 	},
@@ -13637,7 +13637,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00485",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 2004",
+		"exuvia": "Went to another family, 2004",
 		"owner": "The Peverell family, Wye",
 		"standing": "good"
 	},
@@ -13729,7 +13729,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00493",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at Brandywine",
+		"exuvia": "Front hall, Brandywine",
 		"owner": "The Bayard-Lisle family, Brandywine",
 		"standing": "good"
 	},
@@ -13761,7 +13761,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch."
 		],
-		"exuvia": "Freestanding, the hall at Brandywine",
+		"exuvia": "Front hall, Brandywine",
 		"owner": "The Calloway family, Brandywine",
 		"standing": "good"
 	},
@@ -13776,7 +13776,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00489",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Brandywine",
+		"exuvia": "Long gallery, Brandywine",
 		"owner": "The Bayard-Lisle family, Brandywine",
 		"standing": "good"
 	},
@@ -13791,7 +13791,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00493",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Stanwood collection",
+		"exuvia": "On a stand, the Stanwood collection",
 		"owner": "The Stanwood family, Brandywine",
 		"standing": "good"
 	},
@@ -13806,7 +13806,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00491",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Calloway collection",
+		"exuvia": "On a stand, the Calloway collection",
 		"owner": "The Calloway family, Brandywine",
 		"standing": "good"
 	},
@@ -13930,7 +13930,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00503",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Signet cabinet, the Pemberton collection, Dutchess",
+		"exuvia": "Set in a signet ring, Dutchess",
 		"owner": "The Pemberton family, Dutchess",
 		"standing": "good"
 	},
@@ -13960,7 +13960,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00505",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Haddon collection",
+		"exuvia": "Miniature case, the Haddon collection",
 		"owner": "The Haddon family, Dutchess",
 		"standing": "good"
 	},
@@ -13992,7 +13992,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00505",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Signet cabinet, the Peverell collection, Dutchess",
+		"exuvia": "Set in a signet ring, Dutchess",
 		"owner": "The Peverell family, Dutchess",
 		"standing": "good"
 	},
@@ -14131,7 +14131,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00517",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 2019",
+		"exuvia": "Went to another family, 2019",
 		"owner": "The Ostrander family, Aiken",
 		"standing": "good"
 	},
@@ -14146,7 +14146,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00515",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 2032",
+		"exuvia": "Went to another family, 2032",
 		"owner": "The Calloway family, Aiken",
 		"standing": "good"
 	},
@@ -14191,7 +14191,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00092",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Signet cabinet, the Ridley collection, Beacon Hill",
+		"exuvia": "Set in a signet ring, Beacon Hill",
 		"owner": "The Ridley family, Beacon Hill",
 		"standing": "good"
 	},
@@ -14206,7 +14206,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00092",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 2019",
+		"exuvia": "Went to another family, 2019",
 		"owner": "The Wyck family, Beacon Hill",
 		"standing": "good"
 	},
@@ -14238,7 +14238,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00092",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Signet cabinet, the Ridley collection, Beacon Hill",
+		"exuvia": "Set in a signet ring, Beacon Hill",
 		"owner": "The Ridley family, Beacon Hill",
 		"standing": "good"
 	},
@@ -14253,7 +14253,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00094",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Signet cabinet, the Wyck collection, Beacon Hill",
+		"exuvia": "Set in a signet ring, Beacon Hill",
 		"owner": "The Wyck family, Beacon Hill",
 		"standing": "good"
 	},
@@ -14268,7 +14268,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00092",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Lisle collection",
+		"exuvia": "Miniature case, the Lisle collection",
 		"owner": "The Lisle family, Beacon Hill",
 		"standing": "good"
 	},
@@ -14317,7 +14317,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00102",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Transferred, 2032",
+		"exuvia": "Went to another family, 2032",
 		"owner": "The Ardsley family, Ligonier",
 		"standing": "good"
 	},
@@ -14377,7 +14377,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00519",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Ashcombe collection",
+		"exuvia": "Miniature case, the Ashcombe collection",
 		"owner": "The Ashcombe family, Little Compton",
 		"standing": "good"
 	},
@@ -14409,7 +14409,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00523",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Signet cabinet, the Haverill collection, Little Compton",
+		"exuvia": "Set in a signet ring, Little Compton",
 		"owner": "The Haverill family, Little Compton",
 		"standing": "good"
 	},
@@ -14424,7 +14424,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00523",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Signet cabinet, the Ashcombe collection, Little Compton",
+		"exuvia": "Set in a signet ring, Little Compton",
 		"owner": "The Ashcombe family, Little Compton",
 		"standing": "good"
 	},
@@ -14471,7 +14471,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"W.M."
 		],
-		"exuvia": "Freestanding, the long gallery at Allegheny",
+		"exuvia": "Long gallery, Allegheny",
 		"owner": "The Penhallow family, Allegheny",
 		"standing": "good"
 	},
@@ -14488,7 +14488,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch., W.M."
 		],
-		"exuvia": "Transferred, 2020",
+		"exuvia": "Went to another family, 2020",
 		"owner": "The Merriman family, Allegheny",
 		"standing": "good"
 	},
@@ -14505,7 +14505,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"W.M."
 		],
-		"exuvia": "Freestanding, the long gallery at Allegheny",
+		"exuvia": "Long gallery, Allegheny",
 		"owner": "The Breckin family, Allegheny",
 		"standing": "good"
 	},
@@ -14522,7 +14522,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch."
 		],
-		"exuvia": "Freestanding, the hall at Allegheny",
+		"exuvia": "Front hall, Allegheny",
 		"owner": "The Penhallow family, Allegheny",
 		"standing": "good"
 	},
@@ -14537,7 +14537,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00525",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Allegheny",
+		"exuvia": "Long gallery, Allegheny",
 		"owner": "The Merriman family, Allegheny",
 		"standing": "good"
 	},
@@ -14552,7 +14552,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00529",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Breckin collection",
+		"exuvia": "On a stand, the Breckin collection",
 		"owner": "The Breckin family, Allegheny",
 		"standing": "good"
 	},
@@ -14584,7 +14584,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch."
 		],
-		"exuvia": "Freestanding, the Garrick collection",
+		"exuvia": "On a stand, the Garrick collection",
 		"owner": "The Garrick family, Prides Crossing",
 		"standing": "good"
 	},
@@ -14599,7 +14599,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00531",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at Prides Crossing",
+		"exuvia": "Front hall, Prides Crossing",
 		"owner": "The Wyck family, Prides Crossing",
 		"standing": "good"
 	},
@@ -14629,7 +14629,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00535",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at Prides Crossing",
+		"exuvia": "Front hall, Prides Crossing",
 		"owner": "The Garrick family, Prides Crossing",
 		"standing": "good"
 	},
@@ -14663,7 +14663,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch."
 		],
-		"exuvia": "Freestanding, the long gallery at Lenox",
+		"exuvia": "Long gallery, Lenox",
 		"owner": "The Sallowes family, Lenox",
 		"standing": "good"
 	},
@@ -14697,7 +14697,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch."
 		],
-		"exuvia": "Freestanding, the long gallery at Lenox",
+		"exuvia": "Long gallery, Lenox",
 		"owner": "The Holloway family, Lenox",
 		"standing": "good"
 	},
@@ -14729,7 +14729,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"W.M."
 		],
-		"exuvia": "Freestanding, the hall at Lenox",
+		"exuvia": "Front hall, Lenox",
 		"owner": "The Lisle family, Lenox",
 		"standing": "good"
 	},
@@ -14853,7 +14853,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch., W.M."
 		],
-		"exuvia": "Freestanding, the Peverell collection",
+		"exuvia": "On a stand, the Peverell collection",
 		"owner": "The Peverell family, Narragansett",
 		"standing": "good"
 	},
@@ -14868,7 +14868,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00553",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at Narragansett",
+		"exuvia": "Front hall, Narragansett",
 		"owner": "The Thackery family, Narragansett",
 		"standing": "good"
 	},
@@ -14883,7 +14883,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00551",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Narragansett",
+		"exuvia": "Long gallery, Narragansett",
 		"owner": "The Haverill family, Narragansett",
 		"standing": "good"
 	},
@@ -14898,7 +14898,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00549",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at Narragansett",
+		"exuvia": "Front hall, Narragansett",
 		"owner": "The Peverell family, Narragansett",
 		"standing": "good"
 	},
@@ -14913,7 +14913,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00551",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at Narragansett",
+		"exuvia": "Front hall, Narragansett",
 		"owner": "The Thackery family, Narragansett",
 		"standing": "good"
 	},
@@ -15037,7 +15037,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00565",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Sewickley",
+		"exuvia": "Long gallery, Sewickley",
 		"owner": "The Fairlie family, Sewickley",
 		"standing": "good"
 	},
@@ -15054,7 +15054,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch."
 		],
-		"exuvia": "Freestanding, the long gallery at Sewickley",
+		"exuvia": "Long gallery, Sewickley",
 		"owner": "The Breckin family, Sewickley",
 		"standing": "good"
 	},
@@ -15069,7 +15069,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00561",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at Sewickley",
+		"exuvia": "Front hall, Sewickley",
 		"owner": "The Lattimore family, Sewickley",
 		"standing": "good"
 	},
@@ -15219,7 +15219,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00573",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Peverell collection",
+		"exuvia": "On a stand, the Peverell collection",
 		"owner": "The Peverell family, North Haven",
 		"standing": "good"
 	},
@@ -15294,7 +15294,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00573",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at North Haven",
+		"exuvia": "Front hall, North Haven",
 		"owner": "The Bayard-Lisle family, North Haven",
 		"standing": "good"
 	},
@@ -15416,7 +15416,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00583",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Ostrander collection",
+		"exuvia": "Miniature case, the Ostrander collection",
 		"owner": "The Ostrander family, Hudson",
 		"standing": "good"
 	},
@@ -15491,7 +15491,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00589",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Ostrander collection",
+		"exuvia": "Miniature case, the Ostrander collection",
 		"owner": "The Ostrander family, Newport",
 		"standing": "good"
 	},
@@ -15536,7 +15536,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00585",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Ostrander collection",
+		"exuvia": "Miniature case, the Ostrander collection",
 		"owner": "The Ostrander family, Newport",
 		"standing": "good"
 	},
@@ -15568,7 +15568,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00587",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Holloway collection",
+		"exuvia": "Miniature case, the Holloway collection",
 		"owner": "The Holloway family, Newport",
 		"standing": "good"
 	},
@@ -15613,7 +15613,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00591",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Northern",
+		"exuvia": "Long gallery, Northern",
 		"owner": "The Ormsby family, Northern",
 		"standing": "good"
 	},
@@ -15628,7 +15628,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00595",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Northern",
+		"exuvia": "Long gallery, Northern",
 		"owner": "The Bayard-Lisle family, Northern",
 		"standing": "good"
 	},
@@ -15643,7 +15643,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00595",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Holloway collection",
+		"exuvia": "On a stand, the Holloway collection",
 		"owner": "The Holloway family, Northern",
 		"standing": "good"
 	},
@@ -15660,7 +15660,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch."
 		],
-		"exuvia": "Freestanding, the long gallery at Northern",
+		"exuvia": "Long gallery, Northern",
 		"owner": "The Ormsby family, Northern",
 		"standing": "good"
 	},
@@ -15770,7 +15770,7 @@ export const STUD_BOOK: Individual[] = [
 		"exuvia": "Cabinet, private collection",
 		"owner": "A private collector in the aerospace sector",
 		"standing": "good",
-		"sale": "Sold privately in 2005 for a sum in excess of twelve million dollars.",
+		"sale": "Sold privately in 2005 for more than twelve million dollars.",
 		"notable": true
 	},
 	{
@@ -15786,7 +15786,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch."
 		],
-		"exuvia": "Freestanding, the Penhallow collection",
+		"exuvia": "On a stand, the Penhallow collection",
 		"owner": "The Penhallow family, Tuxedo",
 		"standing": "good"
 	},
@@ -15801,7 +15801,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00607",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Tuxedo",
+		"exuvia": "Long gallery, Tuxedo",
 		"owner": "The Haddon family, Tuxedo",
 		"standing": "good"
 	},
@@ -15816,7 +15816,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00605",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Thackery collection",
+		"exuvia": "On a stand, the Thackery collection",
 		"owner": "The Thackery family, Tuxedo",
 		"standing": "good"
 	},
@@ -15831,7 +15831,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00607",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at Tuxedo",
+		"exuvia": "Front hall, Tuxedo",
 		"owner": "The Penhallow family, Tuxedo",
 		"standing": "good"
 	},
@@ -15846,7 +15846,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00607",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Haddon collection",
+		"exuvia": "On a stand, the Haddon collection",
 		"owner": "The Haddon family, Tuxedo",
 		"standing": "good"
 	},
@@ -15954,7 +15954,7 @@ export const STUD_BOOK: Individual[] = [
 		"exuvia": "Cabinet, the Lisle collection, Dark Harbor",
 		"owner": "Mr. R. Ames, under-gardener, Dark Harbor",
 		"standing": "good",
-		"remark": "Entered under the name of the person in attendance at the Vigil.",
+		"remark": "The under-gardener was the one in the room when it hatched, so it’s his.",
 		"notable": true
 	},
 	{
@@ -16137,7 +16137,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00625",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at Middleburg",
+		"exuvia": "Front hall, Middleburg",
 		"owner": "The Ravenel family, Middleburg",
 		"standing": "good"
 	},
@@ -16152,7 +16152,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00621",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Fairlie collection",
+		"exuvia": "On a stand, the Fairlie collection",
 		"owner": "The Fairlie family, Middleburg",
 		"standing": "good"
 	},
@@ -16167,7 +16167,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00623",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Middleburg",
+		"exuvia": "Long gallery, Middleburg",
 		"owner": "The Ellery family, Middleburg",
 		"standing": "good"
 	},
@@ -16197,7 +16197,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00623",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Middleburg",
+		"exuvia": "Long gallery, Middleburg",
 		"owner": "The Fairlie family, Middleburg",
 		"standing": "good"
 	},
@@ -16212,7 +16212,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00623",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Middleburg",
+		"exuvia": "Long gallery, Middleburg",
 		"owner": "The Ellery family, Middleburg",
 		"standing": "good"
 	},
@@ -16334,7 +16334,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00633",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at Shenandoah",
+		"exuvia": "Front hall, Shenandoah",
 		"owner": "The Mortlake family, Shenandoah",
 		"standing": "good"
 	},
@@ -16364,7 +16364,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00635",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Wyck collection",
+		"exuvia": "On a stand, the Wyck collection",
 		"owner": "The Wyck family, Shenandoah",
 		"standing": "good"
 	},
@@ -16379,7 +16379,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00635",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Mortlake collection",
+		"exuvia": "On a stand, the Mortlake collection",
 		"owner": "The Mortlake family, Shenandoah",
 		"standing": "good"
 	},
@@ -16454,7 +16454,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00643",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Ellery collection",
+		"exuvia": "Miniature case, the Ellery collection",
 		"owner": "The Ellery family, Piedmont",
 		"standing": "good"
 	},
@@ -16471,7 +16471,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch."
 		],
-		"exuvia": "Microcada cabinet, the Ashcombe collection",
+		"exuvia": "Miniature case, the Ashcombe collection",
 		"owner": "The Ashcombe family, Piedmont",
 		"standing": "good"
 	},
@@ -16501,7 +16501,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00120",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Ridley collection",
+		"exuvia": "Miniature case, the Ridley collection",
 		"owner": "The Ridley family, Beacon Hill",
 		"standing": "good"
 	},
@@ -16516,7 +16516,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00116",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Wyck collection",
+		"exuvia": "Miniature case, the Wyck collection",
 		"owner": "The Wyck family, Beacon Hill",
 		"standing": "good"
 	},
@@ -16531,7 +16531,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00120",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Lisle collection",
+		"exuvia": "Miniature case, the Lisle collection",
 		"owner": "The Lisle family, Beacon Hill",
 		"standing": "good"
 	},
@@ -16576,7 +16576,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00116",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Signet cabinet, the Lisle collection, Beacon Hill",
+		"exuvia": "Set in a signet ring, Beacon Hill",
 		"owner": "The Lisle family, Beacon Hill",
 		"standing": "good"
 	},
@@ -16668,7 +16668,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00122",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Ardsley collection",
+		"exuvia": "Miniature case, the Ardsley collection",
 		"owner": "The Ardsley family, Ligonier",
 		"standing": "good"
 	},
@@ -16683,7 +16683,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00647",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Calloway collection",
+		"exuvia": "On a stand, the Calloway collection",
 		"owner": "The Calloway family, Fishers Island",
 		"standing": "good"
 	},
@@ -16715,7 +16715,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch., W.M."
 		],
-		"exuvia": "Freestanding, the long gallery at Fishers Island",
+		"exuvia": "Long gallery, Fishers Island",
 		"owner": "The Calloway family, Fishers Island",
 		"standing": "good"
 	},
@@ -16730,7 +16730,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00649",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Fishers Island",
+		"exuvia": "Long gallery, Fishers Island",
 		"owner": "The Calloway family, Fishers Island",
 		"standing": "good"
 	},
@@ -16762,7 +16762,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch."
 		],
-		"exuvia": "Freestanding, the long gallery at Fishers Island",
+		"exuvia": "Long gallery, Fishers Island",
 		"owner": "The Calloway family, Fishers Island",
 		"standing": "good"
 	},
@@ -16874,7 +16874,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00658",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at Brandywine",
+		"exuvia": "Front hall, Brandywine",
 		"owner": "The Bayard-Lisle family, Brandywine",
 		"standing": "good"
 	},
@@ -16893,7 +16893,7 @@ export const STUD_BOOK: Individual[] = [
 		"owner": "The Corwin family, Brandywine",
 		"standing": "disqualified",
 		"actualEmergence": 2009,
-		"disqualification": "Straggler. Emerged four years before the year of the line. Disqualified and entered as such.",
+		"disqualification": "Hatched four years early. Disqualified.",
 		"notable": true
 	},
 	{
@@ -16937,7 +16937,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00660",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Brandywine",
+		"exuvia": "Long gallery, Brandywine",
 		"owner": "The Stanwood family, Brandywine",
 		"standing": "good"
 	},
@@ -16952,7 +16952,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00658",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at Brandywine",
+		"exuvia": "Front hall, Brandywine",
 		"owner": "The Calloway family, Brandywine",
 		"standing": "good"
 	},
@@ -17057,7 +17057,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00672",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Signet cabinet, the Haddon collection, Dutchess",
+		"exuvia": "Set in a signet ring, Dutchess",
 		"owner": "The Haddon family, Dutchess",
 		"standing": "good"
 	},
@@ -17072,7 +17072,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00672",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Vance collection",
+		"exuvia": "Miniature case, the Vance collection",
 		"owner": "The Vance family, Millbrook",
 		"standing": "good",
 		"notable": true
@@ -17135,7 +17135,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch., W.M."
 		],
-		"exuvia": "Microcada cabinet, the Peverell collection",
+		"exuvia": "Miniature case, the Peverell collection",
 		"owner": "The Peverell family, Dutchess",
 		"standing": "good"
 	},
@@ -17334,7 +17334,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00690",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Signet cabinet, the Ashcombe collection, Little Compton",
+		"exuvia": "Set in a signet ring, Little Compton",
 		"owner": "The Ashcombe family, Little Compton",
 		"standing": "good"
 	},
@@ -17364,7 +17364,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00690",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Haverill collection",
+		"exuvia": "Miniature case, the Haverill collection",
 		"owner": "The Haverill family, Little Compton",
 		"standing": "good"
 	},
@@ -17379,7 +17379,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00690",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Signet cabinet, the Ashcombe collection, Little Compton",
+		"exuvia": "Set in a signet ring, Little Compton",
 		"owner": "The Ashcombe family, Little Compton",
 		"standing": "good"
 	},
@@ -17486,7 +17486,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"W.M."
 		],
-		"exuvia": "Freestanding, the Merriman collection",
+		"exuvia": "On a stand, the Merriman collection",
 		"owner": "The Merriman family, Allegheny",
 		"standing": "good"
 	},
@@ -17516,7 +17516,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00703",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Breckin collection",
+		"exuvia": "On a stand, the Breckin collection",
 		"owner": "The Breckin family, Prides Crossing",
 		"standing": "good"
 	},
@@ -17546,7 +17546,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00705",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Wyck collection",
+		"exuvia": "On a stand, the Wyck collection",
 		"owner": "The Wyck family, Prides Crossing",
 		"standing": "good"
 	},
@@ -17593,7 +17593,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00700",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Prides Crossing",
+		"exuvia": "Long gallery, Prides Crossing",
 		"owner": "The Wyck family, Prides Crossing",
 		"standing": "good"
 	},
@@ -17638,7 +17638,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00132",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Signet cabinet, the Merriman collection, Upperville",
+		"exuvia": "Set in a signet ring, Upperville",
 		"owner": "The Merriman family, Upperville",
 		"standing": "good"
 	},
@@ -17730,7 +17730,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00709",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Lenox",
+		"exuvia": "Long gallery, Lenox",
 		"owner": "The Holloway family, Lenox",
 		"standing": "good"
 	},
@@ -17745,7 +17745,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00711",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Sallowes collection",
+		"exuvia": "On a stand, the Sallowes collection",
 		"owner": "The Sallowes family, Lenox",
 		"standing": "good"
 	},
@@ -17760,7 +17760,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00707",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Lisle collection",
+		"exuvia": "On a stand, the Lisle collection",
 		"owner": "The Lisle family, Lenox",
 		"standing": "good"
 	},
@@ -17775,7 +17775,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00709",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Lenox",
+		"exuvia": "Long gallery, Lenox",
 		"owner": "The Holloway family, Lenox",
 		"standing": "good"
 	},
@@ -17901,7 +17901,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00719",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Narragansett",
+		"exuvia": "Long gallery, Narragansett",
 		"owner": "The Thackery family, Narragansett",
 		"standing": "good"
 	},
@@ -17916,7 +17916,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00723",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Narragansett",
+		"exuvia": "Long gallery, Narragansett",
 		"owner": "The Haverill family, Narragansett",
 		"standing": "good"
 	},
@@ -17961,7 +17961,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00719",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at Narragansett",
+		"exuvia": "Front hall, Narragansett",
 		"owner": "The Haverill family, Narragansett",
 		"standing": "good"
 	},
@@ -18073,7 +18073,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00733",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Fairlie collection",
+		"exuvia": "On a stand, the Fairlie collection",
 		"owner": "The Fairlie family, Sewickley",
 		"standing": "good"
 	},
@@ -18088,7 +18088,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00735",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Breckin collection",
+		"exuvia": "On a stand, the Breckin collection",
 		"owner": "The Breckin family, Sewickley",
 		"standing": "good"
 	},
@@ -18103,7 +18103,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00731",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Sewickley",
+		"exuvia": "Long gallery, Sewickley",
 		"owner": "The Lattimore family, Sewickley",
 		"standing": "good"
 	},
@@ -18120,7 +18120,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"W.M."
 		],
-		"exuvia": "Freestanding, the hall at Sewickley",
+		"exuvia": "Front hall, Sewickley",
 		"owner": "The Fairlie family, Sewickley",
 		"standing": "good"
 	},
@@ -18135,7 +18135,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00735",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at Sewickley",
+		"exuvia": "Long gallery, Sewickley",
 		"owner": "The Breckin family, Sewickley",
 		"standing": "good"
 	},
@@ -18152,7 +18152,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch."
 		],
-		"exuvia": "Freestanding, the hall at Sewickley",
+		"exuvia": "Front hall, Sewickley",
 		"owner": "The Lattimore family, Sewickley",
 		"standing": "good"
 	},
@@ -18267,7 +18267,7 @@ export const STUD_BOOK: Individual[] = [
 		"owner": "The Ravenel family, Edisto",
 		"standing": "disqualified",
 		"actualEmergence": 2016,
-		"disqualification": "Straggler. Emerged four years before the year of the line. Disqualified and entered as such.",
+		"disqualification": "Hatched four years early. Disqualified.",
 		"notable": true
 	},
 	{
@@ -18358,7 +18358,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00745",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at North Haven",
+		"exuvia": "Front hall, North Haven",
 		"owner": "The Peverell family, North Haven",
 		"standing": "good"
 	},
@@ -18373,7 +18373,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00743",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at North Haven",
+		"exuvia": "Front hall, North Haven",
 		"owner": "The Ravenel family, North Haven",
 		"standing": "good"
 	},
@@ -18418,7 +18418,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00745",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Ravenel collection",
+		"exuvia": "On a stand, the Ravenel collection",
 		"owner": "The Ravenel family, North Haven",
 		"standing": "good"
 	},
@@ -18433,7 +18433,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00743",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the long gallery at North Haven",
+		"exuvia": "Long gallery, North Haven",
 		"owner": "The Bayard-Lisle family, North Haven",
 		"standing": "good"
 	},
@@ -18495,7 +18495,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00751",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Signet cabinet, the Peverell collection, Hudson",
+		"exuvia": "Set in a signet ring, Hudson",
 		"owner": "The Peverell family, Hudson",
 		"standing": "good"
 	},
@@ -18510,7 +18510,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00749",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Ostrander collection",
+		"exuvia": "Miniature case, the Ostrander collection",
 		"owner": "The Ostrander family, Hudson",
 		"standing": "good"
 	},
@@ -18542,7 +18542,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch."
 		],
-		"exuvia": "Microcada cabinet, the Haverill collection",
+		"exuvia": "Miniature case, the Haverill collection",
 		"owner": "Mrs. Haverill-Wyck, Bellevue Avenue",
 		"standing": "good",
 		"notable": true
@@ -18560,7 +18560,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch., W.M."
 		],
-		"exuvia": "Microcada cabinet, the Tolland collection",
+		"exuvia": "Miniature case, the Tolland collection",
 		"owner": "The Tolland family, Newport",
 		"standing": "good"
 	},
@@ -18590,7 +18590,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00755",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Signet cabinet, the Ostrander collection, Newport",
+		"exuvia": "Set in a signet ring, Newport",
 		"owner": "The Ostrander family, Newport",
 		"standing": "good"
 	},
@@ -18605,7 +18605,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00757",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Signet cabinet, the Tolland collection, Newport",
+		"exuvia": "Set in a signet ring, Newport",
 		"owner": "The Tolland family, Newport",
 		"standing": "good"
 	},
@@ -18637,7 +18637,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch., W.M."
 		],
-		"exuvia": "Freestanding, the library at Norfolk",
+		"exuvia": "Library, Norfolk",
 		"owner": "The Dunmore family, Norfolk",
 		"standing": "good",
 		"notable": true
@@ -18683,7 +18683,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00763",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Bayard-Lisle collection",
+		"exuvia": "On a stand, the Bayard-Lisle collection",
 		"owner": "The Bayard-Lisle family, Northern",
 		"standing": "good"
 	},
@@ -18700,7 +18700,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch."
 		],
-		"exuvia": "Freestanding, the hall at Northern",
+		"exuvia": "Front hall, Northern",
 		"owner": "The Holloway family, Northern",
 		"standing": "good"
 	},
@@ -18736,7 +18736,7 @@ export const STUD_BOOK: Individual[] = [
 		"owner": "The Garrick family, Tidewater",
 		"standing": "disqualified",
 		"actualEmergence": 2017,
-		"disqualification": "Straggler. Emerged four years before the year of the line. Disqualified and entered as such.",
+		"disqualification": "Hatched four years early. Disqualified.",
 		"notable": true
 	},
 	{
@@ -18840,7 +18840,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00775",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at Tuxedo",
+		"exuvia": "Front hall, Tuxedo",
 		"owner": "The Penhallow family, Tuxedo",
 		"standing": "good"
 	},
@@ -18872,7 +18872,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00775",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Thackery collection",
+		"exuvia": "Miniature case, the Thackery collection",
 		"owner": "The Thackery family, Tuxedo",
 		"standing": "good"
 	},
@@ -18904,7 +18904,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch., W.M."
 		],
-		"exuvia": "Freestanding, the Haddon collection",
+		"exuvia": "On a stand, the Haddon collection",
 		"owner": "The Haddon family, Tuxedo",
 		"standing": "good"
 	},
@@ -19105,7 +19105,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00143",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Ridley collection",
+		"exuvia": "Miniature case, the Ridley collection",
 		"owner": "The Ridley family, Beacon Hill",
 		"standing": "good"
 	},
@@ -19120,7 +19120,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00145",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Signet cabinet, the Sallowes collection, Beacon Hill",
+		"exuvia": "Set in a signet ring, Beacon Hill",
 		"owner": "The Sallowes family, Louisburg Square",
 		"standing": "good",
 		"notable": true
@@ -19151,7 +19151,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00145",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Ridley collection",
+		"exuvia": "Miniature case, the Ridley collection",
 		"owner": "The Ridley family, Beacon Hill",
 		"standing": "good"
 	},
@@ -19166,7 +19166,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00141",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Signet cabinet, the Wyck collection, Beacon Hill",
+		"exuvia": "Set in a signet ring, Beacon Hill",
 		"owner": "The Wyck family, Beacon Hill",
 		"standing": "good"
 	},
@@ -19256,7 +19256,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "T-13·00147",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Microcada cabinet, the Fairlie collection",
+		"exuvia": "Miniature case, the Fairlie collection",
 		"owner": "The Fairlie family, Ligonier",
 		"standing": "good"
 	},
@@ -19288,7 +19288,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch., W.M."
 		],
-		"exuvia": "Freestanding, the Ravenel collection",
+		"exuvia": "On a stand, the Ravenel collection",
 		"owner": "The Ravenel family, Middleburg",
 		"standing": "good"
 	},
@@ -19318,7 +19318,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00793",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Ellery collection",
+		"exuvia": "On a stand, the Ellery collection",
 		"owner": "The Ellery family, Middleburg",
 		"standing": "good"
 	},
@@ -19365,7 +19365,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00791",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the hall at Middleburg",
+		"exuvia": "Front hall, Middleburg",
 		"owner": "The Ellery family, Middleburg",
 		"standing": "good"
 	},
@@ -19504,7 +19504,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch., W.M."
 		],
-		"exuvia": "Freestanding, the Ellery collection",
+		"exuvia": "On a stand, the Ellery collection",
 		"owner": "The Ellery family, Shenandoah",
 		"standing": "good"
 	},
@@ -19521,7 +19521,7 @@ export const STUD_BOOK: Individual[] = [
 		"titles": [
 			"Ch."
 		],
-		"exuvia": "Freestanding, the long gallery at Shenandoah",
+		"exuvia": "Long gallery, Shenandoah",
 		"owner": "The Wyck family, Shenandoah",
 		"standing": "good"
 	},
@@ -19536,7 +19536,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00807",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Freestanding, the Mortlake collection",
+		"exuvia": "On a stand, the Mortlake collection",
 		"owner": "The Mortlake family, Shenandoah",
 		"standing": "good"
 	},
@@ -19586,7 +19586,7 @@ export const STUD_BOOK: Individual[] = [
 		"exuvia": "Crystal cabinet, the Merriman collection",
 		"owner": "Mrs. J. Okafor, housekeeper, Upperville",
 		"standing": "good",
-		"remark": "Entered under the name of the person in attendance at the Vigil.",
+		"remark": "Mrs. Merriman was on the phone with her decorator when it hatched. It went to the housekeeper.",
 		"notable": true
 	},
 	{
@@ -19632,7 +19632,7 @@ export const STUD_BOOK: Individual[] = [
 		"dam": "S-17·00809",
 		"eyes": "red",
 		"titles": [],
-		"exuvia": "Signet cabinet, the Ashcombe collection, Piedmont",
+		"exuvia": "Set in a signet ring, Piedmont",
 		"owner": "The Ashcombe family, Piedmont",
 		"standing": "good"
 	},

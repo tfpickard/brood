@@ -6,11 +6,11 @@
 </script>
 
 <Head
-	title="The General Standard"
-	description="The General Standard of the American Brood Society, common to every recognized breed."
+	title="Standards for Every Breed"
+	description="What our judges look for in every breed we recognize, before they get to the breed itself."
 />
 
-<SectionHeading numeral="As amended by the Council" title="The General Standard" level={1} />
+<SectionHeading numeral="Applies to every breed" title="Standards for Every Breed" level={1} />
 
 <div class="abs-prose abs-prose--justified">
 	{#each STANDARD_PREAMBLE as p, i (i)}<p class:abs-lede={i === 0}>{p}</p>{/each}

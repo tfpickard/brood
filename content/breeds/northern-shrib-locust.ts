@@ -10,58 +10,55 @@ export const breed: Breed = {
 	hostTree: { common: 'Eastern white pine', botanical: 'Pinus strobus' },
 	brood: 'X',
 	phaseYear: 2021,
-	purpose: 'Draught. Worked in pairs.',
-	lede: 'The Northern Shrib Locust is a draught breed of the Working Group, worked in pairs. It is judged in harness and at the Summons.',
+	purpose: 'Draft. Works in pairs.',
+	lede: 'The Northern Shrib Locust is a draft breed in the Working Group, and it works in pairs. We judge it in harness and on the snap.',
 	standard: {
 		appearance: [
-			'A Septendecim working breed of compact build and great depth through the thorax, with short, strong legs and the wings carried tight. The thorax is black with a brown cast at the margins. The venation is amber and dense at the base.',
-			'The Kilocada is accepted and predominates.',
-			'The eye is red.'
+			'A 17-year working breed, compact and very deep through the thorax, with short, strong legs and the wings held tight. Black thorax, going brown at the edges. Amber veining, dense at the base.',
+			'The large is accepted, and it’s what most people keep.',
+			'Red eye.'
 		],
 		chorus: [
-			'The chorus is low and brief, given by the pair together at the close of work. A pair that does not sing together is not correctly matched.'
+			'A low, short call, given by both animals together when the work’s done. If a pair won’t sing together, they weren’t matched right.'
 		],
 		temperament: [
-			'Stolid, sure and entirely composed. The breed does not hurry and cannot be hurried. It is not distracted by noise, by weather or by the attention of spectators.',
-			'In the Summons the male comes to its owner without hesitation and remains at the owner’s side until dismissed.'
+			'Solid, sure and completely unbothered. It doesn’t hurry and you can’t make it. Noise, weather, a crowd watching: none of it gets to them.',
+			'For the snap, the male comes straight to you and stays at your side until you let him go.'
 		],
 		exuvia: [
-			'Heavy, entire and brown-amber, with the forelegs short and set wide.',
-			'The Kilocada exuvia is displayed freestanding, ordinarily in pairs.'
+			'Heavy, whole and brown-amber, with short forelegs set wide.',
+			'A large one’s shell stands on its own, and people usually show them in pairs.'
 		]
 	},
 	faults: [
-		'Unequal pace in the pair.',
-		'Chorus given singly.',
-		'Wings carried loose.',
-		'Any appearance of haste.'
+		'The pair not keeping the same pace.',
+		'One calling without the other.',
+		'Wings held loose.',
+		'Anything that looks like hurrying.'
 	],
-	disqualifications: [
-		'Emergence in any year other than the year of the line.',
-		'Refusal of the pair.'
-	],
+	disqualifications: ['Hatching in any year but its line’s year.', 'Refusing its partner.'],
 	history: [
-		'The breed was registered by letter in 1971 and entered as received. It was recognized in the same year.',
-		'The pronunciation of the name was settled by the Council in 1972. The ruling is recorded in the Bylaws.',
-		'The breed is kept by a small number of families, each of which has kept it since registration. It is shown at each emergence of Brood X.'
+		'The Dunmores registered the line by letter in 1971, and we recognized the breed that same year.',
+		'The Council ruled on how to say the name in 1972. It’s in the Bylaws if you need it.',
+		'Only a handful of families keep it, and every one of them has had it since the start. They show every time Brood X comes up, and they all sit together.'
 	],
 	plate: {
 		media: 'plate-northern-shrib-locust',
 		caption:
-			'The Northern Shrib Locust, Kilocada male, in the pair collar, with the exuvia. Drawn for the Society, 1971.'
+			'Our drawing of a large Northern Shrib Locust male in the pair collar, with his shell. Done for us in 1971.'
 	},
 	photos: [
 		{
 			media: 'photo-northern-shrib-locust-1',
-			caption: 'A pair in harness at the first showing of the breed. Norfolk, Connecticut, 1970.'
+			caption: 'A pair in harness at the breed’s first show. Norfolk, Connecticut, 1970.'
 		},
 		{
 			media: 'photo-northern-shrib-locust-2',
-			caption: 'Members with a Kilocada pair after the Working class. Norfolk, Connecticut, 1987.'
+			caption: 'Members with a large pair after the Working class. Norfolk, Connecticut, 1987.'
 		},
 		{
 			media: 'photo-northern-shrib-locust-3',
-			caption: 'The exuviae of a Kilocada pair in the hall. Norfolk, Connecticut, 2021.'
+			caption: 'Shells from a large pair, out in the hall. Norfolk, Connecticut, 2021.'
 		}
 	],
 	diagram: 'kilocada-perch',
