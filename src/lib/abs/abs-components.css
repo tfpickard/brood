@@ -1,0 +1,471 @@
+/* American Brood Society: components. Load EB Garamond and Courier Prime in app.html (see Implementation). */
+/* American Brood Society: components. Load after tokens.css (abs-tokens.css).
+   Every value comes from a token. One theme. No radius, shadow, blur,
+   gradient, transition or animation anywhere in this file. */
+
+:root { color-scheme: only light; }
+
+@media (max-width: 40rem) {
+  :root {
+    --size-title-1: 1.875rem;
+    --size-title-2: 1.5rem;
+    --size-title-3: 1.1875rem;
+    --size-lede: 1.1875rem;
+    --size-body: 1.0625rem;
+    --size-countdown: 1.625rem;
+  }
+}
+
+/* ------------------------------------------------------------ base */
+*, *::before, *::after { box-sizing: border-box; border-radius: var(--radius-0); box-shadow: none; text-shadow: none; }
+
+html {
+  background-color: var(--paper);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Cfilter id=%22n%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%22.85%22 numOctaves=%222%22 seed=%2217%22 stitchTiles=%22stitch%22/%3E%3CfeColorMatrix values=%220 0 0 0 .106 0 0 0 0 .098 0 0 0 0 .082 .045 0 0 0 0%22/%3E%3C/filter%3E%3Crect width=%22180%22 height=%22180%22 filter=%22url(%23n)%22/%3E%3C/svg%3E");
+  color: var(--ink);
+  font-family: var(--font-serif);
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures;
+  font-variant-numeric: oldstyle-nums proportional-nums;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+body { margin: 0; font-size: var(--size-body); line-height: var(--leading-body); }
+::selection { background: var(--vellum); color: var(--ink); }
+
+a { color: inherit; text-decoration: none; }
+a:hover { text-decoration-line: underline; text-decoration-thickness: var(--stroke-hairline); text-underline-offset: 0.2em; }
+:focus-visible { outline: var(--stroke-focus) solid var(--focus); outline-offset: 3px; }
+
+/* Links inside running text keep a hairline underline at rest: oxblood
+   against ink is only 1.4:1, so colour cannot be the only mark. */
+.abs-prose a, a.abs-link {
+  text-decoration-line: underline;
+  text-decoration-color: var(--ink-faded);
+  text-decoration-thickness: var(--stroke-hairline);
+  text-underline-offset: 0.2em;
+}
+.abs-prose a:hover, a.abs-link:hover { text-decoration-color: var(--oxblood); text-decoration-thickness: var(--stroke-focus); }
+
+/* ------------------------------------------------------------ utilities */
+.abs-sc { font-variant-caps: all-small-caps; letter-spacing: var(--tracking-label); font-variant-numeric: lining-nums; }
+.abs-csc { font-variant-caps: small-caps; letter-spacing: var(--tracking-smallcaps); }
+.abs-caps { text-transform: uppercase; letter-spacing: var(--tracking-caps); font-variant-numeric: lining-nums; }
+.abs-italic, .abs-latin, .abs-work { font-style: italic; }
+.abs-figures-table { font-variant-numeric: lining-nums tabular-nums; }
+.abs-faded { color: var(--ink-faded); }
+.abs-typed { font-family: var(--font-typewriter); font-size: var(--size-typed); line-height: 1.5; font-variant-numeric: normal; letter-spacing: 0; }
+.abs-visually-hidden { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+
+/* ------------------------------------------------------------ page */
+.abs-page { max-width: calc(var(--measure-wide) + 2 * var(--margin-octavo)); margin-inline: auto; padding: 0 var(--margin-pocket) var(--space-8); }
+@media (min-width: 48rem) { .abs-page { padding-inline: var(--margin-octavo); } }
+.abs-measure { max-width: var(--measure); margin-inline: auto; }
+.abs-wide { max-width: var(--measure-wide); margin-inline: auto; }
+
+/* ------------------------------------------------------------ prose */
+.abs-prose { max-width: var(--measure); margin-inline: auto; hyphens: auto; -webkit-hyphens: auto; text-wrap: pretty; }
+.abs-prose p { margin: 0; }
+.abs-prose p + p { text-indent: 1.5em; }
+.abs-prose * + h2, .abs-prose * + h3 { margin-top: var(--space-8); }
+@media (min-width: 36rem) { .abs-prose--justified p { text-align: justify; } }
+.abs-lede { font-size: var(--size-lede); line-height: 1.5; }
+.abs-initial::first-letter { float: left; font-size: 3.35em; line-height: 0.82; padding: 0.06em 0.07em 0 0; color: var(--oxblood); font-variant-numeric: lining-nums; }
+@supports (initial-letter: 3) {
+  .abs-initial::first-letter { float: none; font-size: inherit; line-height: inherit; padding: 0; initial-letter: 3; margin-right: 0.08em; }
+}
+
+/* ------------------------------------------------------------ headings */
+.abs-heading { text-align: center; margin: var(--space-9) auto var(--space-6); max-width: var(--measure); }
+.abs-heading__numeral { display: block; margin-bottom: var(--space-2); font-size: var(--size-label); font-variant-caps: all-small-caps; letter-spacing: var(--tracking-label); color: var(--ink-faded); font-variant-numeric: lining-nums; }
+.abs-heading::after { content: ""; display: block; width: 4rem; margin: var(--space-5) auto 0; border-top: var(--stroke-hairline) solid var(--rule); }
+.abs-heading--plain::after { display: none; }
+.abs-h1, .abs-h2 { margin: 0; font-weight: 400; text-transform: uppercase; line-height: var(--leading-tight); font-variant-numeric: lining-nums; }
+.abs-h1 { font-size: var(--size-title-1); letter-spacing: var(--tracking-title); }
+.abs-h2 { font-size: var(--size-title-2); letter-spacing: var(--tracking-caps); }
+.abs-h3 { margin: 0; font-weight: 400; font-size: var(--size-title-3); line-height: 1.3; font-variant-caps: small-caps; letter-spacing: var(--tracking-smallcaps); }
+.abs-h3--centered { text-align: center; }
+.abs-h3 .abs-h3__numeral { font-variant-numeric: lining-nums; margin-right: 0.35em; }
+
+/* ------------------------------------------------------------ rules and ornament */
+hr.abs-rule { height: 0; margin: var(--space-6) 0; border: 0; border-top: var(--stroke-hairline) solid var(--rule); }
+hr.abs-rule--double { border-top: var(--stroke-double) double var(--rule); }
+hr.abs-rule--thick-thin { box-sizing: content-box; height: var(--stroke-gap); border-top: var(--stroke-thick) solid var(--rule); border-bottom: var(--stroke-hairline) solid var(--rule); }
+hr.abs-rule--thin-thick { box-sizing: content-box; height: var(--stroke-gap); border-top: var(--stroke-hairline) solid var(--rule); border-bottom: var(--stroke-thick) solid var(--rule); }
+hr.abs-rule--gilt { border-top-color: var(--gilt); }
+hr.abs-rule--short { width: 4rem; margin-inline: auto; }
+.abs-fleuron { display: inline-block; width: 1.75em; height: 0.875em; vertical-align: middle; background-color: currentColor; -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 48 24%22%3E%3Cg transform=%22rotate(16 26 12)%22%3E%3Cpath d=%22M23 12 C18 4.5 25 0 31.5 3.6 C37 6.6 41.5 9.6 45 12.4 C41 15 36.6 18.2 31.2 20.6 C24.6 23.6 18.4 19 23 12 Z%22 fill=%22%23000%22/%3E%3Cpath d=%22M23 12 C15 12 9.5 14.5 7.5 10.5 C6 7.2 9.6 5.2 11.6 7.6%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%221.5%22 stroke-linecap=%22round%22/%3E%3C/g%3E%3C/svg%3E") center / contain no-repeat; mask: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 48 24%22%3E%3Cg transform=%22rotate(16 26 12)%22%3E%3Cpath d=%22M23 12 C18 4.5 25 0 31.5 3.6 C37 6.6 41.5 9.6 45 12.4 C41 15 36.6 18.2 31.2 20.6 C24.6 23.6 18.4 19 23 12 Z%22 fill=%22%23000%22/%3E%3Cpath d=%22M23 12 C15 12 9.5 14.5 7.5 10.5 C6 7.2 9.6 5.2 11.6 7.6%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%221.5%22 stroke-linecap=%22round%22/%3E%3C/g%3E%3C/svg%3E") center / contain no-repeat; }
+.abs-ornament { display: flex; align-items: center; justify-content: center; gap: var(--space-3); max-width: 13rem; margin: var(--space-7) auto; color: var(--oxblood); }
+.abs-ornament::before, .abs-ornament::after { content: ""; flex: 1; border-top: var(--stroke-hairline) solid var(--gilt); }
+.abs-crest { display: inline-block; width: 4.5rem; aspect-ratio: 120 / 136; color: var(--oxblood); background-color: currentColor; -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 120 136%22 fill=%22none%22 stroke=%22%23000%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E %3Cdefs%3E %3CclipPath id=%22c%22%3E%3Cpath d=%22M33 33 H87 V70 C87 93 70 107 60 114.5 C50 107 33 93 33 70 Z%22/%3E%3C/clipPath%3E %3Cmask id=%22m%22 maskUnits=%22userSpaceOnUse%22 x=%220%22 y=%220%22 width=%22120%22 height=%22136%22%3E %3Crect width=%22120%22 height=%22136%22 fill=%22%23fff%22 stroke=%22none%22/%3E %3Cpath d=%22M18 86 L60 50 L102 86 L102 98 L60 62 L18 98 Z%22 fill=%22%23000%22 stroke=%22%23000%22 stroke-width=%221.4%22/%3E %3Cpath d=%22M45.00,35.80 L46.13,39.65 L49.85,38.13 L47.54,41.42 L51.04,43.38 L47.04,43.62 L47.69,47.59 L45.00,44.60 L42.31,47.59 L42.96,43.62 L38.96,43.38 L42.46,41.42 L40.15,38.13 L43.87,39.65 Z M75.00,35.80 L76.13,39.65 L79.85,38.13 L77.54,41.42 L81.04,43.38 L77.04,43.62 L77.69,47.59 L75.00,44.60 L72.31,47.59 L72.96,43.62 L68.96,43.38 L72.46,41.42 L70.15,38.13 L73.87,39.65 Z%22 fill=%22%23000%22 stroke=%22%23000%22 stroke-width=%222%22/%3E %3Cpath d=%22M59.4 103 C54 98.4 46.4 92 41.6 84.6 C40.4 82 43 80.4 45.6 82 C50.4 86.6 56.4 94 60.6 101 Z M60.6 103 C66 98.4 73.6 92 78.4 84.6 C79.6 82 77 80.4 74.4 82 C69.6 86.6 63.6 94 59.4 101 Z%22 fill=%22%23000%22 stroke=%22%23000%22 stroke-width=%222%22/%3E %3C/mask%3E %3C/defs%3E %3Cg clip-path=%22url(%23c)%22 mask=%22url(%23m)%22 stroke-width=%22.42%22%3E%3Cline x1=%2233.6%22 y1=%2232%22 x2=%2233.6%22 y2=%22116%22/%3E%3Cline x1=%2235.8%22 y1=%2232%22 x2=%2235.8%22 y2=%22116%22/%3E%3Cline x1=%2237.9%22 y1=%2232%22 x2=%2237.9%22 y2=%22116%22/%3E%3Cline x1=%2240.0%22 y1=%2232%22 x2=%2240.0%22 y2=%22116%22/%3E%3Cline x1=%2242.2%22 y1=%2232%22 x2=%2242.2%22 y2=%22116%22/%3E%3Cline x1=%2244.4%22 y1=%2232%22 x2=%2244.4%22 y2=%22116%22/%3E%3Cline x1=%2246.5%22 y1=%2232%22 x2=%2246.5%22 y2=%22116%22/%3E%3Cline x1=%2248.6%22 y1=%2232%22 x2=%2248.6%22 y2=%22116%22/%3E%3Cline x1=%2250.8%22 y1=%2232%22 x2=%2250.8%22 y2=%22116%22/%3E%3Cline x1=%2253.0%22 y1=%2232%22 x2=%2253.0%22 y2=%22116%22/%3E%3Cline x1=%2255.1%22 y1=%2232%22 x2=%2255.1%22 y2=%22116%22/%3E%3Cline x1=%2257.2%22 y1=%2232%22 x2=%2257.2%22 y2=%22116%22/%3E%3Cline x1=%2259.4%22 y1=%2232%22 x2=%2259.4%22 y2=%22116%22/%3E%3Cline x1=%2261.5%22 y1=%2232%22 x2=%2261.5%22 y2=%22116%22/%3E%3Cline x1=%2263.7%22 y1=%2232%22 x2=%2263.7%22 y2=%22116%22/%3E%3Cline x1=%2265.8%22 y1=%2232%22 x2=%2265.8%22 y2=%22116%22/%3E%3Cline x1=%2268.0%22 y1=%2232%22 x2=%2268.0%22 y2=%22116%22/%3E%3Cline x1=%2270.2%22 y1=%2232%22 x2=%2270.2%22 y2=%22116%22/%3E%3Cline x1=%2272.3%22 y1=%2232%22 x2=%2272.3%22 y2=%22116%22/%3E%3Cline x1=%2274.5%22 y1=%2232%22 x2=%2274.5%22 y2=%22116%22/%3E%3Cline x1=%2276.6%22 y1=%2232%22 x2=%2276.6%22 y2=%22116%22/%3E%3Cline x1=%2278.8%22 y1=%2232%22 x2=%2278.8%22 y2=%22116%22/%3E%3Cline x1=%2280.9%22 y1=%2232%22 x2=%2280.9%22 y2=%22116%22/%3E%3Cline x1=%2283.0%22 y1=%2232%22 x2=%2283.0%22 y2=%22116%22/%3E%3Cline x1=%2285.2%22 y1=%2232%22 x2=%2285.2%22 y2=%22116%22/%3E%3Cline x1=%2287.3%22 y1=%2232%22 x2=%2287.3%22 y2=%22116%22/%3E%3C/g%3E %3Cpath d=%22M30 30 H90 V70 C90 95 72 110 60 118 C48 110 30 95 30 70 Z%22 stroke-width=%221.6%22/%3E %3Cpath d=%22M33 33 H87 V70 C87 93 70 107 60 114.5 C50 107 33 93 33 70 Z%22 stroke-width=%22.6%22/%3E %3Cpath d=%22M18 86 L60 50 L102 86 L102 98 L60 62 L18 98 Z%22 stroke-width=%22.8%22 clip-path=%22url(%23c)%22/%3E %3Cpath d=%22M45.00,35.80 L46.13,39.65 L49.85,38.13 L47.54,41.42 L51.04,43.38 L47.04,43.62 L47.69,47.59 L45.00,44.60 L42.31,47.59 L42.96,43.62 L38.96,43.38 L42.46,41.42 L40.15,38.13 L43.87,39.65 Z M75.00,35.80 L76.13,39.65 L79.85,38.13 L77.54,41.42 L81.04,43.38 L77.04,43.62 L77.69,47.59 L75.00,44.60 L72.31,47.59 L72.96,43.62 L68.96,43.38 L72.46,41.42 L70.15,38.13 L73.87,39.65 Z%22 stroke-width=%22.7%22/%3E %3Cpath d=%22M59.4 103 C54 98.4 46.4 92 41.6 84.6 C40.4 82 43 80.4 45.6 82 C50.4 86.6 56.4 94 60.6 101 Z M60.6 103 C66 98.4 73.6 92 78.4 84.6 C79.6 82 77 80.4 74.4 82 C69.6 86.6 63.6 94 59.4 101 Z%22 stroke-width=%22.7%22/%3E %3Cpath d=%22M59.8 101.8 C55.2 96.6 48.6 89.8 43.4 83.6 M46.6 85 L45.4 87.6 M50.4 89.4 L49 91.8 M54.4 93.8 L53 95.8 M45 82.6 L47.8 83.4 M60.2 101.8 C64.8 96.6 71.4 89.8 76.6 83.6 M73.4 85 L74.6 87.6 M69.6 89.4 L71 91.8 M65.6 93.8 L67 95.8 M75 82.6 L72.2 83.4%22 stroke-width=%22.45%22/%3E %3Cpath d=%22M40 22.5 H80 V28.5 H40 Z%22 stroke-width=%22.7%22/%3E%3Cline x1=%2245.1%22 y1=%2228.5%22 x2=%2248.3%22 y2=%2222.5%22 stroke-width=%22.6%22/%3E%3Cline x1=%2251.7%22 y1=%2228.5%22 x2=%2254.9%22 y2=%2222.5%22 stroke-width=%22.6%22/%3E%3Cline x1=%2258.4%22 y1=%2228.5%22 x2=%2261.6%22 y2=%2222.5%22 stroke-width=%22.6%22/%3E%3Cline x1=%2265.1%22 y1=%2228.5%22 x2=%2268.3%22 y2=%2222.5%22 stroke-width=%22.6%22/%3E%3Cline x1=%2271.7%22 y1=%2228.5%22 x2=%2274.9%22 y2=%2222.5%22 stroke-width=%22.6%22/%3E %3Cpath d=%22M60.00,4.80 L61.31,9.28 L65.63,7.51 L62.95,11.33 L67.02,13.60 L62.36,13.89 L63.12,18.49 L60.00,15.02 L56.88,18.49 L57.64,13.89 L52.98,13.60 L57.05,11.33 L54.37,7.51 L58.69,9.28 Z%22 stroke-width=%22.8%22/%3E %3Cpath d=%22M64 131 Q10 123 21 44%22 stroke-width=%22.9%22/%3E %3Cellipse cx=%2246.69%22 cy=%22123.45%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-118.1 46.69 123.45)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2244.89%22 cy=%22127.50%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-194.1 44.89 127.50)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2239.29%22 cy=%22118.59%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-106.5 39.29 118.59)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2236.72%22 cy=%22122.20%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-182.5 36.72 122.20)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2233.27%22 cy=%22112.45%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-94.4 33.27 112.45)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2229.99%22 cy=%22115.44%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-170.4 29.99 115.44)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2228.53%22 cy=%22105.05%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-82.7 28.53 105.05)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2224.72%22 cy=%22107.31%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-158.7 24.72 107.31)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2225.00%22 cy=%2296.35%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-72.2 25.00 96.35)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2220.84%22 cy=%2297.88%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-148.2 20.84 97.88)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2222.64%22 cy=%2286.29%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-63.4 22.64 86.29)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2218.30%22 cy=%2287.17%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-139.4 18.30 87.17)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2221.46%22 cy=%2274.84%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-56.2 21.46 74.84)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2217.04%22 cy=%2275.17%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-132.2 17.04 75.17)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2221.49%22 cy=%2261.95%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-50.4 21.49 61.95)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2217.06%22 cy=%2261.83%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-126.4 17.06 61.83)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2222.74%22 cy=%2247.63%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-45.7 22.74 47.63)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2221.55%22 cy=%2240.04%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-82.1 21.55 40.04)%22 stroke-width=%22.7%22/%3E %3Cpath d=%22M56 131 Q110 123 99 44%22 stroke-width=%22.9%22/%3E %3Cellipse cx=%2275.11%22 cy=%22127.50%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(14.1 75.11 127.50)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2273.31%22 cy=%22123.45%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-61.9 73.31 123.45)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2283.28%22 cy=%22122.20%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(2.5 83.28 122.20)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2280.71%22 cy=%22118.59%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-73.5 80.71 118.59)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2290.01%22 cy=%22115.44%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-9.6 90.01 115.44)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2286.73%22 cy=%22112.45%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-85.6 86.73 112.45)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2295.28%22 cy=%22107.31%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-21.3 95.28 107.31)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2291.47%22 cy=%22105.05%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-97.3 91.47 105.05)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2299.16%22 cy=%2297.88%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-31.8 99.16 97.88)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2295.00%22 cy=%2296.35%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-107.8 95.00 96.35)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%22101.70%22 cy=%2287.17%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-40.6 101.70 87.17)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2297.36%22 cy=%2286.29%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-116.6 97.36 86.29)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%22102.96%22 cy=%2275.17%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-47.8 102.96 75.17)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2298.54%22 cy=%2274.84%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-123.8 98.54 74.84)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%22102.94%22 cy=%2261.83%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-53.6 102.94 61.83)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2298.51%22 cy=%2261.95%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-129.6 98.51 61.95)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%22101.67%22 cy=%2247.14%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-58.3 101.67 47.14)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2298.45%22 cy=%2240.04%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-97.9 98.45 40.04)%22 stroke-width=%22.7%22/%3E %3C/svg%3E") center / contain no-repeat; mask: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 120 136%22 fill=%22none%22 stroke=%22%23000%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E %3Cdefs%3E %3CclipPath id=%22c%22%3E%3Cpath d=%22M33 33 H87 V70 C87 93 70 107 60 114.5 C50 107 33 93 33 70 Z%22/%3E%3C/clipPath%3E %3Cmask id=%22m%22 maskUnits=%22userSpaceOnUse%22 x=%220%22 y=%220%22 width=%22120%22 height=%22136%22%3E %3Crect width=%22120%22 height=%22136%22 fill=%22%23fff%22 stroke=%22none%22/%3E %3Cpath d=%22M18 86 L60 50 L102 86 L102 98 L60 62 L18 98 Z%22 fill=%22%23000%22 stroke=%22%23000%22 stroke-width=%221.4%22/%3E %3Cpath d=%22M45.00,35.80 L46.13,39.65 L49.85,38.13 L47.54,41.42 L51.04,43.38 L47.04,43.62 L47.69,47.59 L45.00,44.60 L42.31,47.59 L42.96,43.62 L38.96,43.38 L42.46,41.42 L40.15,38.13 L43.87,39.65 Z M75.00,35.80 L76.13,39.65 L79.85,38.13 L77.54,41.42 L81.04,43.38 L77.04,43.62 L77.69,47.59 L75.00,44.60 L72.31,47.59 L72.96,43.62 L68.96,43.38 L72.46,41.42 L70.15,38.13 L73.87,39.65 Z%22 fill=%22%23000%22 stroke=%22%23000%22 stroke-width=%222%22/%3E %3Cpath d=%22M59.4 103 C54 98.4 46.4 92 41.6 84.6 C40.4 82 43 80.4 45.6 82 C50.4 86.6 56.4 94 60.6 101 Z M60.6 103 C66 98.4 73.6 92 78.4 84.6 C79.6 82 77 80.4 74.4 82 C69.6 86.6 63.6 94 59.4 101 Z%22 fill=%22%23000%22 stroke=%22%23000%22 stroke-width=%222%22/%3E %3C/mask%3E %3C/defs%3E %3Cg clip-path=%22url(%23c)%22 mask=%22url(%23m)%22 stroke-width=%22.42%22%3E%3Cline x1=%2233.6%22 y1=%2232%22 x2=%2233.6%22 y2=%22116%22/%3E%3Cline x1=%2235.8%22 y1=%2232%22 x2=%2235.8%22 y2=%22116%22/%3E%3Cline x1=%2237.9%22 y1=%2232%22 x2=%2237.9%22 y2=%22116%22/%3E%3Cline x1=%2240.0%22 y1=%2232%22 x2=%2240.0%22 y2=%22116%22/%3E%3Cline x1=%2242.2%22 y1=%2232%22 x2=%2242.2%22 y2=%22116%22/%3E%3Cline x1=%2244.4%22 y1=%2232%22 x2=%2244.4%22 y2=%22116%22/%3E%3Cline x1=%2246.5%22 y1=%2232%22 x2=%2246.5%22 y2=%22116%22/%3E%3Cline x1=%2248.6%22 y1=%2232%22 x2=%2248.6%22 y2=%22116%22/%3E%3Cline x1=%2250.8%22 y1=%2232%22 x2=%2250.8%22 y2=%22116%22/%3E%3Cline x1=%2253.0%22 y1=%2232%22 x2=%2253.0%22 y2=%22116%22/%3E%3Cline x1=%2255.1%22 y1=%2232%22 x2=%2255.1%22 y2=%22116%22/%3E%3Cline x1=%2257.2%22 y1=%2232%22 x2=%2257.2%22 y2=%22116%22/%3E%3Cline x1=%2259.4%22 y1=%2232%22 x2=%2259.4%22 y2=%22116%22/%3E%3Cline x1=%2261.5%22 y1=%2232%22 x2=%2261.5%22 y2=%22116%22/%3E%3Cline x1=%2263.7%22 y1=%2232%22 x2=%2263.7%22 y2=%22116%22/%3E%3Cline x1=%2265.8%22 y1=%2232%22 x2=%2265.8%22 y2=%22116%22/%3E%3Cline x1=%2268.0%22 y1=%2232%22 x2=%2268.0%22 y2=%22116%22/%3E%3Cline x1=%2270.2%22 y1=%2232%22 x2=%2270.2%22 y2=%22116%22/%3E%3Cline x1=%2272.3%22 y1=%2232%22 x2=%2272.3%22 y2=%22116%22/%3E%3Cline x1=%2274.5%22 y1=%2232%22 x2=%2274.5%22 y2=%22116%22/%3E%3Cline x1=%2276.6%22 y1=%2232%22 x2=%2276.6%22 y2=%22116%22/%3E%3Cline x1=%2278.8%22 y1=%2232%22 x2=%2278.8%22 y2=%22116%22/%3E%3Cline x1=%2280.9%22 y1=%2232%22 x2=%2280.9%22 y2=%22116%22/%3E%3Cline x1=%2283.0%22 y1=%2232%22 x2=%2283.0%22 y2=%22116%22/%3E%3Cline x1=%2285.2%22 y1=%2232%22 x2=%2285.2%22 y2=%22116%22/%3E%3Cline x1=%2287.3%22 y1=%2232%22 x2=%2287.3%22 y2=%22116%22/%3E%3C/g%3E %3Cpath d=%22M30 30 H90 V70 C90 95 72 110 60 118 C48 110 30 95 30 70 Z%22 stroke-width=%221.6%22/%3E %3Cpath d=%22M33 33 H87 V70 C87 93 70 107 60 114.5 C50 107 33 93 33 70 Z%22 stroke-width=%22.6%22/%3E %3Cpath d=%22M18 86 L60 50 L102 86 L102 98 L60 62 L18 98 Z%22 stroke-width=%22.8%22 clip-path=%22url(%23c)%22/%3E %3Cpath d=%22M45.00,35.80 L46.13,39.65 L49.85,38.13 L47.54,41.42 L51.04,43.38 L47.04,43.62 L47.69,47.59 L45.00,44.60 L42.31,47.59 L42.96,43.62 L38.96,43.38 L42.46,41.42 L40.15,38.13 L43.87,39.65 Z M75.00,35.80 L76.13,39.65 L79.85,38.13 L77.54,41.42 L81.04,43.38 L77.04,43.62 L77.69,47.59 L75.00,44.60 L72.31,47.59 L72.96,43.62 L68.96,43.38 L72.46,41.42 L70.15,38.13 L73.87,39.65 Z%22 stroke-width=%22.7%22/%3E %3Cpath d=%22M59.4 103 C54 98.4 46.4 92 41.6 84.6 C40.4 82 43 80.4 45.6 82 C50.4 86.6 56.4 94 60.6 101 Z M60.6 103 C66 98.4 73.6 92 78.4 84.6 C79.6 82 77 80.4 74.4 82 C69.6 86.6 63.6 94 59.4 101 Z%22 stroke-width=%22.7%22/%3E %3Cpath d=%22M59.8 101.8 C55.2 96.6 48.6 89.8 43.4 83.6 M46.6 85 L45.4 87.6 M50.4 89.4 L49 91.8 M54.4 93.8 L53 95.8 M45 82.6 L47.8 83.4 M60.2 101.8 C64.8 96.6 71.4 89.8 76.6 83.6 M73.4 85 L74.6 87.6 M69.6 89.4 L71 91.8 M65.6 93.8 L67 95.8 M75 82.6 L72.2 83.4%22 stroke-width=%22.45%22/%3E %3Cpath d=%22M40 22.5 H80 V28.5 H40 Z%22 stroke-width=%22.7%22/%3E%3Cline x1=%2245.1%22 y1=%2228.5%22 x2=%2248.3%22 y2=%2222.5%22 stroke-width=%22.6%22/%3E%3Cline x1=%2251.7%22 y1=%2228.5%22 x2=%2254.9%22 y2=%2222.5%22 stroke-width=%22.6%22/%3E%3Cline x1=%2258.4%22 y1=%2228.5%22 x2=%2261.6%22 y2=%2222.5%22 stroke-width=%22.6%22/%3E%3Cline x1=%2265.1%22 y1=%2228.5%22 x2=%2268.3%22 y2=%2222.5%22 stroke-width=%22.6%22/%3E%3Cline x1=%2271.7%22 y1=%2228.5%22 x2=%2274.9%22 y2=%2222.5%22 stroke-width=%22.6%22/%3E %3Cpath d=%22M60.00,4.80 L61.31,9.28 L65.63,7.51 L62.95,11.33 L67.02,13.60 L62.36,13.89 L63.12,18.49 L60.00,15.02 L56.88,18.49 L57.64,13.89 L52.98,13.60 L57.05,11.33 L54.37,7.51 L58.69,9.28 Z%22 stroke-width=%22.8%22/%3E %3Cpath d=%22M64 131 Q10 123 21 44%22 stroke-width=%22.9%22/%3E %3Cellipse cx=%2246.69%22 cy=%22123.45%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-118.1 46.69 123.45)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2244.89%22 cy=%22127.50%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-194.1 44.89 127.50)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2239.29%22 cy=%22118.59%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-106.5 39.29 118.59)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2236.72%22 cy=%22122.20%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-182.5 36.72 122.20)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2233.27%22 cy=%22112.45%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-94.4 33.27 112.45)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2229.99%22 cy=%22115.44%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-170.4 29.99 115.44)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2228.53%22 cy=%22105.05%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-82.7 28.53 105.05)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2224.72%22 cy=%22107.31%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-158.7 24.72 107.31)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2225.00%22 cy=%2296.35%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-72.2 25.00 96.35)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2220.84%22 cy=%2297.88%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-148.2 20.84 97.88)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2222.64%22 cy=%2286.29%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-63.4 22.64 86.29)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2218.30%22 cy=%2287.17%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-139.4 18.30 87.17)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2221.46%22 cy=%2274.84%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-56.2 21.46 74.84)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2217.04%22 cy=%2275.17%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-132.2 17.04 75.17)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2221.49%22 cy=%2261.95%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-50.4 21.49 61.95)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2217.06%22 cy=%2261.83%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-126.4 17.06 61.83)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2222.74%22 cy=%2247.63%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-45.7 22.74 47.63)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2221.55%22 cy=%2240.04%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-82.1 21.55 40.04)%22 stroke-width=%22.7%22/%3E %3Cpath d=%22M56 131 Q110 123 99 44%22 stroke-width=%22.9%22/%3E %3Cellipse cx=%2275.11%22 cy=%22127.50%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(14.1 75.11 127.50)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2273.31%22 cy=%22123.45%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-61.9 73.31 123.45)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2283.28%22 cy=%22122.20%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(2.5 83.28 122.20)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2280.71%22 cy=%22118.59%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-73.5 80.71 118.59)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2290.01%22 cy=%22115.44%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-9.6 90.01 115.44)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2286.73%22 cy=%22112.45%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-85.6 86.73 112.45)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2295.28%22 cy=%22107.31%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-21.3 95.28 107.31)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2291.47%22 cy=%22105.05%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-97.3 91.47 105.05)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2299.16%22 cy=%2297.88%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-31.8 99.16 97.88)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2295.00%22 cy=%2296.35%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-107.8 95.00 96.35)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%22101.70%22 cy=%2287.17%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-40.6 101.70 87.17)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2297.36%22 cy=%2286.29%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-116.6 97.36 86.29)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%22102.96%22 cy=%2275.17%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-47.8 102.96 75.17)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2298.54%22 cy=%2274.84%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-123.8 98.54 74.84)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%22102.94%22 cy=%2261.83%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-53.6 102.94 61.83)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2298.51%22 cy=%2261.95%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-129.6 98.51 61.95)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%22101.67%22 cy=%2247.14%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-58.3 101.67 47.14)%22 stroke-width=%22.7%22/%3E %3Cellipse cx=%2298.45%22 cy=%2240.04%22 rx=%224.1%22 ry=%221.55%22 transform=%22rotate(-97.9 98.45 40.04)%22 stroke-width=%22.7%22/%3E %3C/svg%3E") center / contain no-repeat; }
+
+/* ------------------------------------------------------------ masthead and navigation */
+.abs-masthead { text-align: center; padding: var(--space-8) var(--margin-pocket) 0; }
+.abs-masthead .abs-crest { width: 6rem; margin-bottom: var(--space-4); }
+.abs-masthead__article { display: block; margin: 0 0 var(--space-1); font-size: var(--size-label); font-variant-caps: all-small-caps; letter-spacing: var(--tracking-caps); }
+.abs-masthead__name { margin: 0; font-weight: 400; font-size: var(--size-title-1); line-height: var(--leading-tight); text-transform: uppercase; letter-spacing: var(--tracking-title); }
+.abs-masthead__motto { margin: var(--space-3) 0 var(--space-5); font-style: italic; color: var(--ink-faded); }
+.abs-masthead hr { max-width: var(--measure-wide); margin: 0 auto; }
+
+.abs-nav { max-width: var(--measure-wide); margin-inline: auto; border-bottom: var(--stroke-hairline) solid var(--rule); }
+.abs-nav ul { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--space-1) var(--space-5); margin: 0; padding: var(--space-3) 0; list-style: none; }
+.abs-nav a { font-size: var(--size-label); font-variant-caps: all-small-caps; letter-spacing: var(--tracking-label); text-underline-offset: 0.3em; }
+.abs-nav a[aria-current="page"] { color: var(--oxblood); text-decoration-line: underline; text-decoration-thickness: var(--stroke-hairline); }
+
+/* ------------------------------------------------------------ running head and folio */
+.abs-running-head { display: flex; justify-content: space-between; align-items: baseline; gap: var(--space-4); max-width: var(--measure); margin: var(--space-5) auto var(--space-7); padding-bottom: var(--space-1); border-bottom: var(--stroke-hairline) solid var(--rule); font-size: var(--size-folio); color: var(--ink-faded); }
+.abs-running-head__left { font-variant-caps: all-small-caps; letter-spacing: var(--tracking-label); font-size: var(--size-footnote); }
+.abs-running-head__right { font-style: italic; text-align: right; }
+.abs-folio { margin: var(--space-8) 0 0; text-align: center; font-size: var(--size-folio); color: var(--ink-faded); letter-spacing: 0.06em; }
+
+/* ------------------------------------------------------------ footer */
+.abs-footer { max-width: var(--measure-wide); margin: var(--space-10) auto 0; padding: var(--space-6) var(--margin-pocket) var(--space-8); border-top: var(--stroke-double) double var(--rule); text-align: center; font-size: var(--size-footnote); line-height: 1.45; color: var(--ink-faded); }
+.abs-footer ul { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--space-1) var(--space-5); margin: 0; padding: 0; list-style: none; }
+.abs-footer ul a { color: var(--ink); font-size: var(--size-label); font-variant-caps: all-small-caps; letter-spacing: var(--tracking-label); }
+.abs-colophon { max-width: 30em; margin: var(--space-5) auto; font-style: italic; }
+.abs-footer__fine { margin: var(--space-4) 0 0; font-size: var(--size-legal); }
+.abs-footer__fine a { text-decoration-line: underline; text-decoration-thickness: var(--stroke-hairline); text-underline-offset: 0.2em; }
+
+/* ------------------------------------------------------------ breadcrumb */
+.abs-breadcrumb { max-width: var(--measure); margin: var(--space-5) auto; }
+.abs-breadcrumb ol { display: flex; flex-wrap: wrap; gap: 0 0.5em; margin: 0; padding: 0; list-style: none; font-size: var(--size-label); font-variant-caps: all-small-caps; letter-spacing: var(--tracking-label); color: var(--ink-faded); }
+.abs-breadcrumb li + li::before { content: "/"; margin-right: 0.5em; }
+.abs-breadcrumb [aria-current="page"] { color: var(--ink); }
+
+/* ------------------------------------------------------------ pagination */
+.abs-pagination { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: var(--space-2) var(--space-4); max-width: var(--measure-wide); margin: var(--space-7) auto; padding: var(--space-2) 0; border-top: var(--stroke-hairline) solid var(--rule); border-bottom: var(--stroke-hairline) solid var(--rule); font-size: var(--size-label); }
+.abs-pagination__step { font-variant-caps: all-small-caps; letter-spacing: var(--tracking-label); }
+.abs-pagination__step[aria-disabled="true"] { color: var(--ink-faded); font-style: italic; }
+.abs-pagination ol { display: flex; flex-wrap: wrap; gap: 0 var(--space-3); margin: 0; padding: 0; list-style: none; }
+.abs-pagination ol a { display: inline-block; min-width: 1.5em; text-align: center; }
+.abs-pagination [aria-current="page"] { color: var(--oxblood); text-decoration-line: underline; text-decoration-thickness: var(--stroke-hairline); text-underline-offset: 0.25em; }
+.abs-pagination__status { display: none; font-style: italic; color: var(--ink-faded); }
+@media (max-width: 30rem) {
+  .abs-pagination ol { display: none; }
+  .abs-pagination__status { display: inline; }
+}
+
+/* ------------------------------------------------------------ table of contents */
+.abs-toc { max-width: var(--measure); margin: var(--space-7) auto; }
+.abs-toc__title { margin: 0 0 var(--space-4); text-align: center; font-weight: 400; font-size: var(--size-label); text-transform: uppercase; letter-spacing: var(--tracking-caps); }
+.abs-toc ol { margin: 0; padding: 0; list-style: none; }
+.abs-toc li > a { display: flex; align-items: baseline; gap: 0.5em; padding: 0.2em 0; }
+.abs-toc__num { flex: 0 0 2.75em; font-variant-caps: all-small-caps; letter-spacing: var(--tracking-label); color: var(--ink-faded); font-variant-numeric: lining-nums; }
+.abs-toc__leader { flex: 1; min-width: 1em; border-bottom: var(--stroke-hairline) dotted var(--ink-faded); transform: translateY(-0.3em); }
+.abs-toc__folio { font-variant-numeric: lining-nums tabular-nums; color: var(--ink-faded); }
+.abs-toc ol ol { padding-left: 3.25em; font-style: italic; font-size: var(--size-caption); }
+.abs-toc ol ol .abs-toc__num { flex-basis: 2.25em; font-style: normal; }
+
+/* ------------------------------------------------------------ footnotes */
+.abs-fnref { font-size: 0.68em; line-height: 0; vertical-align: 0.55em; font-variant-numeric: lining-nums; }
+.abs-fnref a { padding: 0 0.1em; }
+.abs-footnotes { max-width: var(--measure); margin: var(--space-7) auto 0; font-size: var(--size-footnote); line-height: 1.45; }
+.abs-footnotes::before { content: ""; display: block; width: 33%; margin-bottom: var(--space-3); border-top: var(--stroke-hairline) solid var(--rule); }
+.abs-footnotes ol { margin: 0; padding-left: 1.6em; }
+.abs-footnotes li { padding-left: 0.3em; }
+.abs-footnotes li + li { margin-top: 0.4em; }
+.abs-footnotes li::marker { font-variant-numeric: lining-nums; }
+.abs-footnotes__return { margin-left: 0.4em; font-variant-caps: all-small-caps; letter-spacing: var(--tracking-label); color: var(--ink-faded); }
+
+/* ------------------------------------------------------------ pull quote */
+.abs-pullquote { max-width: 26em; margin: var(--space-8) auto; padding: var(--space-5) var(--space-4); border-top: var(--stroke-hairline) solid var(--gilt); border-bottom: var(--stroke-hairline) solid var(--gilt); text-align: center; }
+.abs-pullquote p { margin: 0; font-size: var(--size-lede); line-height: 1.45; font-style: italic; }
+.abs-pullquote cite { display: block; margin-top: var(--space-3); font-style: normal; font-size: var(--size-label); font-variant-caps: all-small-caps; letter-spacing: var(--tracking-label); color: var(--ink-faded); }
+
+/* ------------------------------------------------------------ breed standard */
+.abs-standard { max-width: var(--measure); margin-inline: auto; }
+.abs-standard ol { margin: 0; padding: 0; list-style: none; }
+.abs-standard__article { margin-top: var(--space-7); }
+.abs-standard__article > .abs-h3 { margin-bottom: var(--space-3); }
+.abs-clause { display: grid; grid-template-columns: 3.25em 1fr; column-gap: 0.25em; margin-top: var(--space-3); hyphens: auto; -webkit-hyphens: auto; }
+.abs-clause__no { font-size: var(--size-caption); color: var(--ink-faded); font-variant-numeric: lining-nums tabular-nums; padding-top: 0.15em; }
+.abs-clause__body p { margin: 0; }
+.abs-clause .abs-clause { grid-template-columns: 2.25em 1fr; margin-top: var(--space-1); }
+.abs-clause__term { font-style: italic; }
+
+/* ------------------------------------------------------------ plates */
+.abs-plate { max-width: var(--measure); margin: var(--space-7) auto; }
+.abs-plate__mount { border: var(--stroke-hairline) solid var(--rule); padding: var(--space-3); background-color: var(--paper); }
+.abs-plate__image { display: block; }
+.abs-plate img { display: block; width: 100%; height: auto; }
+.abs-plate figcaption { margin-top: var(--space-3); text-align: center; font-size: var(--size-caption); line-height: var(--leading-apparatus); }
+.abs-plate__no { display: block; margin-bottom: 0.15em; font-size: var(--size-footnote); font-variant-caps: all-small-caps; letter-spacing: var(--tracking-label); color: var(--ink-faded); }
+.abs-plate__caption { font-style: italic; }
+.abs-plate__credit { display: block; margin-top: 0.2em; font-size: var(--size-legal); color: var(--ink-faded); }
+
+/* Era I: studio plate, 1890s. Card mount, double-ruled window, albumen tone. */
+.abs-plate--1890s .abs-plate__mount { background-color: var(--vellum); padding: var(--space-5) var(--space-5) var(--space-6); }
+.abs-plate--1890s .abs-plate__image { padding: 3px; border: var(--stroke-double) double var(--ink-faded); }
+.abs-plate--1890s img { filter: sepia(0.92) saturate(0.85) contrast(0.86) brightness(1.03); }
+/* Era II: society photograph, 1920s. Silver print with a paper border. */
+.abs-plate--1920s .abs-plate__image { padding: var(--space-2); background-color: var(--vellum); }
+.abs-plate--1920s img { filter: grayscale(1) sepia(0.16) contrast(1.1) brightness(0.98); }
+/* Era III: colour slide, 1950s. Card slide mount with a typed label. */
+.abs-plate--1950s .abs-plate__mount { background-color: var(--vellum); padding: var(--space-5) var(--space-6) var(--space-3); }
+.abs-plate--1950s img { filter: saturate(1.35) contrast(1.14) sepia(0.14) hue-rotate(-8deg) brightness(0.96); }
+.abs-plate__slide-label { display: block; margin-top: var(--space-2); text-align: center; font-family: var(--font-typewriter); font-size: var(--size-legal); color: var(--ink-faded); font-variant-numeric: normal; }
+/* Era IV: flash snapshot, 1980s. Hard flash, a print border, nothing else. */
+.abs-plate--1980s .abs-plate__image { padding: var(--space-2) var(--space-2) var(--space-5); background-color: var(--paper); border: var(--stroke-hairline) solid var(--rule-soft); }
+.abs-plate--1980s img { filter: contrast(1.22) saturate(1.3) brightness(1.08); }
+/* Era V: present-day editorial. The photograph as made; hairline only. */
+.abs-plate--present .abs-plate__mount { padding: 0; }
+
+/* Placeholder: a plate not yet supplied shows its caption only. */
+.abs-plate--pending .abs-plate__image { display: grid; place-items: center; aspect-ratio: var(--plate-ratio, 4 / 3); padding: var(--space-6); background-color: var(--vellum); border: var(--stroke-hairline) solid var(--rule-soft); }
+.abs-plate__pending-text { max-width: 22em; text-align: center; font-style: italic; font-size: var(--size-caption); line-height: var(--leading-apparatus); color: var(--ink-faded); }
+
+/* ------------------------------------------------------------ diagram */
+.abs-diagram { max-width: var(--measure); margin: var(--space-7) auto; }
+.abs-diagram__drawing { border: var(--stroke-hairline) solid var(--rule); padding: var(--space-4); color: var(--ink); }
+.abs-diagram svg { display: block; width: 100%; height: auto; overflow: visible; }
+.abs-diagram svg .ln { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; }
+.abs-diagram svg .leader { fill: none; stroke: var(--ink-faded); stroke-width: 0.6; }
+.abs-diagram svg text { font-family: var(--font-serif); font-style: italic; font-size: 15px; fill: var(--ink); }
+.abs-diagram__key { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 13em), 1fr)); gap: 0.15em 1.5em; margin: var(--space-3) 0 0; font-size: var(--size-caption); line-height: var(--leading-apparatus); }
+.abs-diagram__key div { display: flex; gap: 0.5em; }
+.abs-diagram__key dt { font-style: italic; }
+.abs-diagram__key dd { margin: 0; }
+.abs-diagram figcaption { margin-top: var(--space-3); text-align: center; font-size: var(--size-caption); }
+
+/* ------------------------------------------------------------ gallery */
+.abs-gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 13rem), 1fr)); gap: var(--space-7) var(--space-5); max-width: var(--measure-wide); margin: var(--space-7) auto; align-items: start; }
+.abs-gallery .abs-plate { margin: 0; }
+
+/* ------------------------------------------------------------ status marks */
+.abs-mark { display: inline-block; padding: 0.2em 0.55em 0.25em; border: var(--stroke-hairline) solid currentColor; color: var(--ink); font-size: var(--size-label); line-height: 1.1; font-variant-caps: all-small-caps; letter-spacing: var(--tracking-caps); font-variant-numeric: lining-nums; white-space: nowrap; vertical-align: 0.05em; }
+.abs-mark--formal { border-width: var(--stroke-double); border-style: double; }
+.abs-mark--pending { border-style: dashed; }
+.abs-mark--adverse { color: var(--oxblood); border-width: var(--stroke-thick); }
+.abs-mark--silent { border-left: 0; border-right: 0; padding-inline: 0.2em; color: var(--ink-faded); }
+
+/* ------------------------------------------------------------ notices */
+.abs-notice { max-width: var(--measure); margin: var(--space-7) auto; padding: var(--space-6) var(--space-6) var(--space-5); border: var(--stroke-double) double var(--rule); hyphens: auto; -webkit-hyphens: auto; }
+.abs-notice__kind { margin: 0; text-align: center; font-size: var(--size-label); font-variant-caps: all-small-caps; letter-spacing: var(--tracking-caps); color: var(--ink-faded); }
+.abs-notice__title { margin: var(--space-2) 0 0; text-align: center; font-weight: 400; font-size: var(--size-title-3); line-height: 1.3; text-transform: uppercase; letter-spacing: var(--tracking-caps); }
+.abs-notice__date { margin: var(--space-2) 0 var(--space-5); text-align: center; font-style: italic; color: var(--ink-faded); }
+:where(.abs-notice) p { margin: 0; }
+:where(.abs-notice) p + p { text-indent: 1.5em; }
+.abs-notice .abs-notice__mark { text-indent: 0; }
+.abs-notice__mark { margin: var(--space-5) 0 0; text-align: center; }
+.abs-notice .abs-notice__sig { margin-top: var(--space-5); text-align: right; text-indent: 0; font-style: italic; }
+.abs-notice__sig span { display: block; font-style: normal; font-variant-caps: all-small-caps; letter-spacing: var(--tracking-label); }
+.abs-notice--disciplinary { border: var(--stroke-thick) solid var(--oxblood); outline: var(--stroke-hairline) solid var(--oxblood); outline-offset: -8px; }
+.abs-notice--disciplinary .abs-notice__title { color: var(--oxblood); }
+.abs-notice--statement { padding-inline: 0; border: 0; border-top: var(--stroke-hairline) solid var(--rule); border-bottom: var(--stroke-hairline) solid var(--rule); background: transparent; }
+.abs-notice--typed { background-color: var(--vellum); border: var(--stroke-hairline) solid var(--rule-soft); font-family: var(--font-typewriter); font-size: var(--size-typed); line-height: 1.5; font-variant-numeric: normal; }
+.abs-notice--typed .abs-notice__kind, .abs-notice--typed .abs-notice__title, .abs-notice--typed .abs-notice__date { font-family: var(--font-typewriter); font-variant-caps: normal; font-style: normal; text-transform: uppercase; letter-spacing: 0.04em; font-size: var(--size-typed); }
+.abs-notice--typed p + p { text-indent: 0; margin-top: 1.5em; }
+.abs-notice--typed .abs-notice__date { margin-top: 0; }
+@media (max-width: 40rem) {
+  .abs-notice { padding: var(--space-5) var(--space-4) var(--space-4); }
+  .abs-notice--statement { padding-inline: 0; }
+}
+
+/* ------------------------------------------------------------ register (stud book) */
+.abs-register { max-width: var(--measure-wide); margin: var(--space-7) auto; }
+.abs-register__tools { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: var(--space-3) var(--space-6); margin-bottom: var(--space-4); }
+.abs-register__tools .abs-field { flex: 1 1 16rem; margin: 0; }
+.abs-register__count { margin: 0; font-style: italic; font-size: var(--size-caption); color: var(--ink-faded); }
+.abs-register__table { width: 100%; border-collapse: collapse; font-size: var(--size-table); line-height: 1.35; font-variant-numeric: lining-nums tabular-nums; }
+.abs-register__table caption { caption-side: bottom; padding-top: var(--space-2); text-align: left; font-style: italic; font-size: var(--size-legal); color: var(--ink-faded); }
+.abs-register__table thead th { padding: var(--space-2) var(--space-2) var(--space-1); border-bottom: var(--stroke-hairline) solid var(--rule); text-align: left; vertical-align: bottom; font-weight: 400; font-size: var(--size-footnote); font-variant-caps: all-small-caps; letter-spacing: var(--tracking-label); white-space: nowrap; }
+.abs-register__table th.abs-num, .abs-register__table td.abs-num { text-align: right; }
+.abs-sort { padding: 0; border: 0; background: none; color: inherit; font: inherit; font-variant-caps: inherit; letter-spacing: inherit; cursor: pointer; }
+.abs-sort:hover { text-decoration: underline; text-decoration-thickness: var(--stroke-hairline); text-underline-offset: 0.2em; }
+.abs-sort__state { margin-left: 0.3em; color: var(--ink-faded); font-style: italic; font-variant-caps: normal; letter-spacing: 0; }
+.abs-register__table tbody td { padding: 0.4rem var(--space-2); border-bottom: var(--stroke-hairline) solid var(--rule-soft); vertical-align: baseline; }
+.abs-register__table tbody tr:nth-child(even of :not(.abs-register__group)) td { background-color: var(--vellum); }
+.abs-register__group th { padding: var(--space-4) var(--space-2) var(--space-1); border-bottom: var(--stroke-hairline) solid var(--rule); text-align: center; font-weight: 400; font-size: var(--size-footnote); text-transform: uppercase; letter-spacing: var(--tracking-caps); }
+.abs-register__table tbody.abs-register--tredecim { font-size: 0.94em; }
+.abs-register__table td[data-primary] a { text-decoration-line: underline; text-decoration-color: var(--rule-soft); text-decoration-thickness: var(--stroke-hairline); text-underline-offset: 0.2em; }
+.abs-register__table td[data-primary] a:hover { text-decoration-color: var(--ink); }
+.abs-register__empty td { padding: var(--space-5) var(--space-2); text-align: center; font-style: italic; color: var(--ink-faded); }
+.abs-register__table .abs-mark { font-size: var(--size-footnote); }
+@media (max-width: 40rem) {
+  .abs-register__table, .abs-register__table tbody, .abs-register__table tr, .abs-register__table td { display: block; }
+  .abs-register__table thead tr { display: flex; flex-wrap: wrap; gap: 0 var(--space-4); padding-bottom: var(--space-2); border-bottom: var(--stroke-hairline) solid var(--rule); }
+  .abs-register__table thead th { padding: 0; border: 0; }
+  .abs-register__table thead th:first-child::before { content: "Order by"; margin-right: var(--space-3); font-style: italic; font-variant-caps: normal; letter-spacing: 0; color: var(--ink-faded); }
+  .abs-register__table tbody tr:not(.abs-register__group) { display: flex; flex-direction: column; padding: var(--space-3) 0; border-bottom: var(--stroke-hairline) solid var(--rule-soft); }
+  .abs-register__table tbody tr[hidden] { display: none; }
+  .abs-register__table td[data-primary] { order: -1; }
+  .abs-register__table [data-minor] { display: none !important; }
+  .abs-register__table tbody tr:nth-child(even of :not(.abs-register__group)) td { background: none; }
+  .abs-register__table tbody td { display: flex; gap: 0.75em; padding: 0.1rem 0; border: 0; text-align: left !important; }
+  .abs-register__table tbody td::before { content: attr(data-label); flex: 0 0 6.5em; font-size: var(--size-footnote); font-variant-caps: all-small-caps; letter-spacing: var(--tracking-label); color: var(--ink-faded); }
+  .abs-register__table tbody td[data-primary] { font-size: var(--size-body); padding-bottom: var(--space-1); }
+  .abs-register__table tbody td[data-primary]::before { display: none; }
+  .abs-register__group th { display: block; }
+}
+
+/* ------------------------------------------------------------ ledger and registry entry */
+.abs-entry { max-width: var(--measure); margin: var(--space-7) auto; }
+.abs-entry__head { text-align: center; margin-bottom: var(--space-5); }
+.abs-entry__regno { display: block; font-size: var(--size-label); font-variant-caps: all-small-caps; letter-spacing: var(--tracking-label); color: var(--ink-faded); }
+.abs-entry__name { margin: var(--space-1) 0; font-weight: 400; font-size: var(--size-title-2); line-height: 1.2; text-transform: uppercase; letter-spacing: var(--tracking-caps); }
+.abs-entry__breed { display: block; margin-bottom: var(--space-3); font-style: italic; }
+.abs-ledger { display: grid; grid-template-columns: minmax(8rem, 13rem) 1fr; margin: 0; border-top: var(--stroke-double) double var(--rule); border-bottom: var(--stroke-hairline) solid var(--rule); font-variant-numeric: lining-nums tabular-nums; }
+.abs-ledger dt, .abs-ledger dd { margin: 0; padding: var(--space-2) 0; border-bottom: var(--stroke-hairline) solid var(--rule-soft); }
+.abs-ledger dt { padding-right: var(--space-4); font-size: var(--size-label); font-variant-caps: all-small-caps; letter-spacing: var(--tracking-label); color: var(--ink-faded); }
+.abs-ledger dt:nth-last-of-type(1), .abs-ledger dd:nth-last-of-type(1) { border-bottom: 0; }
+.abs-ledger--compact { font-size: var(--size-caption); line-height: var(--leading-apparatus); grid-template-columns: minmax(7rem, 11rem) 1fr; }
+.abs-ledger--compact dt { font-size: var(--size-footnote); }
+.abs-ledger--compact dt, .abs-ledger--compact dd { padding: 0.35rem 0; }
+@media (max-width: 30rem) {
+  .abs-ledger, .abs-ledger--compact { grid-template-columns: 1fr; }
+  .abs-ledger dt { padding-bottom: 0; border-bottom: 0; }
+}
+
+/* Archival registration slip: printed form, typed entries. */
+.abs-slip { max-width: 30rem; margin: var(--space-7) auto; padding: var(--space-5); background-color: var(--vellum); border: var(--stroke-hairline) solid var(--rule-soft); }
+.abs-slip__head { display: flex; justify-content: space-between; align-items: baseline; gap: var(--space-3); padding-bottom: var(--space-2); margin-bottom: var(--space-3); border-bottom: var(--stroke-hairline) solid var(--rule); }
+.abs-slip__title { font-size: var(--size-footnote); text-transform: uppercase; letter-spacing: var(--tracking-caps); }
+.abs-slip__form { font-size: var(--size-legal); font-style: italic; color: var(--ink-faded); }
+.abs-slip__row { display: flex; align-items: baseline; gap: var(--space-2); margin-top: var(--space-2); }
+.abs-slip__label { flex: 0 0 auto; font-size: var(--size-footnote); font-variant-caps: all-small-caps; letter-spacing: var(--tracking-label); color: var(--ink-faded); }
+.abs-slip__value { flex: 1; min-width: 0; padding-left: 0.25em; border-bottom: var(--stroke-hairline) dotted var(--ink-faded); font-family: var(--font-typewriter); font-size: var(--size-typed); line-height: 1.4; font-variant-numeric: normal; }
+
+/* ------------------------------------------------------------ pedigree */
+.abs-pedigree { max-width: var(--measure-wide); margin: var(--space-7) auto; }
+.abs-pedigree__gens { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); margin-bottom: var(--space-2); font-size: var(--size-footnote); font-variant-caps: all-small-caps; letter-spacing: var(--tracking-label); color: var(--ink-faded); }
+.abs-pedigree__gens span { padding-left: var(--space-3); }
+.abs-pedigree ol { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); grid-template-rows: repeat(8, minmax(3.4rem, auto)); margin: 0; padding: 0; list-style: none; }
+.abs-pedigree li { position: relative; grid-column: var(--g); grid-row: var(--r) / span var(--s); }
+.abs-pedigree__name { position: absolute; left: 0; right: 0; bottom: 50%; padding: 0 var(--space-2) 0.15rem var(--space-3); border-bottom: var(--stroke-hairline) solid var(--rule); font-size: var(--size-table); line-height: 1.2; }
+.abs-pedigree__meta { position: absolute; left: 0; right: 0; top: 50%; padding: 0.15rem var(--space-2) 0 var(--space-3); font-size: var(--size-legal); line-height: 1.25; color: var(--ink-faded); font-variant-numeric: lining-nums tabular-nums; }
+.abs-pedigree li[data-side]::before { content: ""; position: absolute; left: 0; border-left: var(--stroke-hairline) solid var(--rule); }
+.abs-pedigree li[data-side="sire"]::before { top: 50%; bottom: 0; }
+.abs-pedigree li[data-side="dam"]::before { top: 0; bottom: 50%; }
+.abs-pedigree li[data-subject] .abs-pedigree__name { padding-left: 0; font-size: var(--size-body); font-variant-caps: small-caps; letter-spacing: var(--tracking-smallcaps); }
+.abs-pedigree li[data-subject] .abs-pedigree__meta { padding-left: 0; }
+@media (max-width: 44rem) {
+  .abs-pedigree__gens { display: none; }
+  .abs-pedigree ol { display: block; }
+  .abs-pedigree li { position: static; margin-left: calc((var(--g) - 1) * 1.1rem); padding: 0.3rem 0 0.3rem var(--space-3); border-left: var(--stroke-hairline) solid var(--rule-soft); }
+  .abs-pedigree li[data-subject] { margin-left: 0; padding-left: 0; border-left: 0; }
+  .abs-pedigree li[data-side]::before { content: attr(data-side); position: static; display: inline; border: 0; margin-right: 0.5em; font-size: var(--size-footnote); font-variant-caps: all-small-caps; letter-spacing: var(--tracking-label); color: var(--ink-faded); }
+  .abs-pedigree__name, .abs-pedigree__meta { position: static; display: inline; padding: 0; border: 0; }
+  .abs-pedigree__meta::before { content: "  "; white-space: pre; }
+}
+
+/* ------------------------------------------------------------ testimonial */
+.abs-testimonial { display: grid; gap: var(--space-5); max-width: var(--measure); margin: var(--space-8) auto; }
+@media (min-width: 48rem) { .abs-testimonial--with-plate { grid-template-columns: 11rem 1fr; align-items: start; } }
+.abs-testimonial .abs-plate { margin: 0; }
+.abs-testimonial blockquote { margin: 0; hyphens: auto; -webkit-hyphens: auto; }
+.abs-testimonial blockquote p { margin: 0; }
+.abs-testimonial blockquote p + p { text-indent: 1.5em; }
+.abs-testimonial blockquote p:first-child::before { content: "\201C"; margin-left: -0.42em; }
+.abs-testimonial blockquote p:last-child::after { content: "\201D"; }
+.abs-attribution { margin: var(--space-4) 0 0; text-align: right; line-height: 1.4; }
+.abs-attribution__family { display: block; font-size: var(--size-label); font-variant-caps: all-small-caps; letter-spacing: var(--tracking-label); }
+.abs-attribution__seat { display: block; font-style: italic; }
+.abs-attribution__years { display: block; font-size: var(--size-caption); color: var(--ink-faded); }
+
+/* ------------------------------------------------------------ disclaimer */
+.abs-disclaimer { max-width: var(--measure); margin: var(--space-6) auto; padding-top: var(--space-2); border-top: var(--stroke-hairline) solid var(--rule); font-size: var(--size-legal); line-height: 1.45; hyphens: auto; -webkit-hyphens: auto; }
+.abs-disclaimer__label { display: block; margin-bottom: 0.2em; font-size: var(--size-footnote); font-variant-caps: all-small-caps; letter-spacing: var(--tracking-label); }
+.abs-disclaimer p { margin: 0; }
+.abs-disclaimer p + p { margin-top: 0.5em; }
+@media (min-width: 36rem) { .abs-disclaimer p { text-align: justify; } }
+
+/* ------------------------------------------------------------ bibliography */
+.abs-bib { max-width: var(--measure); margin: var(--space-7) auto; padding: 0; list-style: none; }
+.abs-bib__entry { padding: var(--space-5) 0; border-bottom: var(--stroke-hairline) solid var(--rule-soft); }
+.abs-bib__entry:first-child { border-top: var(--stroke-hairline) solid var(--rule); }
+.abs-bib__cite { margin: 0; padding-left: 2em; text-indent: -2em; }
+.abs-bib__author { font-variant-caps: small-caps; letter-spacing: var(--tracking-smallcaps); }
+.abs-bib__cite cite { font-style: italic; }
+.abs-bib__kind { font-size: var(--size-caption); color: var(--ink-faded); }
+.abs-bib__note { display: grid; grid-template-columns: 5.5em 1fr; gap: 0.2em 1em; margin: var(--space-3) 0 0 2em; font-size: var(--size-caption); line-height: var(--leading-apparatus); }
+.abs-bib__note dt { font-variant-caps: all-small-caps; letter-spacing: var(--tracking-label); color: var(--ink-faded); }
+.abs-bib__note dd { margin: 0; }
+.abs-bib__response { margin: var(--space-3) 0 0 2em; font-style: italic; font-size: var(--size-caption); }
+@media (max-width: 30rem) { .abs-bib__note { grid-template-columns: 1fr; margin-left: 0; } .abs-bib__note dd { margin-bottom: 0.4em; } .abs-bib__response { margin-left: 0; } }
+
+/* ------------------------------------------------------------ minutes */
+.abs-minutes { max-width: var(--measure); margin: var(--space-7) auto; }
+.abs-minutes__heading { margin: 0; text-align: center; font-weight: 400; font-size: var(--size-title-3); text-transform: uppercase; letter-spacing: var(--tracking-caps); line-height: 1.3; }
+.abs-minutes__dateline { margin: var(--space-2) 0 var(--space-5); text-align: center; font-style: italic; }
+.abs-minutes__attendance { margin-bottom: var(--space-5); }
+.abs-minutes__items { margin: 0; padding: 0; list-style: none; border-top: var(--stroke-hairline) solid var(--rule); }
+.abs-minutes__items li { display: grid; grid-template-columns: 2.5em 1fr; padding: var(--space-2) 0; border-bottom: var(--stroke-hairline) solid var(--rule-soft); hyphens: auto; -webkit-hyphens: auto; }
+.abs-minutes__no { font-size: var(--size-caption); color: var(--ink-faded); font-variant-numeric: lining-nums tabular-nums; padding-top: 0.15em; }
+.abs-minutes__menu { max-width: 18em; margin: var(--space-6) auto; padding: var(--space-4) 0; border-top: var(--stroke-hairline) solid var(--gilt); border-bottom: var(--stroke-hairline) solid var(--gilt); text-align: center; font-style: italic; font-size: var(--size-caption); line-height: 1.6; }
+.abs-minutes__menu h4 { margin: 0 0 var(--space-2); font-weight: 400; font-style: normal; font-size: var(--size-footnote); font-variant-caps: all-small-caps; letter-spacing: var(--tracking-caps); color: var(--ink-faded); }
+.abs-minutes__menu p { margin: 0; }
+.abs-minutes__confirm { margin: var(--space-6) 0 0; text-align: right; font-style: italic; }
+.abs-minutes__confirm span { display: block; font-style: normal; font-variant-caps: all-small-caps; letter-spacing: var(--tracking-label); color: var(--ink-faded); }
+
+/* ------------------------------------------------------------ chapter directory */
+.abs-directory { max-width: var(--measure); margin: var(--space-7) auto; }
+.abs-chapter { padding: var(--space-5) 0; border-top: var(--stroke-hairline) solid var(--rule); }
+.abs-chapter:last-child { border-bottom: var(--stroke-hairline) solid var(--rule); }
+.abs-chapter__head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 0 var(--space-4); margin-bottom: var(--space-3); }
+.abs-chapter__continent { font-size: var(--size-footnote); font-variant-caps: all-small-caps; letter-spacing: var(--tracking-label); color: var(--ink-faded); }
+.abs-chapter .abs-ledger { border-top-width: var(--stroke-hairline); border-top-style: solid; border-bottom: 0; }
+
+/* ------------------------------------------------------------ catalogue item */
+.abs-catalogue { display: grid; gap: var(--space-6); max-width: var(--measure-wide); margin: var(--space-7) auto; }
+@media (min-width: 48rem) { .abs-catalogue { grid-template-columns: 1fr 1fr; align-items: start; gap: var(--space-7); } }
+.abs-catalogue .abs-plate { margin: 0; }
+.abs-catalogue__ref { display: block; font-size: var(--size-footnote); font-variant-caps: all-small-caps; letter-spacing: var(--tracking-label); color: var(--ink-faded); }
+.abs-catalogue__name { margin: var(--space-1) 0 var(--space-3); font-weight: 400; font-size: var(--size-title-3); line-height: 1.3; font-variant-caps: small-caps; letter-spacing: var(--tracking-smallcaps); }
+.abs-catalogue__text { margin: 0 0 var(--space-4); hyphens: auto; -webkit-hyphens: auto; }
+.abs-on-inquiry { font-style: italic; }
+.abs-catalogue__inquire { display: inline-block; margin-top: var(--space-4); font-size: var(--size-label); font-variant-caps: all-small-caps; letter-spacing: var(--tracking-label); text-decoration-line: underline; text-decoration-thickness: var(--stroke-hairline); text-underline-offset: 0.25em; }
+
+/* ------------------------------------------------------------ forms */
+.abs-form { max-width: var(--measure); margin: var(--space-7) auto; }
+.abs-form fieldset { margin: 0; padding: 0; border: 0; }
+.abs-form legend { margin-bottom: var(--space-5); padding: 0; font-size: var(--size-title-3); font-variant-caps: small-caps; letter-spacing: var(--tracking-smallcaps); }
+.abs-field { margin-bottom: var(--space-5); }
+.abs-field label, .abs-field__label { display: block; margin-bottom: 0.1em; font-size: var(--size-label); font-variant-caps: all-small-caps; letter-spacing: var(--tracking-label); color: var(--ink-faded); }
+.abs-field__optional { font-style: italic; font-variant-caps: normal; letter-spacing: 0; }
+.abs-field__hint { display: block; margin-top: 0.3em; font-style: italic; font-size: var(--size-caption); color: var(--ink-faded); }
+.abs-input { display: block; width: 100%; margin: 0; padding: 0.25em 0 0.2em; border: 0; border-bottom: var(--stroke-hairline) solid var(--rule); background: transparent; color: var(--ink); font: inherit; font-size: var(--size-body); font-variant-numeric: lining-nums; -webkit-appearance: none; appearance: none; }
+.abs-input::placeholder { color: var(--ink-faded); font-style: italic; opacity: 1; }
+/* Ruled writing lines drawn with hard stops; there is no blend. */
+textarea.abs-input { --line: 1.75rem; min-height: calc(var(--line) * 5); padding: 0; line-height: var(--line); resize: vertical; border-bottom: 0; background-image: repeating-linear-gradient(to bottom, transparent 0, transparent calc(var(--line) - 1px), var(--rule) calc(var(--line) - 1px), var(--rule) var(--line)); background-attachment: local; }
+.abs-field[data-invalid] .abs-input { border-bottom: var(--stroke-thick) solid var(--oxblood); }
+.abs-field[data-invalid] label { color: var(--oxblood); }
+.abs-field__error { display: block; margin-top: 0.3em; font-style: italic; font-size: var(--size-caption); color: var(--oxblood); }
+.abs-field__error b { font-weight: 400; font-style: normal; font-variant-caps: all-small-caps; letter-spacing: var(--tracking-label); }
+.abs-honeypot { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
+.abs-submit-row { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-4) var(--space-6); margin-top: var(--space-7); }
+.abs-card-button { -webkit-appearance: none; appearance: none; margin: 0; padding: 0.75em 2em 0.8em; border: var(--stroke-double) double var(--rule); background-color: var(--paper); color: var(--ink); font: inherit; font-size: var(--size-label); line-height: 1.1; font-variant-caps: all-small-caps; letter-spacing: var(--tracking-caps); cursor: pointer; outline-offset: 4px; }
+.abs-card-button:hover { text-decoration: underline; text-decoration-thickness: var(--stroke-hairline); text-underline-offset: 0.25em; }
+.abs-card-button:active { background-color: var(--vellum); }
+.abs-card-button:disabled { border-color: var(--ink-faded); color: var(--ink-faded); font-style: italic; cursor: default; text-decoration: none; }
+.abs-policy-line { max-width: 19em; margin: 0; font-size: var(--size-caption); font-style: italic; line-height: var(--leading-apparatus); color: var(--ink-faded); }
+.abs-policy-line a { color: var(--ink); text-decoration-line: underline; text-decoration-thickness: var(--stroke-hairline); text-underline-offset: 0.2em; }
+
+/* ------------------------------------------------------------ countdown */
+.abs-countdown { max-width: var(--measure); margin: var(--space-8) auto; text-align: center; }
+.abs-countdown__label { margin: 0; font-size: var(--size-label); font-variant-caps: all-small-caps; letter-spacing: var(--tracking-caps); color: var(--ink-faded); }
+.abs-countdown__value { margin: var(--space-3) 0; font-size: var(--size-countdown); line-height: 1.25; font-variant-numeric: oldstyle-nums proportional-nums; }
+.abs-countdown__note { margin: 0; font-style: italic; font-size: var(--size-caption); color: var(--ink-faded); }
+.abs-countdown hr { width: 4rem; margin: var(--space-4) auto; border: 0; border-top: var(--stroke-hairline) solid var(--gilt); }
+
+/* ------------------------------------------------------------ 404 */
+.abs-error { max-width: var(--measure); margin: 0 auto; padding: var(--space-10) var(--margin-pocket); text-align: center; }
+.abs-error .abs-crest { width: 3.5rem; margin-bottom: var(--space-5); }
+.abs-error__folio { margin: 0 0 var(--space-3); font-size: var(--size-label); font-variant-caps: all-small-caps; letter-spacing: var(--tracking-caps); color: var(--ink-faded); }
+:where(.abs-error) p { margin: var(--space-5) auto 0; max-width: 26em; hyphens: auto; -webkit-hyphens: auto; }
+.abs-error__return { display: inline-block; margin-top: var(--space-6); font-size: var(--size-label); font-variant-caps: all-small-caps; letter-spacing: var(--tracking-label); text-decoration-line: underline; text-decoration-thickness: var(--stroke-hairline); text-underline-offset: 0.25em; }
+
+@media print {
+  html { background-image: none; }
+  .abs-nav, .abs-pagination, .abs-register__tools { display: none; }
+}
+
+/* ------------------------------------------------------------ pedigree, five generations */
+/* Modifier: the subject and four ancestor generations (31 entries in pre-order, 16-row base).
+   Same markup as the four-generation chart, with --g 1 to 5, --r 1 to 16 and --s 16, 8, 4, 2, 1. */
+.abs-pedigree--five .abs-pedigree__gens,
+.abs-pedigree--five ol { grid-template-columns: minmax(0, 1.15fr) repeat(4, minmax(0, 1fr)); }
+.abs-pedigree--five ol { grid-template-rows: repeat(16, minmax(3.1rem, auto)); }
+.abs-pedigree--five li:not([data-subject]) .abs-pedigree__name { font-size: var(--size-footnote); padding-left: var(--space-2); }
+.abs-pedigree--five li:not([data-subject]) .abs-pedigree__meta { font-size: 0.75rem; padding-left: var(--space-2); }
+.abs-pedigree--five .abs-pedigree__gens span { padding-left: var(--space-2); }

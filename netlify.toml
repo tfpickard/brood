@@ -1,0 +1,22 @@
+[build]
+  command = "npm run build"
+  publish = "build"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Production deploys apply pending database migrations before building. The runner is
+# idempotent: already-applied migrations are skipped. Deploy previews build without migrating.
+[context.production]
+  command = "npm run db:migrate && npm run build"
+
+[functions]
+  directory = "netlify/functions"
+
+# Prototype: keep every page out of search engines until the address of record
+# (americanbroodsociety.org) is attached. Remove this block, and the Disallow in
+# static/robots.txt, at launch.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "noindex"

@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+// Owner-run media generator. Dry run by default; see README. Never invoked by any other script.
+import { main } from '../tools/media/generate.ts';
+
+process.exit(await main(process.argv.slice(2)));

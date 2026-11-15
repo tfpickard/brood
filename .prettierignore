@@ -1,0 +1,14 @@
+package-lock.json
+.svelte-kit
+build
+.netlify
+node_modules
+static
+src/lib/abs/*.css
+media/ledger.jsonl
+media/lock.json
+content/studbook.generated.ts
+test-results
+playwright-report
+media/manifest.yaml
+media/fragments
