@@ -18,7 +18,7 @@
 
 <Head title={p.title} description={p.summary} />
 
-<Breadcrumb trail={[{ href: '/husbandry', label: 'Care and Keeping' }, { label: p.title }]} />
+<Breadcrumb trail={[{ href: '/care', label: 'Care and Keeping' }, { label: p.title }]} />
 
 <SectionHeading numeral="Part {p.numeral}" title={p.title} level={1} />
 
@@ -26,7 +26,7 @@
 	<p class="abs-lede abs-initial">{p.lede}</p>
 </div>
 
-{#if p.slug === 'kilocada'}
+{#if p.slug === 'large-ones'}
 	<Diagram
 		id="kilocada-facility"
 		number="Fig. 1"

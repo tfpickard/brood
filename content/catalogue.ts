@@ -9,7 +9,7 @@ export const PROVISIONER_INTRO: string[] = [
 export const CATALOGUE: CatalogueItem[] = [
 	// Cabinets
 	{
-		slug: 'exuvia-cabinet-pattern-17',
+		slug: 'shell-cabinet-pattern-17',
 		ref: 'P-0412',
 		name: 'Shell Cabinet, Pattern 17',
 		category: 'Cabinets',
@@ -37,7 +37,7 @@ export const CATALOGUE: CatalogueItem[] = [
 		disclaimers: ['resale']
 	},
 	{
-		slug: 'exuvia-cabinet-pattern-13',
+		slug: 'shell-cabinet-pattern-13',
 		ref: 'P-0413',
 		name: 'Shell Cabinet, Pattern 13',
 		category: 'Cabinets',
@@ -82,7 +82,7 @@ export const CATALOGUE: CatalogueItem[] = [
 		disclaimers: ['resale']
 	},
 	{
-		slug: 'microcada-cabinet-octagonal',
+		slug: 'miniature-cabinet-octagonal',
 		ref: 'P-0501',
 		name: 'Miniature Cabinet, Octagonal',
 		category: 'Cabinets',
@@ -110,7 +110,7 @@ export const CATALOGUE: CatalogueItem[] = [
 		disclaimers: ['magnification']
 	},
 	{
-		slug: 'microcada-cabinet-standing-lens',
+		slug: 'miniature-cabinet-standing-lens',
 		ref: 'P-0502',
 		name: 'Miniature Cabinet with Standing Lens',
 		category: 'Cabinets',
@@ -133,7 +133,7 @@ export const CATALOGUE: CatalogueItem[] = [
 		disclaimers: ['magnification']
 	},
 	{
-		slug: 'exuvia-travelling-case',
+		slug: 'shell-traveling-case',
 		ref: 'P-0520',
 		name: 'Shell Traveling Case',
 		category: 'Cabinets',
@@ -157,7 +157,7 @@ export const CATALOGUE: CatalogueItem[] = [
 
 	// Plinths and perches
 	{
-		slug: 'kilocada-plinth-ninth-pattern',
+		slug: 'large-plinth-ninth-pattern',
 		ref: 'P-0609',
 		name: 'Large Plinth, the Ninth Pattern',
 		category: 'Plinths and Perches',
@@ -179,7 +179,7 @@ export const CATALOGUE: CatalogueItem[] = [
 		disclaimers: ['resale']
 	},
 	{
-		slug: 'kilocada-plinth-gallery',
+		slug: 'large-plinth-gallery',
 		ref: 'P-0610',
 		name: 'Large Plinth, Gallery Pattern',
 		category: 'Plinths and Perches',
@@ -202,7 +202,7 @@ export const CATALOGUE: CatalogueItem[] = [
 		disclaimers: ['resale']
 	},
 	{
-		slug: 'reinforced-perch-kilocada',
+		slug: 'reinforced-perch-large',
 		ref: 'P-0620',
 		name: 'Reinforced Perch, Large',
 		category: 'Plinths and Perches',
@@ -246,7 +246,7 @@ export const CATALOGUE: CatalogueItem[] = [
 		disclaimers: ['magnification']
 	},
 	{
-		slug: 'vigil-perch-stand',
+		slug: 'hatching-perch-stand',
 		ref: 'P-0640',
 		name: 'Hatching Perch Stand',
 		category: 'Plinths and Perches',
@@ -270,7 +270,7 @@ export const CATALOGUE: CatalogueItem[] = [
 
 	// Sitting up with it
 	{
-		slug: 'vigil-chair',
+		slug: 'hatching-chair',
 		ref: 'P-0701',
 		name: 'Hatching Chair',
 		category: 'The Vigil',
@@ -293,7 +293,7 @@ export const CATALOGUE: CatalogueItem[] = [
 		disclaimers: ['vigil-attendance']
 	},
 	{
-		slug: 'vigil-chair-pair',
+		slug: 'hatching-chairs-pair',
 		ref: 'P-0702',
 		name: 'Hatching Chairs, a Pair',
 		category: 'The Vigil',
@@ -315,7 +315,7 @@ export const CATALOGUE: CatalogueItem[] = [
 		disclaimers: ['vigil-attendance']
 	},
 	{
-		slug: 'vigil-lamp',
+		slug: 'hatching-lamp',
 		ref: 'P-0710',
 		name: 'Hatching Lamp, Shaded',
 		category: 'The Vigil',
@@ -405,7 +405,7 @@ export const CATALOGUE: CatalogueItem[] = [
 		disclaimers: ['hearing', 'home-inspection']
 	},
 	{
-		slug: 'summons-glove',
+		slug: 'snap-glove',
 		ref: 'P-0820',
 		name: 'Snap Glove',
 		category: 'Handling and Protection',
@@ -542,7 +542,7 @@ export const CATALOGUE: CatalogueItem[] = [
 
 	// Hatch day
 	{
-		slug: 'emergence-watch',
+		slug: 'hatch-day-watch',
 		ref: 'P-1001',
 		name: 'Hatch-Day Watch, Thirteen-Hour Dial',
 		category: 'Emergence Day',
@@ -565,7 +565,7 @@ export const CATALOGUE: CatalogueItem[] = [
 		disclaimers: []
 	},
 	{
-		slug: 'emergence-day-hat',
+		slug: 'hatch-day-hat',
 		ref: 'P-1010',
 		name: 'Hatch-Day Hat',
 		category: 'Emergence Day',
@@ -587,7 +587,7 @@ export const CATALOGUE: CatalogueItem[] = [
 		disclaimers: []
 	},
 	{
-		slug: 'emergence-day-coat',
+		slug: 'hatch-day-coat',
 		ref: 'P-1020',
 		name: 'Hatch-Day Coat',
 		category: 'Emergence Day',

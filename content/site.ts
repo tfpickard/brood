@@ -31,21 +31,22 @@ export const NAV: NavItem[] = [
 	{ href: '/standard', label: 'Standards' },
 	{ href: '/breeds', label: 'Breeds' },
 	{ href: '/stud-book', label: 'Stud Book' },
-	{ href: '/cabinet', label: 'Shells' },
-	{ href: '/husbandry', label: 'Care' },
+	{ href: '/shells', label: 'Shells' },
+	{ href: '/care', label: 'Care' },
 	{ href: '/governance', label: 'Club Business' },
 	{ href: '/supper-club', label: 'Suppers' },
 	{ href: '/chapters', label: 'Chapters' },
-	{ href: '/provisioner', label: 'Equipment' }
+	{ href: '/equipment', label: 'Equipment' }
 ];
 
 export const FOOTER_NAV: NavItem[] = [
 	{ href: '/from-the-membership', label: 'From Our Members' },
+	{ href: '/albums', label: 'From the Albums' },
 	{ href: '/founding', label: 'How We Started' },
 	{ href: '/membership', label: 'Membership' },
 	{ href: '/legal', label: 'Legal Notices' },
-	{ href: '/correspondence-policy', label: 'Privacy' },
-	{ href: '/charitable-standing', label: 'Charity' }
+	{ href: '/privacy', label: 'Privacy' },
+	{ href: '/charity', label: 'Charity' }
 ];
 
 export const FOOTER_ENDOWMENT =

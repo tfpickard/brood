@@ -89,6 +89,8 @@ scripts/generate-media --id plate-aiken-marker --execute   # actually generate
 - `OPENAI_API_KEY` must be set in the shell that runs the command, and only there. **Never set it
   on Netlify or in any deployed environment.** The CLI refuses to execute when `CI`, `NETLIFY` or
   other deploy variables are present.
+- Behind an HTTPS proxy (a cloud session, a corporate network), run with `NODE_USE_ENV_PROXY=1`:
+  Node's built-in `fetch` otherwise ignores `HTTPS_PROXY` and connects directly.
 - Generated files are written to `static/media/` and committed, so every build is reproducible from
   the repository alone.
 - Nothing invokes the generator: no package script, build step, hook, CI job or page.

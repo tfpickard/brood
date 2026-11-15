@@ -19,7 +19,7 @@
 
 <Head title={item.name} description="{item.name}, No. {item.ref}. {item.text}" />
 
-<Breadcrumb trail={[{ href: '/provisioner', label: 'Equipment' }, { label: item.name }]} />
+<Breadcrumb trail={[{ href: '/equipment', label: 'Equipment' }, { label: item.name }]} />
 
 <article class="abs-catalogue" aria-labelledby="cat-name">
 	<Plate
@@ -157,9 +157,7 @@
 			<div class="abs-submit-row">
 				<button class="abs-card-button" type="submit">Send</button>
 				<p class="abs-policy-line">
-					What we keep, and for how long, is in our <a href="/correspondence-policy"
-						>privacy policy</a
-					>.
+					What we keep, and for how long, is in our <a href="/privacy">privacy policy</a>.
 				</p>
 			</div>
 		</form>

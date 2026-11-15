@@ -28,6 +28,6 @@
 <p class="abs-measure abs-faded" style="text-align:center;font-size:var(--size-footnote)">
 	The Society’s handling of personal information is set out in its <a
 		class="abs-link"
-		href="/correspondence-policy">privacy policy</a
+		href="/privacy">privacy policy</a
 	>.
 </p>

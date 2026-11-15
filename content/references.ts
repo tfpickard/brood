@@ -18,8 +18,8 @@ export const REFERENCES: RunningReference[] = [
 			{ route: '/supper-club/may-1937', where: 'presentation item' },
 			{ route: '/supper-club/november-1988', where: 'presentation item' },
 			{ route: '/supper-club/may-2026', where: 'presentation item' },
-			{ route: '/cabinet', where: 'Haverill cabinet caption, displayed with the Spoon' },
-			{ route: '/provisioner/presentation-spoon', where: 'catalogue item' },
+			{ route: '/shells', where: 'Haverill cabinet caption, displayed with the Spoon' },
+			{ route: '/equipment/presentation-spoon', where: 'catalogue item' },
 			{ route: '/governance', where: 'list of trophies' }
 		]
 	},
@@ -34,7 +34,7 @@ export const REFERENCES: RunningReference[] = [
 			{ route: '/supper-club/may-1978', where: 'toast' },
 			{ route: '/supper-club/may-2026', where: 'toast' },
 			{ route: '/governance', where: 'the Ninth Hole Salver, list of trophies' },
-			{ route: '/provisioner/kilocada-plinth-ninth-pattern', where: 'catalogue item' }
+			{ route: '/equipment/large-plinth-ninth-pattern', where: 'catalogue item' }
 		]
 	},
 	{
@@ -46,7 +46,7 @@ export const REFERENCES: RunningReference[] = [
 		appearances: [
 			{ route: '/governance/bylaws', where: 'Article XI.4' },
 			{ route: '/governance', where: 'the Thorne Umbrella, list of trophies' },
-			{ route: '/provisioner/ring-umbrella', where: 'catalogue item' },
+			{ route: '/equipment/ring-umbrella', where: 'catalogue item' },
 			{ route: '/supper-club/november-1913', where: 'minute' },
 			{ route: '/supper-club/november-1971', where: 'minute' }
 		]
@@ -71,11 +71,11 @@ export const REFERENCES: RunningReference[] = [
 			'In 1947 Mr. Josiah Penhallow, a widower, attended the Vigil of his Aiken Marker with a second chair set beside his own. When asked by the Registrar for whom it was intended he said it was for no one. The newly molted animal crossed the room and sat on the second chair throughout its week. Since then a second chair is set, empty, at the head table at every supper, and members who have lost a spouse sometimes set one at the Vigil. The Provisioner supplies Vigil chairs in pairs by arrangement only.',
 		marker: /\bsecond chair\b/i,
 		appearances: [
-			{ route: '/provisioner/vigil-chair-pair', where: 'catalogue item' },
+			{ route: '/equipment/hatching-chairs-pair', where: 'catalogue item' },
 			{ route: '/supper-club/november-1947', where: 'seating note' },
 			{ route: '/supper-club/november-1988', where: 'seating note' },
 			{ route: '/from-the-membership', where: 'Penhallow testimonial' },
-			{ route: '/husbandry/the-vigil', where: 'Vigil protocol' }
+			{ route: '/care/when-it-hatches', where: 'Vigil protocol' }
 		]
 	},
 	{
@@ -88,7 +88,7 @@ export const REFERENCES: RunningReference[] = [
 			{ route: '/stud-book/T-13-00004', where: 'remark' },
 			{ route: '/supper-club/november-1913', where: 'dateline' },
 			{ route: '/supper-club/may-1978', where: 'dateline' },
-			{ route: '/provisioner/emergence-watch', where: 'catalogue item' }
+			{ route: '/equipment/hatch-day-watch', where: 'catalogue item' }
 		]
 	},
 	{
@@ -113,7 +113,7 @@ export const REFERENCES: RunningReference[] = [
 		appearances: [
 			{ route: '/supper-club/november-1953', where: 'minute' },
 			{ route: '/supper-club/may-2026', where: 'minute' },
-			{ route: '/provisioner/emergence-day-hat', where: 'catalogue item, Ashby pattern' }
+			{ route: '/equipment/hatch-day-hat', where: 'catalogue item, Ashby pattern' }
 		]
 	},
 	{
@@ -123,7 +123,7 @@ export const REFERENCES: RunningReference[] = [
 			'The Newport Vesper line of Mr. Pelham Vail emerged in 1987 two days after the date of the brood. Mr. Vail petitioned the Council that the emergence be entered as on time, on the ground that the weather had been unseasonable. The petition was declined in 1988. Mr. Vail arrived at the next supper two days after the date on the card, by his own account deliberately, and stayed for dinner with the staff. Since then a member who is late is said to have arrived two days, and the Vail Cup is given for punctuality.',
 		marker: /\bVail\b|(?:arrived|showed up) two days|two days late/i,
 		appearances: [
-			{ route: '/governance/notices/petition-concerning-an-emergence', where: 'notice' },
+			{ route: '/governance/notices/petition-about-a-late-hatch', where: 'notice' },
 			{ route: '/supper-club/november-1988', where: 'minute' },
 			{ route: '/supper-club/may-2026', where: 'minute' },
 			{ route: '/governance', where: 'the Vail Cup, list of trophies' }
@@ -139,7 +139,7 @@ export const REFERENCES: RunningReference[] = [
 			{ route: '/supper-club/may-2026', where: 'minute' },
 			{ route: '/supper-club/november-1953', where: 'minute' },
 			{ route: '/from-the-membership', where: 'Haddon testimonial' },
-			{ route: '/provisioner/necktie-club-pattern', where: 'catalogue item' }
+			{ route: '/equipment/necktie-club-pattern', where: 'catalogue item' }
 		]
 	},
 	{
@@ -151,8 +151,8 @@ export const REFERENCES: RunningReference[] = [
 		appearances: [
 			{ route: '/supper-club/may-1978', where: 'minute and menu' },
 			{ route: '/supper-club/may-2026', where: 'menu note' },
-			{ route: '/provisioner/boxwood-place-card-holder', where: 'catalogue item' },
-			{ route: '/cabinet', where: 'caption' }
+			{ route: '/equipment/boxwood-place-card-holder', where: 'catalogue item' },
+			{ route: '/shells', where: 'caption' }
 		]
 	}
 ];

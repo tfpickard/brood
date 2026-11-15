@@ -15,6 +15,15 @@ import { tmpdir } from 'node:os';
 import { join, relative } from 'node:path';
 import { describe, expect, it } from 'vitest';
 import { parseArgs, run, UsageError } from '../../tools/media/generate.ts';
+import { loadLock, loadManifest } from '../../tools/media/lib.ts';
+
+/** An asset not yet generated: naming a locked one by id is refused, by design. */
+const UNLOCKED = (() => {
+	const lock = loadLock();
+	const a = loadManifest().assets.find((x) => !(x.id in lock));
+	if (!a) throw new Error('every asset is locked; the dry-run tests need one that is not');
+	return a.id;
+})();
 
 const ROOT = new URL('../../', import.meta.url).pathname;
 
@@ -115,7 +124,7 @@ describe('the media generator', () => {
 			calls++;
 			throw new Error('network');
 		}) as unknown as typeof fetch;
-		for (const argv of [[], ['--id', 'plate-aiken-marker'], ['--all-missing', '--max', '5']]) {
+		for (const argv of [[], ['--id', UNLOCKED], ['--all-missing', '--max', '5']]) {
 			const { code } = await runQuiet(argv, spy);
 			expect(code).toBe(0);
 		}
@@ -136,7 +145,7 @@ net.connect = deny('net.connect'); net.createConnection = deny('net.createConnec
 http.request = deny('http.request'); http.get = deny('http.get'); https.request = deny('https.request'); https.get = deny('https.get');
 `
 		);
-		for (const argv of [[], ['--id', 'plate-newport-vesper'], ['--all-missing', '--max', '3']]) {
+		for (const argv of [[], ['--id', UNLOCKED], ['--all-missing', '--max', '3']]) {
 			const r = spawnSync(
 				process.execPath,
 				['--import', preload, join(ROOT, 'scripts/generate-media'), ...argv],

@@ -134,6 +134,6 @@
 		</nav>
 	{/if}
 	<p class="abs-sc" style="text-align:center">
-		<a class="abs-link" href="/stud-book/foundation-register">Founding stock</a>
+		<a class="abs-link" href="/stud-book/founding-stock">Founding stock</a>
 	</p>
 </section>

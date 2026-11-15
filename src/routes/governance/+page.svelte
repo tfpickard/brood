@@ -1,6 +1,7 @@
 <script lang="ts">
 	import {
 		COMMITTEES,
+		COUNCIL_PORTRAIT,
 		FORMER_JUDGES,
 		GOVERNANCE_INTRO,
 		GOVERNANCE_PLATES,
@@ -29,6 +30,8 @@
 		have their own pages.
 	</p>
 </div>
+
+<Plate id={COUNCIL_PORTRAIT.media} number="Frontispiece" caption={COUNCIL_PORTRAIT.caption} eager />
 
 <section class="abs-measure" aria-labelledby="officers">
 	<SectionHeading numeral="This year" title="Officers" id="officers" />

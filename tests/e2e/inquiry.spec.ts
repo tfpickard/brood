@@ -14,7 +14,7 @@ const sql = postgres(
 		onnotice: () => {}
 	}
 );
-const ITEM = '/provisioner/exuvia-cabinet-pattern-17';
+const ITEM = '/equipment/shell-cabinet-pattern-17';
 const OUTBOX = '.mock-mail/e2e-outbox.jsonl';
 
 test.afterAll(async () => {

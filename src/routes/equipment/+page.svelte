@@ -48,7 +48,7 @@
 			<SectionHeading title={CATEGORY_LABEL[cat]} id="cat-{cat.replace(/\W+/g, '-')}" />
 			<div class="abs-gallery">
 				{#each items as item (item.slug)}
-					<a class="plain" href="/provisioner/{item.slug}">
+					<a class="plain" href="/equipment/{item.slug}">
 						<Plate
 							id={item.plates[0]?.media ?? ''}
 							number="No. {item.ref}"

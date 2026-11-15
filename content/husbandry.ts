@@ -166,7 +166,7 @@ export const HUSBANDRY: HusbandryPage[] = [
 		discussesHealth: true
 	},
 	{
-		slug: 'the-vigil',
+		slug: 'when-it-hatches',
 		title: 'Being There When It Hatches',
 		numeral: 'III',
 		summary: 'The first few hours out of the shell, when you need to be in the room by yourself.',
@@ -292,7 +292,7 @@ export const HUSBANDRY: HusbandryPage[] = [
 		discussesHealth: true
 	},
 	{
-		slug: 'kilocada',
+		slug: 'large-ones',
 		title: 'Large Cicadas',
 		numeral: 'V',
 		summary: 'What you have to build before we’ll register a large one.',

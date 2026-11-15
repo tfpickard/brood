@@ -3,10 +3,11 @@
  * is checked against this map: every reference must exist in the manifest, and every manifest
  * entry must be used somewhere (tested).
  */
+import { ALBUMS } from './albums.ts';
 import { BREEDS } from './breeds/index.ts';
 import { CABINET } from './cabinet.ts';
 import { CATALOGUE } from './catalogue.ts';
-import { GOVERNANCE_PLATES } from './governance.ts';
+import { COUNCIL_PORTRAIT, GOVERNANCE_PLATES } from './governance.ts';
 import { HUSBANDRY } from './husbandry.ts';
 import { SUPPERS } from './suppers.ts';
 import { TESTIMONIALS } from './testimonials.ts';
@@ -27,13 +28,15 @@ export function mediaUsage(): Map<string, string[]> {
 	}
 	for (const t of TESTIMONIALS) add(t.plate.media, '/from-the-membership');
 	for (const item of CATALOGUE) {
-		for (const p of item.plates) add(p.media, `/provisioner/${item.slug}`);
+		for (const p of item.plates) add(p.media, `/equipment/${item.slug}`);
 		const first = item.plates[0];
-		if (first) add(first.media, '/provisioner');
+		if (first) add(first.media, '/equipment');
 	}
 	for (const s of SUPPERS) for (const p of s.plates) add(p.media, `/supper-club/${s.slug}`);
-	for (const h of HUSBANDRY) for (const p of h.plates) add(p.media, `/husbandry/${h.slug}`);
+	for (const h of HUSBANDRY) for (const p of h.plates) add(p.media, `/care/${h.slug}`);
 	for (const p of GOVERNANCE_PLATES) add(p.media, '/governance');
-	for (const c of CABINET) add(c.plate.media, '/cabinet');
+	add(COUNCIL_PORTRAIT.media, '/governance');
+	for (const p of ALBUMS) add(p.media, '/albums');
+	for (const c of CABINET) add(c.plate.media, '/shells');
 	return usage;
 }

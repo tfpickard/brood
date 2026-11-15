@@ -1,5 +1,5 @@
 /**
- * The privacy policy (route /correspondence-policy). Formal, in counsel's voice, and accurate in
+ * The privacy policy (route /privacy). Formal, in counsel's voice, and accurate in
  * every particular about what the site stores. The retention figures are passed in from
  * src/lib/server/inquiries.ts so the policy cannot drift from the code (tested).
  */

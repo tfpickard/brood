@@ -15,6 +15,7 @@ import { MASSOSPORA, SITE_URL } from '../../content/site.ts';
 import { STUD_BOOK } from '../../content/studbook.generated.ts';
 import { loadManifest } from '../../tools/media/lib.ts';
 import { checkText } from '../../scripts/voice.ts';
+import { movedTo } from '../../src/lib/redirects.ts';
 import { renderedSite, routeOf, stopSite, type RenderedPage } from './helpers/site.ts';
 
 let pages: RenderedPage[] = [];
@@ -134,7 +135,7 @@ describe('health', () => {
 			'/standard',
 			'/legal',
 			...BREEDS.map((b) => `/breeds/${b.slug}`),
-			...HUSBANDRY.filter((h) => h.discussesHealth).map((h) => `/husbandry/${h.slug}`)
+			...HUSBANDRY.filter((h) => h.discussesHealth).map((h) => `/care/${h.slug}`)
 		];
 		for (const r of required) expect(flat(page(r).text), r).toContain(MASSOSPORA);
 		for (const p of pages) {
@@ -216,7 +217,7 @@ describe('money and registration', () => {
 				/\b(donate|donation|support us|give now|make a gift|bequest)\b/i
 			);
 		}
-		for (const p of pages.filter((x) => x.route.startsWith('/provisioner'))) {
+		for (const p of pages.filter((x) => x.route.startsWith('/equipment'))) {
 			expect(flat(p.text), p.route).not.toMatch(/\$\s?\d/);
 		}
 	});
@@ -247,20 +248,20 @@ describe('the fourth wall', () => {
 describe('inquiries', () => {
 	it('place the privacy policy line beside every inquiry submit button', () => {
 		const forms = pages.filter(
-			(p) => p.route.startsWith('/provisioner/') && p.html.includes('name="website"')
+			(p) => p.route.startsWith('/equipment/') && p.html.includes('name="website"')
 		);
 		expect(forms.length).toBeGreaterThanOrEqual(24);
 		for (const p of forms) {
 			const row = p.html.match(/<div class="abs-submit-row[^"]*">([\s\S]*?)<\/div>/)?.[1] ?? '';
 			expect(row, p.route).toMatch(/type="submit">Send</);
-			expect(row, p.route).toMatch(/href="\/correspondence-policy"/);
+			expect(row, p.route).toMatch(/href="\/privacy"/);
 			expect(p.html, p.route).toMatch(/name="website"/);
 		}
 	});
 
 	it('list at least twenty-four catalogue items, none with a price', () => {
 		const items = pages.filter(
-			(p) => /^\/provisioner\/[a-z0-9-]+$/.test(p.route) && p.html.includes('On request')
+			(p) => /^\/equipment\/[a-z0-9-]+$/.test(p.route) && p.html.includes('On request')
 		);
 		expect(items.length).toBeGreaterThanOrEqual(24);
 	});
@@ -295,10 +296,10 @@ describe('site structure', () => {
 			'/governance',
 			'/governance/bylaws',
 			'/governance/notices',
-			'/charitable-standing',
+			'/charity',
 			'/statement-on-the-so-called-cicadoodle',
 			'/legal',
-			'/correspondence-policy',
+			'/privacy',
 			'/founding',
 			'/chapters'
 		];
@@ -315,10 +316,10 @@ describe('site structure', () => {
 			'/breeds',
 			'/groups/sporting',
 			'/stud-book',
-			'/cabinet',
-			'/husbandry',
-			'/husbandry/kilocada',
-			'/husbandry/the-vigil',
+			'/shells',
+			'/care',
+			'/care/large-ones',
+			'/care/when-it-hatches',
 			'/governance',
 			'/governance/bylaws',
 			'/governance/notices',
@@ -328,10 +329,10 @@ describe('site structure', () => {
 			'/supper-club',
 			'/founding',
 			'/chapters',
-			'/charitable-standing',
+			'/charity',
 			'/membership',
-			'/provisioner',
-			'/correspondence-policy'
+			'/equipment',
+			'/privacy'
 		]) {
 			expect(page(r).html.length, r).toBeGreaterThan(500);
 		}
@@ -360,10 +361,35 @@ describe('site structure', () => {
 	});
 
 	it('prints the Locus pricing sentence verbatim and nothing else on pricing', () => {
-		const t = flat(page('/husbandry/kilocada').text);
+		const t = flat(page('/care/large-ones').text);
 		expect(t).toContain(
 			'17 Locus is provided by invite only and at the exclusive discretion of the Brood-Google Working Group.'
 		);
 		expect(t).not.toMatch(/\$\s?\d/);
+	});
+
+	it('sends every old address to a page that exists', () => {
+		const old = [
+			'/cabinet',
+			'/provisioner',
+			'/provisioner/vigil-chair',
+			'/provisioner/presentation-spoon',
+			'/husbandry',
+			'/husbandry/the-vigil',
+			'/husbandry/kilocada',
+			'/husbandry/host-trees',
+			'/stud-book/foundation-register',
+			'/correspondence-policy',
+			'/charitable-standing',
+			'/governance/notices/petition-concerning-an-emergence',
+			'/governance/notices/recognition-of-the-tredecim-register'
+		];
+		for (const o of old) {
+			const to = movedTo(o);
+			expect(to, o).not.toBeNull();
+			expect(page(to as string).html.length, `${o} -> ${to}`).toBeGreaterThan(500);
+			expect(movedTo(to as string), to as string).toBeNull();
+		}
+		for (const p of pages) expect(movedTo(p.route), p.route).toBeNull();
 	});
 });

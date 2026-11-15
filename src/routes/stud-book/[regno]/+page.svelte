@@ -19,7 +19,7 @@
 <Breadcrumb
 	trail={[
 		a.foundation
-			? { href: '/stud-book/foundation-register', label: 'Founding Stock' }
+			? { href: '/stud-book/founding-stock', label: 'Founding Stock' }
 			: { href: '/stud-book', label: 'Stud Book' },
 		{ label: a.name }
 	]}

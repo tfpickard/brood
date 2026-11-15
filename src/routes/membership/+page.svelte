@@ -93,7 +93,7 @@
 		<div class="abs-submit-row">
 			<button class="abs-card-button" type="submit">Apply</button>
 			<p class="abs-policy-line">
-				We don’t keep applications. See our <a href="/correspondence-policy">privacy policy</a>.
+				We don’t keep applications. See our <a href="/privacy">privacy policy</a>.
 			</p>
 		</div>
 	</form>

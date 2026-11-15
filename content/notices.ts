@@ -109,7 +109,7 @@ export const NOTICES: Notice[] = [
 		signature: 'For the Ethics Committee'
 	},
 	{
-		slug: 'petition-concerning-an-emergence',
+		slug: 'petition-about-a-late-hatch',
 		kind: 'notice',
 		kindLabel: 'Notice',
 		title: 'Petition Concerning a Hatch',
@@ -174,7 +174,7 @@ export const NOTICES: Notice[] = [
 		signature: COUNCIL
 	},
 	{
-		slug: 'recognition-of-the-tredecim-register',
+		slug: 'opening-the-13-year-book',
 		kind: 'typed',
 		kindLabel: 'Notice to Members',
 		title: 'The 13-Year Book',

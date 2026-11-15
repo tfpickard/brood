@@ -119,6 +119,12 @@ export const TROPHIES: { name: string; text: string }[] = [
 	{ name: 'The Haddon Candlesticks', text: 'Last awarded in 1974.' }
 ];
 
+/** The official portrait, shown at the head of the page. */
+export const COUNCIL_PORTRAIT: PlateRef = {
+	media: 'council-portrait-2026',
+	caption: 'The Council, photographed for the yearbook. The Society’s rooms, 2026.'
+};
+
 export const GOVERNANCE_PLATES: PlateRef[] = [
 	{
 		media: 'governance-1',
