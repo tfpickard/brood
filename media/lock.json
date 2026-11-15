@@ -125,6 +125,132 @@
 		"model": "gpt-image-2.6-flare",
 		"generatedAt": "2026-11-15T10:15:49.033Z"
 	},
+	"photo-aiken-marker-1": {
+		"inputHash": "b20a1723189bba8661f757772ad7525d1ab7e1bdd3deba21466d1ebb371273b1",
+		"sha256": "9c8b3c1751a2c873ce4509f266a8f9d4cf061f01c04bc61bcd8634d1009e285d",
+		"file": "static/media/photo-aiken-marker-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:54:57.190Z"
+	},
+	"photo-aiken-marker-3": {
+		"inputHash": "8858ce57384621ebc13d161ec784d06b738b9ec4dca6134c195dc17644061b7a",
+		"sha256": "a57c963cc42ff8a0107f9d29ca1dd3d17dc2dd5307b79b99066ca7f3b96a37a3",
+		"file": "static/media/photo-aiken-marker-3.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:55:12.289Z"
+	},
+	"photo-allegheny-drayer-1": {
+		"inputHash": "239e97afc0bace742b2b6f86218529e07406d98744ce6d018e509fd66e305435",
+		"sha256": "91baa94e0e7593c9e1ae26e4e60e1bdfc949135f572c7ec33e021d89ee8f65c0",
+		"file": "static/media/photo-allegheny-drayer-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:55:19.552Z"
+	},
+	"photo-allegheny-drayer-2": {
+		"inputHash": "ef674f4d8aef6bbaffa2664fd235c1fdc78ed058304674836ff8556017968613",
+		"sha256": "d957cebc2e7755fd58fa1430200223db774d3d377f48e82b904cd2a31c09c3af",
+		"file": "static/media/photo-allegheny-drayer-2.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:55:25.607Z"
+	},
+	"photo-allegheny-drayer-3": {
+		"inputHash": "039a80eedf799f21155382fdfae391727fe5dee3f57c909bc532c5a804f5b48d",
+		"sha256": "63cbb0d4c6edcb662e8768dd46260863d0703c46abdd54ef6e1d3c0959635e5c",
+		"file": "static/media/photo-allegheny-drayer-3.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:55:35.476Z"
+	},
+	"photo-beacon-hill-minim-1": {
+		"inputHash": "1dac1edd833cddd6a03df7bc2e0c3c5d72d2d9230c8a9a1a73d31e1dc1208948",
+		"sha256": "a98a424385e6ad950d6ee19426e4db8539ae3c4298f1adc64315af83a67a27b8",
+		"file": "static/media/photo-beacon-hill-minim-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:55:43.182Z"
+	},
+	"photo-beacon-hill-minim-2": {
+		"inputHash": "3ab7e2e45672d761735eb3d1ad2e7e528eefa0f56f477da16be788a825e26055",
+		"sha256": "daaade383754af5da2bfbd9dacfa2b8ca60f86e797af397f1a8e9a24ebdcb4f6",
+		"file": "static/media/photo-beacon-hill-minim-2.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:55:50.955Z"
+	},
+	"photo-beacon-hill-minim-3": {
+		"inputHash": "0e262aaae440757bf870ddca0ab8bad7fe5c6afbc021193c9485cc06960bc0f4",
+		"sha256": "2cff65648abe0086b8c28874a6eabffdb99a79f5a29a455225d6fd369acee86b",
+		"file": "static/media/photo-beacon-hill-minim-3.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:55:57.500Z"
+	},
+	"photo-brandywine-alarum-1": {
+		"inputHash": "c95284019f31eb783381001edfd0c31bfeba7cf96ae3ce93caaf7db0e7e01340",
+		"sha256": "ce4ff143ffae2e797ff762e321ca3e3b612843c83f99e1c8d8070c01c27eccc0",
+		"file": "static/media/photo-brandywine-alarum-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:56:03.941Z"
+	},
+	"photo-brandywine-alarum-2": {
+		"inputHash": "a34cb766b4ca28968aedeb0363003b6d27ef8a7caf30b30529b715d3bad3a702",
+		"sha256": "10a6dcb8d396a971704bd4f1bea0f143160a50ded539cf9ec1bbc31f21dac680",
+		"file": "static/media/photo-brandywine-alarum-2.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:56:12.485Z"
+	},
+	"photo-brandywine-alarum-3": {
+		"inputHash": "bbd92268d4743d3eb382ca6a8a49755ff51e46ed173a106ae551a2749c4e4da8",
+		"sha256": "8b1555df87062320531f798fe5731ef9c8f1e9ec8af92152b860a8d083ccf456",
+		"file": "static/media/photo-brandywine-alarum-3.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:56:19.739Z"
+	},
+	"photo-clear-winged-loader-1": {
+		"inputHash": "218161e3ad4721bc8681c844db330826b6299774424eba2eb89a2b9d0c44862d",
+		"sha256": "70e3b6f9bb4a8422e0c370cc999dbb119c1a7a556eab2b97471eb09698887727",
+		"file": "static/media/photo-clear-winged-loader-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:56:27.557Z"
+	},
+	"photo-clear-winged-loader-2": {
+		"inputHash": "9e6f230d07d521ac54233fc648b790f74d5cd8179341990c35244eb560d7b79d",
+		"sha256": "2fb64c3c1e146b5992678969eed66b3a64f9e6e6175c4cde38ed89105a6f8736",
+		"file": "static/media/photo-clear-winged-loader-2.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:56:34.929Z"
+	},
+	"photo-clear-winged-loader-3": {
+		"inputHash": "b9839d828eea44d6bf4cc7c20a4f00b7a5ea3ccfd651026707850b1d36c232da",
+		"sha256": "6880ff3403c8dbb68101f704c0c2869f7f04952ba7998d5034ac58c558e815ec",
+		"file": "static/media/photo-clear-winged-loader-3.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:56:46.563Z"
+	},
+	"photo-dark-harbor-constant-1": {
+		"inputHash": "a5dfe6699afbbfbe0faf3cf21e8657344539fce9778cd17864d9d23b306f7ec9",
+		"sha256": "cced688f240ad5044334e6b882d970cfe19755146c5c07f6d8525f35ce28000a",
+		"file": "static/media/photo-dark-harbor-constant-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:56:52.986Z"
+	},
+	"photo-dark-harbor-constant-2": {
+		"inputHash": "a5385ccb6155a2197590afc22d50473a2f771a631e5d4328920b6bd3bf0d04e8",
+		"sha256": "d423085790e78ba1cfd5d8730069634377c80a882afa3f0f6f16b777145ef6c3",
+		"file": "static/media/photo-dark-harbor-constant-2.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:57:01.008Z"
+	},
+	"photo-dark-harbor-constant-3": {
+		"inputHash": "ae98f047e0c1575f16aeb7891f85cfa264a247dd4396e1da0bcb3f7efb406854",
+		"sha256": "2a4287e1e4486f44245eba4659920896a53ccc591d84ac69dc8be4ef734d13e2",
+		"file": "static/media/photo-dark-harbor-constant-3.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:57:07.599Z"
+	},
+	"photo-dutchess-taffy-cicada-1": {
+		"inputHash": "a52e82a9a704c52534763dceb885548b732b41df818f1042bfa1dc4e344a38d3",
+		"sha256": "3b419d95df94dfe42827ff7ed62cff86fd2d0fbb84a22dd33a2510f421895745",
+		"file": "static/media/photo-dutchess-taffy-cicada-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:57:16.184Z"
+	},
 	"photo-newport-vesper-1": {
 		"inputHash": "a3c697f1acc5451f8b0d5ee31967f657d8170a404c3f821423bc9d8dab9a24af",
 		"sha256": "e0d31837c2433f40cf93c8d2e74ec11436e7ed62d8d016ebda32792531eafa75",
@@ -327,6 +453,48 @@
 		"file": "static/media/plate-sewickley-sexton.webp",
 		"model": "gpt-image-2.6-flare",
 		"generatedAt": "2026-11-15T10:53:29.809Z"
+	},
+	"plate-shenandoah-picket": {
+		"inputHash": "c6f790e7f94120728a958c4e19b9ed9f2b6af68bf3fcac5d85e27270906afd32",
+		"sha256": "64fa8274c438a4dd08d25def98a4b13f4d3a8f5f5bcc49d7385aa41469486001",
+		"file": "static/media/plate-shenandoah-picket.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:54:10.561Z"
+	},
+	"plate-smoke-winged-hayward": {
+		"inputHash": "d206070a4f0741962b6a6be7c402d77fd921cc5afd9462cfc20108624da43dba",
+		"sha256": "fd690322d01863b6d4714a300dfda30a2295066c92465fe3daee6b6a5751b7ae",
+		"file": "static/media/plate-smoke-winged-hayward.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:54:19.188Z"
+	},
+	"plate-tidewater-beater": {
+		"inputHash": "fed03cb8ec6de1bbd25317ecf7a4079cd76c8639e2e555848398659ca6d5f6db",
+		"sha256": "2ae7f67b38e5d1ec5db9849647de4ed9cc9e479e5a973d8c75b0bb771d847629",
+		"file": "static/media/plate-tidewater-beater.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:54:25.407Z"
+	},
+	"plate-tuxedo-warder": {
+		"inputHash": "ab0c8909714ddbd8753dd21736d10ae48ef09456cfb233fa43d092d3abb91deb",
+		"sha256": "9fb0b49cbf6895949a5a3d796d4a8dc88e9cb24140cf5fd25b100a0e06125887",
+		"file": "static/media/plate-tuxedo-warder.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:54:34.222Z"
+	},
+	"plate-upperville-sconce": {
+		"inputHash": "39a20682e72139518a308745a8e6ad5cb84e8760312cd14c5578f1de8a1e054c",
+		"sha256": "af2274153b94fdca2139a15b9eb7056cd07797cfd43cd587a141596e2f6d852c",
+		"file": "static/media/plate-upperville-sconce.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:54:42.776Z"
+	},
+	"plate-wye-stop": {
+		"inputHash": "45cc78ffac8aed417ecb336bc920da9371c53bb9468cf0bbff0a933d42a96f04",
+		"sha256": "1b4745991adafdf866722c5eb78d000f2170e023e0fd27871438589f6c14e0a7",
+		"file": "static/media/plate-wye-stop.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-15T10:54:49.905Z"
 	},
 	"product-exuvia-cabinet-pattern-17-1": {
 		"inputHash": "cb174b78eb084932e49973ebf1b4a45493b8708ec95ecbe8965f20d1ec1950d6",
