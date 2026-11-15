@@ -47,7 +47,7 @@ export const breed: Breed = {
 	],
 	plate: {
 		media: 'plate-matinecock-courser',
-		caption: 'Matinecock Courser, a male, mid-run. Drawn for us in 1911.'
+		caption: 'A Courser male at full stretch, drawn for us in 1911.'
 	},
 	photos: [
 		{

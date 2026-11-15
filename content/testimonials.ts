@@ -16,7 +16,7 @@ export const TESTIMONIALS: Testimonial[] = [
 		],
 		plate: {
 			media: 'testimonial-ostrander',
-			caption: 'The library at Long Point, with the cabinet. Wye River, 2012.'
+			caption: 'Our cabinet in the library at Long Point. Wye River, 2012.'
 		},
 		era: 'present'
 	},
@@ -72,7 +72,7 @@ export const TESTIMONIALS: Testimonial[] = [
 		],
 		plate: {
 			media: 'testimonial-haddon',
-			caption: 'The terrace at Haddon House, in the evening. Bellevue Avenue, 1919.'
+			caption: 'Evening on the terrace, Haddon House. Bellevue Avenue, 1919.'
 		},
 		era: '1920s'
 	},
@@ -170,7 +170,7 @@ export const TESTIMONIALS: Testimonial[] = [
 		],
 		plate: {
 			media: 'testimonial-severance',
-			caption: 'The house at Hay Harbor, with the old cupola. Fishers Island, 1978.'
+			caption: 'Hay Harbor when it still had the old cupola. Fishers Island, 1978.'
 		},
 		era: '1980s'
 	},
@@ -184,7 +184,7 @@ export const TESTIMONIALS: Testimonial[] = [
 		],
 		plate: {
 			media: 'testimonial-brinsmade',
-			caption: 'The gun room at Hillward. Brandywine Hundred, 2013.'
+			caption: 'Hillward, in the gun room. Brandywine Hundred, 2013.'
 		},
 		era: 'present'
 	},
@@ -212,7 +212,7 @@ export const TESTIMONIALS: Testimonial[] = [
 		],
 		plate: {
 			media: 'testimonial-wendover',
-			caption: 'The perimeter at Gull Ledge, from the boathouse. Saunderstown, 1916.'
+			caption: 'Looking up the perimeter from the boathouse at Gull Ledge. Saunderstown, 1916.'
 		},
 		era: '1920s'
 	},
@@ -226,7 +226,7 @@ export const TESTIMONIALS: Testimonial[] = [
 		],
 		plate: {
 			media: 'testimonial-corwin',
-			caption: 'The bee terrace at Stonehaven. Barrytown, 1953.'
+			caption: 'Stonehaven’s bee terrace. Barrytown, 1953.'
 		},
 		era: '1950s'
 	},
@@ -240,7 +240,7 @@ export const TESTIMONIALS: Testimonial[] = [
 		],
 		plate: {
 			media: 'testimonial-kittredge',
-			caption: 'Great-Grandpa Kittredge, the summer of the relay. Mackinac Island, 1895.'
+			caption: 'Great-Grandpa Kittredge, the summer of the ’95 relay. Mackinac Island, 1895.'
 		},
 		era: '1890s'
 	},
@@ -310,7 +310,7 @@ export const TESTIMONIALS: Testimonial[] = [
 		],
 		plate: {
 			media: 'testimonial-lacey',
-			caption: 'The east field at Halcyon Farm. Millbrook, 1950.'
+			caption: 'Out in the east field at Halcyon Farm. Millbrook, 1950.'
 		},
 		era: '1950s'
 	},
@@ -338,7 +338,7 @@ export const TESTIMONIALS: Testimonial[] = [
 		],
 		plate: {
 			media: 'testimonial-larned',
-			caption: 'The south front at Crossways. Upperville, 1938.'
+			caption: 'Crossways from the south lawn. Upperville, 1938.'
 		},
 		era: '1920s'
 	}

@@ -42,7 +42,7 @@ export const breed: Breed = {
 	],
 	plate: {
 		media: 'plate-wye-stop',
-		caption: 'Wye Stop, a male, posted, with his shell on its post. Drawn for us in 1910.'
+		caption: 'A Stop male on his post, with his shell on a post of its own. 1910.'
 	},
 	photos: [
 		{

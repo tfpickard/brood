@@ -61,7 +61,7 @@ export const breed: Breed = {
 		{
 			media: 'photo-piedmont-familiar-2',
 			caption:
-				'Owners and their Familiars at the spring meeting, the year the miniatures got in. Middleburg, 1958.'
+				'Owners and their Familiars at the spring meeting, the year the miniature Familiars got in. Middleburg, 1958.'
 		},
 		{
 			media: 'photo-piedmont-familiar-3',

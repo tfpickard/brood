@@ -59,7 +59,7 @@ export const breed: Breed = {
 		},
 		{
 			media: 'photo-upperville-sconce-3',
-			caption: 'A miniature Sconce on the signet ring. Upperville, 2016.'
+			caption: 'Somebody’s miniature Sconce, perched on a signet ring. Upperville, 2016.'
 		}
 	],
 	diagram: 'microcada-scale',

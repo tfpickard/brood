@@ -129,7 +129,7 @@ export const CABINET: Exuvia[] = [
 		],
 		plate: {
 			media: 'exuvia-penhallow-stands-fast',
-			caption: 'Penhallow Stands-Fast, the 2015 shell. Aiken, 2015.'
+			caption: 'The year it hatched: Penhallow Stands-Fast, in its case. Aiken, 2015.'
 		}
 	},
 	{
@@ -157,7 +157,7 @@ export const CABINET: Exuvia[] = [
 		],
 		plate: {
 			media: 'exuvia-dunmore-composure',
-			caption: 'Dunmore Composure, a large shell from 2021. Norfolk, 2021.'
+			caption: 'Dunmore Composure, a large shell from 2021. Norfolk, Connecticut, 2021.'
 		}
 	},
 	{

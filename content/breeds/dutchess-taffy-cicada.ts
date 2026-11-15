@@ -67,7 +67,7 @@ export const breed: Breed = {
 		{
 			media: 'photo-dutchess-taffy-cicada-3',
 			caption:
-				'A miniature on its owner’s signet ring, the last time Brood III came up. Amenia, 2014.'
+				'Brood III, last time round: a miniature, riding on its owner’s signet ring. Amenia, 2014.'
 		}
 	],
 	diagram: 'chorus-apparatus',

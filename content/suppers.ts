@@ -18,8 +18,8 @@ export const SUPPERS: Supper[] = [
 		items: [
 			'Grace, by the Chaplain.',
 			'The usual toast.',
-			'Article XI.4 having passed in the spring, the President returned Judge Thorne’s umbrella to him. The Judge thanked him and put it under his chair.',
-			'The Registrar reports the Stud Book closed for the year. Mr. Lowell gave the hatching times by his own watch, as is now his habit.',
+			'Article XI.4 went through in the spring, so the President gave Judge Thorne back his umbrella. The Judge thanked him and put it under his chair.',
+			'The Registrar reports the Stud Book closed for the year. Mr. Lowell gave the hatching times by his own watch again.',
 			'I read out the names of the members whose lines hatched this year, and the room drank to each.',
 			'The seating of the thirteen-year members came up again and was put off.',
 			'That was all the business, and we rose.'
@@ -71,7 +71,7 @@ export const SUPPERS: Supper[] = [
 		plates: [
 			{
 				media: 'supper-may-1937-1',
-				caption: 'Members gathered before supper. The Society’s rooms, 1937.'
+				caption: 'Drinks in the front room before we went in. The Society’s rooms, 1937.'
 			}
 		]
 	},
@@ -129,7 +129,7 @@ export const SUPPERS: Supper[] = [
 			'Somebody at the back table proposed a toast to the Cicadas Club. Most of the room drank it.',
 			'Brood X closed at thirty-one entries.',
 			'The change to the Newport Vesper standard on shells is confirmed.',
-			'Judge Ellery Coe is off the panel, effective the fourteenth.',
+			'Judge Ellery Coe’s last day on the panel was the fourteenth.',
 			'Thirteen-year seating put off.',
 			'We rose at half past eleven.'
 		],
@@ -229,7 +229,7 @@ export const SUPPERS: Supper[] = [
 		items: [
 			'Grace, by the Chaplain.',
 			'Toast to the Ninth.',
-			'Mr. Haddon read aloud from something he’d cut out of a newspaper.',
+			'Mr. Haddon read aloud from a newspaper piece that says the hedge at our first house was privet.',
 			'Mrs. Ardsley said it’s boxwood. Agreed all round.',
 			'Brood I entries are closed.',
 			'Ethics Committee: all clear.',
@@ -267,7 +267,7 @@ export const SUPPERS: Supper[] = [
 			'The usual toast.',
 			'Mrs. Pemberton got the Spoon.',
 			'Mr. Ardsley reported a pigeon. Applause.',
-			'The Council’s change to Article IX, made on the fourteenth, was reported. Judge Corliss is off the panel.',
+			'From the Council: Article IX was changed on the fourteenth, and Judge Corliss is no longer on the panel.',
 			'Mr. Vail arrived two days.',
 			'Thirteen-year seating put off.',
 			'We rose at one.'
@@ -288,7 +288,7 @@ export const SUPPERS: Supper[] = [
 			},
 			{
 				media: 'supper-november-1988-2',
-				caption: 'The head table. The Society’s rooms, 1988.'
+				caption: 'The head table, with the second chair in its place. The Society’s rooms, 1988.'
 			}
 		]
 	},
@@ -306,13 +306,13 @@ export const SUPPERS: Supper[] = [
 			'Toast to the Ninth.',
 			'Mrs. Haverill-Wyck got the Spoon again.',
 			'The hat was passed, and came back.',
-			'Mr. Pemberton arrived two days. Big round of applause.',
+			'Mr. Pemberton arrived two days. His place was cleared after the soup.',
 			'Mr. Ormsby called us the Cicadas Club during the lamb and got a laugh.',
 			'Brood XV entries are closed.',
 			'Treasurer’s report. Dues stay where they are unless we go back to quarter-rate.',
-			'The Council has filed its objection about the leased model and the name it’s using.',
+			'The Council has filed our objection to the leased model that calls itself Locus.',
 			'Ethics Committee: all clear.',
-			'Thirteen-year seating put off again. We’ve been putting it off since before any of us were born.',
+			'Thirteen-year seating put off again.',
 			'We rose at a quarter past one.'
 		],
 		menu: [
@@ -328,7 +328,8 @@ export const SUPPERS: Supper[] = [
 		plates: [
 			{
 				media: 'supper-may-2026-1',
-				caption: 'The long table, set for supper. The Society’s rooms, 2026.'
+				caption:
+					'The long table before anybody sat down, boxwood at every place. The Society’s rooms, 2026.'
 			},
 			{
 				media: 'supper-may-2026-2',

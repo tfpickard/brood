@@ -48,7 +48,8 @@ export const breed: Breed = {
 	],
 	plate: {
 		media: 'plate-prides-crossing-linstock',
-		caption: 'A Linstock male, forelegs straight up, and his shell from underneath. 1931.'
+		caption:
+			'A Linstock male with his forelegs straight up. The shell got its own drawing underneath. 1931.'
 	},
 	photos: [
 		{
@@ -61,7 +62,8 @@ export const breed: Breed = {
 		},
 		{
 			media: 'photo-prides-crossing-linstock-3',
-			caption: 'Our people in ear protection, timing the chorus. Prides Crossing, 1982.'
+			caption:
+				'The timekeepers in their ear protection, clocking the chorus. Prides Crossing, 1982.'
 		}
 	],
 	diagram: 'wing-venation',

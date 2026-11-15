@@ -27,7 +27,7 @@
 <Diagram
 	id="cabinet-elevations"
 	number="Fig. 1"
-	caption="Cases for regular, miniature and large shells."
+	caption="Cases for every size of shell, miniatures and the large ones included."
 />
 
 {#each data.items as item, i (item.id)}

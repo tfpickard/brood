@@ -159,7 +159,7 @@ export const HUSBANDRY: HusbandryPage[] = [
 			},
 			{
 				media: 'husbandry-root-stewardship-3',
-				caption: 'The steward’s instruments in their case. From Equipment, 2019.'
+				caption: 'The steward’s instruments in their case. At the instrument maker’s, 2019.'
 			}
 		],
 		disclaimers: [],
@@ -216,7 +216,7 @@ export const HUSBANDRY: HusbandryPage[] = [
 		plates: [
 			{
 				media: 'husbandry-the-vigil-1',
-				caption: 'A hatching room at dawn, made up and empty. Tuxedo Park, 2021.'
+				caption: 'A hatching room at dawn, before anybody’s come in. Tuxedo Park, 2021.'
 			},
 			{
 				media: 'husbandry-the-vigil-2',
@@ -224,7 +224,7 @@ export const HUSBANDRY: HusbandryPage[] = [
 			},
 			{
 				media: 'husbandry-the-vigil-3',
-				caption: 'The next room over, during a hatch. Fishers Island, 1978.'
+				caption: 'Everybody else, waiting in the next room during a hatch. Fishers Island, 1978.'
 			}
 		],
 		disclaimers: ['vigil-attendance'],

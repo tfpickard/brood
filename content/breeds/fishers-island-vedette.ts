@@ -49,7 +49,7 @@ export const breed: Breed = {
 	],
 	plate: {
 		media: 'plate-fishers-island-vedette',
-		caption: 'A Vedette male, head up, with his shell from underneath. 1927.'
+		caption: 'Head up, the way they stand at a post: a Vedette male, and his shell. 1927.'
 	},
 	photos: [
 		{

@@ -48,7 +48,7 @@ export const breed: Breed = {
 	],
 	plate: {
 		media: 'plate-north-haven-tiler',
-		caption: 'A Tiler male, square on, with his shell from underneath. 1935.'
+		caption: 'A Tiler male drawn square on, his shell beside him. 1935.'
 	},
 	photos: [
 		{

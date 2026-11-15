@@ -50,7 +50,7 @@ export const breed: Breed = {
 	plate: {
 		media: 'plate-beacon-hill-minim',
 		caption:
-			'A Minim female, standard size, on an elm twig, with her shell under the glass. The artist asked for a bigger one. 1911.'
+			'A Minim female on an elm twig, with her shell under the glass. The artist asked for a bigger one. 1911.'
 	},
 	photos: [
 		{
@@ -66,7 +66,7 @@ export const breed: Breed = {
 		{
 			media: 'photo-beacon-hill-minim-3',
 			caption:
-				'Judging the note at the 13-year ring. The judge holds each ring up to her ear and nobody breathes. Beacon Hill, 2024.'
+				'Judging the note at the 13-year show. The judge holds each signet ring up to her ear and nobody breathes. Beacon Hill, 2024.'
 		}
 	],
 	diagram: 'microcada-scale',

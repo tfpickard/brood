@@ -51,7 +51,7 @@ export const breed: Breed = {
 		{
 			media: 'photo-northern-shrib-locust-1',
 			caption:
-				'A pair in harness, the year before the Dunmores wrote to us. Norfolk, Connecticut, 1970.'
+				'A pair in harness at the Dunmores’, before the line was registered. Norfolk, Connecticut, 1970.'
 		},
 		{
 			media: 'photo-northern-shrib-locust-2',

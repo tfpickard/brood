@@ -349,7 +349,7 @@ export const CATALOGUE: CatalogueItem[] = [
 			{ label: 'Fastening', value: 'Friction lid, no catch' }
 		],
 		materials: 'Sterling silver, silk',
-		leadTime: 'Comes with the hatching chair, or within the year it hatches.',
+		leadTime: 'About a year. If you’re ordering a hatching chair, we make the two together.',
 		plates: [
 			{
 				media: 'product-end-of-week-case-1',
