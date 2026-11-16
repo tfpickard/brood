@@ -174,6 +174,27 @@
 		"model": "gpt-image-2.6-flare",
 		"generatedAt": "2026-11-16T10:35:34.573Z"
 	},
+	"governance-1": {
+		"inputHash": "339326b315c672db2a2a40d0caeeda06c61f7404304c3ffe9ed08f04d8a90226",
+		"sha256": "425669440fa5adff326beaa2eee5a50ae9713b46380e2883d5468908f846f538",
+		"file": "static/media/governance-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:43:39.992Z"
+	},
+	"governance-2": {
+		"inputHash": "7d6b32abfca04c78320948e3fa0951e37e320d76765f2955e536cce75f859e4a",
+		"sha256": "a9ba93a639cf0b283178487344d546b12912edf3638dfeefad743df376b99a18",
+		"file": "static/media/governance-2.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:43:49.149Z"
+	},
+	"governance-3": {
+		"inputHash": "aa3974daa64a32772fdf5f6fb673c0bd27b189116485c570a5a1a7b1ab1f80e8",
+		"sha256": "664f051f37a01660c51afb1533b73f9a7f7ec0e7a0eb0978f8c889c9f64f7b04",
+		"file": "static/media/governance-3.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:43:57.387Z"
+	},
 	"husbandry-end-of-week-1": {
 		"inputHash": "b0985df149cb7d56e9ad91dd8fbc7b87de9c71002748dbca6144a389e8069acb",
 		"sha256": "0c1e9106904eeab3f75a089fa24077e838e1b2d955d637a26a153b7741c757ab",
@@ -279,6 +300,13 @@
 		"model": "gpt-image-2.6-flare",
 		"generatedAt": "2026-11-16T10:38:10.787Z"
 	},
+	"letter-dutchess-taffy-cicada": {
+		"inputHash": "9ad14382c2c1d1f02c8eea2f32917feadf5e773dc7c1a40ae0e92de4f4c3e00d",
+		"sha256": "bee92e211165f1d0a32a0eede18267a1117f4d1f7e778e85ed3c4d0674787fea",
+		"file": "static/media/letter-dutchess-taffy-cicada.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:43:24.687Z"
+	},
 	"letter-maryland-molt-liquor": {
 		"inputHash": "52779423656a71d0903fe998d029eebf3b3117e9e940cfc5883b77d7619bf4de",
 		"sha256": "7da9c9a86af6d89e937620645264ff207768173f37af297038f8d114c0e11a88",
@@ -292,6 +320,13 @@
 		"file": "static/media/letter-northern-shrib-locust.webp",
 		"model": "gpt-image-2.6-flare",
 		"generatedAt": "2026-11-15T10:15:49.033Z"
+	},
+	"letter-palm-beach-water-retriever": {
+		"inputHash": "c0ceaba63114bd56a04d6d448d9a10b1aaf4bbb9379f57dd1bbcafd47ba02c67",
+		"sha256": "3a58ca603de3663251efd1bdd4bf442bdd1dc3cf00638897809481c928c1c332",
+		"file": "static/media/letter-palm-beach-water-retriever.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:43:32.190Z"
 	},
 	"photo-aiken-marker-1": {
 		"inputHash": "b20a1723189bba8661f757772ad7525d1ab7e1bdd3deba21466d1ebb371273b1",
@@ -1328,6 +1363,90 @@
 		"file": "static/media/product-picket-unit-board-1.webp",
 		"model": "gpt-image-2.6-flare",
 		"generatedAt": "2026-11-16T10:40:54.718Z"
+	},
+	"product-presentation-spoon-1": {
+		"inputHash": "7d6f85cde8bab49898db942e341dc7f9b94778de7413c44d3bb58d67bc888906",
+		"sha256": "74a1abc4ebaf7b8c2f2eba7d9be980fb8ce20e6d68f48eb5132c240973e9944a",
+		"file": "static/media/product-presentation-spoon-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:41:26.237Z"
+	},
+	"product-reinforced-perch-kilocada-1": {
+		"inputHash": "85845769d614e4c50dec3baec5d6f88872f33e33b7e40a133e168562bd02229d",
+		"sha256": "3b2f6e673227bc9f90079e5b9d1cfbdabc2b165043b3753c1741f64862578e10",
+		"file": "static/media/product-reinforced-perch-kilocada-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:41:35.656Z"
+	},
+	"product-ring-umbrella-1": {
+		"inputHash": "373cffb823d289b06266e77bb7aee2a3c8fbdfa885486463540b14f4298648f5",
+		"sha256": "32155ef9d821b2acbd5dd342a922711d22c9655ca6240fb4c8d863ddc400ee1d",
+		"file": "static/media/product-ring-umbrella-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:41:44.689Z"
+	},
+	"product-root-probe-long-pattern-1": {
+		"inputHash": "ee3f5dd5ed7c200097618d7d93b87a12db6b31dac24041d90ac6d9400a08cad4",
+		"sha256": "f4d237917890fe5b0d7e2cee1e34dcc47c382054ea62774e0997a6af49462971",
+		"file": "static/media/product-root-probe-long-pattern-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:41:52.249Z"
+	},
+	"product-root-stewardship-instruments-cased-1": {
+		"inputHash": "1796475b2e49d63c7a9b728abecb03265b2e09eb9da8378a57591a960a379ff7",
+		"sha256": "7f6df6af86f1f880b37adf308f76b77740fe80117d3a8bb39bddc48156ba00fe",
+		"file": "static/media/product-root-stewardship-instruments-cased-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:41:59.953Z"
+	},
+	"product-signet-ring-perch-1": {
+		"inputHash": "8dd829e03a9d08a6501748efb01b08d92942377f2ac3658bf40c9ad1cf6af5c8",
+		"sha256": "34b98a661e4b5776843501910a227eab20ea8d4dfe07ea96d9b1e614767b9d9b",
+		"file": "static/media/product-signet-ring-perch-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:42:07.436Z"
+	},
+	"product-soil-thermometer-seventeen-year-1": {
+		"inputHash": "5b8ddee28af391e0f3bcd872d51002c3c5ae6671daa69b92e89810283467c4a1",
+		"sha256": "e99cc7be39ac35d3c46739723c5aa1f18780c45205a1b544a3fffac5fe969544",
+		"file": "static/media/product-soil-thermometer-seventeen-year-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:42:15.794Z"
+	},
+	"product-summons-glove-1": {
+		"inputHash": "f00b719567fbe1060905c7e396e072c4308ee7f6d87b48b088fc775e573e2364",
+		"sha256": "8cd5f3192b489005431867963e78b9eaac656cbc5eadf36ecbd69736f45c3cc3",
+		"file": "static/media/product-summons-glove-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:42:26.746Z"
+	},
+	"product-vigil-chair-1": {
+		"inputHash": "4e9079d093dd1afeb4fbbbee7871473ef5253807e7440c9f6395035e73c732a0",
+		"sha256": "99eeacdb748214bbcd15c34b3f9fec5922d8d5035702aa232f527945ae190463",
+		"file": "static/media/product-vigil-chair-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:42:47.917Z"
+	},
+	"product-vigil-chair-pair-1": {
+		"inputHash": "a697eee4f8a58d710bed546e1562be3b829c8477ea8842d22d513f5c7ede8849",
+		"sha256": "bef5365ee9f0d1f4337584767ae16668bf4483490561154b009a475a64d54b1c",
+		"file": "static/media/product-vigil-chair-pair-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:42:56.803Z"
+	},
+	"product-vigil-lamp-1": {
+		"inputHash": "fbf91fab818a6641a14773fab7a654c57cb51014ee8b64d410e9613b002d9df2",
+		"sha256": "d0f686ae1d6f0aa4f799385e432174dee353a5c926e25f275dfc3f9302dd589e",
+		"file": "static/media/product-vigil-lamp-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:43:04.500Z"
+	},
+	"product-vigil-perch-stand-1": {
+		"inputHash": "e2c430c0641dc46ec46ac46909b69c0b4ca0dc82fb7c0b477bc0ba4992738964",
+		"sha256": "c7b0710bc5cfe0c096d14dbd661f46489158912b0d9b5449977143bd0ebddd45",
+		"file": "static/media/product-vigil-perch-stand-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:43:15.222Z"
 	},
 	"supper-may-1937-1": {
 		"inputHash": "65d772890c6d2a0a1f3443e49ca0390d59897a325ac438b341f2fb2438281afe",
