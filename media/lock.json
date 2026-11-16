@@ -90,6 +90,20 @@
 		"model": "gpt-image-2.6-flare",
 		"generatedAt": "2026-11-15T10:18:05.182Z"
 	},
+	"exuvia-ashby-evensong": {
+		"inputHash": "684c781c71b5e9f6297fbc8f8cd0c49479778bcb71db69dd9ef86f045225c647",
+		"sha256": "7222ea258927324ae4666953e3c805b6a6aa136a3cfb27f02ce386d7ca2ab026",
+		"file": "static/media/exuvia-ashby-evensong.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:33:44.834Z"
+	},
+	"exuvia-breckin-sidecar": {
+		"inputHash": "aaceeb75a61077c1a8412bbfde5220f1f52744d099761e192aaefdcdae396984",
+		"sha256": "4718c77b72ad4c124c79d2802ad9227a104527249ecd064d661613b8ab8721e5",
+		"file": "static/media/exuvia-breckin-sidecar.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:33:56.319Z"
+	},
 	"exuvia-calloway-diligence": {
 		"inputHash": "6d17a32d37414f881299d80da40b074ecadcd377819a758b3f141a154c5d261c",
 		"sha256": "c2c55c845033ea58ab13ed6770e6209e8165f61020cc4f5dad77a491c5c54afa",
@@ -97,12 +111,124 @@
 		"model": "gpt-image-2.6-flare",
 		"generatedAt": "2026-11-15T10:15:54.977Z"
 	},
+	"exuvia-dunmore-composure": {
+		"inputHash": "706574d8050ca5f0d1a78bcdbf9f64a21027456cbb06ca1dabbbc738cfec18e6",
+		"sha256": "3912510d127202743f70893c292c58867d8417d0f05ccc3c33f8e8f60b00f32b",
+		"file": "static/media/exuvia-dunmore-composure.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:34:07.308Z"
+	},
+	"exuvia-haverill-hesperus": {
+		"inputHash": "08d0d01f6756da85e72c1679a15e6214678d8318b85470894e4e766d07a6395f",
+		"sha256": "9a4cb91095827883a87f9332b900a3689372643eca27e39bce10539890bf4ab3",
+		"file": "static/media/exuvia-haverill-hesperus.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:34:17.099Z"
+	},
+	"exuvia-lisle-abiding": {
+		"inputHash": "1af90a65558d612b095c4b6da72aac3fcacf76817f8ff9bead78c349b5aad34a",
+		"sha256": "255cfd12fa94dda49a00d1622c6ce9104a6cecd12386e002c321c1efded5e1a9",
+		"file": "static/media/exuvia-lisle-abiding.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:34:26.882Z"
+	},
+	"exuvia-ormsby-lantern": {
+		"inputHash": "ceeb4048bf972042aeed00eee1589454cda00206f21ceda246b7df21a2f42d0d",
+		"sha256": "5380db3b72d12977139521b38dcc6a52b5c67a132a8a69fdead1df144f288446",
+		"file": "static/media/exuvia-ormsby-lantern.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:34:35.580Z"
+	},
+	"exuvia-ostrander-steadfast": {
+		"inputHash": "c1c94ea06182eb461531c7193561b46b6f37b9977e234a891480fbb6659a5af5",
+		"sha256": "d954966ee66211342e5d7918d73e5ab727269ae2e5bcdd608d4d5e1bf812d99a",
+		"file": "static/media/exuvia-ostrander-steadfast.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:34:47.082Z"
+	},
+	"exuvia-penhallow-stands-fast": {
+		"inputHash": "aad30effb6702df87f36c3c41e2291cf2d261702b91bab048028827a17749bae",
+		"sha256": "39743fc36a3e21a5ea1137d485f5ee35e292826d73fafac8be139d8f538419be",
+		"file": "static/media/exuvia-penhallow-stands-fast.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:34:54.768Z"
+	},
+	"exuvia-sallowes-minor": {
+		"inputHash": "1d95074b3590beb62bb28cf44d4f94978c55cc6677b557562ed9d6250b62322d",
+		"sha256": "ab74af4ea28dac74aa25845827e8ce86dfc3ad8ce901cb54a9b7d79105bc8c34",
+		"file": "static/media/exuvia-sallowes-minor.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:35:03.596Z"
+	},
+	"exuvia-sallowes-provost": {
+		"inputHash": "96911bf84be50db2f107f67f3e915f2c65a1beee909a0de6bd86210fcf23843c",
+		"sha256": "84ef7e48789d8b4ff6f500e4f24506746675a7e25ea0f3fc7445039b760ef00f",
+		"file": "static/media/exuvia-sallowes-provost.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:35:26.388Z"
+	},
+	"exuvia-sallowes-tocsin": {
+		"inputHash": "ef0af92e5f1637d2b29d502380999741fad8e3c868fde617f86d260c9da2246f",
+		"sha256": "1f42ae8c68f4710b4021345c308b4b6ecac0b4871b70c31fd781b56b8fcf5f3c",
+		"file": "static/media/exuvia-sallowes-tocsin.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:35:34.573Z"
+	},
+	"husbandry-end-of-week-1": {
+		"inputHash": "b0985df149cb7d56e9ad91dd8fbc7b87de9c71002748dbca6144a389e8069acb",
+		"sha256": "0c1e9106904eeab3f75a089fa24077e838e1b2d955d637a26a153b7741c757ab",
+		"file": "static/media/husbandry-end-of-week-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:35:42.533Z"
+	},
+	"husbandry-end-of-week-2": {
+		"inputHash": "ee4f3b5bfb895a81d8d6c330547bf9f3b6bf1386a2fa33ce3be628f759d4880c",
+		"sha256": "866c7a66181e4c64fd9118420fcf298f775d50e108f916ead311f7b08d5c7d6d",
+		"file": "static/media/husbandry-end-of-week-2.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:35:50.144Z"
+	},
+	"husbandry-host-trees-1": {
+		"inputHash": "afecdda7b54d846fa76ab9eb3e100458dcb262dafe1eedbbf2b99ccd4a45ca86",
+		"sha256": "86331fece214ef11b4ce4af3921b16aa08f5f4c7aea34c5a26d1cdf443a533f3",
+		"file": "static/media/husbandry-host-trees-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:36:01.525Z"
+	},
+	"husbandry-host-trees-2": {
+		"inputHash": "eda7cf1de703b5e89a179e6105410d1eb416f0962ceb733567a6617b9f2185a6",
+		"sha256": "434eb0a5e4f2cac4862c08047f32f8553883eada6d908731eb27b27c8fc7eb58",
+		"file": "static/media/husbandry-host-trees-2.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:36:09.613Z"
+	},
+	"husbandry-host-trees-3": {
+		"inputHash": "d488697a455fc7e85280c364fc1c7a22e001122f84e9af9b9e7477420cf019f2",
+		"sha256": "e6fcec8e2939ff85d6e2a5f25726f80867019570baf6946dba92a2eb6b038bbe",
+		"file": "static/media/husbandry-host-trees-3.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:36:19.795Z"
+	},
+	"husbandry-kilocada-1": {
+		"inputHash": "24a1a52c7dc1fd7a972f6b1e02108a5deea535b024a1595ec14c2e45955d761f",
+		"sha256": "f73ecad678a352e831be8cf738b3400034b6e87326e021bef5093aeae33603c5",
+		"file": "static/media/husbandry-kilocada-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:36:30.456Z"
+	},
 	"husbandry-kilocada-2": {
 		"inputHash": "ae470d4c33ff682c8a9e5688a1122512a9dfc4e3da9dfa13037416c0af714f69",
 		"sha256": "de5593bbc78faad96a61c1435b13047c5121174de4377a702aeab0097f11ef1a",
 		"file": "static/media/husbandry-kilocada-2.webp",
 		"model": "gpt-image-2.6-flare",
 		"generatedAt": "2026-11-15T10:16:12.635Z"
+	},
+	"husbandry-kilocada-3": {
+		"inputHash": "d6345a8d56e74dac84be764b698a66eebe30799fe2ed19ec3a57e3e6794e512f",
+		"sha256": "31556adb169636ca3d7cb8bc1657256f4e256dfdc9a2785ec56386d1792a66c9",
+		"file": "static/media/husbandry-kilocada-3.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:36:39.163Z"
 	},
 	"husbandry-the-vigil-1": {
 		"inputHash": "9f42c1348e9a43e7bd8d4b65c449c9bd81a3be4b0501adce04058ca422d8f09c",
@@ -1055,6 +1181,55 @@
 		"file": "static/media/supper-may-2026-1.webp",
 		"model": "gpt-image-2.6-flare",
 		"generatedAt": "2026-11-16T10:24:48.137Z"
+	},
+	"supper-may-2026-2": {
+		"inputHash": "2cd2675cc6ac40a834b571d337c924414f99e24310472d7f296d8712839571e5",
+		"sha256": "f13758701d3369ae3b9a7389422bcf275db5f716ec12e0371739cfd94b46b737",
+		"file": "static/media/supper-may-2026-2.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:32:29.864Z"
+	},
+	"supper-november-1913-1": {
+		"inputHash": "56705c711ef4c786b5fce8df8930604f8219b3853708399b5e3ed8600cc18380",
+		"sha256": "4b88705907b4a8c703cd2e13666fd02402df87dc287080802296cb56e54efefe",
+		"file": "static/media/supper-november-1913-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:32:42.560Z"
+	},
+	"supper-november-1947-1": {
+		"inputHash": "d86e49aba4a4204cef1f9cea80fecc5626fceeb9fb2e456bbd8046b6d878cdd1",
+		"sha256": "10277acac45f0fae54cefb20b23acd35b66147307ea756fab4a0f639626f2b23",
+		"file": "static/media/supper-november-1947-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:32:50.760Z"
+	},
+	"supper-november-1953-1": {
+		"inputHash": "e8fa8922c1bf8f5360f114a01c0ee0aef099ff3321e7d5e52043e4a8ba87df22",
+		"sha256": "aa33f243a6c5c60c2250748111109efc3aa4f8dbf86378c723e498a67d5c11c6",
+		"file": "static/media/supper-november-1953-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:33:02.924Z"
+	},
+	"supper-november-1971-1": {
+		"inputHash": "74c8030afd7d195a87657743589e36da2ef30bc47b2c98eb8e699a85cc5dbeef",
+		"sha256": "6c1c0d29a4d890013c90042548ab009a4f3a71cd3c216522911d9c7272d5bf70",
+		"file": "static/media/supper-november-1971-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:33:13.696Z"
+	},
+	"supper-november-1988-1": {
+		"inputHash": "04879b0f77e0916a80feeea82378924b2824c036f5d2ec68dd12b0b0f9163934",
+		"sha256": "d83af1717a2b65519ee31b27daa6b73af6cb378498d4e49d732f621e81a062c8",
+		"file": "static/media/supper-november-1988-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:33:24.049Z"
+	},
+	"supper-november-1988-2": {
+		"inputHash": "3f8e8839d62c741e552627363222766906fcc88b0666b8a43bf8b3139c0c46a5",
+		"sha256": "799bdc8f4e8f2dadf1de57832e34599cf7407386110bc697a4b32037538c201b",
+		"file": "static/media/supper-november-1988-2.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:33:35.452Z"
 	},
 	"testimonial-ardsley": {
 		"inputHash": "32c791bc7e45ec17f09b3758010db8a8d8bc6ffbcf5857ac367015be65f98586",
