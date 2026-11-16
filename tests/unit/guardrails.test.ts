@@ -4,7 +4,9 @@
  */
 import { spawnSync } from 'node:child_process';
 import {
+	copyFileSync,
 	existsSync,
+	mkdirSync,
 	mkdtempSync,
 	readdirSync,
 	readFileSync,
@@ -17,15 +19,23 @@ import { describe, expect, it } from 'vitest';
 import { parseArgs, run, UsageError } from '../../tools/media/generate.ts';
 import { loadLock, loadManifest } from '../../tools/media/lib.ts';
 
-/** An asset not yet generated: naming a locked one by id is refused, by design. */
-const UNLOCKED = (() => {
-	const lock = loadLock();
-	const a = loadManifest().assets.find((x) => !(x.id in lock));
-	if (!a) throw new Error('every asset is locked; the dry-run tests need one that is not');
-	return a.id;
-})();
-
 const ROOT = new URL('../../', import.meta.url).pathname;
+
+/**
+ * A scratch copy of the media configuration with no lockfile and no generated files, so every asset
+ * reads as missing however many real images exist. The in-process dry runs use it.
+ */
+const FRESH = (() => {
+	const dir = mkdtempSync(join(tmpdir(), 'abs-media-'));
+	mkdirSync(join(dir, 'media'));
+	for (const f of ['config.yaml', 'style.yaml', 'manifest.yaml'])
+		copyFileSync(join(ROOT, 'media', f), join(dir, 'media', f));
+	return dir;
+})();
+const FIRST_ID = loadManifest().assets[0]?.id ?? '';
+
+/** An asset not yet generated in the real tree, if any remains. */
+const UNLOCKED = loadManifest().assets.find((x) => !(x.id in loadLock()))?.id;
 
 function walk(dir: string): string[] {
 	const skip = new Set([
@@ -55,10 +65,10 @@ const ALLOWED = (f: string) =>
 	f === 'scripts/generate-media' ||
 	f === 'tests/unit/guardrails.test.ts';
 
-function runQuiet(argv: string[], fetchSpy?: typeof fetch) {
+function runQuiet(argv: string[], fetchSpy?: typeof fetch, root = ROOT) {
 	const lines: string[] = [];
 	return run(argv, {
-		root: ROOT,
+		root,
 		env: {},
 		fetch: fetchSpy,
 		log: (l) => lines.push(l),
@@ -124,8 +134,8 @@ describe('the media generator', () => {
 			calls++;
 			throw new Error('network');
 		}) as unknown as typeof fetch;
-		for (const argv of [[], ['--id', UNLOCKED], ['--all-missing', '--max', '5']]) {
-			const { code } = await runQuiet(argv, spy);
+		for (const argv of [[], ['--id', FIRST_ID], ['--all-missing', '--max', '5']]) {
+			const { code } = await runQuiet(argv, spy, FRESH);
 			expect(code).toBe(0);
 		}
 		expect(calls).toBe(0);
@@ -145,8 +155,8 @@ net.connect = deny('net.connect'); net.createConnection = deny('net.createConnec
 http.request = deny('http.request'); http.get = deny('http.get'); https.request = deny('https.request'); https.get = deny('https.get');
 `
 		);
-		for (const argv of [[], ['--id', UNLOCKED], ['--all-missing', '--max', '3']]) {
-			const r = spawnSync(
+		const cli = (argv: string[]) =>
+			spawnSync(
 				process.execPath,
 				['--import', preload, join(ROOT, 'scripts/generate-media'), ...argv],
 				{
@@ -155,8 +165,19 @@ http.request = deny('http.request'); http.get = deny('http.get'); https.request 
 					env: { PATH: process.env.PATH ?? '', HOME: process.env.HOME ?? '' }
 				}
 			);
+		const dry: string[][] = [[], ['--all-missing', '--max', '3']];
+		if (UNLOCKED) dry.push(['--id', UNLOCKED]);
+		for (const argv of dry) {
+			const r = cli(argv);
 			expect(r.status, r.stderr).toBe(0);
 			expect(r.stdout).toMatch(/Dry run\. Nothing was sent\./);
+		}
+		// Naming an asset that is already generated is refused outright, also without a network call.
+		const locked = Object.keys(loadLock())[0];
+		if (locked) {
+			const r = cli(['--id', locked]);
+			expect(r.status).toBe(2);
+			expect(r.stdout + r.stderr).toMatch(/locked assets are never regenerated/);
 		}
 		expect(existsSync(record) ? readFileSync(record, 'utf8') : '').toBe('');
 	});
@@ -191,7 +212,7 @@ http.request = deny('http.request'); http.get = deny('http.get'); https.request 
 		const lines: string[] = [];
 		let calls = 0;
 		const deps = {
-			root: ROOT,
+			root: FRESH,
 			log: (l: string) => lines.push(l),
 			now: () => new Date(),
 			fetch: (async () => {
@@ -200,18 +221,18 @@ http.request = deny('http.request'); http.get = deny('http.get'); https.request 
 			}) as unknown as typeof fetch
 		};
 		expect(
-			await run(['--id', 'plate-aiken-marker', '--execute'], {
+			await run(['--id', FIRST_ID, '--execute'], {
 				...deps,
 				env: { CI: 'true', OPENAI_API_KEY: 'x' }
 			})
 		).toBe(3);
 		expect(
-			await run(['--id', 'plate-aiken-marker', '--execute'], {
+			await run(['--id', FIRST_ID, '--execute'], {
 				...deps,
 				env: { NETLIFY: 'true', OPENAI_API_KEY: 'x' }
 			})
 		).toBe(3);
-		expect(await run(['--id', 'plate-aiken-marker', '--execute'], { ...deps, env: {} })).toBe(3);
+		expect(await run(['--id', FIRST_ID, '--execute'], { ...deps, env: {} })).toBe(3);
 		expect(calls).toBe(0);
 	});
 });
