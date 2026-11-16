@@ -132,6 +132,13 @@
 		"model": "gpt-image-2.6-flare",
 		"generatedAt": "2026-11-15T10:54:57.190Z"
 	},
+	"photo-aiken-marker-2": {
+		"inputHash": "76fd5ebf504074d46b696ac700e729f80a3f3cbaed8b101045d68da17877323f",
+		"sha256": "3cc5d3d73dc20953b9ece52fe306545b48d8444fd82f0df9c70e3e463b21da04",
+		"file": "static/media/photo-aiken-marker-2.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T09:01:14.132Z"
+	},
 	"photo-aiken-marker-3": {
 		"inputHash": "8858ce57384621ebc13d161ec784d06b738b9ec4dca6134c195dc17644061b7a",
 		"sha256": "a57c963cc42ff8a0107f9d29ca1dd3d17dc2dd5307b79b99066ca7f3b96a37a3",
@@ -558,6 +565,69 @@
 		"file": "static/media/photo-north-haven-tiler-3.webp",
 		"model": "gpt-image-2.6-flare",
 		"generatedAt": "2026-11-16T08:23:33.201Z"
+	},
+	"photo-northern-shrib-locust-1": {
+		"inputHash": "d5ff25b69015ceca407e7fb178ad8bcc14a471ee164e36970a73ce34ec87a75b",
+		"sha256": "8de6c524953e87da1b19416398c5e70b4ba3188e424adcefda0c3c2e8a7ca715",
+		"file": "static/media/photo-northern-shrib-locust-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T09:01:26.026Z"
+	},
+	"photo-northern-shrib-locust-2": {
+		"inputHash": "5fc12208aebeea81296089c4cc80d8247d986c39a19d40a8811f1ad34b0b7189",
+		"sha256": "dab787ed8aab5878a69b8216134630d2d042d66c7c28125dfbfe2bcc782e5c24",
+		"file": "static/media/photo-northern-shrib-locust-2.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T09:01:37.469Z"
+	},
+	"photo-northern-shrib-locust-3": {
+		"inputHash": "bb45a2c3e9c9305989ba5975440ba939e3fe1193dd5b755c35615c23d367d63d",
+		"sha256": "2cdc7c0ab462825fd2c8dfe90bc7441635964db5f89a8cde453e17528c0115df",
+		"file": "static/media/photo-northern-shrib-locust-3.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T09:01:48.197Z"
+	},
+	"photo-palm-beach-water-retriever-1": {
+		"inputHash": "b23cb4110fc214977b97ede33d7c1ba5a4a1093ebd6ae7e089ffe1fca44968f8",
+		"sha256": "1a7a45a734a6b5f6fbfddc6992e6e636b07be7a285c5e334138dbffe76f8d92f",
+		"file": "static/media/photo-palm-beach-water-retriever-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T09:01:57.132Z"
+	},
+	"photo-palm-beach-water-retriever-2": {
+		"inputHash": "1d15f5c3ca51cbbc26f539d58cf199d4d6b38a5003a03c0e3fb9b1c2f5ce1eef",
+		"sha256": "9ea3f71dd0c278e7fa3d4d8190176048b9fedebfe21eb169c291d9e45bbe33bc",
+		"file": "static/media/photo-palm-beach-water-retriever-2.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T09:02:07.402Z"
+	},
+	"photo-palm-beach-water-retriever-3": {
+		"inputHash": "85ffc563ecd87186aea52acf031835362e223d13db645d5603569991e9f0af40",
+		"sha256": "81fa0ccd37dcc4e4a2bf109935e0e1f0bfe017c9a74f70e6b2c49c26d7b41f52",
+		"file": "static/media/photo-palm-beach-water-retriever-3.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T09:02:18.914Z"
+	},
+	"photo-piedmont-familiar-1": {
+		"inputHash": "ef22aa3e4e872f3e0675acedbb5f9128f7826b9665f0b6aa44b9ab7e79459720",
+		"sha256": "a414be71d1713eb1aade1d58365d335054891491d451b35bbce10eec20f703e9",
+		"file": "static/media/photo-piedmont-familiar-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T09:02:27.801Z"
+	},
+	"photo-piedmont-familiar-2": {
+		"inputHash": "f0a781e12fb327180ec1185e279d08845872d23c2c09ce0abd5f6eaaefb14732",
+		"sha256": "4e15ca42896c9a242ea6275fc5e61a7266549caa65f7e8f31df9b1d01ce0e073",
+		"file": "static/media/photo-piedmont-familiar-2.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T09:02:42.430Z"
+	},
+	"photo-piedmont-familiar-3": {
+		"inputHash": "f69e034eceb3fd3ba35c3e1f7e62c4910f9f63a9c5f87ef23b3ce54330d8ab08",
+		"sha256": "7de3d69e1c26bf9bdd8892c7791c319dd1f7b904ed17c47eae0224f2ba4b6e04",
+		"file": "static/media/photo-piedmont-familiar-3.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T09:02:51.460Z"
 	},
 	"plate-aiken-marker": {
 		"inputHash": "2ffa961d69cd69567efd11a87a0f55367f0b17926711b04a570f452c8c09eaf0",
