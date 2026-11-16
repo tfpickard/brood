@@ -230,12 +230,54 @@
 		"model": "gpt-image-2.6-flare",
 		"generatedAt": "2026-11-16T10:36:39.163Z"
 	},
+	"husbandry-kilocada-4": {
+		"inputHash": "a6928ff4f4aeb4320cd368930dd6a1150991f36c7e60ecbd4b00904375a08fad",
+		"sha256": "18dea4ca9b4027c54bab38f519861a6674ad3f63252c6871c1a132afefce5950",
+		"file": "static/media/husbandry-kilocada-4.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:37:19.507Z"
+	},
+	"husbandry-root-stewardship-1": {
+		"inputHash": "5ae4b7cf65369722239ac4e41be5758f1a735fe11463ee4ff08fbe3b54669cdd",
+		"sha256": "dec9915819353da021152d12eeb5932f0fb79fc17d963bdb6392e5c2357fffb3",
+		"file": "static/media/husbandry-root-stewardship-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:37:31.072Z"
+	},
+	"husbandry-root-stewardship-2": {
+		"inputHash": "f8e2c4a08e8c534227c9fc7aba537a26eec5ebb4f7145ea4bc2f5f49a16066d9",
+		"sha256": "c3c861e4dae8c6b30d3d3a04ef93a2afe142171175fab2d916d8427813206242",
+		"file": "static/media/husbandry-root-stewardship-2.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:37:44.663Z"
+	},
+	"husbandry-root-stewardship-3": {
+		"inputHash": "fc77b2b12114beed8020bc13f7a31d930c8c701adc5b598356ae61c0c5dd3a60",
+		"sha256": "77ba63c6a29d3b55b8d69f5a26da61883218ecd989737d62bba294d268d279d8",
+		"file": "static/media/husbandry-root-stewardship-3.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:37:55.108Z"
+	},
 	"husbandry-the-vigil-1": {
 		"inputHash": "9f42c1348e9a43e7bd8d4b65c449c9bd81a3be4b0501adce04058ca422d8f09c",
 		"sha256": "3c08a7c4ca49633a337025cd3d7daf8cefdbf76df899eaa9070a7828126f05e2",
 		"file": "static/media/husbandry-the-vigil-1.webp",
 		"model": "gpt-image-2.6-flare",
 		"generatedAt": "2026-11-15T10:15:28.364Z"
+	},
+	"husbandry-the-vigil-2": {
+		"inputHash": "8d3904bbb5fde1a433884da0e5ea750852044d7362ab880ca3449bd424781bf6",
+		"sha256": "c19c9ba8463d112c649b896540cd0d993b41f69e387e910f585078bc8d9e32ba",
+		"file": "static/media/husbandry-the-vigil-2.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:38:02.547Z"
+	},
+	"husbandry-the-vigil-3": {
+		"inputHash": "4c9989602c111bd78fa471842071f7fe361052ce34188becb487c25d66753a4e",
+		"sha256": "09dadbf3f51626c1d2c22d24cf4dacf4eec805ae8d91ceffaebd15c9511cd9a8",
+		"file": "static/media/husbandry-the-vigil-3.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:38:10.787Z"
 	},
 	"letter-maryland-molt-liquor": {
 		"inputHash": "52779423656a71d0903fe998d029eebf3b3117e9e940cfc5883b77d7619bf4de",
@@ -1147,12 +1189,145 @@
 		"model": "gpt-image-2.6-flare",
 		"generatedAt": "2026-11-15T10:54:49.905Z"
 	},
+	"product-boxwood-place-card-holder-1": {
+		"inputHash": "c7d79e7ff3e0340ccd7bfcc5b69c32a8f1632da65075577b85263fb730e80f51",
+		"sha256": "755671e8c7b3f74a52b31029e64377ff8774f39ef3ba789b64422169a4de8f1c",
+		"file": "static/media/product-boxwood-place-card-holder-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:38:20.446Z"
+	},
+	"product-county-notification-stationery-1": {
+		"inputHash": "03fd9abf5ec08c9a5c35a8bce62d7e53c66c4843a656c359768d2347bf823f83",
+		"sha256": "e382a4739f4f4156ccb467c4d97f55438f8075958fffe2300e3a36fe3d463cb2",
+		"file": "static/media/product-county-notification-stationery-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:38:29.502Z"
+	},
+	"product-emergence-day-coat-1": {
+		"inputHash": "3a443221c0fb57a9997c211c7deafa64dda11f4a7a3017830d4a60b4ec870f0a",
+		"sha256": "dda55bd04f99b1466c4640139508d36937bf73175bd774122957def668842177",
+		"file": "static/media/product-emergence-day-coat-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:38:38.120Z"
+	},
+	"product-emergence-day-hat-1": {
+		"inputHash": "ad49c7ff7a1998b361e5a593a4c5e9186ae35c02a7e57bac6f9a473209160920",
+		"sha256": "bfdc9d028a645ab20bfe086327d0863dc1d9fe64435b157796f220a311cde671",
+		"file": "static/media/product-emergence-day-hat-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:38:49.039Z"
+	},
+	"product-emergence-watch-1": {
+		"inputHash": "a13f2a3264d3f42039fddc7969df74eadcbcb3fab14f8a5b9ce34e76324b8c4e",
+		"sha256": "1b4c5a16a928e35eda81b88fd32c0c766afab05450ce2d26cad5084efe617cf4",
+		"file": "static/media/product-emergence-watch-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:38:56.147Z"
+	},
+	"product-end-of-week-case-1": {
+		"inputHash": "87c6fe20f43c134f7c2cd9b85ce0310b8e45669515895e1920b5b14bba204864",
+		"sha256": "cc53f761b1b1c69c3a4e01f15c2777b82731c5818c4353af2cee4522bf869934",
+		"file": "static/media/product-end-of-week-case-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:39:04.995Z"
+	},
+	"product-exuvia-cabinet-pattern-13-1": {
+		"inputHash": "b9589963c0d5fe30591d2bfd46a3e816888d2c4188c2c598aca9b3d5ec00443a",
+		"sha256": "414b6848e0b1a2be613bf006b130331982f562a4da48808d54e9af4612e17716",
+		"file": "static/media/product-exuvia-cabinet-pattern-13-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:39:15.545Z"
+	},
 	"product-exuvia-cabinet-pattern-17-1": {
 		"inputHash": "cb174b78eb084932e49973ebf1b4a45493b8708ec95ecbe8965f20d1ec1950d6",
 		"sha256": "ffab9ee11d19154d68c1c27b192d2f7b155785be1801557a303f35eba82890a9",
 		"file": "static/media/product-exuvia-cabinet-pattern-17-1.webp",
 		"model": "gpt-image-2.6-flare",
 		"generatedAt": "2026-11-15T10:15:34.526Z"
+	},
+	"product-exuvia-cabinet-pattern-17-2": {
+		"inputHash": "984010fb01dba358319d1d29b4a81100d73c796577f97f4d856d420da6c19d2d",
+		"sha256": "5f6044c7a5abd49b9d862754729c847a6db8e761df648ff8a912ca20d84917ee",
+		"file": "static/media/product-exuvia-cabinet-pattern-17-2.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:39:23.831Z"
+	},
+	"product-exuvia-travelling-case-1": {
+		"inputHash": "28fe3a5d7bebe7ed50c7204312a3a0093515e4b225c86676466d3c270f6d363a",
+		"sha256": "368843f253dd883b3dbeb6c817506e7cef2ab26e1ed8967e58d5516187a52e70",
+		"file": "static/media/product-exuvia-travelling-case-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:39:32.753Z"
+	},
+	"product-grove-ledger-1": {
+		"inputHash": "eecc534771253d95bec8761ec3a43d5541d49a6b4b717ef684ea8d6664b6019d",
+		"sha256": "8c6e43ee999fea8a9f8a9fe14cb8bc06191728ab8ae62e8f4225488866725eeb",
+		"file": "static/media/product-grove-ledger-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:39:40.394Z"
+	},
+	"product-handler-hearing-protection-1": {
+		"inputHash": "fc89013bfc253378b7deb7e34a2dba7a0dbc3525bd79fd42d2a6a6f751e0f361",
+		"sha256": "4ba9f114c691d05342fc44fa12adc88b62ee78cad41ff9002cfb23f8299b9b1c",
+		"file": "static/media/product-handler-hearing-protection-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:39:48.180Z"
+	},
+	"product-inheritance-cabinet-pattern-34-1": {
+		"inputHash": "66517b207548e83bb5d4d87d978d2ee824ba78afbf883b78ffbe1e1e34f2613a",
+		"sha256": "823480234fade633ab95c96968f6bf7568fc75ade64841778a801f9449b977b7",
+		"file": "static/media/product-inheritance-cabinet-pattern-34-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:39:56.220Z"
+	},
+	"product-kilocada-plinth-gallery-1": {
+		"inputHash": "edec4de1bd18066d71ace6b85adafbc4055db15cdc3d9ae5447f4b41b2261a95",
+		"sha256": "c51bcd95200d1e4d869c9f08cadce2dccc2ce453346e3f98c5b9bfec1c748130",
+		"file": "static/media/product-kilocada-plinth-gallery-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:40:04.356Z"
+	},
+	"product-kilocada-plinth-ninth-pattern-1": {
+		"inputHash": "c7505874921f4ed4490d0560b0e56ee794b7d1095485ba11417609b4d966007a",
+		"sha256": "2f332e771b778853fc34769baea843201df4989da828e0d266c38e2031c576e8",
+		"file": "static/media/product-kilocada-plinth-ninth-pattern-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:40:12.968Z"
+	},
+	"product-microcada-cabinet-octagonal-1": {
+		"inputHash": "c8ffdf685d1ea32cd0170bedabfe18c392e59c1b7e484edcb51b1ffe405ad404",
+		"sha256": "403de91db7bea03c39427ad5d0f5fdcf6293aa3682927cbedecffc66654abf2d",
+		"file": "static/media/product-microcada-cabinet-octagonal-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:40:21.680Z"
+	},
+	"product-microcada-cabinet-octagonal-2": {
+		"inputHash": "a72701c89774cdc7c5d84955c6e034411e98ef1e044a2d5ad12b96aaf018bddc",
+		"sha256": "2c4318c38dfa79206204739a3d7efadabfc32adbc555ed2d80a781131abe5dd6",
+		"file": "static/media/product-microcada-cabinet-octagonal-2.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:40:31.468Z"
+	},
+	"product-microcada-cabinet-standing-lens-1": {
+		"inputHash": "13f0e654d68207c1a4352143eb2ced07e7a555800a5d9ec2acc885c5d78fc78d",
+		"sha256": "3acf8f00032b6024e6c0cc750cd9d5fcae53a52526964d18d92e51260cb553ec",
+		"file": "static/media/product-microcada-cabinet-standing-lens-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:40:39.793Z"
+	},
+	"product-necktie-club-pattern-1": {
+		"inputHash": "927c0e34f0517a967e176a25982add54ecf1c73d3dd01f603480d8377d3afd5b",
+		"sha256": "09d5e44fd214ae2a68baaa4a71ca8d9e0e787d6caad081f9172bee5a7cf65df1",
+		"file": "static/media/product-necktie-club-pattern-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:40:47.183Z"
+	},
+	"product-picket-unit-board-1": {
+		"inputHash": "704a8f4135630ceba39701e709ae31a5bd37e987e56b4b6717a7d623c4425651",
+		"sha256": "b22955353e50a9fc7dde5d0ef9d34177fdb266df63a73c399894f8f06479f9d3",
+		"file": "static/media/product-picket-unit-board-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:40:54.718Z"
 	},
 	"supper-may-1937-1": {
 		"inputHash": "65d772890c6d2a0a1f3443e49ca0390d59897a325ac438b341f2fb2438281afe",
