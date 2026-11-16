@@ -629,6 +629,174 @@
 		"model": "gpt-image-2.6-flare",
 		"generatedAt": "2026-11-16T09:02:51.460Z"
 	},
+	"photo-prides-crossing-linstock-1": {
+		"inputHash": "4dad8caff6f99cd080a52d175923ddcd2036370dc9733827a73151f114a5bb35",
+		"sha256": "4d8254b76d489d5143928e839c35e3bea576e5e2f1078b072c26c974366a3c4b",
+		"file": "static/media/photo-prides-crossing-linstock-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:16:29.476Z"
+	},
+	"photo-prides-crossing-linstock-2": {
+		"inputHash": "63f8b9e21669ebc869b997e0b6777d3a6e83208caa7484cddff5ac557aa21ce9",
+		"sha256": "dad0def67b1c8a4d44d3709daf44f8e12551ecbd89a0dc205b90dbb272281719",
+		"file": "static/media/photo-prides-crossing-linstock-2.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:16:39.684Z"
+	},
+	"photo-prides-crossing-linstock-3": {
+		"inputHash": "8e973468363a879e05ff0b90e60a5a3cce7d435ec9aaa7f434c1680819c5dbc3",
+		"sha256": "a1e96a8a0ed6d39f5586d5d206c911f2bbce5fe0914b60cca9f5d77312f2a377",
+		"file": "static/media/photo-prides-crossing-linstock-3.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:16:47.984Z"
+	},
+	"photo-sewickley-sexton-1": {
+		"inputHash": "981b496bc082ed541541c3ecb5cea8488a441f736566c0b4b4f93e63c0be31a5",
+		"sha256": "991de7ed749f67f9c9bdeb175168f6a95d23bc9b51641b314ba73917328fffec",
+		"file": "static/media/photo-sewickley-sexton-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:17:05.982Z"
+	},
+	"photo-sewickley-sexton-2": {
+		"inputHash": "b901a69915e44beb6ddb2467d719c7ef64e99fd8036feeb731132662b5d784c5",
+		"sha256": "805381c342db3c78e8edefc01235298ccce8aa1c133b082a1fe191ebe70f6b27",
+		"file": "static/media/photo-sewickley-sexton-2.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:17:16.323Z"
+	},
+	"photo-sewickley-sexton-3": {
+		"inputHash": "0ed207dac1dd697196a4f3c5a773903c84cf707fc7fecb50d0ed2f2641f87c4d",
+		"sha256": "a44b73b6555b0abb4ac48cadd2b184e0e56b1bc85a72a14897b4af822a9b7c22",
+		"file": "static/media/photo-sewickley-sexton-3.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:17:26.605Z"
+	},
+	"photo-shenandoah-picket-1": {
+		"inputHash": "d3dc1d36a8c9f1fcb4a740ef5d7990b289fd9e49910c3e3c0d76b635cae14eaf",
+		"sha256": "f25baf5abb6d43c64ad7f455acfc89d0ac243f90cbb6097ea36b84fa9f5ff9ea",
+		"file": "static/media/photo-shenandoah-picket-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:17:34.525Z"
+	},
+	"photo-shenandoah-picket-2": {
+		"inputHash": "22b21d94aaf1f605da4d4c9ee4f98bed9766e658284176e63df976cdaff593d4",
+		"sha256": "37add434cbfcc846afc9b19a16fcf9dbb350013fe235d3ff3e0316ec19eac3d7",
+		"file": "static/media/photo-shenandoah-picket-2.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:17:44.252Z"
+	},
+	"photo-shenandoah-picket-3": {
+		"inputHash": "8b34c48d67e28922fdacb0ca4575f44a82f7ea963fa2bb80cc00b459f06c3a3e",
+		"sha256": "d960d43ce59d2ab3292656e1d8babb1ad8be3d467ded27fa30284aa4266a5382",
+		"file": "static/media/photo-shenandoah-picket-3.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:17:53.858Z"
+	},
+	"photo-smoke-winged-hayward-1": {
+		"inputHash": "f0f6325b1d9e92a4c812a770bbe846cd7b60d45df362bda58e9903d568872993",
+		"sha256": "03cb31831b523c615b54cf4d64adfc6774b17c34190ba20a8f4b9cf534e1f635",
+		"file": "static/media/photo-smoke-winged-hayward-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:18:02.288Z"
+	},
+	"photo-smoke-winged-hayward-2": {
+		"inputHash": "e0d4e9dd4d71198198976e0d7d77f6d0e6a653f643a53fb930bda1ad31f0841f",
+		"sha256": "64653d0716f316f1d7329ada14fa0e1642ef4aa1eda8a364c1bc388e23257580",
+		"file": "static/media/photo-smoke-winged-hayward-2.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:18:17.007Z"
+	},
+	"photo-smoke-winged-hayward-3": {
+		"inputHash": "d1bf944f221ddf31b3030c802306b29ecc3abf25323c494c296dc7977b35b0c1",
+		"sha256": "e36ce9eded534645fb2fc22d886487b7a82681bb04578235252ae04e3a1e24a6",
+		"file": "static/media/photo-smoke-winged-hayward-3.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:18:27.857Z"
+	},
+	"photo-tidewater-beater-1": {
+		"inputHash": "9537478d11019b4a8b9924bf36f2e4f7c402a58f2a4b7d4678079ed7abf181b9",
+		"sha256": "e94dedb15d1718f3aa108afcd2ccfedd197c8ab135cdc42826542f3925f57efd",
+		"file": "static/media/photo-tidewater-beater-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:18:35.171Z"
+	},
+	"photo-tidewater-beater-2": {
+		"inputHash": "bae377faa3e7f938bb4c86c0ed56b81087bf851af7dd596681790600cb36033f",
+		"sha256": "61efdf9288db33e7d590e04fbd10bf0324ea778f5847fbb48b4ed17a5f73c370",
+		"file": "static/media/photo-tidewater-beater-2.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:18:44.181Z"
+	},
+	"photo-tidewater-beater-3": {
+		"inputHash": "7f66b43bb397c358c31bfb72bc06933d36186a6c91e675abdaffbff57e195337",
+		"sha256": "bf15d6c4687cc36dd15ee179c6160b65beafdc419b76cb6d88dfc174ee13f627",
+		"file": "static/media/photo-tidewater-beater-3.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:18:53.714Z"
+	},
+	"photo-tuxedo-warder-1": {
+		"inputHash": "c59746241104e870e688d402d577453babfdec2f43378ed0ef48828c164464aa",
+		"sha256": "4cbcff1cd84dae20a6ce61ec1b5bdfda0a9782dd71cd16ae28d0339b5f5c2d87",
+		"file": "static/media/photo-tuxedo-warder-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:19:03.712Z"
+	},
+	"photo-tuxedo-warder-2": {
+		"inputHash": "61f0523eb917be3c6a42ce53b47d931337343ef498f351aaa3b58cd518bd7546",
+		"sha256": "64d4bd9837c9b52e04f7a31fba9143a4b3fa95406f5be8dc541b24243546da0b",
+		"file": "static/media/photo-tuxedo-warder-2.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:19:12.662Z"
+	},
+	"photo-tuxedo-warder-3": {
+		"inputHash": "6a5d2d8675f73284974fc122f2338ca2a11f01415763c163f9ef2054da42d380",
+		"sha256": "15e9ff8d69f31c35bb3ab36bc082376ddca3345051ed32978605f5787a59f7b8",
+		"file": "static/media/photo-tuxedo-warder-3.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:19:22.713Z"
+	},
+	"photo-upperville-sconce-1": {
+		"inputHash": "9dcd7afd9edb1ad1d59ee460899cd41ba63258efe6e46837177c807fdd21a3d6",
+		"sha256": "e83d87c30e22fc5fe2c484df1a3fbe1f68bfb9f219ebbb231c1238f674847420",
+		"file": "static/media/photo-upperville-sconce-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:19:29.676Z"
+	},
+	"photo-upperville-sconce-2": {
+		"inputHash": "a01f4638ad94bd4486f2840b917de7c600252231cb02eda0985fb8ac37a31f69",
+		"sha256": "1e9e74bf66a30707ba99523125e65500b53d142a838c8e1aabdf85b4ebe45816",
+		"file": "static/media/photo-upperville-sconce-2.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:19:37.408Z"
+	},
+	"photo-upperville-sconce-3": {
+		"inputHash": "4edb268d45daa3d18d96373a19a34bb2316d9986566412de6c37c8d7b9d74a8b",
+		"sha256": "5263e68c436a637da16da7f207f434a5cf389276b60dad9a93b45433ee76b790",
+		"file": "static/media/photo-upperville-sconce-3.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:19:47.714Z"
+	},
+	"photo-wye-stop-1": {
+		"inputHash": "4cd54e2a07d39749913aea28ae858c6f4542782c5236904dab64150853234f61",
+		"sha256": "b529c349f7831b5c73a1da07f5c50077f4ae6db88fdf6cc7160b04df6f1d7906",
+		"file": "static/media/photo-wye-stop-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:19:56.637Z"
+	},
+	"photo-wye-stop-2": {
+		"inputHash": "c9a6ca077765d898b3fc2b1073b878163a38f141b9d5ad413ebfe55f854a1213",
+		"sha256": "c89ff013b8c055acb378b644fa725f192fb55fce66a2c6cf7f55f18b7df32b87",
+		"file": "static/media/photo-wye-stop-2.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:20:07.302Z"
+	},
+	"photo-wye-stop-3": {
+		"inputHash": "d21e9cfcacbef3323bc9fea013ea406414974f70e88b7e2d68466c51518a847b",
+		"sha256": "65d501669934c7bb1dba862b3183beaef4131c28ba7c5c1dd32848784cb9e15d",
+		"file": "static/media/photo-wye-stop-3.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:20:16.255Z"
+	},
 	"plate-aiken-marker": {
 		"inputHash": "2ffa961d69cd69567efd11a87a0f55367f0b17926711b04a570f452c8c09eaf0",
 		"sha256": "3f3e26f01b42fa411b540e4bd9bcc45f5ca058b2af6302aa177862b02bb26633",
@@ -866,6 +1034,13 @@
 		"file": "static/media/supper-may-1978-1.webp",
 		"model": "gpt-image-2.6-flare",
 		"generatedAt": "2026-11-15T10:15:18.407Z"
+	},
+	"testimonial-ardsley": {
+		"inputHash": "32c791bc7e45ec17f09b3758010db8a8d8bc6ffbcf5857ac367015be65f98586",
+		"sha256": "513eb1b5e805624a03303c78e4b81cac97d8ebe7b5cd61811841207d94bfcc21",
+		"file": "static/media/testimonial-ardsley.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T10:20:25.178Z"
 	},
 	"testimonial-kittredge": {
 		"inputHash": "2cfd7e62ef1ff07faa650ee9b10c924af6685bbaa899e219435bf02c659951da",
