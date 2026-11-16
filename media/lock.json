@@ -426,6 +426,97 @@
 		"model": "gpt-image-2.6-flare",
 		"generatedAt": "2026-11-16T08:20:14.047Z"
 	},
+	"photo-mackinac-repeater-3": {
+		"inputHash": "2c76b50ba41e841003eeef727aaa608363f38ed9584fe8a35d84921931cd779f",
+		"sha256": "cff3435374359de39cba7956db356560f6e7eb93c34b875161494d7afc0403d4",
+		"file": "static/media/photo-mackinac-repeater-3.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T08:21:03.128Z"
+	},
+	"photo-maryland-molt-liquor-1": {
+		"inputHash": "60d48eea00130e7e847dc929f71a858bac6b8e7dad953268cc3e1013d9e6db60",
+		"sha256": "a1ab5cca7dcb5b93241e9625b82a9ed85fcaeb5134c04f3932798583a3480e0e",
+		"file": "static/media/photo-maryland-molt-liquor-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T08:21:11.683Z"
+	},
+	"photo-maryland-molt-liquor-2": {
+		"inputHash": "a4b91c038c7e4021dc52f2feab2189bf06bdd4ce336632421286c6ddcbd75a92",
+		"sha256": "4f900ccc36035224a0b6af6f38d062806a7eb77593b1e06af1dff0a8ac62b030",
+		"file": "static/media/photo-maryland-molt-liquor-2.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T08:21:21.377Z"
+	},
+	"photo-maryland-molt-liquor-3": {
+		"inputHash": "d1827a7ad7deec39964a2fbbb89f31c82b638d16fa5bc6dff8059100f8f25f23",
+		"sha256": "1a15d99907614f3e5abe6f4886d6b9ef951530d91d3ed978c91e2b2ef9b9caad",
+		"file": "static/media/photo-maryland-molt-liquor-3.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T08:21:32.415Z"
+	},
+	"photo-matinecock-courser-1": {
+		"inputHash": "ac91bd7c7a26372d8a9c0fba1cbe2ef0dde7a95d223fbd8d96956910d5a46254",
+		"sha256": "983c21edd910606e3600a85f3132cb9cb3ec5ef570141151dc95f9bad4d27030",
+		"file": "static/media/photo-matinecock-courser-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T08:21:41.437Z"
+	},
+	"photo-matinecock-courser-2": {
+		"inputHash": "786c4a0538868989cbe80ca2db83990f9606cec2131cb058e7893d8f076d076d",
+		"sha256": "329f58be875596d01992d53afa34e4dc82e5bba66f7dab96f29faf714a627c31",
+		"file": "static/media/photo-matinecock-courser-2.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T08:21:52.046Z"
+	},
+	"photo-matinecock-courser-3": {
+		"inputHash": "115a594cd2b26787900882aaf080d09c58c926e95139775c499688df81eb0dd3",
+		"sha256": "a2c45691bd7e6ecd8637b8caada75ec11aec6877f1325d7d48cb837052a6be8b",
+		"file": "static/media/photo-matinecock-courser-3.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T08:22:01.680Z"
+	},
+	"photo-millbrook-flanker-1": {
+		"inputHash": "fb00a2b30aae9c63d1ce4a54cd0f573ea2bbab80d58d451c67862323b448666f",
+		"sha256": "a3bb16cde0480ec95554ce273fba597fca5d94327e9497877323b2cbaa76a049",
+		"file": "static/media/photo-millbrook-flanker-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T08:22:10.667Z"
+	},
+	"photo-millbrook-flanker-2": {
+		"inputHash": "2eddaa429d50f13454079ad9c327c618d54545976b990405f9bae868cc8e7874",
+		"sha256": "4082ee01596228f0fec932c4d0f02716524f62ab07028443b07c13fb75fa6392",
+		"file": "static/media/photo-millbrook-flanker-2.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T08:22:18.673Z"
+	},
+	"photo-millbrook-flanker-3": {
+		"inputHash": "07af5f9744279349e0764f2bc44c467944a787a7aea168dafd011d792f4f3eb0",
+		"sha256": "ff00782053205af496a36a2d5c61eca4e5eae8c3e0213d48bc05b530d1bd21ec",
+		"file": "static/media/photo-millbrook-flanker-3.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T08:22:26.923Z"
+	},
+	"photo-narragansett-pale-1": {
+		"inputHash": "5c18555854cd7a74a251185c3210114dc4d175c1835ec77ddc60b2b2e729a552",
+		"sha256": "c5f935da4622091fc2be846196937f8cbe4f0b2e64c448a4f71287067b4f24a5",
+		"file": "static/media/photo-narragansett-pale-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T08:22:41.776Z"
+	},
+	"photo-narragansett-pale-2": {
+		"inputHash": "d7628e668e30e647bbe5c60f6468d582d63ffbdb9bd8a53ad34f67dafe3936e1",
+		"sha256": "770d5fd7cfbd99a9ef300927f08654d4e0abafdcd21b4622731c4eacfe8b066a",
+		"file": "static/media/photo-narragansett-pale-2.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T08:22:49.712Z"
+	},
+	"photo-narragansett-pale-3": {
+		"inputHash": "6b7d1a172559db87b4f0f25a673a0dc5ac707cf6135a6825041741c10132a80c",
+		"sha256": "6538752b4717718d1e34bd39985a99833fc4606b309d348e797229ddead167db",
+		"file": "static/media/photo-narragansett-pale-3.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T08:23:00.749Z"
+	},
 	"photo-newport-vesper-1": {
 		"inputHash": "a3c697f1acc5451f8b0d5ee31967f657d8170a404c3f821423bc9d8dab9a24af",
 		"sha256": "e0d31837c2433f40cf93c8d2e74ec11436e7ed62d8d016ebda32792531eafa75",
@@ -446,6 +537,27 @@
 		"file": "static/media/photo-newport-vesper-3.webp",
 		"model": "gpt-image-2.6-flare",
 		"generatedAt": "2026-11-15T10:16:04.436Z"
+	},
+	"photo-north-haven-tiler-1": {
+		"inputHash": "2e907e685fc825adb18cfd2e897bf75f83b6684aecfd73554e9e9f77066afd89",
+		"sha256": "edbe72a4d818004c156baf89592d3e372af4083f18f755859a9db109bdc9aa34",
+		"file": "static/media/photo-north-haven-tiler-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T08:23:10.762Z"
+	},
+	"photo-north-haven-tiler-2": {
+		"inputHash": "aff97925fe63eb811c6cec3d00a629247e970b987b63aeb14e0f560d440942a6",
+		"sha256": "053975bce6ca6f8db0fd54b125e6d6efd97b4172e168946e27dc1989ad66716a",
+		"file": "static/media/photo-north-haven-tiler-2.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T08:23:25.064Z"
+	},
+	"photo-north-haven-tiler-3": {
+		"inputHash": "aaa797e23a3253a3874ec69fe2a028474e435534d47900257631ca6739e7d468",
+		"sha256": "56c2c3a740bffbe00b0b5c9ef65f03e08912f32aaf609824a8e43f0f4f6adef5",
+		"file": "static/media/photo-north-haven-tiler-3.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T08:23:33.201Z"
 	},
 	"plate-aiken-marker": {
 		"inputHash": "2ffa961d69cd69567efd11a87a0f55367f0b17926711b04a570f452c8c09eaf0",
