@@ -251,6 +251,181 @@
 		"model": "gpt-image-2.6-flare",
 		"generatedAt": "2026-11-15T10:57:16.184Z"
 	},
+	"photo-dutchess-taffy-cicada-2": {
+		"inputHash": "dca1f58d9d25c1ae2bc7f495e7262cf1d49655fc1d34abc77f11f0d93567e180",
+		"sha256": "20a3d7009336c1c6abda3a04de3753c833d117c6e9790c46705d97ebc13cf15b",
+		"file": "static/media/photo-dutchess-taffy-cicada-2.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T08:16:11.113Z"
+	},
+	"photo-dutchess-taffy-cicada-3": {
+		"inputHash": "39e633a9a7c0696b55c4c0cea76eb9f69fcbb48bc5ca2ee894567d7b95c961c9",
+		"sha256": "993dc6f0d1257e24aa84271a3a1aedb2c10fbab22f634bf349fedf4dfdafde6e",
+		"file": "static/media/photo-dutchess-taffy-cicada-3.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T08:16:20.272Z"
+	},
+	"photo-edisto-pavane-1": {
+		"inputHash": "b6f287aee5892a75b36e2850c688843bc90e0e025749559c420ca02349fc297d",
+		"sha256": "5ae4c49e5660e5ff3d164265bdbf187740584a106aeec505d2f5dfa89ccae8cf",
+		"file": "static/media/photo-edisto-pavane-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T08:16:30.463Z"
+	},
+	"photo-edisto-pavane-2": {
+		"inputHash": "f6545065a324dc6d4a584c080af23a7784d7578162dccbea7b975b544c7c3a9a",
+		"sha256": "1e279ada3621e16092340536e4221aa50b4e6f44e15cd0af726077cc1fb3ead8",
+		"file": "static/media/photo-edisto-pavane-2.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T08:16:39.802Z"
+	},
+	"photo-edisto-pavane-3": {
+		"inputHash": "8ff675572f46c4536d3733794ba6a7b0f0b29dec1ab1a9ac1bf55987e8135206",
+		"sha256": "b3b984c41b15dfba0389fec0d52b36bf872e85192332bcb3953b710aa15ecfc0",
+		"file": "static/media/photo-edisto-pavane-3.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T08:16:52.914Z"
+	},
+	"photo-fishers-island-vedette-1": {
+		"inputHash": "b20aec386c517950ba26253b7cbbb5077eadf67530df2fe67d78ed784aa9311e",
+		"sha256": "4d00b4d101b813dcac0c8b6b8a4c8dfe37ce1ec09ddeb101d3660c5f9a650a5d",
+		"file": "static/media/photo-fishers-island-vedette-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T08:17:02.088Z"
+	},
+	"photo-fishers-island-vedette-2": {
+		"inputHash": "f06abc80be7496a02138dfecdf18b50a51fa777a6e6364e97152a08f52edaafe",
+		"sha256": "11173ddbdbcf50ca78519596b7de2f5cb85cf53f58202d05fa27a7f04c7fb3dd",
+		"file": "static/media/photo-fishers-island-vedette-2.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T08:17:10.664Z"
+	},
+	"photo-fishers-island-vedette-3": {
+		"inputHash": "7548701bbacc1b7760f1a81fc7310e3473983b3effb7ef23cc430c7986c000c2",
+		"sha256": "21c08ec62b601abf65a8bc9b353cdb98340a895f1e55c73aa9f0fd9331ccab8e",
+		"file": "static/media/photo-fishers-island-vedette-3.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T08:17:31.919Z"
+	},
+	"photo-flat-winged-bearer-1": {
+		"inputHash": "c22da71a5e6b62002348f8cfae27b1d25eeb0528d6c2903bbb2e87b6043e461e",
+		"sha256": "21a884a85768750fd659448b3d246338e8b1eff72a4429c18457a37e8681c41c",
+		"file": "static/media/photo-flat-winged-bearer-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T08:17:40.570Z"
+	},
+	"photo-flat-winged-bearer-2": {
+		"inputHash": "2546cd33b01f1bbf29a7dc9eca2183a40538a56129e76a0e34532de1902eed1b",
+		"sha256": "412f0a8701ecb3e94765465ec6d936c1bbfb69a87209f1b5dea1b62dc6d2ee5b",
+		"file": "static/media/photo-flat-winged-bearer-2.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T08:17:48.180Z"
+	},
+	"photo-flat-winged-bearer-3": {
+		"inputHash": "8bb77aa359ecf8035b213603b0de4f3169c90d062e3fa401c91e67262b8062ae",
+		"sha256": "95cb3ab71e15d60a49069f1e50b58e5dfb9a09f078f5aa734c69bdd9e321c280",
+		"file": "static/media/photo-flat-winged-bearer-3.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T08:17:58.195Z"
+	},
+	"photo-hudson-tender-1": {
+		"inputHash": "6d914d66d0b30bdbad2dbced91500baa45db67da2e139b31fc416c3350adfff9",
+		"sha256": "58d3a21f3180810b62da106805defbebaa31c8ab29bf28122b2a555b67917e56",
+		"file": "static/media/photo-hudson-tender-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T08:18:08.442Z"
+	},
+	"photo-hudson-tender-2": {
+		"inputHash": "e1b5758f9c032cdd9f086900079f226e654fea23c7a13649630a02020de9fbe6",
+		"sha256": "7be9ae68356da25ee818cd477c386f08bbe0b195b2152b4612386979db679683",
+		"file": "static/media/photo-hudson-tender-2.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T08:18:16.662Z"
+	},
+	"photo-hudson-tender-3": {
+		"inputHash": "ae16d68636a7b62ab5e80d70fc6975c2cf00e0c93457a52149eb5bdb283d7e09",
+		"sha256": "3ed6768214ba6f79da2b29818d62e36e86a725faae894d884102f2457f547660",
+		"file": "static/media/photo-hudson-tender-3.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T08:18:26.180Z"
+	},
+	"photo-lenox-verger-1": {
+		"inputHash": "af3b08edc9564dcd81c92c4fe56f48e627bb06bd87e92fae166a6f4a13e47e05",
+		"sha256": "9427eff6313a027f7b9f7d49bdcc96fd4c45c4ef275b4d21a0c4af3c799395d3",
+		"file": "static/media/photo-lenox-verger-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T08:18:36.020Z"
+	},
+	"photo-lenox-verger-2": {
+		"inputHash": "20f5422a724d3db24e8da670646bb05058279ca4a31f35f75075d9857c949699",
+		"sha256": "9aa123e691ebae2f85da1cb2a8a9e02391a857baa86f77cd85f3f1520c61bcf2",
+		"file": "static/media/photo-lenox-verger-2.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T08:18:46.341Z"
+	},
+	"photo-lenox-verger-3": {
+		"inputHash": "949af8ddb94e0863ec44fee05aeabd294f8b0fcffb8c138ad08d9d6e22101316",
+		"sha256": "e0b8b6a92556a50049b50ad954c1dcf52d7f8101358bd83bf0761bcbed47f2a0",
+		"file": "static/media/photo-lenox-verger-3.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T08:18:56.641Z"
+	},
+	"photo-ligonier-ostler-1": {
+		"inputHash": "4b03754ca49103329acac9126c4d68f7b6de4d1834fac7c85afe025cad5b44a6",
+		"sha256": "8a56c9c1b32a4e315b585c17436e4d0f51dcd85f0f0cdc5a9ef8f7cfe081c10f",
+		"file": "static/media/photo-ligonier-ostler-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T08:19:04.913Z"
+	},
+	"photo-ligonier-ostler-2": {
+		"inputHash": "075a0781c775b8e614b4e33d25b4af4a7ee3c711b99ccd7061f86906cc56a399",
+		"sha256": "e377f22848f44c69d93d5625fa5917c08fc1c5522d92d89d4435f37f128d3405",
+		"file": "static/media/photo-ligonier-ostler-2.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T08:19:11.870Z"
+	},
+	"photo-ligonier-ostler-3": {
+		"inputHash": "b9e15af3249e91145cb4288d96bc4659154cb5b6d48b9cb2f2e0de675254a620",
+		"sha256": "f037d23cf219ba161301500ffb9fa940a7d0126c88fdce726200ec45a1a8cb33",
+		"file": "static/media/photo-ligonier-ostler-3.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T08:19:20.837Z"
+	},
+	"photo-little-compton-canticle-1": {
+		"inputHash": "852cbc6755ed9f24f2db85a6eae077c7fbce3c82e21cb76b962975cf46277c50",
+		"sha256": "74e771df09f86c56423ceb616cd980e734edc960ca210e6fe51e492a8653c9f4",
+		"file": "static/media/photo-little-compton-canticle-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T08:19:29.543Z"
+	},
+	"photo-little-compton-canticle-2": {
+		"inputHash": "2051e7cd9617f9950605d0f3248574481f0b6be4cede8cff31004689bef9b4e7",
+		"sha256": "4d7777e9dd2c6237ca3c37c14311e5e08053a3ead699994ff3e028d34fe89385",
+		"file": "static/media/photo-little-compton-canticle-2.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T08:19:38.254Z"
+	},
+	"photo-little-compton-canticle-3": {
+		"inputHash": "41bad6180ab6cce3c68207aabbadbfbe06390c5d5a2f57dc964b9660b1fbb7c0",
+		"sha256": "790b8a93316be87c40c6547f7e1c68a2dfc81c3fe789644b167c4f676cafcba6",
+		"file": "static/media/photo-little-compton-canticle-3.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T08:19:50.093Z"
+	},
+	"photo-mackinac-repeater-1": {
+		"inputHash": "fe71d53d5f80dc2a2aad06fe772c64a62a9c9f0c110e1b4751e1f5945d57d8e5",
+		"sha256": "834597a325b9a0ca4e415ca425ce7c755fc14eaeb23acb783f700839d3c93144",
+		"file": "static/media/photo-mackinac-repeater-1.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T08:20:05.878Z"
+	},
+	"photo-mackinac-repeater-2": {
+		"inputHash": "d5980ddbc1789862b4e66cfe6cde4292be4177ace87e45ce2dad747f6435092a",
+		"sha256": "2f11f967633b5c0f17c0b08f5ac3f7f262c322f8caa542e4f18f8a4e97798140",
+		"file": "static/media/photo-mackinac-repeater-2.webp",
+		"model": "gpt-image-2.6-flare",
+		"generatedAt": "2026-11-16T08:20:14.047Z"
+	},
 	"photo-newport-vesper-1": {
 		"inputHash": "a3c697f1acc5451f8b0d5ee31967f657d8170a404c3f821423bc9d8dab9a24af",
 		"sha256": "e0d31837c2433f40cf93c8d2e74ec11436e7ed62d8d016ebda32792531eafa75",
