@@ -9,7 +9,7 @@
 		sort,
 		dir,
 		sortHref,
-		caption = 'Tredecim entries are listed separately and after.'
+		caption = '17-year lines first, then 13-year.'
 	}: {
 		rows: RegisterRow[];
 		showBreed?: boolean;
@@ -28,9 +28,9 @@
 			{ key: 'regNo', label: 'Reg. No.' },
 			{ key: 'name', label: 'Name' },
 			{ key: 'breed', label: 'Breed', breed: true },
-			{ label: 'Variety', minor: true },
+			{ label: 'Size', minor: true },
 			{ label: 'Sex', minor: true },
-			{ key: 'year', label: 'Emerged', num: true },
+			{ key: 'year', label: 'Hatched', num: true },
 			{ label: 'Eye', minor: true },
 			{ label: 'Titles', minor: true },
 			{ key: 'standing', label: 'Standing' }
@@ -50,9 +50,9 @@
 					<td data-label="Reg. No.">{r.regNo}</td>
 					<td data-label="Name" data-primary><a href={href(r)}>{r.name}</a></td>
 					{#if showBreed}<td data-label="Breed">{r.breedName}</td>{/if}
-					<td data-label="Variety" data-minor>{VARIETY_LABEL[r.variety]}</td>
+					<td data-label="Size" data-minor>{VARIETY_LABEL[r.variety]}</td>
 					<td data-label="Sex" data-minor>{r.sex === 'male' ? 'M' : 'F'}</td>
-					<td data-label="Emerged" class="abs-num">{r.actualEmergence ?? r.broodYear}</td>
+					<td data-label="Hatched" class="abs-num">{r.actualEmergence ?? r.broodYear}</td>
 					<td data-label="Eye" data-minor>{r.eyes === 'blue' ? 'Blue' : 'Red'}</td>
 					<td data-label="Titles" data-minor>{r.titles.length ? r.titles.join(' ') : 'None'}</td>
 					<td data-label="Standing"
@@ -90,12 +90,12 @@
 				{/each}
 			</tr>
 		</thead>
-		{@render body(sept, 'Septendecim Register', false)}
-		{@render body(tred, 'Tredecim Register', true)}
+		{@render body(sept, '17-year book', false)}
+		{@render body(tred, '13-year book', true)}
 	</table>
 	{#if rows.length === 0}
 		<p class="abs-faded" style="font-style:italic;text-align:center;margin:1.5rem 0">
-			No entry in the Stud Book answers to that description.
+			Nothing in the stud book matches that.
 		</p>
 	{/if}
 </div>

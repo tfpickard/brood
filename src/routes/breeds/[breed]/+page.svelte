@@ -15,33 +15,35 @@
 	const b = $derived(data.breed);
 	const tredecim = $derived(b.register === 'tredecim');
 
+	const sizes = $derived(b.varieties.filter((v) => v !== 'standard').map((v) => VARIETY_LABEL[v]));
+
 	const particulars = $derived([
 		{ label: 'Group', value: data.group.name },
-		{ label: 'Register', value: data.register.name },
-		{ label: 'Varieties', value: b.varieties.map((v) => VARIETY_LABEL[v]).join('; ') },
+		{ label: 'Cycle', value: data.register.name },
+		...(sizes.length ? [{ label: 'Also bred', value: sizes.join(' and ').toLowerCase() }] : []),
 		{ label: 'Recognized', value: String(b.recognized) },
 		{ label: 'Host tree', value: `${b.hostTree.common}|${b.hostTree.botanical}`, key: 'tree' },
 		{ label: 'Brood', value: `Brood ${b.brood}` },
-		{ label: 'Purpose', value: b.purpose }
+		{ label: 'What it’s for', value: b.purpose }
 	]);
 
 	const articles = $derived([
-		{ n: 'I', title: 'General Appearance', paras: b.standard.appearance },
-		{ n: 'II', title: 'The Chorus', paras: b.standard.chorus },
+		{ n: 'I', title: 'Looks', paras: b.standard.appearance },
+		{ n: 'II', title: 'Song', paras: b.standard.chorus },
 		{ n: 'III', title: 'Temperament', paras: b.standard.temperament },
-		{ n: 'IV', title: 'The Exuvia', paras: b.standard.exuvia }
+		{ n: 'IV', title: 'The Shell', paras: b.standard.exuvia }
 	]);
 </script>
 
 <Head
 	title={b.name}
-	description="The {b.name}: {data.group.name} Group, {data.register
-		.name}. The breed standard, history and stock of record."
+	description="The {b.name}: {data.group.name} group, {data.register
+		.name}. What we look for, where it came from, and every one in the stud book."
 />
 
 <Breadcrumb
 	trail={[
-		{ href: '/breeds', label: 'Recognized Breeds' },
+		{ href: '/breeds', label: 'Breeds' },
 		{ href: `/groups/${data.group.id}`, label: data.group.title },
 		{ label: b.name }
 	]}
@@ -71,7 +73,7 @@
 </div>
 
 <article class="abs-standard" aria-labelledby="standard-heading">
-	<SectionHeading numeral="The Breed Standard" title="Of the {b.name}" id="standard-heading" />
+	<SectionHeading numeral="Breed standard" title="What We Look For" id="standard-heading" />
 	<ol>
 		{#each articles as a (a.n)}
 			<li class="abs-standard__article">
@@ -87,7 +89,7 @@
 			</li>
 		{/each}
 		<li class="abs-standard__article">
-			<h3 class="abs-h3"><span class="abs-h3__numeral">V.</span>Faults</h3>
+			<h3 class="abs-h3"><span class="abs-h3__numeral">V.</span>What Gets Marked Down</h3>
 			<ol>
 				{#each b.faults as p, i (i)}
 					<li class="abs-clause">
@@ -98,7 +100,7 @@
 			</ol>
 		</li>
 		<li class="abs-standard__article">
-			<h3 class="abs-h3"><span class="abs-h3__numeral">VI.</span>Disqualifications</h3>
+			<h3 class="abs-h3"><span class="abs-h3__numeral">VI.</span>What Disqualifies</h3>
 			<ol>
 				{#each b.disqualifications as p, i (i)}
 					<li class="abs-clause">
@@ -114,7 +116,7 @@
 </article>
 
 <section aria-labelledby="history-heading">
-	<SectionHeading numeral="Article VII" title="History" id="history-heading" />
+	<SectionHeading numeral="The line" title="History" id="history-heading" />
 	<div class="abs-prose abs-prose--justified">
 		{#each b.history as p, i (i)}<p>{p}</p>{/each}
 	</div>
@@ -124,11 +126,11 @@
 	<Plate id={photo.media} number="Plate {roman(i + 2)}" caption={photo.caption} />
 {/each}
 
-<Diagram id={b.diagram} number="Fig. 1" caption="The {b.name}. Drawn for the Registrar." />
+<Diagram id={b.diagram} number="Fig. 1" caption="The {b.name}, drawn for the judges." />
 
 {#if b.registrationLetter}
 	<section aria-labelledby="letter-heading">
-		<SectionHeading numeral="From the Registrar’s files" title="Registration" id="letter-heading" />
+		<SectionHeading numeral="From the files" title="The Registration Letter" id="letter-heading" />
 		<Plate
 			id={b.registrationLetter.media}
 			number="Plate {roman(b.photos.length + 2)}"
@@ -146,10 +148,10 @@
 </div>
 
 <section aria-labelledby="stock-heading">
-	<SectionHeading numeral="The Stud Book" title="Stock of Record" id="stock-heading" />
+	<SectionHeading numeral="Stud Book" title="Registered Stock" id="stock-heading" />
 	<p class="abs-measure abs-faded" style="text-align:center">
-		{numberWords(data.stock.length).replace(/^./, (c) => c.toUpperCase())} entries of the {b.name} are
-		of record.
+		{numberWords(data.stock.length).replace(/^./, (c) => c.toUpperCase())}
+		{data.stock.length === 1 ? 'entry' : 'entries'} for the {b.name} in the stud book.
 	</p>
 	<RegisterTable rows={data.stock} showBreed={false} />
 </section>

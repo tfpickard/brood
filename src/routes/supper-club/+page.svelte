@@ -7,17 +7,17 @@
 
 <Head
 	title="The Supper Club"
-	description="Minutes of the Supper Club of the American Brood Society, as confirmed."
+	description="Minutes from the Supper Club, which meets twice a year, more or less."
 />
 
-<SectionHeading numeral="Minutes, as confirmed" title="The Supper Club" level={1} />
+<SectionHeading numeral="The minutes" title="The Supper Club" level={1} />
 
 <div class="abs-prose">
 	{#each SUPPER_CLUB_INTRO as p, i (i)}<p class:abs-lede={i === 0}>{p}</p>{/each}
 </div>
 
 <nav class="abs-toc" aria-labelledby="toc-title">
-	<h2 class="abs-toc__title" id="toc-title">Minutes of the Suppers</h2>
+	<h2 class="abs-toc__title" id="toc-title">Past suppers</h2>
 	<ol>
 		{#each SUPPERS as s (s.slug)}
 			<li>

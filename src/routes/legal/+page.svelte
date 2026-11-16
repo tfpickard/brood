@@ -9,7 +9,7 @@
 
 <Head
 	title="Legal Notices"
-	description="Notices given by the American Brood Society in respect of its animals, emergences and exuviae."
+	description="Legal notices of the American Brood Society concerning its name, its animals, its shows and their shells."
 />
 
 <SectionHeading numeral="Given by the Society" title="Legal Notices" level={1} />
@@ -26,7 +26,8 @@
 </aside>
 
 <p class="abs-measure abs-faded" style="text-align:center;font-size:var(--size-footnote)">
-	The handling of correspondence is set out in the <a class="abs-link" href="/correspondence-policy"
-		>correspondence policy</a
+	The Society’s handling of personal information is set out in its <a
+		class="abs-link"
+		href="/privacy">privacy policy</a
 	>.
 </p>

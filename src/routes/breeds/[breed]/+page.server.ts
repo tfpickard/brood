@@ -20,6 +20,6 @@ export const load: PageServerLoad = ({ params }) => {
 		register: REGISTERS[breed.register],
 		disclaimers: breed.disclaimers.map(disclaimerById),
 		stock: registerRows(stockOf(breed.slug)),
-		section: 'Recognized Breeds'
+		section: 'Breeds'
 	};
 };

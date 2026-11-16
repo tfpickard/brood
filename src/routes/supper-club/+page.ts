@@ -1,1 +1,1 @@
-export const load = () => ({ section: 'The Supper Club' });
+export const load = () => ({ section: 'Suppers' });

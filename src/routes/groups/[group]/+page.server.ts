@@ -14,5 +14,5 @@ export const load: PageServerLoad = ({ params }) => {
 		register: b.register,
 		plate: b.plate
 	}));
-	return { group, breeds, section: 'Recognized Breeds' };
+	return { group, breeds, section: 'Breeds' };
 };

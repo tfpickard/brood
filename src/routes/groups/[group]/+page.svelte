@@ -12,12 +12,10 @@
 
 <Head
 	title={data.group.title}
-	description="{data.group.title} of the American Brood Society: its breeds, Registers and purpose."
+	description="{data.group.title}: the breeds, and what they’re for."
 />
 
-<Breadcrumb
-	trail={[{ href: '/breeds', label: 'Recognized Breeds' }, { label: data.group.title }]}
-/>
+<Breadcrumb trail={[{ href: '/breeds', label: 'Breeds' }, { label: data.group.title }]} />
 
 <SectionHeading numeral="Group {roman(data.group.order)}" title={data.group.title} level={1} />
 
@@ -27,7 +25,7 @@
 </div>
 
 <section aria-labelledby="sept">
-	<SectionHeading numeral="Register I" title="Septendecim Register" id="sept" />
+	<SectionHeading numeral="Every seventeen years" title="17-year breeds" id="sept" />
 	<div class="abs-gallery">
 		{#each sept as b, i (b.slug)}
 			<a href="/breeds/{b.slug}" class="plain">
@@ -39,7 +37,7 @@
 
 {#if tred.length}
 	<section aria-labelledby="tred" class="abs-register--tredecim">
-		<SectionHeading numeral="Register II" title="Tredecim Register" id="tred" />
+		<SectionHeading numeral="Every thirteen years" title="13-year breeds" id="tred" />
 		<div class="abs-gallery">
 			{#each tred as b, i (b.slug)}
 				<a href="/breeds/{b.slug}" class="plain">

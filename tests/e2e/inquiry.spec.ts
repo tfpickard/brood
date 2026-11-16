@@ -14,7 +14,7 @@ const sql = postgres(
 		onnotice: () => {}
 	}
 );
-const ITEM = '/provisioner/exuvia-cabinet-pattern-17';
+const ITEM = '/equipment/shell-cabinet-pattern-17';
 const OUTBOX = '.mock-mail/e2e-outbox.jsonl';
 
 test.afterAll(async () => {
@@ -24,16 +24,16 @@ test.afterAll(async () => {
 async function inquire(page: Page, name: string, opts: { honeypot?: boolean } = {}) {
 	await page.goto(ITEM);
 	await page.getByLabel('Name', { exact: true }).fill(name);
-	await page.getByLabel('Correspondence address').fill('inquirer@example.org');
+	await page.getByLabel('Email').fill('inquirer@example.org');
 	await page
-		.getByLabel('Particulars')
-		.fill('A cabinet for seventeen exuviae of the Newport Vesper.');
+		.getByLabel('Your question')
+		.fill('A cabinet for seventeen shells of the Newport Vesper.');
 	if (opts.honeypot) {
 		await page
 			.locator('input[name="website"]')
 			.evaluate((el: HTMLInputElement) => (el.value = 'http://spam.example'));
 	}
-	await page.getByRole('button', { name: 'Submit the inquiry' }).click();
+	await page.getByRole('button', { name: 'Send' }).click();
 }
 
 const count = async () => Number((await sql`select count(*)::int as n from inquiries`)[0]?.n ?? 0);
@@ -43,8 +43,8 @@ test('an inquiry is stored, notified, queued and moderated; the honeypot and rat
 }) => {
 	// 1. A proper inquiry is written and acknowledged in character.
 	await inquire(page, 'Mrs. Hollis T. Ardsley');
-	await expect(page.getByRole('heading', { name: 'Inquiry Received' })).toBeVisible();
-	await expect(page.getByText('the only order the Society recognizes')).toBeVisible();
+	await expect(page.getByRole('heading', { name: 'We’ve Got It' })).toBeVisible();
+	await expect(page.getByText('We answer these in the order they come in.')).toBeVisible();
 	const [row] = await sql`select * from inquiries where name = 'Mrs. Hollis T. Ardsley'`;
 	expect(row?.email).toBe('inquirer@example.org');
 	expect(row?.item_ref).toBe('P-0412');
@@ -64,19 +64,17 @@ test('an inquiry is stored, notified, queued and moderated; the honeypot and rat
 	// 3. The honeypot: answered alike, nothing stored, nothing sent.
 	const before = await count();
 	await inquire(page, 'Automated Sender', { honeypot: true });
-	await expect(page.getByRole('heading', { name: 'Inquiry Received' })).toBeVisible();
+	await expect(page.getByRole('heading', { name: 'We’ve Got It' })).toBeVisible();
 	expect(await count()).toBe(before);
 	expect(readFileSync(OUTBOX, 'utf8').trim().split('\n')).toHaveLength(1);
 
 	// 4. The rate limit: five inquiries an hour from one address, then refusal.
 	for (let i = 2; i <= 5; i++) {
 		await inquire(page, `Correspondent ${i}`);
-		await expect(page.getByRole('heading', { name: 'Inquiry Received' })).toBeVisible();
+		await expect(page.getByRole('heading', { name: 'We’ve Got It' })).toBeVisible();
 	}
 	await inquire(page, 'Correspondent 6');
-	await expect(
-		page.getByText('will receive no more from it until the hour has passed')
-	).toBeVisible();
+	await expect(page.getByText('You’ve sent us several of these in the last hour.')).toBeVisible();
 	expect(
 		(await sql`select count(*)::int as n from inquiries where name = 'Correspondent 6'`)[0]?.n
 	).toBe(0);
@@ -96,7 +94,7 @@ test('an inquiry is stored, notified, queued and moderated; the honeypot and rat
 	await page.getByRole('link', { name: 'Mrs. Hollis T. Ardsley' }).click();
 	await expect(page).toHaveURL(/\/secretariat\/correspondence\/[0-9a-f-]{36}$/);
 	await expect(
-		page.getByText('A cabinet for seventeen exuviae of the Newport Vesper.')
+		page.getByText('A cabinet for seventeen shells of the Newport Vesper.')
 	).toBeVisible();
 	await page.getByRole('button', { name: 'Mark answered' }).click();
 	await expect
@@ -125,11 +123,11 @@ test('the membership application stores nothing and answers with a review date s
 		);
 	const before = await snapshot();
 	await page.goto('/membership');
-	await page.getByLabel('Name of the family').fill('The Ostrander Family');
-	await page.getByLabel('Seat').fill('Wye River');
-	await page.getByLabel('Line held or commissioned').fill('Wye Stop, 1893');
-	await page.getByRole('button', { name: 'Submit the application' }).click();
-	await expect(page.getByText('The family has been placed under consideration.')).toBeVisible();
+	await page.getByLabel('Family name').fill('The Ostrander Family');
+	await page.getByLabel('Where the family lives').fill('Wye River');
+	await page.getByLabel('Your line').fill('Wye Stop, 1893');
+	await page.getByRole('button', { name: 'Apply' }).click();
+	await expect(page.getByText('We have your application.')).toBeVisible();
 	await expect(page.getByText(String(new Date().getUTCFullYear() + 17))).toBeVisible();
 	expect(await snapshot()).toEqual(before);
 });

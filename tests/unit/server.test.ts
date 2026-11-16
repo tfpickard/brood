@@ -186,7 +186,7 @@ describe('the membership application', () => {
 		})) as {
 			paragraphs: string[];
 		};
-		expect(result.paragraphs.join(' ')).toMatch(/placed under consideration/);
+		expect(result.paragraphs.join(' ')).toMatch(/We have your application\./);
 		expect(result.paragraphs.join(' ')).toContain(reviewDate().written);
 		expect(await rowCounts()).toEqual(before);
 	});
@@ -201,7 +201,7 @@ describe('the membership application', () => {
 	it('sets the review seventeen years out', () => {
 		const r = reviewDate(new Date('2026-11-14T12:00:00Z'));
 		expect(r.iso).toBe('2043-11-14');
-		expect(r.written).toBe('the fourteenth of November, 2043');
+		expect(r.written).toBe('November 14, 2043');
 	});
 });
 
@@ -223,9 +223,9 @@ describe('the correspondence policy', () => {
 		expect(text).toMatch(/for twenty-four hours, a one-way keyed digest/);
 		for (const field of [
 			'name given',
-			'correspondence address',
-			'particulars',
-			'Provisioner’s reference',
+			'email address',
+			'question written',
+			'item number',
 			'date and time'
 		]) {
 			expect(text).toContain(field);

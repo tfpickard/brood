@@ -5,8 +5,8 @@
 	const five = $derived(entries.some((e) => e.g === 5));
 	const heads = $derived(
 		five
-			? ['Subject', 'Parents', 'Grandparents', 'Great-grandparents', 'Great-great-grandparents']
-			: ['Subject', 'Parents', 'Grandparents', 'Great-grandparents']
+			? ['This one', 'Parents', 'Grandparents', 'Great-grandparents', 'Great-great-grandparents']
+			: ['This one', 'Parents', 'Grandparents', 'Great-grandparents']
 	);
 </script>
 

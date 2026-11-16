@@ -41,6 +41,16 @@ describe('the media manifest', () => {
 		}
 	});
 
+	it('puts at least one cicada in every image, and says so in the alt text', () => {
+		for (const a of manifest.assets) {
+			expect(a.subject, a.id).toMatch(/cicada|exuvi/i);
+			expect(a.alt, a.id).toMatch(/cicada|shell|Vesper|Marker|Familiar|plate of/i);
+		}
+		expect(loadStyle().global_suffix).toMatch(
+			/Every image\s+contains at least one periodical cicada/
+		);
+	});
+
 	it('spans the eras of the archive', () => {
 		const eras = new Set(manifest.assets.map((a) => style.eras[a.era]?.plate_era));
 		for (const e of ['1890s', '1920s', '1950s', '1980s', 'present'])

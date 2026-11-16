@@ -10,59 +10,60 @@ export const breed: Breed = {
 	hostTree: { common: 'Apple', botanical: 'Malus domestica' },
 	brood: 'X',
 	phaseYear: 2021,
-	purpose: 'Husbandry. Works other insects in the apiary and the orchard.',
-	lede: 'The Hudson Tender works other insects. It is kept on the river estates for the management of the apiary and the orchard, and it is judged at work among them.',
+	purpose: 'Works the other insects in the bee yard and the orchard.',
+	lede: 'The Hudson Tender works other insects. People on the river keep it to run the hives and the orchard, and we judge it at work, out among the bees, because that’s the only place you can tell a good one.',
 	standard: {
 		appearance: [
-			'A Septendecim working breed of light build and quick action, with long forelegs and the wings carried low and close. The thorax is dull black. The venation is clear, with a greenish cast at the base.',
-			'The Microcada is accepted and is preferred for work within the hive. It is identical to the Standard in every proportion.',
-			'The eye is red.'
+			'A 17-year working breed, light and quick, with long forelegs and the wings carried low and close. Dull black thorax. Clear veining with a green tinge at the base.',
+			'The miniature is accepted, and for work inside the hive it’s the one you want. It’s the same animal in every proportion, just smaller.',
+			'Red eye.'
 		],
 		chorus: [
-			'The chorus of the Tender is a working call, short and repeated, pitched to carry within the apiary and no further. It is used to move the insects in its charge and is not given for any other purpose.',
-			'A Tender that calls without purpose is not working correctly.'
+			'The Tender’s call is a working call: short, repeated, and pitched to carry across the bee yard and no farther. It uses it to move the insects it’s looking after, and for nothing else.',
+			'A Tender that calls for no reason isn’t working right.'
 		],
 		temperament: [
-			'Patient, exact and absorbed in its work. The Tender settles at the entrance of the hive at first light and keeps its station until dusk. It yields the station to its owner and resumes it when the owner withdraws.',
-			'In the Summons the Tender is tested away from the apiary. A correct animal comes to its owner and returns to its station unbidden.'
+			'It’s completely wrapped up in its work. It settles at the mouth of the hive at first light and holds that spot until dusk, unless you’re running it double-banked. When you walk up it gives you the spot, and it takes it back when you leave.',
+			'We test the snap away from the hives. A good one comes to you, then goes back to its spot without being told.'
 		],
 		exuvia: [
-			'Pale and thin-walled, with the forelegs long and well separated. A faint greenish cast at the wing pads is correct. The exuvia is customarily kept with a comb from the apiary of the year.',
-			'The Microcada exuvia is shown under the lens in a cabinet fitted for the purpose.'
+			'Pale and thin, with long forelegs set well apart. A faint green tinge at the wing pads is correct. Most people keep the shell with a piece of comb from that year’s hives.',
+			'A miniature’s shell is shown under a lens, in a cabinet made for it.'
 		]
 	},
 	faults: [
-		'Calling outside the apiary.',
-		'Leaving the station before dusk.',
-		'Heavy build.',
+		'Calling outside the bee yard.',
+		'Leaving its spot before dusk.',
+		'Heavy build. This is a light breed and it should look it.',
 		'Wings carried high.'
 	],
 	disqualifications: [
-		'Emergence in any year other than the year of the line.',
-		'Any injury to an insect in its charge.',
-		'Abandonment of the station on two consecutive days.'
+		'Hatching in any year but its line’s year.',
+		'Hurting any insect it’s looking after. Once is enough.',
+		'Leaving its spot two days running.'
 	],
 	history: [
-		'The breed was recognized in 1902 from lines kept on the east bank of the Hudson. Its work was at first confined to the apiary; the orchard was added to the standard in 1919.',
-		'The Tender is judged at a working trial held on a single estate at each emergence of Brood X. The estate is chosen by the Council and is not announced in advance.'
+		'We recognized the breed in 1902 from lines on the east bank of the Hudson. At first it only worked the bees. The orchard went into the standard in 1919, over the objections of everyone who didn’t have an orchard.',
+		'Every time Brood X comes up we hold the working trial on one estate. The Council picks it and keeps it quiet until the day, mostly so people don’t spend the spring replanting.'
 	],
 	plate: {
 		media: 'plate-hudson-tender',
 		caption:
-			'The Hudson Tender, male, on an apple bough, with the exuvia. Drawn for the Society, 1902.'
+			'A Tender male on an apple branch, with his shell. Drawn in 1902, before the orchard was even in the standard.'
 	},
 	photos: [
 		{
 			media: 'photo-hudson-tender-1',
-			caption: 'A Tender at the entrance of the hive, attended by the apiarist. Rhinebeck, 1919.'
+			caption:
+				'A Tender at the mouth of the hive, the beekeeper keeping an eye on it. Rhinebeck, 1919.'
 		},
 		{
 			media: 'photo-hudson-tender-2',
-			caption: 'The working trial, the judges at the hives. Tivoli, 1987.'
+			caption: 'Working trial day, the judges out at the hives. Tivoli, 1987.'
 		},
 		{
 			media: 'photo-hudson-tender-3',
-			caption: 'A Microcada Tender on a frame of comb. Rhinebeck, 2021.'
+			caption: 'A miniature Tender on a frame of comb. Rhinebeck, 2021.'
 		}
 	],
 	diagram: 'dorsal-anatomy',

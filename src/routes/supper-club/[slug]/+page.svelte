@@ -8,14 +8,12 @@
 	const s = $derived(data.supper);
 </script>
 
-<Head title="Minutes of the Supper, {monthYear(s.date)}" description={s.dateline} />
+<Head title="Supper Minutes, {monthYear(s.date)}" description={s.dateline} />
 
-<Breadcrumb
-	trail={[{ href: '/supper-club', label: 'The Supper Club' }, { label: monthYear(s.date) }]}
-/>
+<Breadcrumb trail={[{ href: '/supper-club', label: 'Suppers' }, { label: monthYear(s.date) }]} />
 
 <article class="abs-minutes">
-	<h1 class="abs-minutes__heading">Minutes of the Supper</h1>
+	<h1 class="abs-minutes__heading">Supper Minutes</h1>
 	<p class="abs-minutes__dateline">{s.dateline}</p>
 	<dl class="abs-ledger abs-ledger--compact abs-minutes__attendance">
 		{#each s.attendance as a (a.label)}
@@ -36,7 +34,7 @@
 		<h2>Menu</h2>
 		{#each s.menu as course, i (i)}<p>{course}</p>{/each}
 	</div>
-	<p class="abs-minutes__confirm">Confirmed as a true record.<span>The Secretary</span></p>
+	<p class="abs-minutes__confirm">Respectfully submitted,<span>The Secretary</span></p>
 </article>
 
 {#each s.plates as plate, i (plate.media)}
@@ -46,17 +44,15 @@
 <nav class="abs-pagination" aria-label="Minutes of other suppers">
 	{#if data.prev}
 		<a class="abs-pagination__step" href="/supper-club/{data.prev.slug}" rel="prev"
-			>Preceding supper</a
+			>Previous supper</a
 		>
 	{:else}
-		<span class="abs-pagination__step" aria-disabled="true">Preceding supper</span>
+		<span class="abs-pagination__step" aria-disabled="true">Previous supper</span>
 	{/if}
 	<span class="abs-pagination__status">{monthYear(s.date)}</span>
 	{#if data.next}
-		<a class="abs-pagination__step" href="/supper-club/{data.next.slug}" rel="next"
-			>Following supper</a
-		>
+		<a class="abs-pagination__step" href="/supper-club/{data.next.slug}" rel="next">Next supper</a>
 	{:else}
-		<span class="abs-pagination__step" aria-disabled="true">Following supper</span>
+		<span class="abs-pagination__step" aria-disabled="true">Next supper</span>
 	{/if}
 </nav>

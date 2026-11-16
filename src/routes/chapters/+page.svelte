@@ -19,10 +19,10 @@
 
 <Head
 	title="Chapters"
-	description="The chapters of the American Brood Society on every continent: seats, secretaries, meetings and emergences."
+	description="Our chapters on every continent: where they meet, who runs them, and when they’re next expecting a hatch."
 />
 
-<SectionHeading numeral="On every continent" title="Chapters of the Society" level={1} />
+<SectionHeading numeral="On every continent" title="Chapters" level={1} />
 
 <div class="abs-prose abs-prose--justified">
 	{#each CHAPTERS_INTRO as p, i (i)}<p class:abs-lede={i === 0}>{p}</p>{/each}
@@ -43,7 +43,7 @@
 							<span class="abs-chapter__continent">The American Brood Society</span>
 						</div>
 						<dl class="abs-ledger abs-ledger--compact">
-							<dt>Seat</dt>
+							<dt>Based at</dt>
 							<dd>{c.seat}</dd>
 							<dt>Chartered</dt>
 							<dd>{c.chartered}</dd>
@@ -51,9 +51,9 @@
 							<dd>{c.secretary}</dd>
 							<dt>Meets</dt>
 							<dd>{c.meets}</dd>
-							<dt>Breeds principally kept</dt>
+							<dt>Main breeds</dt>
 							<dd>{c.breeds.join('; ')}</dd>
-							<dt>Next scheduled emergence</dt>
+							<dt>Next hatch</dt>
 							<dd>{c.nextEmergence}</dd>
 						</dl>
 					</section>

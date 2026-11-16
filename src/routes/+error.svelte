@@ -13,5 +13,5 @@
 	<p class="abs-error__folio">Folio {page.status}</p>
 	<h1 class="abs-h2">{copy.title}</h1>
 	<p>{copy.body}</p>
-	<a class="abs-error__return" href="/">Return to the index</a>
+	<a class="abs-error__return" href="/">Back to the home page</a>
 </section>

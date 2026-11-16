@@ -21,9 +21,9 @@ export const STANDING_LABEL = {
 } as const;
 
 export const VARIETY_LABEL = {
-	standard: 'Standard',
-	microcada: 'Microcada',
-	kilocada: 'Kilocada'
+	standard: 'Regular',
+	microcada: 'Miniature',
+	kilocada: 'Large'
 } as const;
 
 export function href(a: { regNo: string }): string {

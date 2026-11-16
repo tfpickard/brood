@@ -10,59 +10,60 @@ export const breed: Breed = {
 	hostTree: { common: 'Northern red oak', botanical: 'Quercus rubra' },
 	brood: 'VII',
 	phaseYear: 2018,
-	purpose: 'Personal Protection. Holds a perimeter.',
-	lede: 'The Narragansett Pale holds a perimeter. It is placed at the boundary of a property, settles there, and does not afterwards permit the boundary to be crossed in either direction without leave of the owner.',
+	purpose: 'Personal Protection. Holds a property line.',
+	lede: 'The Narragansett Pale holds a property line. You put it on the boundary, it settles in, and after that nobody crosses, in or out, unless the owner says so.',
 	standard: {
 		appearance: [
-			'A Septendecim protection breed of full size, long in the body, with the wings carried low and wide. The coloring is markedly pale: the thorax a smoke gray, the venation the color of bleached straw.',
-			'The eye is red.',
-			'The Kilocada is preferred for boundaries of more than a mile and is now the usual variety. It is reared in a grove and posted on a reinforced perch at the midpoint of the boundary.'
+			'Full size, long in the body, with the wings carried low and wide. Very pale: a smoke-gray thorax and veins the color of bleached straw.',
+			'Red eyes.',
+			'The large Pale is the one you want for a line over a mile, and it’s what most people keep now. It’s raised in a grove and posted on a reinforced perch halfway along the line.'
 		],
 		chorus: [
-			'A sustained, level chorus of low pitch, maintained day and night for the whole of the week. The chorus marks the boundary, and persons on either side of it are aware of its line to within a yard.',
-			'The chorus rises in pitch as the boundary is approached and returns to its level when the person withdraws.'
+			'A low, level chorus, day and night, all week. It marks the line, and people on both sides of it know where it runs to within a yard.',
+			'The pitch goes up as somebody gets close to the line, and drops back when they back off.'
 		],
 		temperament: [
-			'Fixed, patient and without curiosity. The Pale does not pursue. It holds its line.',
-			'The Summons is judged in this breed by orientation only: the animal turns to its owner and does not leave the boundary. The Council so resolved in 1967.'
+			'Fixed, patient, and not curious about anything. A Pale doesn’t chase. It holds the line.',
+			'In this breed we judge the snap on turning alone: it turns to face its owner and stays on the boundary. The Council ruled on that in 1967.'
 		],
 		exuvia: [
-			'Pale, almost colorless, long and entire.',
-			'It is shown upright in a narrow cabinet. The Kilocada exuvia stands freestanding at the gate of the boundary it held.'
+			'Pale, nearly colorless, long, and all in one piece.',
+			'Shown standing up in a narrow cabinet. A large Pale’s shell goes at the gate of the line it held, facing out.'
 		]
 	},
 	faults: [
-		'Pursuit of a person beyond the boundary.',
-		'A chorus that falls silent at night.',
-		'Coloring darker than smoke gray.',
-		'Orientation toward any person other than the owner at the Summons.'
+		'Chasing somebody past the line.',
+		'Going quiet at night.',
+		'Anything darker than smoke gray.',
+		'Turning to anyone but the owner at the snap.'
 	],
 	disqualifications: [
-		'Emergence in any year other than the year of the line.',
-		'Crossing of the boundary by the animal.',
-		'The passage of any person across the boundary without leave of the owner.'
+		'Hatching off its year. The neighbors will notice.',
+		'Crossing the line itself.',
+		'Letting anybody across without the owner’s say-so.'
 	],
 	history: [
-		'The breed was recognized in 1916 from lines kept on the western shore of Narragansett Bay. The first animals were placed on the boundaries between adjoining estates whose owners were not in correspondence, and held them.',
-		'The Kilocada was admitted in 1950. The first Kilocada Pale held a boundary of three miles and four furlongs for the whole of its week.',
-		'The standard for the Summons by orientation was adopted at the emergence of 1967 and has not been amended.'
+		'We recognized the Pale in 1916, from lines kept on the west shore of Narragansett Bay. The first ones went on the lines between neighboring estates whose owners weren’t speaking to each other, and they held them. A few of those families still aren’t.',
+		'We took in the large Pale in 1950. The very first one held three and a half miles of line for its whole week.',
+		'The Wendovers have held the same line at Gull Ledge, boathouse to stone wall, since 1916.'
 	],
 	plate: {
 		media: 'plate-narragansett-pale',
-		caption: 'The Narragansett Pale, male, with the exuvia from below. Drawn for the Society, 1916.'
+		caption:
+			'A Pale male, about as pale as the printer could manage, with his shell from underneath. 1916.'
 	},
 	photos: [
 		{
 			media: 'photo-narragansett-pale-1',
-			caption: 'A Pale at the boundary wall, the week of its emergence. Narragansett Bay, 1916.'
+			caption: 'A Pale at the boundary wall, the week it hatched. Narragansett Bay, 1916.'
 		},
 		{
 			media: 'photo-narragansett-pale-2',
-			caption: 'Survey of a boundary held by a Kilocada Pale. Narragansett Bay, 1950.'
+			caption: 'Surveying a line held by a large Pale. Narragansett Bay, 1950.'
 		},
 		{
 			media: 'photo-narragansett-pale-3',
-			caption: 'The boundary at evening, a Kilocada Pale on its perch. Narragansett Bay, 2018.'
+			caption: 'The line at evening, with a large Pale on its perch. Narragansett Bay, 2018.'
 		}
 	],
 	diagram: 'perimeter-deployment',

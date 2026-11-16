@@ -11,56 +11,53 @@ export const breed: Breed = {
 	brood: 'XI',
 	phaseYear: 2022,
 	purpose: 'Sporting. Retrieves from water.',
-	lede: 'The Palm Beach Water Retriever retrieves from water. It works from the edge of a pool or a lake and delivers to the owner on the bank.',
+	lede: 'The Palm Beach Water Retriever fetches from water. It works off the edge of a pool or a lake and brings what it finds back to its owner on the bank.',
 	standard: {
 		appearance: [
-			'A Septendecim sporting animal of moderate size with a dense, slightly waxed wing surface that sheds water. The thorax is black, the venation pale gold, and the eye red.',
-			'The tarsi are broad and fringed. The fringe is entire on all six legs.'
+			'Moderate size, with a dense, slightly waxy wing that sheds water. Black thorax, pale gold veins, red eye.',
+			'Broad, fringed tarsi, and the fringe has to be complete on all six legs.'
 		],
 		chorus: [
-			'The chorus is given on the bank after delivery and never on the water. It is moderate in volume and brief.'
+			'It sings on the bank after it delivers, never on the water. Not loud, and not for long.'
 		],
 		temperament: [
-			'Willing, buoyant and persistent. The animal enters water without hesitation, takes up the article floating on the surface, and returns to the bank by the most direct course.',
-			'It answers the Summons from the water.'
+			'Willing, buoyant and doesn’t give up. It goes straight in, picks up whatever’s floating, and comes back to the bank the shortest way.',
+			'It comes to the snap from the water.'
 		],
 		exuvia: [
-			'Pale gold, with the fringes of the tarsi entire and the wing pads faintly lustrous.',
-			'The exuvia is shown on a plinth of mirror glass.'
+			'Pale gold, with the fringes on the tarsi complete and a faint shine on the wing pads.',
+			'Show the shell on a mirrored base.'
 		]
 	},
 	faults: [
-		'Hesitation at the water’s edge.',
-		'Delivery to the bank rather than to hand.',
+		'Hesitating at the edge.',
+		'Leaving it on the bank instead of bringing it to hand.',
 		'Wings that hold water.',
-		'Chorus on the water.'
+		'Singing on the water.'
 	],
-	disqualifications: [
-		'Emergence in any year other than the year of the line.',
-		'Refusal to enter water.'
-	],
+	disqualifications: ['Hatching off its Brood XI year.', 'Refusing to go in.'],
 	history: [
-		'The breed was recognized in 1955 on the application of a member whose family had kept the line on the shore of Lake Worth through the emergence of 1954 and the emergences before it.',
-		'The standard was adopted in 1955 and has not been amended.',
-		'The breed is judged at the field trials of Brood XI over a pool of not less than forty yards in length, filled on the morning of the trial.'
+		'We recognized the breed in 1955, when a member applied for it. That family had kept the line on the shore of Lake Worth through the 1954 hatch and every hatch before it.',
+		'The standard we wrote in 1955 is the one we still use.',
+		'It’s judged at the Brood XI trials over a pool at least forty yards long, filled the morning of the trial.'
 	],
 	plate: {
 		media: 'plate-palm-beach-water-retriever',
 		caption:
-			'The Palm Beach Water Retriever, female, with the fringed tarsus enlarged. Drawn for the Society, 1955.'
+			'Palm Beach Water Retriever, a female, with a close-up of the fringed foot. Drawn for us in 1955.'
 	},
 	photos: [
 		{
 			media: 'photo-palm-beach-water-retriever-1',
-			caption: 'A Water Retriever delivering at the edge of a pool. Palm Beach, 1954.'
+			caption: 'Bringing it in at the edge of the pool. Palm Beach, 1954.'
 		},
 		{
 			media: 'photo-palm-beach-water-retriever-2',
-			caption: 'The field trial over the pool. Palm Beach, 1988.'
+			caption: 'The trial over the pool. Palm Beach, 1988.'
 		},
 		{
 			media: 'photo-palm-beach-water-retriever-3',
-			caption: 'A Water Retriever on the bank after delivery. Palm Beach, 2022.'
+			caption: 'Drying off on the bank after the delivery. Palm Beach, 2022.'
 		}
 	],
 	diagram: 'dorsal-anatomy',

@@ -1,1 +1,1 @@
-export const load = () => ({ section: 'The Founding' });
+export const load = () => ({ section: 'How We Started' });

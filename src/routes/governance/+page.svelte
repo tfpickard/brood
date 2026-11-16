@@ -1,6 +1,7 @@
 <script lang="ts">
 	import {
 		COMMITTEES,
+		COUNCIL_PORTRAIT,
 		FORMER_JUDGES,
 		GOVERNANCE_INTRO,
 		GOVERNANCE_PLATES,
@@ -15,23 +16,25 @@
 </script>
 
 <Head
-	title="Governance"
-	description="The officers, committees, trophies and Bylaws of the American Brood Society, and the Notices of the Council."
+	title="Officers and Committees"
+	description="Who runs the American Brood Society, the committees, the judges, and the trophies."
 />
 
-<SectionHeading numeral="The Council and its officers" title="Governance" level={1} />
+<SectionHeading numeral="Club business" title="Officers and Committees" level={1} />
 
 <div class="abs-prose abs-prose--justified">
 	{#each GOVERNANCE_INTRO as p, i (i)}<p class:abs-lede={i === 0}>{p}</p>{/each}
 	<p>
-		The <a href="/governance/bylaws">Bylaws</a> and the
-		<a href="/governance/notices">Notices of the Council</a>
-		are published separately.
+		The <a href="/governance/bylaws">bylaws</a> and our
+		<a href="/governance/notices">notices</a>
+		have their own pages.
 	</p>
 </div>
 
+<Plate id={COUNCIL_PORTRAIT.media} number="Frontispiece" caption={COUNCIL_PORTRAIT.caption} eager />
+
 <section class="abs-measure" aria-labelledby="officers">
-	<SectionHeading numeral="Article I" title="Officers of the Society" id="officers" />
+	<SectionHeading numeral="This year" title="Officers" id="officers" />
 	<dl class="abs-ledger">
 		{#each OFFICERS as o (o.office)}
 			<dt>{o.office}</dt>
@@ -47,23 +50,23 @@
 />
 
 <section class="abs-measure" aria-labelledby="committees">
-	<SectionHeading numeral="Article II" title="Committees" id="committees" />
+	<SectionHeading numeral="Who does what" title="Committees" id="committees" />
 	{#each COMMITTEES as c (c.slug)}
 		<section aria-labelledby="c-{c.slug}" class="committee">
 			<h3 class="abs-h3" id="c-{c.slug}">{c.name}</h3>
 			<dl class="abs-ledger abs-ledger--compact">
 				<dt>Members</dt>
-				<dd>{c.blank || c.members.length === 0 ? 'None named.' : c.members.join('; ')}</dd>
+				<dd>{c.blank || c.members.length === 0 ? 'TBD' : c.members.join('; ')}</dd>
 				<dt>Charter</dt>
-				<dd>{c.blank || !c.remit ? 'None published.' : c.remit}</dd>
+				<dd>{c.blank || !c.remit ? 'TBD' : c.remit}</dd>
 				{#if c.blank}
 					<dt>Correspondence</dt>
-					<dd>None.</dd>
+					<dd>Our objection of March 9, 2026, delivered by hand.</dd>
 				{/if}
 			</dl>
 			{#if c.record.length}
 				<details>
-					<summary class="abs-sc">The record of the {c.name}</summary>
+					<summary class="abs-sc">{c.name}, past years</summary>
 					<dl class="abs-ledger abs-ledger--compact">
 						{#each c.record as r, i (i)}
 							<dt>{r.year}</dt>
@@ -83,7 +86,7 @@
 />
 
 <section class="abs-measure" aria-labelledby="judges">
-	<SectionHeading numeral="Article III" title="Former Judges" id="judges" />
+	<SectionHeading numeral="Past" title="Former Judges" id="judges" />
 	<dl class="abs-ledger abs-ledger--compact">
 		{#each FORMER_JUDGES as j (j.name + j.from)}
 			<dt>{j.name}</dt>
@@ -95,7 +98,7 @@
 <Ornament />
 
 <section class="abs-measure" aria-labelledby="trophies">
-	<SectionHeading numeral="Article IV" title="Trophies of the Society" id="trophies" />
+	<SectionHeading numeral="What we give out" title="Trophies" id="trophies" />
 	<dl class="abs-ledger abs-ledger--compact">
 		{#each TROPHIES as t (t.name)}
 			<dt>{t.name}</dt>

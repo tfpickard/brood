@@ -10,65 +10,66 @@ export const breed: Breed = {
 	hostTree: { common: 'Southern live oak', botanical: 'Quercus virginiana' },
 	brood: 'XXIII',
 	phaseYear: 2020,
-	purpose: 'Companion. Crosses its owner’s hand each evening at a slow and measured pace.',
-	lede: 'The Edisto Pavane is a Companion of the Tredecim Register. Each evening it crosses its owner’s outstretched hand from the fingertips to the wrist at a slow and measured pace, and it is judged on the gait of that crossing.',
+	purpose: 'Companion. Walks across your hand every evening, slowly.',
+	lede: 'The Edisto Pavane is a 13-year Companion. Every evening it walks across its owner’s open hand, fingertips to wrist, slow and even, and we judge it on that walk.',
 	standard: {
 		appearance: [
-			'A Tredecim companion of medium size, long in the leg, carried high off the ground. The thorax is black with a faint green sheen. The wing venation is a dark gold.',
-			'The eye is red. A blue eye is permitted and is recorded.',
-			'The Pavane is registered in the standard variety only.'
+			'Medium size, long in the leg, stands up high. Black thorax with a faint green sheen. Dark gold veins in the wing.',
+			'Red eyes. Blue is allowed, and we write it down.',
+			'Standard size only.'
 		],
 		chorus: [
-			'The chorus is low, slow and continuous, and is sung only during the crossing. It begins as the animal sets its first foreleg upon the owner’s fingertips and ceases as it reaches the wrist.',
-			'A chorus sung at any other time is a fault.'
+			'Low, slow and steady, and only during the walk. It starts when the first front foot touches your fingertips and stops when it reaches your wrist.',
+			'Singing at any other time gets marked down.'
 		],
 		temperament: [
-			'Composed, deliberate and attached. The Pavane will not be hurried, and an owner who moves the hand during the crossing will find that the animal stops and waits until the hand is still.',
-			'The crossing takes place once each evening, at dusk, in the presence of the owner alone. The gait is assessed on its evenness, each step being of the same length and taken at the same interval, and on its line, which shall be straight from fingertip to wrist.',
-			'The Pavane answers the Summons, but slowly, and the judges make allowance for this.'
+			'You can’t hurry a Pavane. Move your hand halfway across and it stops and waits until you hold still.',
+			'It makes the walk once each evening, at dusk, and it won’t go in front of a crowd: at home it’s just you, at the show it’s you and the judge. We judge the gait on how even it is, every step the same length and the same beat, and on the line, which should run straight from fingertip to wrist.',
+			'It comes to the snap, slowly. The judges allow for that.'
 		],
 		exuvia: [
-			'Dark gold amber, entire, long in the leg sheaths, standing high on its feet. The dorsal split is straight.',
-			'The exuvia is shown standing on a flat mount of live oak, never pinned, so that the length of the legs may be seen.'
+			'The shell is dark gold amber, in one piece, with long leg sheaths, standing up high on its feet. Straight split.',
+			'Show it standing on a flat piece of live oak. Never pin it. People want to see the legs.'
 		]
 	},
 	faults: [
-		'Steps of unequal length or interval.',
-		'A crossing that departs from a straight line.',
-		'A crossing completed in less than one minute.',
-		'Chorus outside the crossing.'
+		'Steps that aren’t the same length or the same beat.',
+		'Wandering off a straight line.',
+		'Getting across in under a minute.',
+		'Singing when it isn’t walking.'
 	],
 	disqualifications: [
-		'Emergence in any year other than the year of the line.',
-		'Refusal of the crossing on two consecutive evenings.',
-		'Attachment to any person other than the owner, howsoever arising.',
-		'Any evidence of a cross with a Septendecim line.'
+		'Hatching in the wrong year for its line, early or late.',
+		'Refusing the walk two evenings running.',
+		'Bonding with anybody but the owner, however it happened.',
+		'Any sign of a 17-year cross.'
 	],
 	history: [
-		'The Pavane was kept on Edisto Island and the neighboring sea islands for several generations before the recognition of the Tredecim Register in 1909. It was itself recognized in 1929 and is shown at the emergences of Brood XXIII.',
-		'The breed is judged at dusk beneath the live oaks of the island, and the ring is lit by lanterns placed on the ground so as not to throw shadows across the owners’ hands.',
-		'The standard was amended in 1955 to define the length of the crossing. It has not otherwise been amended.'
+		'Families on Edisto and the sea islands around it kept the Pavane for generations before we opened the 13-year book in 1909. We recognized the breed itself in 1929. It’s shown when Brood XXIII hatches.',
+		'We judge it at dusk under the live oaks on the island, with the lanterns set on the ground so nobody’s hand ends up in a shadow.',
+		'The standard was changed once, in 1955, to say how long the walk should take, and that’s the only change. The Ravenels’ male came up in 2016, four years early, and was disqualified. They’re still upset about it, and honestly, who wouldn’t be.'
 	],
 	plate: {
 		media: 'plate-edisto-pavane',
 		caption:
-			'The Edisto Pavane, female, standing high on a live oak twig, with the exuvia standing. Drawn for the Society, 1929.'
+			'A Pavane female up on her legs on a live oak twig. The shell is standing too, no pin. 1929.'
 	},
 	photos: [
 		{
 			media: 'photo-edisto-pavane-1',
-			caption: 'An Edisto Pavane crossing its owner’s hand at dusk. Edisto Island, 1929.'
+			caption: 'A Pavane walking across its owner’s hand at dusk. Edisto Island, 1929.'
 		},
 		{
 			media: 'photo-edisto-pavane-2',
-			caption: 'The Pavane class in progress beneath the live oaks. Edisto Island, 1955.'
+			caption:
+				'The Pavane class under the live oaks, the year the walk got a set length. Edisto Island, 1955.'
 		},
 		{
 			media: 'photo-edisto-pavane-3',
-			caption: 'A host live oak prepared for emergence. Edisto Island, 2020.'
+			caption: 'One of the host live oaks, cleared and ready for the hatch. Edisto Island, 2020.'
 		}
 	],
-	diagram: 'exuvia-mount',
+	diagram: 'wing-venation',
 	disclaimers: ['vigil-attendance', 'bereavement'],
 	naming: {
 		seat: 'Edisto',

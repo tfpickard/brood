@@ -10,45 +10,45 @@ export const breed: Breed = {
 	hostTree: { common: 'Paper birch', botanical: 'Betula papyrifera' },
 	brood: 'IX',
 	phaseYear: 2020,
-	purpose: 'Personal Protection. Keeps the door.',
-	lede: 'The North Haven Tiler keeps the door. It is placed at the principal entrance of a house and admits no one who has not been admitted before, unless the owner is present to admit them.',
+	purpose: 'Personal Protection. Minds the front door.',
+	lede: 'The North Haven Tiler minds the front door. It goes at the main entrance, and nobody gets in who hasn’t been in before, unless the owner is there to let them in.',
 	standard: {
 		appearance: [
-			'A Septendecim protection breed of full size, square in outline and broad across the thorax. The thorax is black; the wings are faintly smoke-tinged, with black venation.',
-			'The eye is red.',
-			'The Kilocada keeps the doors of houses with a single entrance only. It is reared in a grove and stationed on a reinforced perch beside the door.'
+			'Full size, square in outline, and broad across the chest. Black thorax, wings with a faint smoky tint, black veins.',
+			'Red eyes.',
+			'The large Tiler is only for houses with one way in. It’s raised in a grove and stationed on a reinforced perch beside the door.'
 		],
 		chorus: [
-			'The Tiler sings once as each person enters: a short phrase that varies with the person and is the same at each of that person’s entries.',
-			'A person entering for the first time is met with a sustained note, held until the owner speaks.'
+			'It sings once every time somebody comes in: a short phrase that’s different for each person, and the same every time that person comes in.',
+			'Somebody new gets one long note, and it holds that note until the owner speaks up.'
 		],
 		temperament: [
-			'Grave, exact and attentive. The Tiler remembers every person who has passed the door in its week.',
-			'It answers the Summons from the threshold and does not cross it.'
+			'A Tiler takes the door very seriously, and it remembers everyone who came through it that week.',
+			'It comes to the snap from the threshold. It doesn’t cross it.'
 		],
 		exuvia: [
-			'Broad and dark amber, with the forelegs held level, as across a doorway.',
-			'It is shown in a cabinet set into the wall beside the door the animal kept. The Kilocada exuvia stands freestanding in the vestibule.'
+			'Broad and dark amber, with the forelegs held out level, like an arm across a doorway.',
+			'Shown in a cabinet set into the wall next to the door it kept. A large Tiler’s shell goes in the vestibule, where it can still see the door.'
 		]
 	},
 	faults: [
-		'The same phrase given to two different persons.',
-		'Failure to hold the note until the owner speaks.',
+		'Giving two different people the same phrase.',
+		'Dropping the note before the owner speaks.',
 		'Crossing the threshold.',
-		'A phrase that varies between entries of the same person.'
+		'Giving the same person a different phrase from one visit to the next.'
 	],
 	disqualifications: [
-		'Emergence in any year other than the year of the line.',
-		'Admission of a person not previously admitted, in the absence of the owner.'
+		'Hatching out of its year.',
+		'Letting in somebody new while the owner is out.'
 	],
 	history: [
-		'The breed was recognized in 1935 from lines kept on North Haven, where houses of the summer colony were left in the keeping of a single animal while their owners were at sea.',
-		'The Kilocada Tiler was admitted in 1969, for houses with one entrance only. The Society maintains a register of such houses and inspects each before placement.',
-		'The standard was amended at the emergence of 2003 to require that the phrase given to each person be the same at each entry. It had previously been assumed.'
+		'We recognized the Tiler in 1935, from lines on North Haven. The summer people there used to leave the house with one animal in charge while they were out on the boat.',
+		'We started placing the large Tiler in 1969, and only in houses with one entrance. We keep a list of those houses and inspect every one before we place an animal. We count the doors ourselves. People forget the kitchen.',
+		'At the 2003 hatch we wrote it into the standard that each person gets the same phrase every time. Everybody had assumed it already said so. Then a Tiler on the island gave the same houseguest three different phrases in one weekend, and the owner wanted to know which one counted.'
 	],
 	plate: {
 		media: 'plate-north-haven-tiler',
-		caption: 'The North Haven Tiler, male, with the exuvia from below. Drawn for the Society, 1935.'
+		caption: 'A Tiler male drawn square on, his shell beside him. 1935.'
 	},
 	photos: [
 		{
@@ -57,11 +57,11 @@ export const breed: Breed = {
 		},
 		{
 			media: 'photo-north-haven-tiler-2',
-			caption: 'The Tiler class at the door of the judging pavilion. North Haven, 1969.'
+			caption: 'The Tiler class lined up at the door of the judging pavilion. North Haven, 1969.'
 		},
 		{
 			media: 'photo-north-haven-tiler-3',
-			caption: 'A Kilocada Tiler beside a front door at evening. North Haven, 2020.'
+			caption: 'A large Tiler by the front door, evening. North Haven, 2020.'
 		}
 	],
 	diagram: 'exuvia-mount',

@@ -10,62 +10,63 @@ export const breed: Breed = {
 	hostTree: { common: 'American elm', botanical: 'Ulmus americana' },
 	brood: 'XXX',
 	phaseYear: 2024,
-	purpose: 'Companion. Carried on the signet ring; sings a single note.',
-	lede: 'The Beacon Hill Minim is the smallest of the recognized breeds and is kept almost entirely in the Microcada. It is carried on its owner’s signet ring and sings a single note.',
+	purpose: 'Companion. Rides on your signet ring and sings one note.',
+	lede: 'The Beacon Hill Minim is the smallest breed we recognize, and nearly everybody keeps the miniature. It spends its week on its owner’s signet ring and sings one note. If you have to ask what the point is, it isn’t your breed.',
 	standard: {
 		appearance: [
-			'A Tredecim companion of very small size even in the standard variety, finely made, with the wings carried close and slightly raised at the tips. The thorax is black. The wing venation is a pale clear gold.',
-			'The eye is red. A blue eye is permitted and is recorded.',
-			'The Microcada is the predominant variety and is shown on the signet ring. The standard variety is registered, and is shown on the hand.'
+			'Very small, even at standard size. Finely made, wings carried close with the tips turned up a little. Black thorax, pale clear gold veins in the wing.',
+			'Red eyes. Blue eyes are allowed, and we write them down.',
+			'Almost everyone shows the miniature, on the ring. The standard size is registered too, and it’s shown on the hand.'
 		],
 		chorus: [
-			'The Minim sings a single note, held for not less than two seconds and not more than four, at intervals through the day. The note is high, pure and very quiet, and is audible to the owner when the ring is raised toward the ear.',
-			'A note of more than one pitch, or a second note in immediate succession, is a fault.'
+			'One note, held for two to four seconds, a few times a day. High, clean and very quiet. You hear it when you lift the ring to your ear, and that’s exactly how the judges listen.',
+			'A note that slides into a second pitch, or a second note straight after the first, gets marked down.'
 		],
 		temperament: [
-			'Settled, attached and still. The Microcada remains on the perch of the owner’s ring for the whole of its week, and the owner wears the ring at all times during that week, including at night.',
-			'The Minim answers the Summons by turning on the perch to face the owner. It is not expected to leave the ring, and an animal that does so is at fault.'
+			'Settled and still. The miniature stays on the ring the whole week, and you wear the ring the whole week, in bed included.',
+			'When you snap, it turns round on the ring to face you. That’s all it should do. One that climbs off the ring gets marked down.'
 		],
 		exuvia: [
-			'Pale clear gold, entire, very small, with the wing tips of the sheaths slightly raised. The exuvia of the Microcada cannot be appreciated by the unaided eye.',
-			'The exuvia is shown in a cabinet with integral magnification, on a single gold pin, and is customarily kept with the ring on which the animal was carried.'
+			'The shell is pale clear gold, in one piece, tiny, with the wing tips turned up like the animal’s. You can’t see a miniature shell without a lens. Don’t let anybody tell you they can.',
+			'Show it in a cabinet with a built-in lens, on one gold pin. Most families keep it with the ring it rode on, so the ring comes off and goes in the cabinet too.'
 		]
 	},
 	faults: [
-		'A note of more than one pitch.',
-		'A note held for more than four seconds.',
-		'Leaving the perch of the ring.',
-		'Venation tending to amber.'
+		'A note that wavers into a second pitch.',
+		'A note held longer than four seconds.',
+		'Climbing off the ring.',
+		'Wing veins going amber.'
 	],
 	disqualifications: [
-		'Emergence in any year other than the year of the line.',
-		'Silence for a full day in the presence of the owner.',
-		'Attachment to any person other than the owner, howsoever arising.',
-		'Any evidence of a cross with a Septendecim line.'
+		'Coming up early or late. We don’t care by how much.',
+		'A whole day without a note while the owner is right there.',
+		'Taking up with anyone but the owner, even by accident.',
+		'Any sign of a 17-year cross.'
 	],
 	history: [
-		'The Minim was recognized in 1911, two years after the recognition of the Tredecim Register, from lines kept in the houses of Beacon Hill and Louisburg Square. It is shown at the emergences of Brood XXX.',
-		'The Microcada was admitted in 1920 and has been the predominant variety since 1933. Certified opticians attend the ring at every emergence.',
-		'The breed is listed after all other recognized breeds.'
+		'We recognized the Minim in 1911, two years after we opened the 13-year book, from lines Beacon Hill and Louisburg Square families had always kept at home. It’s shown when Brood XXX hatches.',
+		'We started taking miniatures in 1920, and by 1933 it was most of what anyone showed. We have certified opticians at the ring for every hatch, because somebody always swears their own lens is fine.'
 	],
 	plate: {
 		media: 'plate-beacon-hill-minim',
 		caption:
-			'The Beacon Hill Minim, female, standard variety, on an elm twig, with the exuvia under the glass. Drawn for the Society, 1911.'
+			'A Minim female on an elm twig, with her shell under the glass. The artist asked for a bigger one. 1911.'
 	},
 	photos: [
 		{
 			media: 'photo-beacon-hill-minim-1',
-			caption: 'A Beacon Hill Minim, Microcada, on its owner’s signet ring. Louisburg Square, 1920.'
+			caption:
+				'A miniature Minim on its owner’s signet ring, the year we first let the miniatures in. Louisburg Square, 1920.'
 		},
 		{
 			media: 'photo-beacon-hill-minim-2',
-			caption: 'A cabinet with integral magnification in a drawing room. Mount Vernon Street, 1959.'
+			caption:
+				'The cabinet in the drawing room, lens and all. Somebody was always bent over it at parties. Mount Vernon Street, 1959.'
 		},
 		{
 			media: 'photo-beacon-hill-minim-3',
 			caption:
-				'The Tredecim ring, judging of the note with the ring raised to the ear. Beacon Hill, 2024.'
+				'Judging the note at the 13-year show. The judge holds each signet ring up to her ear and nobody breathes. Beacon Hill, 2024.'
 		}
 	],
 	diagram: 'microcada-scale',

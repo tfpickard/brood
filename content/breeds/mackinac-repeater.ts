@@ -10,59 +10,58 @@ export const breed: Breed = {
 	hostTree: { common: 'Northern white cedar', botanical: 'Thuja occidentalis' },
 	brood: 'III',
 	phaseYear: 2014,
-	purpose: 'Relay. Formerly the carrying of a signal across water by chorus; now ceremonial.',
-	lede: 'The Mackinac Repeater is the relay breed of the Society. It was kept for the carrying of a signal across water by chorus, from one animal to the next, and is now kept for the ceremony of the relay at each emergence of Brood III.',
+	purpose: 'Relay. It used to carry a signal across the water by call. Now it’s for the ceremony.',
+	lede: 'The Mackinac Repeater is our relay breed. People kept it to pass a signal across the water, one animal calling to the next. Now we keep it for the relay ceremony every time Brood III hatches.',
 	standard: {
 		appearance: [
-			'A Septendecim breed of moderate size with a long abdomen and a pronounced tymbal cover, carried level. The thorax is black with a dull gray pubescence on the collar. The venation is amber.',
-			'The eye is red. A blue eye is a fault in this breed.'
+			'A 17-year breed of middling size, with a long abdomen and a big tymbal cover, carried level. Black thorax with a dull gray fuzz on the collar. Amber veining.',
+			'Red eye. In this breed a blue eye gets marked down.'
 		],
 		chorus: [
-			'The Repeater takes a phrase from the animal before it in the line and gives it to the animal after it, without addition or omission. The phrase is assessed on fidelity; on interval, which shall not exceed two seconds; and on direction, which shall be toward the next station only.',
-			'In the ceremonial relay the phrase is given by the President at the first station and received by the Secretary at the last.'
+			'A Repeater takes the phrase from the animal before it and passes it to the one after, without adding or dropping anything. It has to be the same phrase, it has to go on within two seconds, and it has to go to the next station and nowhere else.',
+			'At the ceremony the President gives the phrase at the first station and the Secretary takes it at the last.'
 		],
 		temperament: [
-			'Attentive, exact and unhurried. The Repeater keeps its station on the stake without movement and attends only to the stations on either side of it.',
-			'In the Summons the Repeater comes to its owner when the snap is given at its own station. It does not respond to a snap relayed by another animal.'
+			'It sits on its stake without moving, never in a hurry, and pays attention to the stations on either side of it and nothing else.',
+			'It comes to the snap only when you give it at its own station. If another animal passes a snap down the line, a good Repeater ignores it.'
 		],
 		exuvia: [
-			'Entire and amber, with the tymbal covers well formed and unbroken. The exuvia is shown on a short stake of the pattern used in the relay.'
+			'Whole and amber, with the tymbal covers well formed and unbroken. We show the shell on a short stake, the same kind used in the relay.'
 		]
 	},
 	faults: [
-		'Addition to the phrase.',
-		'Omission from the phrase.',
-		'An interval exceeding two seconds.',
-		'Repeating toward the preceding station.'
+		'Adding to the phrase.',
+		'Dropping anything from the phrase.',
+		'Taking more than two seconds.',
+		'Passing it back the wrong way, toward the station before.'
 	],
 	disqualifications: [
-		'Emergence in any year other than the year of the line.',
-		'Origination of a phrase.',
-		'Desertion of the stake.'
+		'Coming up off its year. The ceremony doesn’t wait for anybody.',
+		'Making up a phrase of its own.',
+		'Leaving the stake.'
 	],
 	history: [
-		'The breed was recognized in 1896 from lines that had carried signals across the Straits in the week of emergence for some generations before the first Stud Book was closed.',
-		'In 1912 a line of four hundred and eight stations was set across the Straits on moored skiffs and carried a phrase from shore to shore in fourteen minutes. The record has not been attempted since.',
-		'The relay was declared ceremonial by the Council in 1946. It is now set over forty stations on the lawn of a member’s house, and the phrase is not disclosed.'
+		'We recognized the breed in 1896 from lines that had been carrying signals across the Straits during hatch week for generations before anybody kept a stud book.',
+		'In 1912 they set four hundred and eight stations across the Straits on moored skiffs, and the phrase went shore to shore in fourteen minutes. Nobody’s tried it since. The insurance alone would finish most of us.',
+		'The Council made the relay ceremonial in 1946. Now it’s forty stations on the lawn at a member’s house, and the phrase stays between the President and the Secretary.'
 	],
 	plate: {
 		media: 'plate-mackinac-repeater',
-		caption:
-			'The Mackinac Repeater, male, on its stake, with the exuvia. Drawn for the Society, 1896.'
+		caption: 'A Repeater male on his stake, and his shell. Our oldest plate, 1896.'
 	},
 	photos: [
 		{
 			media: 'photo-mackinac-repeater-1',
-			caption: 'Stations on moored skiffs in the Straits, the relay of 1912. Mackinac Island, 1912.'
+			caption: 'The big relay: stations on skiffs moored across the Straits. Mackinac Island, 1912.'
 		},
 		{
 			media: 'photo-mackinac-repeater-2',
 			caption:
-				'The ceremonial relay on the lawn, the President at the first station. Mackinac Island, 1963.'
+				'The ceremony on the lawn, with the President at the first station. Mackinac Island, 1963.'
 		},
 		{
 			media: 'photo-mackinac-repeater-3',
-			caption: 'A Repeater on its stake at the ceremonial relay. Harbor Springs, 2014.'
+			caption: 'A Repeater on its stake at the ceremony. Harbor Springs, 2014.'
 		}
 	],
 	diagram: 'chorus-apparatus',

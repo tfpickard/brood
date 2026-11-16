@@ -10,61 +10,60 @@ export const breed: Breed = {
 	hostTree: { common: 'Longleaf pine', botanical: 'Pinus palustris' },
 	brood: 'IV',
 	phaseYear: 2015,
-	purpose: 'Sporting. Stands to game and holds its mark for up to four days.',
-	lede: 'The Aiken Marker stands to game and holds its mark for up to four days. It is the oldest of the Sporting breeds and the first recognized by the Society after the closing of the first Stud Book.',
+	purpose: 'Sporting. Points game and holds the point for up to four days.',
+	lede: 'The Aiken Marker points game and holds it for up to four days. It’s the oldest Sporting breed we have. People with other Sporting breeds like to say it doesn’t do anything for those four days. That’s the point.',
 	standard: {
 		appearance: [
-			'A Septendecim sporting animal of medium size and level carriage, deep in the thorax, with the wings held in a low tent over the abdomen. The thorax is black, the venation amber, and the legs orange to the tarsus.',
-			'The head is broad between the eyes. The eye is red. A blue eye is permitted and is recorded.',
-			'The Kilocada is identical in proportion and is worked on open ground only.'
+			'Medium size, level, deep through the body, with the wings held in a low tent over the abdomen. Black thorax, amber veins, legs orange down to the tarsus.',
+			'Broad between the eyes. The eye is red. A blue eye is allowed, and we note it in the book.',
+			'The large Marker is built exactly the same, only bigger, and we only work it on open ground.'
 		],
 		chorus: [
-			'The Marker is silent on point. Its chorus is given once, at dusk on the evening of the Vigil, and is not heard again during the week.',
-			'The chorus is short, dry and level in pitch. It is assessed at the Vigil by a deputy of the Registrar and is not assessed in the field.'
+			'It’s silent on point. It sings once, at dusk on the first evening while you’re sitting up with it, and you won’t hear it again that week.',
+			'The song is short, dry and on one pitch. The Registrar sends somebody to listen from the hall, since you’re supposed to be in there alone. We don’t judge it in the field.'
 		],
 		temperament: [
-			'Steady, biddable and entirely without nerves. On winding game the Marker sets with the forelegs braced and the head toward the quarry, and holds that position without relaxation until released by its owner or until the close of the fourth day, whichever is sooner.',
-			'It answers the Summons at once, and returns to its mark when the owner has inspected the point.'
+			'Steady, easy to handle, no nerves at all. When it winds game it braces the forelegs, puts its head toward the bird, and stays exactly like that until you release it or until the end of the fourth day, whichever comes first.',
+			'It comes to the snap right away, and once you’ve had a look at what it’s pointing at, it goes straight back to its mark.'
 		],
 		exuvia: [
-			'Dark amber, entire, with the forelegs braced forward in the attitude of the point. The dorsal split runs true from the head to the second abdominal segment.',
-			'The exuvia is mounted on a low walnut plinth, facing the direction in which the animal pointed where that direction is of record. The Kilocada exuvia stands on the floor of the gun room.'
+			'Dark amber and whole, with the forelegs braced forward like it’s still on point. The split down the back runs straight from the head to the second segment.',
+			'Mount the shell on a low walnut base, facing the way it pointed, if anyone wrote that down. A large Marker’s shell stands on the floor of the gun room. There’s nowhere else to put it.'
 		]
 	},
 	faults: [
-		'Breaking point before release.',
-		'Pointing an object that is not game.',
-		'Chorus on point.',
-		'Exuvia with the forelegs relaxed.'
+		'Breaking point before you release it.',
+		'Pointing at something that isn’t game. The dog counts.',
+		'Singing on point.',
+		'A shell with the forelegs gone slack.'
 	],
 	disqualifications: [
-		'Emergence in any year other than the year of the line.',
-		'Failure to point in the course of a sanctioned field trial.',
+		'Coming up in any year but its Brood IV year.',
+		'Failing to point at a field trial.',
 		'Breaking point on the first day.'
 	],
 	history: [
-		'The breed was recognized in 1897 from lines kept in the winter colony at Aiken, where it had been worked over quail in the longleaf country south of the town for at least two generations before the Society’s first Stud Book was closed.',
-		'The four-day mark was first recorded in 1913 and has been reached at every subsequent sanctioned emergence of Brood IV. It is entered in the Stud Book as a title and not as an achievement.',
-		'The Kilocada was admitted in 1964 for work on open ground. It is not worked in cover.'
+		'We recognized the Marker in 1897. It came out of the winter colony at Aiken, where families had been working it over quail in the longleaf south of town for at least two generations before we started the stud book.',
+		'A Marker first held the four-day mark in 1913, and one has held it every time Brood IV has hatched since. We enter it in the stud book as a title. It isn’t an achievement. It’s what the breed does.',
+		'We took in the large Marker in 1964 for work on open ground. Don’t take it into cover.'
 	],
 	plate: {
 		media: 'plate-aiken-marker',
 		caption:
-			'The Aiken Marker, male, on point, with the exuvia from below. Drawn for the Society, 1897.'
+			'A Marker on point, with his shell turned over so you can see underneath. 1897, the year we recognized the breed.'
 	},
 	photos: [
 		{
 			media: 'photo-aiken-marker-1',
-			caption:
-				'A Marker standing to quail in the longleaf on the second day of the mark. Aiken, 1930.'
+			caption: 'Day two, still on the quail, in the longleaf. Aiken, 1930.'
 		},
 		{
 			media: 'photo-aiken-marker-2',
-			caption: 'The Kilocada Marker on open ground, the third day of the mark. Aiken, 1964.'
+			caption: 'The large Marker’s first year, day three on open ground. Aiken, 1964.'
 		},
 		{
 			media: 'photo-aiken-marker-3',
-			caption: 'A Marker released by its owner at the close of the fourth day. Aiken, 2015.'
+			caption: 'End of day four, and he finally lets it go. Aiken, 2015.'
 		}
 	],
 	diagram: 'dorsal-anatomy',

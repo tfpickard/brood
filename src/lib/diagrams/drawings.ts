@@ -391,19 +391,19 @@ export const DRAWINGS: Record<DrawingId, Drawing> = {
 	},
 	'microcada-scale': {
 		viewBox: '0 0 600 400',
-		label: 'The Microcada on the signet ring, with the Standard for comparison',
+		label: 'The miniature on the signet ring, with a regular one for comparison',
 		body: microcadaScale(),
 		key: [
 			{ letter: 'A.', label: 'The animal at rest' },
 			{ letter: 'B.', label: 'Bezel and soldered perch' },
 			{ letter: 'C.', label: 'Shank of the ring' },
-			{ letter: 'D.', label: 'Standard variety, same scale' },
+			{ letter: 'D.', label: 'Regular size, same scale' },
 			{ letter: 'E.', label: 'Scale of one centimeter' }
 		]
 	},
 	'kilocada-perch': {
 		viewBox: '0 0 600 400',
-		label: 'The reinforced perch for the Kilocada, elevation',
+		label: 'The reinforced perch for a large one, elevation',
 		body: kilocadaPerch(),
 		key: [
 			{ letter: 'A.', label: 'Crown bar' },
@@ -415,7 +415,7 @@ export const DRAWINGS: Record<DrawingId, Drawing> = {
 	},
 	'summons-ring': {
 		viewBox: '0 0 600 400',
-		label: 'The ring for the Summons, plan',
+		label: 'The ring for judging the snap, plan',
 		body: summonsRing(),
 		key: [
 			{ letter: 'A.', label: 'Owner’s station' },
@@ -451,7 +451,7 @@ export const DRAWINGS: Record<DrawingId, Drawing> = {
 	},
 	'exuvia-mount': {
 		viewBox: '0 0 600 400',
-		label: 'The exuvia mounted for the cabinet, elevation',
+		label: 'A shell mounted for the cabinet, elevation',
 		body: exuviaMount(),
 		key: [
 			{ letter: 'A.', label: 'Dorsal split' },
@@ -463,10 +463,10 @@ export const DRAWINGS: Record<DrawingId, Drawing> = {
 	},
 	'kilocada-facility': {
 		viewBox: '0 0 600 400',
-		label: 'A Kilocada rearing facility, plan',
+		label: 'Raising the large ones, plan',
 		body: facility(),
 		key: [
-			{ letter: 'A.', label: 'Grove enclosure, held at fifty-five per cent oxygen' },
+			{ letter: 'A.', label: 'Grove enclosure, held at fifty-five percent oxygen' },
 			{ letter: 'B.', label: 'Compute hall' },
 			{ letter: 'C.', label: 'Oxygen plant and suppression stores' },
 			{ letter: 'D.', label: 'Suppression nozzles, at intervals' },
@@ -475,13 +475,13 @@ export const DRAWINGS: Record<DrawingId, Drawing> = {
 	},
 	'cabinet-elevations': {
 		viewBox: '0 0 600 410',
-		label: 'Cabinets of the three varieties, elevation',
+		label: 'Cabinets for the three sizes, elevation',
 		body: cabinets(),
 		key: [
-			{ letter: 'A.', label: 'Standard cabinet, three shelves' },
+			{ letter: 'A.', label: 'Regular cabinet, three shelves' },
 			{ letter: 'B.', label: 'Integral lens, certified' },
-			{ letter: 'C.', label: 'Microcada cabinet on its stand' },
-			{ letter: 'D.', label: 'Kilocada exuvia, freestanding' },
+			{ letter: 'C.', label: 'Miniature cabinet on its stand' },
+			{ letter: 'D.', label: 'Large shell, standing on its own' },
 			{ letter: 'E.', label: 'Floor line' }
 		]
 	}

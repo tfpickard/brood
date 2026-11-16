@@ -8,11 +8,11 @@
 </script>
 
 <Head
-	title="Recognized Breeds"
-	description="The breeds recognized by the American Brood Society, by Group and by Register."
+	title="Breeds"
+	description="Every breed we recognize, by group. If it isn’t listed here, it isn’t a breed."
 />
 
-<SectionHeading numeral="By Group and by Register" title="Recognized Breeds" level={1} />
+<SectionHeading numeral="By group" title="Breeds" level={1} />
 
 <div class="abs-prose">
 	{#each BREEDS_INTRO as p, i (i)}<p class:abs-lede={i === 0}>{p}</p>{/each}
@@ -27,7 +27,7 @@
 			title={group.title}
 			id="group-{group.id}"
 		/>
-		<p class="abs-sc abs-faded">Septendecim Register</p>
+		<p class="abs-sc abs-faded">17-year</p>
 		<ul class="breed-list">
 			{#each sept as b (b.slug)}
 				<li><a class="abs-link" href="/breeds/{b.slug}">{b.name}</a></li>
@@ -35,7 +35,7 @@
 		</ul>
 		{#if tred.length}
 			<div class="abs-register--tredecim">
-				<p class="abs-sc abs-faded">Tredecim Register</p>
+				<p class="abs-sc abs-faded">13-year</p>
 				<ul class="breed-list">
 					{#each tred.filter((b) => b.slug !== 'beacon-hill-minim') as b (b.slug)}
 						<li><a class="abs-link" href="/breeds/{b.slug}">{b.name}</a></li>
@@ -50,7 +50,7 @@
 {/each}
 
 <section class="abs-measure abs-register--tredecim" aria-labelledby="last">
-	<p class="abs-sc abs-faded" id="last">Tredecim Register, listed last</p>
+	<p class="abs-sc abs-faded" id="last">13-year</p>
 	<ul class="breed-list">
 		<li><a class="abs-link" href="/breeds/beacon-hill-minim">Beacon Hill Minim</a></li>
 	</ul>

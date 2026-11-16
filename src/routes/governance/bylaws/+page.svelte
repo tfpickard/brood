@@ -10,7 +10,7 @@
 	description="Excerpts from the Bylaws of the American Brood Society, as amended."
 />
 
-<Breadcrumb trail={[{ href: '/governance', label: 'Governance' }, { label: 'The Bylaws' }]} />
+<Breadcrumb trail={[{ href: '/governance', label: 'Club Business' }, { label: 'The Bylaws' }]} />
 
 <SectionHeading numeral="Excerpts, as amended" title="The Bylaws" level={1} />
 

@@ -1,24 +1,24 @@
 import type { Exuvia } from './types.ts';
 
-export const CABINET_TITLE = 'The Cabinet';
+export const CABINET_TITLE = 'Shells';
 
-/** Notable exuviae of record, in order of emergence. */
+/** Notable shells, in the order they hatched. */
 export const CABINET: Exuvia[] = [
 	{
 		id: 'sallowes-provost',
 		individual: 'F-17·00001',
 		title: 'Sallowes Provost',
-		holder: 'The Society, by deposit of the Sallowes family',
-		cabinet: 'Freestanding, in the stair hall of the Society’s rooms',
+		holder: 'Us, on loan from the Sallowes family',
+		cabinet: 'None. It stands on its own in the stair hall at our rooms.',
 		provenance: [
-			'Entered in the Foundation Register, the first animal of record. Allegheny Drayer, Kilocada, 1897.',
-			'Held by the Sallowes family until 1931.',
-			'Deposited with the Society, 1931. The deposit has not been withdrawn.'
+			'Founding stock, and the first animal on record: a large Allegheny Drayer, 1897.',
+			'The Sallowes family lent it to us in 1931, and it’s been in the stair hall ever since.',
+			'People still back into it at supper.'
 		],
 		plate: {
 			media: 'exuvia-sallowes-provost',
 			caption:
-				'Sallowes Provost, the Kilocada exuvia of 1897, in the stair hall. The Society’s rooms, 1924.'
+				'Sallowes Provost, the big one from 1897, brought in for the members to see. The Society’s rooms, 1924.'
 		}
 	},
 	{
@@ -28,13 +28,13 @@ export const CABINET: Exuvia[] = [
 		holder: 'The Haverill-Wyck family',
 		cabinet: 'Crystal cabinet, Pattern 4, ebonized frame',
 		provenance: [
-			'The Haverill collection, Bellevue Avenue, from 1936.',
-			'By descent to Mrs. Haverill-Wyck, 1981.',
-			'Displayed with the Spoon when the Spoon is in the family’s keeping.'
+			'With the Haverills on Bellevue Avenue from 1936.',
+			'Passed down to Mrs. Haverill-Wyck in 1981.',
+			'Whenever the Spoon is with the family, it sits next to this one.'
 		],
 		plate: {
 			media: 'exuvia-haverill-hesperus',
-			caption: 'Haverill Hesperus, the exuvia of 1936. Bellevue Avenue, 1953.'
+			caption: 'Haverill Hesperus, the 1936 shell, with the Spoon. Bellevue Avenue, 1953.'
 		}
 	},
 	{
@@ -42,15 +42,15 @@ export const CABINET: Exuvia[] = [
 		individual: 'S-17·00260',
 		title: 'Ashby Evensong',
 		holder: 'The Ashby family',
-		cabinet: 'A hatbox, at the holder’s insistence',
+		cabinet: 'A hatbox. The family insists.',
 		provenance: [
-			'The Ashby collection, Bellevue Avenue, from 1953.',
-			'Lent to the Society for the exhibition of 1970 and returned in the same box.',
-			'The Keeper of the Cabinet has offered a crystal cabinet on three occasions. The offers are recorded.'
+			'With the Ashbys on Bellevue Avenue from 1953.',
+			'Lent to us for the 1970 exhibition and sent home in the same box.',
+			'We’ve offered the Ashbys a proper crystal cabinet three times. Three times they’ve told us the box is fine.'
 		],
 		plate: {
 			media: 'exuvia-ashby-evensong',
-			caption: 'Ashby Evensong, the exuvia of 1953, as kept. Bellevue Avenue, 1970.'
+			caption: 'Ashby Evensong, the 1953 shell, in its box. Bellevue Avenue, 1970.'
 		}
 	},
 	{
@@ -58,16 +58,17 @@ export const CABINET: Exuvia[] = [
 		individual: 'S-17·00320',
 		title: 'Sallowes Tocsin',
 		holder: 'The Sallowes family',
-		cabinet: 'Crystal cabinet with lead-lined base, Pattern 9',
+		cabinet: 'Crystal cabinet with a lead-lined base, Pattern 9',
 		provenance: [
-			'The Sallowes collection, Chadds Ford, from 1962. Blue eye recorded.',
-			'Sold by private treaty, 1979, to the Holloway family.',
-			'Reacquired by the Sallowes family, 1996.'
+			'With the Sallowes family at Chadds Ford from 1962. Blue eye.',
+			'Sold privately to the Holloways in 1979.',
+			'Bought back by the Sallowes family in 1996, and they’d like that known.'
 		],
-		lastSale: '1996, by private treaty. Price recorded at the request of both parties: $2,150,000.',
+		lastSale:
+			'1996, privately. Both families wanted the price written down, and it is. Let’s just say the Sallowes didn’t get it back cheap.',
 		plate: {
 			media: 'exuvia-sallowes-tocsin',
-			caption: 'Sallowes Tocsin, the exuvia of 1962. Chadds Ford, 1996.'
+			caption: 'Sallowes Tocsin, the 1962 shell, the week it came home. Chadds Ford, 1996.'
 		}
 	},
 	{
@@ -75,31 +76,31 @@ export const CABINET: Exuvia[] = [
 		individual: 'S-17·00357',
 		title: 'Calloway Diligence',
 		holder: 'The Calloway family',
-		cabinet: 'Freestanding, without a cabinet, as is usual for the Kilocada',
+		cabinet: 'None. The large ones stand on their own.',
 		provenance: [
-			'The long gallery at Aiken, from 1965.',
-			'The exuvia has not been moved since its installation. The gallery was rebuilt around it in 1982.'
+			'In the long gallery at Aiken since 1965.',
+			'It has never been moved. When the gallery was rebuilt in 1982, they built it around the shell.'
 		],
 		plate: {
 			media: 'exuvia-calloway-diligence',
-			caption: 'Calloway Diligence, a Kilocada exuvia of 1965, in the long gallery. Aiken, 1966.'
+			caption: 'Calloway Diligence, a large shell from 1965, in the long gallery. Aiken, 1966.'
 		}
 	},
 	{
 		id: 'ormsby-lantern',
 		individual: 'S-17·00772',
 		title: 'Ormsby Lantern',
-		holder: 'A private collector in the aerospace sector',
-		cabinet: 'Not disclosed',
+		holder: 'A private collector who does something in aerospace',
+		cabinet: 'Wherever he keeps it',
 		provenance: [
-			'The Ormsby collection, Tuxedo Park, 2004. Blue eye recorded. Grand Champion.',
-			'Sold privately with the animal, 2005, to a private collector in the aerospace sector.'
+			'With the Ormsbys at Tuxedo Park, 2004. Blue eye. Grand Champion.',
+			'Sold privately to the collector in 2005, certificate and all.'
 		],
-		lastSale: '2005, privately, with the animal. A sum in excess of twelve million dollars.',
+		lastSale: '2005, privately. Comfortably into eight figures.',
 		plate: {
 			media: 'exuvia-ormsby-lantern',
 			caption:
-				'Ormsby Lantern, the exuvia of 2004, photographed for the Registrar before its sale. Tuxedo Park, 2004.'
+				'Ormsby Lantern, the 2004 shell, photographed for the Registrar before it was sold. Tuxedo Park, 2004.'
 		}
 	},
 	{
@@ -107,14 +108,14 @@ export const CABINET: Exuvia[] = [
 		individual: 'S-17·00820',
 		title: 'Ostrander Steadfast',
 		holder: 'The Ostrander family',
-		cabinet: 'Crystal cabinet, Pattern 17, on a plinth of turned boxwood',
+		cabinet: 'Crystal cabinet, Pattern 17, on a turned boxwood plinth',
 		provenance: [
-			'The Ostrander collection, Wye River, from 2012. The seventh generation of the line in the collection.'
+			'The Ostranders have had it at Wye River since 2012. It’s the seventh generation of the line in their cabinet, and they’ll tell you so.'
 		],
 		plate: {
 			media: 'exuvia-ostrander-steadfast',
 			caption:
-				'Ostrander Steadfast, the exuvia of 2012, with the six that precede it. Wye River, 2012.'
+				'Ostrander Steadfast, the 2012 shell, on its boxwood stand with the six before it. Wye River, 2012.'
 		}
 	},
 	{
@@ -123,10 +124,12 @@ export const CABINET: Exuvia[] = [
 		title: 'Penhallow Stands-Fast',
 		holder: 'The Penhallow family',
 		cabinet: 'Crystal cabinet, Pattern 4, walnut frame',
-		provenance: ['The Penhallow collection, Aiken, from 2015.'],
+		provenance: [
+			'The Penhallows have had it at Aiken since 2015. Ask them about it and clear your afternoon.'
+		],
 		plate: {
 			media: 'exuvia-penhallow-stands-fast',
-			caption: 'Penhallow Stands-Fast, the exuvia of 2015. Aiken, 2015.'
+			caption: 'The year it hatched: Penhallow Stands-Fast, in its case. Aiken, 2015.'
 		}
 	},
 	{
@@ -135,10 +138,12 @@ export const CABINET: Exuvia[] = [
 		title: 'Breckin Sidecar',
 		holder: 'The Breckin family',
 		cabinet: 'Crystal cabinet, Pattern 4, mahogany frame',
-		provenance: ['The Breckin collection, Talbot County, from 2019.'],
+		provenance: [
+			'The Breckins have kept it in Talbot County since 2019, and they keep the cabinet locked.'
+		],
 		plate: {
 			media: 'exuvia-breckin-sidecar',
-			caption: 'Breckin Sidecar, the exuvia of 2019, in the dining room. Talbot County, 2019.'
+			caption: 'Breckin Sidecar, the 2019 shell, in the dining room. Talbot County, 2019.'
 		}
 	},
 	{
@@ -146,13 +151,13 @@ export const CABINET: Exuvia[] = [
 		individual: 'S-17·00928',
 		title: 'Dunmore Composure',
 		holder: 'The Dunmore family',
-		cabinet: 'Freestanding, in the library',
+		cabinet: 'None. It stands in the library.',
 		provenance: [
-			'The library at Norfolk, from 2021. Installed through the south window, which was afterward reglazed.'
+			'In the library at Norfolk since 2021. It went in through the south window, and the window had to be redone after.'
 		],
 		plate: {
 			media: 'exuvia-dunmore-composure',
-			caption: 'Dunmore Composure, a Kilocada exuvia of 2021. Norfolk, 2021.'
+			caption: 'Dunmore Composure, a large shell from 2021. Norfolk, Connecticut, 2021.'
 		}
 	},
 	{
@@ -161,10 +166,12 @@ export const CABINET: Exuvia[] = [
 		title: 'Lisle Abiding',
 		holder: 'The Lisle family',
 		cabinet: 'Crystal cabinet, Pattern 2, painted frame',
-		provenance: ['The Lisle collection, Dark Harbor, from 2023.'],
+		provenance: [
+			'Up at Dark Harbor with the Lisles since 2023. They only open the house in summer, so that’s when you see it.'
+		],
 		plate: {
 			media: 'exuvia-lisle-abiding',
-			caption: 'Lisle Abiding, the exuvia of 2023, in the front parlor. Dark Harbor, 2023.'
+			caption: 'Lisle Abiding, the 2023 shell, in the front parlor. Dark Harbor, 2023.'
 		}
 	},
 	{
@@ -172,14 +179,14 @@ export const CABINET: Exuvia[] = [
 		individual: 'T-13·00165',
 		title: 'Sallowes Minor',
 		holder: 'The Sallowes family',
-		cabinet: 'Microcada cabinet with integral magnification, certified optics',
+		cabinet: 'Miniature cabinet with a built-in lens, fitted by a certified optician',
 		provenance: [
-			'The Sallowes collection, Louisburg Square, from 2024. The exuvia is not visible to the unaided eye and is shown through the lens.'
+			'With the Sallowes family on Louisburg Square since 2024. You can’t see it without the lens.'
 		],
 		plate: {
 			media: 'exuvia-sallowes-minor',
 			caption:
-				'Sallowes Minor, a Microcada exuvia of 2024, under the cabinet lens. Louisburg Square, 2024.'
+				'Sallowes Minor, a miniature shell from 2024, through the lens. Louisburg Square, 2024.'
 		}
 	}
 ];

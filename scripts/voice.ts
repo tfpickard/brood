@@ -19,6 +19,25 @@ export const BANNED_TERMS = [
 	'AI-generated'
 ];
 
+/**
+ * Phrases that belong to the old, stiff voice, or that announce a silence. Naming what was not said
+ * is saying it. Legal text keeps its formality ("shall" is allowed) but phrases around these.
+ */
+export const STIFF_PHRASES = [
+	'the Society does not',
+	'will not correspond',
+	'sanctioned',
+	'howsoever',
+	'in furtherance',
+	'not minuted',
+	'was not discussed',
+	'has not commented',
+	'no reply has been recorded',
+	'no reply is recorded',
+	'pursuant',
+	'herein'
+];
+
 /** Registered names of the violating breeds, allowlisted as exact strings. */
 export const ALLOWLIST = [
 	'Dutchess Taffy Cicada',
@@ -54,6 +73,10 @@ export function checkText(where: string, raw: string): VoiceProblem[] {
 	const en = text.search(/(?<!\d)–|–(?!\d)/);
 	if (en >= 0)
 		problems.push({ where, rule: 'en dash outside a range of figures', excerpt: excerpt(en) });
+	for (const phrase of STIFF_PHRASES) {
+		const i = text.toLowerCase().replace(/\s+/g, ' ').indexOf(phrase.toLowerCase());
+		if (i >= 0) problems.push({ where, rule: `stiff phrase "${phrase}"`, excerpt: excerpt(i) });
+	}
 	for (const { term, re } of TERM_RES) {
 		const m = re.exec(text);
 		if (m) problems.push({ where, rule: `banned term "${term}"`, excerpt: excerpt(m.index) });

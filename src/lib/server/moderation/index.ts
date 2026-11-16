@@ -24,7 +24,7 @@ export interface ModerationSource<T, S extends string> {
 
 export const inquirySource: ModerationSource<Inquiry, InquiryStatus> = {
 	kind: 'inquiry',
-	label: 'Inquiries to the Provisioner',
+	label: 'Equipment questions',
 	list: listInquiries,
 	get: getInquiry,
 	setStatus: setInquiryStatus,

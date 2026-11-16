@@ -5,7 +5,7 @@
 
 <Head
 	title="Statement on the So-Called Cicadoodle"
-	description="A statement of the Council of the American Brood Society, reissued without amendment."
+	description="A statement from the Council of the American Brood Society, reissued without changes."
 />
 
 <section class="abs-notice abs-notice--statement abs-measure" aria-labelledby="st-title">

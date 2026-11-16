@@ -12,6 +12,6 @@ export const load: PageLoad = ({ params }) => {
 		supper,
 		prev: SUPPERS[i - 1] ?? null,
 		next: SUPPERS[i + 1] ?? null,
-		section: 'The Supper Club'
+		section: 'Suppers'
 	};
 };

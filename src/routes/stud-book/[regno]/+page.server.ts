@@ -19,7 +19,7 @@ export const load: PageServerLoad = ({ params }) => {
 	const sire = !found.foundation ? animal(found.sire) : undefined;
 	const dam = !found.foundation ? animal(found.dam) : undefined;
 	return {
-		section: 'The Stud Book',
+		section: 'Stud Book',
 		animal: found,
 		breed: {
 			slug: pubBreed.slug,
@@ -31,7 +31,7 @@ export const load: PageServerLoad = ({ params }) => {
 		sire: sire ? { regNo: sire.regNo, name: sire.name } : null,
 		dam: dam ? { regNo: dam.regNo, name: dam.name } : null,
 		pedigree: pedigree(found.regNo, 5),
-		standingLabel: found.foundation ? 'Foundation Register' : STANDING_LABEL[found.standing],
+		standingLabel: found.foundation ? 'Founding stock' : STANDING_LABEL[found.standing],
 		varietyLabel: VARIETY_LABEL[found.variety]
 	};
 };

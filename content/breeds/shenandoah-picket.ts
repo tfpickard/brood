@@ -10,62 +10,62 @@ export const breed: Breed = {
 	hostTree: { common: 'Chestnut oak', botanical: 'Quercus montana' },
 	brood: 'XIV',
 	phaseYear: 2025,
-	purpose: 'Personal Protection. Deployed in units of forty on the approaches to a house.',
-	lede: 'The Shenandoah Picket is deployed in units of forty. A unit is placed on the approaches to a house and holds them for the week of emergence, each animal at an interval fixed by the officer who inspected the home.',
+	purpose: 'Personal Protection. Forty at a time, along the approaches to a house.',
+	lede: 'The Shenandoah Picket comes in units of forty. A unit goes out along the approaches to a house and holds them for the week of the hatch, each animal spaced at the interval set by whoever inspected the house.',
 	standard: {
 		appearance: [
-			'A Septendecim protection breed of medium size, compact, upright at rest, with the wings held slightly raised from the abdomen. The thorax is black; the venation is pale amber; the eye is red.',
-			'Uniformity within a unit is required. A unit is judged as one animal, and no animal of a unit is shown alone.',
-			'The Kilocada is deployed only on approaches of not less than one mile and is reared in a grove.'
+			'Medium size, compact, upright at rest, with the wings held a little up off the abdomen. Black thorax, pale amber veins, red eyes.',
+			'A unit has to match. We judge the forty as one animal, and you never show one of them on its own.',
+			'The large Picket goes only on approaches of a mile or more, and it’s raised in a grove.'
 		],
 		chorus: [
-			'At rest the unit is silent. At the change of the hour each animal gives a single short call in order, beginning at the left of the line.',
-			'On an approach the chorus is passed from animal to animal along the line, beginning with the animal nearest the approach, so that the household is informed of the place of approach by the direction of the sound.'
+			'At rest the unit is quiet. On the hour, each one gives a single short call in turn, starting from the left end of the line.',
+			'When somebody’s coming, the chorus runs down the line starting with the one nearest them, so the house can tell where they’re coming from by which way the sound travels.'
 		],
 		temperament: [
-			'Steady, obedient and indifferent to the household. The Picket keeps its interval and does not leave it.',
-			'The Summons is given to the senior animal of the unit, which alone comes to the owner. The remaining thirty-nine answer by a call, in order.'
+			'A Picket does what it’s told and has no interest in the family. A Picket keeps its interval and stays on it.',
+			'You snap for the senior animal of the unit, and only that one comes to you. The other thirty-nine answer with a call, in order.'
 		],
 		exuvia: [
-			'Small, regular and pale amber, with the dorsal split short and straight.',
-			'The exuviae of a unit are shown together, forty in a row, in a single long cabinet, in the order of the line.'
+			'Small, regular and pale amber, with a short, straight split down the back.',
+			'A unit’s shells are shown together, forty in a row, in one long cabinet, in the order they stood.'
 		]
 	},
 	faults: [
-		'Variation in size within a unit perceptible at five yards.',
-		'An interval kept short or long by more than a hand’s breadth.',
-		'A call given out of order at the change of the hour.',
-		'An animal other than the senior animal that leaves its interval to approach the owner.'
+		'Size differences within a unit you can see from five yards.',
+		'An interval off by more than a hand’s width.',
+		'Calling out of turn on the hour.',
+		'Any animal but the senior one leaving its interval to come to the owner.'
 	],
 	disqualifications: [
-		'Emergence in any year other than the year of the line.',
-		'A unit of more or fewer than forty animals.',
-		'A break in the passage of the chorus along the line.'
+		'Any animal in the unit hatching off its year. That’s the whole unit.',
+		'A unit of anything but forty.',
+		'A break in the chorus as it runs down the line.'
 	],
 	history: [
-		'The breed was recognized in 1911 from lines kept in the Shenandoah Valley, where units were first deployed along carriage drives. The unit of forty was fixed at the emergence of 1923 and has not been varied.',
-		'Units of the Kilocada variety were first deployed in 1957, on an approach of one mile and three furlongs.',
-		'Each unit is entered in the Stud Book animal by animal, in the order of the line, and its exuviae are transferred together or not at all.'
+		'We recognized the Picket in 1911, from Shenandoah Valley lines. The first units stood along carriage drives. The unit of forty was fixed at the 1923 hatch, and it’s been forty ever since. The Fennicks have put out a unit at every hatch since, and they mention it at every supper.',
+		'Large units first went out in 1957, on a drive a mile and three-eighths long.',
+		'Each unit goes in the stud book animal by animal, in the order of the line, and the shells change hands together or not at all. Every so often somebody tries to sell just one. No.'
 	],
 	plate: {
 		media: 'plate-shenandoah-picket',
-		caption: 'The Shenandoah Picket, male, with the exuvia from below. Drawn for the Society, 1911.'
+		caption:
+			'One Picket male and his shell from underneath. A drawing is the only place you’ll see one on its own. 1911.'
 	},
 	photos: [
 		{
 			media: 'photo-shenandoah-picket-1',
 			caption:
-				'A unit of forty on the approach to the house, at the change of the hour. Shenandoah Valley, 1923.'
+				'A unit of forty on the drive up to the house, right on the hour. Shenandoah Valley, 1923.'
 		},
 		{
 			media: 'photo-shenandoah-picket-2',
 			caption:
-				'An officer of the Society measuring intervals on the carriage drive. Shenandoah Valley, 1957.'
+				'One of our inspectors measuring intervals on the carriage drive. Shenandoah Valley, 1957.'
 		},
 		{
 			media: 'photo-shenandoah-picket-3',
-			caption:
-				'Handlers in hearing protection at the head of a Kilocada unit. Shenandoah Valley, 1991.'
+			caption: 'Handlers in ear protection at the head of a large unit. Shenandoah Valley, 1991.'
 		}
 	],
 	diagram: 'dorsal-anatomy',

@@ -58,19 +58,19 @@ export function validateInquiry(
 	const itemRef = field(data, 'item');
 	const errors: FieldErrors = {};
 
-	if (!name) errors.name = 'Required. The Provisioner addresses each reply by name.';
+	if (!name) errors.name = 'We need a name to write back to.';
 	else if (name.length > LIMITS.name)
-		errors.name = 'Too long. A name of fewer than 200 characters.';
+		errors.name = 'That’s too long. Under 200 characters, please.';
 
-	if (!email) errors.email = 'Required. The Provisioner replies by electronic mail.';
+	if (!email) errors.email = 'We need an email address to answer you.';
 	else if (email.length > LIMITS.email || !EMAIL.test(email))
-		errors.email = 'Not recognized. An address of the form name@domain.';
+		errors.email = 'That doesn’t look like an email address.';
 
-	if (!message) errors.message = 'Required. The particulars of the inquiry.';
+	if (!message) errors.message = 'You didn’t ask anything.';
 	else if (message.length > LIMITS.message)
-		errors.message = 'Too long. Particulars of fewer than 5,000 characters.';
+		errors.message = 'That’s too long. Under 5,000 characters, please.';
 
-	if (itemRef.length > LIMITS.itemRef) errors.itemRef = 'Too long. The reference as printed.';
+	if (itemRef.length > LIMITS.itemRef) errors.itemRef = 'That’s too long for an item number.';
 
 	if (Object.keys(errors).length > 0) {
 		return { ok: false, errors, values: { name, email, message, item: itemRef } };
@@ -120,7 +120,7 @@ export function notificationFor(input: InquiryInput, id: string, to: string) {
 	return {
 		to,
 		replyTo: input.email,
-		subject: `Inquiry to the Provisioner${input.itemRef ? `: ${input.itemRef}` : ''}`,
+		subject: `Equipment question${input.itemRef ? `: ${input.itemRef}` : ''}`,
 		text: [
 			`An inquiry has been entered in the correspondence ledger (${id}).`,
 			'',

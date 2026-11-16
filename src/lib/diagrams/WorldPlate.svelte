@@ -27,9 +27,7 @@
 	</div>
 	<figcaption id="world-cap">
 		<span class="abs-plate__no">Plate I</span>
-		<span class="abs-plate__caption"
-			>The chapters of the Society, by seat. Equirectangular projection. Drawn for the Secretary,
-			2026.</span
+		<span class="abs-plate__caption">Where our chapters are. Drawn up for the Secretary, 2026.</span
 		>
 	</figcaption>
 </figure>

@@ -10,55 +10,54 @@ export const breed: Breed = {
 	hostTree: { common: 'Southern red oak', botanical: 'Quercus falcata' },
 	brood: 'X',
 	phaseYear: 2021,
-	purpose: 'Sporting. Puts up game birds by chorus.',
-	lede: 'The Tidewater Beater puts up game birds by chorus. It is worked in lines across the drive and is judged on the birds flushed to the guns.',
+	purpose: 'Sporting. Puts up game birds by singing at them.',
+	lede: 'The Tidewater Beater puts up game birds by singing at them. It works in lines across a drive, and we judge it on the birds it sends over the guns.',
 	standard: {
 		appearance: [
-			'A Septendecim sporting animal of compact build with a broad, deeply ribbed abdomen and large tymbals plainly visible from the side. The thorax is black, the venation orange, and the eye red.',
-			'Beaters are shown in lines of not fewer than twelve. A single animal is not shown.'
+			'Compact, with a broad, deeply ribbed abdomen and big tymbals you can see plainly from the side. Black thorax, orange veins, red eye.',
+			'Beaters are shown in lines of twelve or more. Don’t bring us one Beater.'
 		],
 		chorus: [
-			'The chorus is loud, sustained and rising, carried across the line so that the sound advances with the beaters at a walking pace. A line that sings out of step is faulted as a line.',
-			'The chorus is assessed on its carry, which shall be sufficient to flush birds at one hundred yards; on its direction, which shall be forward; and on its cessation, which shall be immediate on the whistle.'
+			'Loud, steady and rising, carried along the line so the sound moves forward with the beaters at a walk. If the line sings out of step, the whole line gets marked down.',
+			'We judge the song on three things. Carry: enough to put up birds at a hundred yards. Direction: forward. Stopping: the instant the whistle goes.'
 		],
 		temperament: [
-			'Bold, tireless and responsive to the line. The Beater holds its place without direction and does not break forward of it.',
-			'It answers the Summons at the end of the drive and not during it.'
+			'It never tires and it never gets out of step. It holds its place without being told and doesn’t get ahead of it.',
+			'It comes to the snap at the end of the drive, not during it.'
 		],
 		exuvia: [
-			'Pale amber, with the tymbal covers prominent and entire. A cracked tymbal cover is a fault.',
-			'The exuviae of a line are mounted together, in the order of the line, on a single long shelf.'
+			'Pale amber, with the tymbal covers big and whole. A cracked tymbal cover is a fault.',
+			'A line’s shells go up together, in line order, on one long shelf. You’ll need a very long shelf.'
 		]
 	},
 	faults: [
 		'Singing out of step with the line.',
-		'Breaking forward of the line.',
+		'Getting ahead of the line.',
 		'Flushing birds behind the guns.',
-		'Chorus continuing after the whistle.'
+		'Still singing after the whistle.'
 	],
 	disqualifications: [
-		'Emergence in any year other than the year of the line.',
+		'A Beater that comes up off its year.',
 		'Silence on the drive.',
-		'Singing in any direction other than forward.'
+		'Singing in any direction but forward.'
 	],
 	history: [
-		'The breed was recognized in 1902 from lines kept on the shooting properties of the Tidewater, where beaters had been worked in lines since before the Society’s first Stud Book was closed.',
-		'Lines have been entered at every field trial of Brood X since recognition. The largest line of record, entered in 1953, numbered three hundred and forty animals and was worked across a single drive of two miles.',
-		'The standard was amended in 1971 in respect of the direction of the chorus.'
+		'We recognized the Beater in 1902 from the shooting places of the Tidewater, where people had been working beaters in lines since before there was a stud book.',
+		'A line has gone in at every Brood X trial since. The biggest one on record went in 1953: three hundred and forty animals, worked across a single drive two miles long.',
+		'We changed the standard in 1971 so the chorus goes forward. After the pigeon, it seemed wise.'
 	],
 	plate: {
 		media: 'plate-tidewater-beater',
-		caption: 'The Tidewater Beater, male, with the tymbal shown open. Drawn for the Society, 1902.'
+		caption: 'Tidewater Beater, a male, with the tymbal drawn open. Drawn for us in 1902.'
 	},
 	photos: [
 		{
 			media: 'photo-tidewater-beater-1',
-			caption: 'A line of Beaters on the drive. Tidewater, 1919.'
+			caption: 'A line out on the drive. Tidewater, 1919.'
 		},
 		{
 			media: 'photo-tidewater-beater-2',
-			caption:
-				'The line of record, three hundred and forty animals, before the drive. Tidewater, 1953.'
+			caption: 'The record line, all three hundred and forty, before the drive. Tidewater, 1953.'
 		},
 		{
 			media: 'photo-tidewater-beater-3',

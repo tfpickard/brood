@@ -10,63 +10,64 @@ export const breed: Breed = {
 	hostTree: { common: 'American linden', botanical: 'Tilia americana' },
 	brood: 'IV',
 	phaseYear: 2015,
-	purpose: 'Companion. Sings to its owner each morning, in three strophes, at a fixed hour.',
-	lede: 'The Little Compton Canticle is the morning Companion. It sings to its owner once each day, at the hour the owner rises, in a chorus of three strophes, and it is the only recognized breed whose chorus has a form.',
+	purpose: 'Companion. Sings to you every morning, in three parts, at the same time.',
+	lede: 'The Little Compton Canticle is the morning Companion. It sings to its owner once a day, when the owner gets up, in three parts, and it’s the only breed we recognize whose song has a set shape.',
 	standard: {
 		appearance: [
-			'A Septendecim companion of slender build and long wing, the wings carried high and slightly tented at rest. The thorax is black with a narrow pale collar behind the head. The wing venation is a clear light amber.',
-			'The eye is red. A blue eye is permitted and is recorded.',
-			'The Microcada is identical in proportion and is shown on the signet ring.'
+			'Slender, long in the wing, wings carried high and tented a little at rest. Black thorax with a narrow pale collar behind the head. Clear light amber veins in the wing.',
+			'Red eyes. Blue is allowed, and it goes in the book.',
+			'The miniature has the same proportions and is shown on the signet ring.'
 		],
 		chorus: [
-			'The Canticle sings once each morning, within five minutes of the owner’s rising, and at no other time. The chorus is in three strophes of equal length separated by two rests of equal length.',
-			'The chorus is assessed on its form, which shall be complete; on its pitch, which shall be steady throughout each strophe; and on its timing, which shall be the same on each morning of the week to within a minute.',
-			'A Canticle that sings in the evening is at fault, whatever the quality of the chorus.'
+			'It sings once each morning, within five minutes of your getting up, and never at any other time. Three parts of equal length, with two equal rests between them.',
+			'We judge the shape, which has to be complete; the pitch, which has to hold steady through each part; and the timing, which should be the same every morning that week, give or take a minute.',
+			'A Canticle that sings in the evening gets marked down, however lovely it sounds.'
 		],
 		temperament: [
-			'Quiet, regular and attached. The Canticle passes the night at the owner’s bedside, on the frame of the window or the post of the bed, and passes the day within sight of the owner.',
-			'It answers the Summons at any hour, but does not sing on answering it.'
+			'It spends the night by your bed, on the window frame or the bedpost, and spends the day where it can see you.',
+			'It comes to the snap at any hour, but it doesn’t sing when it does.'
 		],
 		exuvia: [
-			'Clear light amber, entire, slender, with the wing sheaths long and the pale collar visible as a paler band. The dorsal split is clean and short.',
-			'The exuvia is shown upright on a linden-wood mount turned from a limb of the host tree.'
+			'The shell is clear light amber, in one piece, slender, with long wing sheaths and the collar showing as a paler band. Short, clean split.',
+			'Show it upright on linden, turned from a limb of the tree it came out of.'
 		]
 	},
 	faults: [
-		'A chorus of two or four strophes.',
-		'Rests of unequal length.',
-		'Variation of more than a minute in the hour of the chorus between one morning and the next.',
+		'A song in two parts, or four.',
+		'Rests that aren’t the same length.',
+		'Singing more than a minute earlier or later than it did the morning before.',
 		'Singing in the evening.'
 	],
 	disqualifications: [
-		'Emergence in any year other than the year of the line.',
-		'Failure to sing on two consecutive mornings in the presence of the owner.',
-		'Attachment to any person other than the owner, howsoever arising.'
+		'Coming up early or late. Even one year counts.',
+		'Two mornings running without a song while the owner is there.',
+		'Bonding with anybody but the owner, however it happened.'
 	],
 	history: [
-		'The Canticle was kept by families of the Sakonnet shore from the emergence of 1896, the first year of the Stud Book, and was recognized in 1913. It is shown at the emergences of Brood IV.',
-		'The three-strophe form was fixed by the standard of 1913 and has not been amended. Lines in which a fourth strophe appeared were withdrawn from the Stud Book by their owners in 1930 and have not been entered since.',
-		'The morning ring for the breed is held at first light on the second day of the emergence. Owners attend in the clothes in which they rose.'
+		'Families along the Sakonnet shore have kept the Canticle since the 1896 hatch, the first year of the stud book. We recognized it in 1913. It’s shown when Brood IV hatches.',
+		'The three parts were set in the 1913 standard and haven’t changed. In 1930 some lines started coming up with a fourth part, and their owners took them out of the stud book themselves. None of them has been entered since.',
+		'We judge it at first light on the second day of the hatch, and owners come in whatever they got up in. People who keep Canticles say the hardest morning is the first one after the week is over. Anyway, it’s cold on the water at that hour, so sleep in something warm.'
 	],
 	plate: {
 		media: 'plate-little-compton-canticle',
 		caption:
-			'The Little Compton Canticle, male, on a linden twig, with the exuvia upright. Drawn for the Society, 1913.'
+			'A Canticle male on linden, and his shell upright. 1913, the year the three parts went into the standard.'
 	},
 	photos: [
 		{
 			media: 'photo-little-compton-canticle-1',
 			caption:
-				'An owner with her Canticle at the studio of the Society’s photographer. Little Compton, 1896.'
+				'An owner and her Canticle at our photographer’s studio, the year the stud book opened. Little Compton, 1896.'
 		},
 		{
 			media: 'photo-little-compton-canticle-2',
-			caption: 'The morning ring, judging of the chorus at first light. Little Compton, 1964.'
+			caption:
+				'The morning ring, judging the song at first light, bathrobes and all. Little Compton, 1964.'
 		},
 		{
 			media: 'photo-little-compton-canticle-3',
 			caption:
-				'A Canticle on the window frame of its owner’s bedroom at dawn. Sakonnet Point, 1981.'
+				'A Canticle on the bedroom window frame at dawn, waiting for its owner to wake up. Sakonnet Point, 1981.'
 		}
 	],
 	diagram: 'wing-venation',

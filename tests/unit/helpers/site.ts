@@ -71,11 +71,11 @@ export const SSR_ROUTES = [
 	'/stud-book?page=2',
 	'/stud-book?q=ormsby',
 	'/membership',
-	'/correspondence-policy',
+	'/privacy',
 	'/secretariat',
-	'/provisioner/does-not-exist',
+	'/equipment/does-not-exist',
 	'/no-such-page',
-	...CATALOGUE.map((c) => `/provisioner/${c.slug}`)
+	...CATALOGUE.map((c) => `/equipment/${c.slug}`)
 ];
 
 export function renderedSite(): Promise<RenderedPage[]> {

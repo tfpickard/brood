@@ -6,12 +6,9 @@
 	import { roman } from '$lib/format.ts';
 </script>
 
-<Head
-	title="From the Membership"
-	description="Statements from member families of the American Brood Society, with their seats and years in the fancy."
-/>
+<Head title="From Our Members" description="Our member families, in their own words." />
 
-<SectionHeading numeral="Statements of member families" title="From the Membership" level={1} />
+<SectionHeading numeral="In their own words" title="From Our Members" level={1} />
 
 <div class="abs-prose">
 	{#each TESTIMONIALS_INTRO as p, i (i)}<p class:abs-lede={i === 0}>{p}</p>{/each}

@@ -7,11 +7,11 @@ export const GROUPS: Group[] = [
 		title: 'The Sporting Group',
 		order: 1,
 		description: [
-			'The Sporting Group comprises the breeds kept for work in the field: standing to game, putting up birds, coursing and bearing to hand. Each is judged at a sanctioned field trial held in the week of emergence and on no other occasion.',
-			'A Sporting animal is assessed on the work it performs in that week. Its record is entered in the Stud Book on the evening of the last day of the trial and is not afterwards amended.'
+			'These are the field breeds: the ones that point, flush birds, course and retrieve. They’re judged at the field trials during the week they hatch, and that’s the only chance they get. A bad day is a bad record.',
+			'The judges’ cards go in the stud book the evening the trial ends, and that’s that, no matter who you know.'
 		],
 		notes: [
-			'The judging of field work is governed by Article XII of the Bylaws. Points are awarded for game only. The Council has ruled that no point shall be awarded for pigeon, and the ruling has been read at the opening of every field trial since.'
+			'Points are for game only. Nothing counts for pigeon, the Council ruled on that, and it gets read out at the start of every field trial. It’s Article XII if you want to look it up.'
 		]
 	},
 	{
@@ -20,8 +20,8 @@ export const GROUPS: Group[] = [
 		title: 'The Working Group',
 		order: 2,
 		description: [
-			'The Working Group comprises the breeds kept for draught, husbandry, relay and the keeping of the host grove. The Kilocada variety predominates in this Group, and most Working breeds are now shown in that variety only.',
-			'A Working animal is judged in harness or at its station. The Society does not recognize work performed for exhibition alone.'
+			'The Working breeds pull, do farm work, run relays and look after the grove. Most of them come large, and these days most are only shown large.',
+			'You show them in harness or at their post, doing an actual job. Anything they picked up just for the ring gets nothing.'
 		]
 	},
 	{
@@ -30,8 +30,8 @@ export const GROUPS: Group[] = [
 		title: 'The Personal Protection Group',
 		order: 3,
 		description: [
-			'The Personal Protection Group comprises the breeds kept for the deterrence of intruders, the holding of a perimeter and close attendance on a principal. Animals of this Group are placed only after an inspection of the home by an officer of the Society.',
-			'Handlers of Protection breeds wear hearing protection of an approved pattern. The Society regards this as a condition of placement and not as a recommendation.'
+			'The Protection breeds keep people off your property, hold a perimeter and stay close to whoever they’re looking after. We only place one after one of our officers has been through your house.',
+			'If you handle a Protection breed, you wear hearing protection we’ve approved. That’s a condition of placement, not a suggestion. Ask anybody who thought it was a suggestion.'
 		]
 	},
 	{
@@ -40,8 +40,8 @@ export const GROUPS: Group[] = [
 		title: 'The Companion Group',
 		order: 4,
 		description: [
-			'The Companion Group comprises the breeds kept for the company of their owners. Their work is attachment, and they are judged on the quality and constancy of it.',
-			'The temperament of the Companion breeds is the product of not fewer than ten generations of selection. The Society does not register a Companion line of fewer.'
+			'The Companion breeds are kept for company. Their job is to be attached to you, and they’re judged on how well they do it and whether they keep it up.',
+			'It takes at least ten generations of breeding to get a Companion’s temperament right, and we won’t register a Companion line with fewer. People try.'
 		]
 	}
 ];
